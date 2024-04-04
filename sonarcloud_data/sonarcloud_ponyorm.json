@@ -1,0 +1,2525 @@
+{
+  "total": 54,
+  "p": 1,
+  "ps": 54,
+  "paging": {
+    "pageIndex": 1,
+    "pageSize": 54,
+    "total": 54
+  },
+  "effortTotal": 431,
+  "debtTotal": 431,
+  "issues": [
+    {
+      "key": "AY5xRBLTuo75zM3LFWZ5",
+      "rule": "Web:DoctypePresenceCheck",
+      "severity": "MAJOR",
+      "component": "eecs4313group4_ponyorm:pony/flask/example/templates/index.html",
+      "project": "eecs4313group4_ponyorm",
+      "line": 1,
+      "hash": "166248a6129a1e4370d20adc2d4c23f3",
+      "textRange": {
+        "startLine": 1,
+        "endLine": 1,
+        "startOffset": 0,
+        "endOffset": 6
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Insert a \u003c!DOCTYPE\u003e declaration to before this \u003chtml\u003e tag.",
+      "effort": "5min",
+      "debt": "5min",
+      "author": "",
+      "tags": [
+        "user-experience"
+      ],
+      "creationDate": "2024-03-24T17:20:31+0100",
+      "updateDate": "2024-03-24T17:20:31+0100",
+      "type": "BUG",
+      "organization": "eecs4313group4",
+      "cleanCodeAttribute": "CONVENTIONAL",
+      "cleanCodeAttributeCategory": "CONSISTENT",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ]
+    },
+    {
+      "key": "AY5xRBLTuo75zM3LFWZ6",
+      "rule": "Web:S5254",
+      "severity": "MAJOR",
+      "component": "eecs4313group4_ponyorm:pony/flask/example/templates/index.html",
+      "project": "eecs4313group4_ponyorm",
+      "line": 1,
+      "hash": "166248a6129a1e4370d20adc2d4c23f3",
+      "textRange": {
+        "startLine": 1,
+        "endLine": 1,
+        "startOffset": 0,
+        "endOffset": 6
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Add \"lang\" and/or \"xml:lang\" attributes to this \"\u003chtml\u003e\" element",
+      "effort": "2min",
+      "debt": "2min",
+      "author": "",
+      "tags": [
+        "accessibility",
+        "wcag2-a"
+      ],
+      "creationDate": "2024-03-24T17:20:31+0100",
+      "updateDate": "2024-03-24T17:20:31+0100",
+      "type": "BUG",
+      "organization": "eecs4313group4",
+      "cleanCodeAttribute": "COMPLETE",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ]
+    },
+    {
+      "key": "AY5xRBLMuo75zM3LFWZ1",
+      "rule": "Web:DoctypePresenceCheck",
+      "severity": "MAJOR",
+      "component": "eecs4313group4_ponyorm:pony/flask/example/templates/login.html",
+      "project": "eecs4313group4_ponyorm",
+      "line": 1,
+      "hash": "166248a6129a1e4370d20adc2d4c23f3",
+      "textRange": {
+        "startLine": 1,
+        "endLine": 1,
+        "startOffset": 0,
+        "endOffset": 6
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Insert a \u003c!DOCTYPE\u003e declaration to before this \u003chtml\u003e tag.",
+      "effort": "5min",
+      "debt": "5min",
+      "author": "",
+      "tags": [
+        "user-experience"
+      ],
+      "creationDate": "2024-03-24T17:20:31+0100",
+      "updateDate": "2024-03-24T17:20:31+0100",
+      "type": "BUG",
+      "organization": "eecs4313group4",
+      "cleanCodeAttribute": "CONVENTIONAL",
+      "cleanCodeAttributeCategory": "CONSISTENT",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ]
+    },
+    {
+      "key": "AY5xRBLMuo75zM3LFWZ2",
+      "rule": "Web:S5254",
+      "severity": "MAJOR",
+      "component": "eecs4313group4_ponyorm:pony/flask/example/templates/login.html",
+      "project": "eecs4313group4_ponyorm",
+      "line": 1,
+      "hash": "166248a6129a1e4370d20adc2d4c23f3",
+      "textRange": {
+        "startLine": 1,
+        "endLine": 1,
+        "startOffset": 0,
+        "endOffset": 6
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Add \"lang\" and/or \"xml:lang\" attributes to this \"\u003chtml\u003e\" element",
+      "effort": "2min",
+      "debt": "2min",
+      "author": "",
+      "tags": [
+        "accessibility",
+        "wcag2-a"
+      ],
+      "creationDate": "2024-03-24T17:20:31+0100",
+      "updateDate": "2024-03-24T17:20:31+0100",
+      "type": "BUG",
+      "organization": "eecs4313group4",
+      "cleanCodeAttribute": "COMPLETE",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ]
+    },
+    {
+      "key": "AY5xRBLPuo75zM3LFWZ3",
+      "rule": "Web:DoctypePresenceCheck",
+      "severity": "MAJOR",
+      "component": "eecs4313group4_ponyorm:pony/flask/example/templates/reg.html",
+      "project": "eecs4313group4_ponyorm",
+      "line": 1,
+      "hash": "166248a6129a1e4370d20adc2d4c23f3",
+      "textRange": {
+        "startLine": 1,
+        "endLine": 1,
+        "startOffset": 0,
+        "endOffset": 6
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Insert a \u003c!DOCTYPE\u003e declaration to before this \u003chtml\u003e tag.",
+      "effort": "5min",
+      "debt": "5min",
+      "author": "",
+      "tags": [
+        "user-experience"
+      ],
+      "creationDate": "2024-03-24T17:20:31+0100",
+      "updateDate": "2024-03-24T17:20:31+0100",
+      "type": "BUG",
+      "organization": "eecs4313group4",
+      "cleanCodeAttribute": "CONVENTIONAL",
+      "cleanCodeAttributeCategory": "CONSISTENT",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ]
+    },
+    {
+      "key": "AY5xRBLPuo75zM3LFWZ4",
+      "rule": "Web:S5254",
+      "severity": "MAJOR",
+      "component": "eecs4313group4_ponyorm:pony/flask/example/templates/reg.html",
+      "project": "eecs4313group4_ponyorm",
+      "line": 1,
+      "hash": "166248a6129a1e4370d20adc2d4c23f3",
+      "textRange": {
+        "startLine": 1,
+        "endLine": 1,
+        "startOffset": 0,
+        "endOffset": 6
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Add \"lang\" and/or \"xml:lang\" attributes to this \"\u003chtml\u003e\" element",
+      "effort": "2min",
+      "debt": "2min",
+      "author": "",
+      "tags": [
+        "accessibility",
+        "wcag2-a"
+      ],
+      "creationDate": "2024-03-24T17:20:31+0100",
+      "updateDate": "2024-03-24T17:20:31+0100",
+      "type": "BUG",
+      "organization": "eecs4313group4",
+      "cleanCodeAttribute": "COMPLETE",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ]
+    },
+    {
+      "key": "AY5xRBTUuo75zM3LFXAj",
+      "rule": "pythonbugs:S2259",
+      "severity": "MAJOR",
+      "component": "eecs4313group4_ponyorm:pony/orm/core.py",
+      "project": "eecs4313group4_ponyorm",
+      "line": 880,
+      "hash": "5eefde9ce4c7f852ba2333f78ad8a937",
+      "textRange": {
+        "startLine": 880,
+        "endLine": 880,
+        "startOffset": 43,
+        "endOffset": 62
+      },
+      "flows": [
+        {
+          "locations": [
+            {
+              "component": "eecs4313group4_ponyorm:pony/orm/core.py",
+              "textRange": {
+                "startLine": 880,
+                "endLine": 880,
+                "startOffset": 43,
+                "endOffset": 62
+              },
+              "msg": "The attribute access on a value that can be \u0027None\u0027"
+            },
+            {
+              "component": "eecs4313group4_ponyorm:pony/orm/core.py",
+              "textRange": {
+                "startLine": 872,
+                "endLine": 872,
+                "startOffset": 19,
+                "endOffset": 36
+              },
+              "msg": "Field is retrieved here"
+            }
+          ]
+        }
+      ],
+      "status": "OPEN",
+      "message": "Fix this attribute access on a value that can be \u0027None\u0027.",
+      "effort": "10min",
+      "debt": "10min",
+      "author": "",
+      "tags": [
+        "cwe"
+      ],
+      "creationDate": "2024-03-24T17:20:31+0100",
+      "updateDate": "2024-03-24T17:20:31+0100",
+      "type": "BUG",
+      "organization": "eecs4313group4",
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ]
+    },
+    {
+      "key": "AY5xRBTUuo75zM3LFXAh",
+      "rule": "pythonbugs:S2259",
+      "severity": "MAJOR",
+      "component": "eecs4313group4_ponyorm:pony/orm/core.py",
+      "project": "eecs4313group4_ponyorm",
+      "line": 2270,
+      "hash": "ff1398939b0f7de0d4604c67f39c11a4",
+      "textRange": {
+        "startLine": 2270,
+        "endLine": 2270,
+        "startOffset": 51,
+        "endOffset": 83
+      },
+      "flows": [
+        {
+          "locations": [
+            {
+              "component": "eecs4313group4_ponyorm:pony/orm/core.py",
+              "textRange": {
+                "startLine": 2270,
+                "endLine": 2270,
+                "startOffset": 51,
+                "endOffset": 83
+              },
+              "msg": "The attribute access on a value that can be \u0027None\u0027"
+            },
+            {
+              "component": "eecs4313group4_ponyorm:pony/orm/core.py",
+              "textRange": {
+                "startLine": 2242,
+                "endLine": 2242,
+                "startOffset": 16,
+                "endOffset": 35
+              },
+              "msg": "Field is retrieved here"
+            }
+          ]
+        }
+      ],
+      "status": "OPEN",
+      "message": "Fix this attribute access on a value that can be \u0027None\u0027.",
+      "effort": "10min",
+      "debt": "10min",
+      "author": "",
+      "tags": [
+        "cwe"
+      ],
+      "creationDate": "2024-03-24T17:20:31+0100",
+      "updateDate": "2024-03-24T17:20:31+0100",
+      "type": "BUG",
+      "organization": "eecs4313group4",
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ]
+    },
+    {
+      "key": "AY5xRBTUuo75zM3LFXAi",
+      "rule": "pythonbugs:S2259",
+      "severity": "MAJOR",
+      "component": "eecs4313group4_ponyorm:pony/orm/core.py",
+      "project": "eecs4313group4_ponyorm",
+      "line": 2288,
+      "hash": "47d35b8bcfe52415984145df7c2a554b",
+      "textRange": {
+        "startLine": 2288,
+        "endLine": 2288,
+        "startOffset": 14,
+        "endOffset": 24
+      },
+      "flows": [
+        {
+          "locations": [
+            {
+              "component": "eecs4313group4_ponyorm:pony/orm/core.py",
+              "textRange": {
+                "startLine": 2288,
+                "endLine": 2288,
+                "startOffset": 14,
+                "endOffset": 24
+              },
+              "msg": "The attribute access on a value that can be \u0027None\u0027"
+            },
+            {
+              "component": "eecs4313group4_ponyorm:pony/orm/core.py",
+              "textRange": {
+                "startLine": 2286,
+                "endLine": 2286,
+                "startOffset": 15,
+                "endOffset": 25
+              },
+              "msg": "Field is retrieved here"
+            }
+          ]
+        }
+      ],
+      "status": "OPEN",
+      "message": "Fix this attribute access on a value that can be \u0027None\u0027.",
+      "effort": "10min",
+      "debt": "10min",
+      "author": "",
+      "tags": [
+        "cwe"
+      ],
+      "creationDate": "2024-03-24T17:20:31+0100",
+      "updateDate": "2024-03-24T17:20:31+0100",
+      "type": "BUG",
+      "organization": "eecs4313group4",
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ]
+    },
+    {
+      "key": "AY5xRBTUuo75zM3LFW9E",
+      "rule": "python:S2876",
+      "severity": "BLOCKER",
+      "component": "eecs4313group4_ponyorm:pony/orm/core.py",
+      "project": "eecs4313group4_ponyorm",
+      "line": 3985,
+      "hash": "a283dd8db655103de47e70bd38d5a2cf",
+      "textRange": {
+        "startLine": 3985,
+        "endLine": 3985,
+        "startOffset": 15,
+        "endOffset": 33
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Return an object complying with iterator protocol.",
+      "effort": "10min",
+      "debt": "10min",
+      "author": "",
+      "tags": [],
+      "creationDate": "2024-03-24T17:20:31+0100",
+      "updateDate": "2024-03-24T17:20:31+0100",
+      "type": "BUG",
+      "organization": "eecs4313group4",
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "HIGH"
+        }
+      ]
+    },
+    {
+      "key": "AY5xRBTUuo75zM3LFXAg",
+      "rule": "pythonbugs:S2259",
+      "severity": "MAJOR",
+      "component": "eecs4313group4_ponyorm:pony/orm/core.py",
+      "project": "eecs4313group4_ponyorm",
+      "line": 4817,
+      "hash": "4cc8fe3f45e72aa5af588d601d60fdf5",
+      "textRange": {
+        "startLine": 4817,
+        "endLine": 4817,
+        "startOffset": 16,
+        "endOffset": 27
+      },
+      "flows": [
+        {
+          "locations": [
+            {
+              "component": "eecs4313group4_ponyorm:pony/orm/core.py",
+              "textRange": {
+                "startLine": 4817,
+                "endLine": 4817,
+                "startOffset": 16,
+                "endOffset": 27
+              },
+              "msg": "The attribute access on a value that can be \u0027None\u0027"
+            },
+            {
+              "component": "eecs4313group4_ponyorm:pony/orm/core.py",
+              "textRange": {
+                "startLine": 4811,
+                "endLine": 4811,
+                "startOffset": 16,
+                "endOffset": 35
+              },
+              "msg": "Field is retrieved here"
+            }
+          ]
+        }
+      ],
+      "status": "OPEN",
+      "message": "Fix this attribute access on a value that can be \u0027None\u0027.",
+      "effort": "10min",
+      "debt": "10min",
+      "author": "",
+      "tags": [
+        "cwe"
+      ],
+      "creationDate": "2024-03-24T17:20:31+0100",
+      "updateDate": "2024-03-24T17:20:31+0100",
+      "type": "BUG",
+      "organization": "eecs4313group4",
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ]
+    },
+    {
+      "key": "AY5xRBTUuo75zM3LFXAa",
+      "rule": "python:S2876",
+      "severity": "BLOCKER",
+      "component": "eecs4313group4_ponyorm:pony/orm/core.py",
+      "project": "eecs4313group4_ponyorm",
+      "line": 6333,
+      "hash": "f7685b62dd74ebdc783dc25d86967c40",
+      "textRange": {
+        "startLine": 6333,
+        "endLine": 6333,
+        "startOffset": 15,
+        "endOffset": 40
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Return an object complying with iterator protocol.",
+      "effort": "10min",
+      "debt": "10min",
+      "author": "",
+      "tags": [],
+      "creationDate": "2024-03-24T17:20:31+0100",
+      "updateDate": "2024-03-24T17:20:31+0100",
+      "type": "BUG",
+      "organization": "eecs4313group4",
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "HIGH"
+        }
+      ]
+    },
+    {
+      "key": "AY5xRBTmuo75zM3LFXDE",
+      "rule": "pythonbugs:S6466",
+      "severity": "CRITICAL",
+      "component": "eecs4313group4_ponyorm:pony/orm/dbapiprovider.py",
+      "project": "eecs4313group4_ponyorm",
+      "line": 197,
+      "hash": "e1fa925471ee6e1c482fa3a1bdf228c5",
+      "textRange": {
+        "startLine": 197,
+        "endLine": 197,
+        "startOffset": 30,
+        "endOffset": 43
+      },
+      "flows": [
+        {
+          "locations": [
+            {
+              "component": "eecs4313group4_ponyorm:pony/orm/dbapiprovider.py",
+              "textRange": {
+                "startLine": 197,
+                "endLine": 197,
+                "startOffset": 30,
+                "endOffset": 43
+              },
+              "msg": "The access on a collection that may trigger an \u0027IndexError\u0027"
+            },
+            {
+              "component": "eecs4313group4_ponyorm:pony/orm/dbapiprovider.py",
+              "textRange": {
+                "startLine": 188,
+                "endLine": 188,
+                "startOffset": 35,
+                "endOffset": 45
+              },
+              "msg": "Parameter table_name is received"
+            }
+          ]
+        }
+      ],
+      "status": "OPEN",
+      "message": "Fix this access on a collection that may trigger an \u0027IndexError\u0027.",
+      "effort": "10min",
+      "debt": "10min",
+      "author": "",
+      "tags": [],
+      "creationDate": "2024-03-24T17:20:31+0100",
+      "updateDate": "2024-03-24T17:20:31+0100",
+      "type": "BUG",
+      "organization": "eecs4313group4",
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "HIGH"
+        }
+      ]
+    },
+    {
+      "key": "AY5xRBSDuo75zM3LFWt0",
+      "rule": "python:S1226",
+      "severity": "MINOR",
+      "component": "eecs4313group4_ponyorm:pony/orm/dbproviders/sqlite.py",
+      "project": "eecs4313group4_ponyorm",
+      "line": 37,
+      "hash": "872202f3636eca6e4ef92cc0b5f79536",
+      "textRange": {
+        "startLine": 37,
+        "endLine": 37,
+        "startOffset": 13,
+        "endOffset": 23
+      },
+      "flows": [
+        {
+          "locations": [
+            {
+              "component": "eecs4313group4_ponyorm:pony/orm/dbproviders/sqlite.py",
+              "textRange": {
+                "startLine": 40,
+                "endLine": 40,
+                "startOffset": 8,
+                "endOffset": 37
+              },
+              "msg": "\u0027translator\u0027 is reassigned here."
+            }
+          ]
+        }
+      ],
+      "status": "OPEN",
+      "message": "Introduce a new variable or use its initial value before reassigning \u0027translator\u0027.",
+      "effort": "5min",
+      "debt": "5min",
+      "author": "",
+      "tags": [],
+      "creationDate": "2024-03-24T17:20:31+0100",
+      "updateDate": "2024-03-24T17:20:31+0100",
+      "type": "BUG",
+      "organization": "eecs4313group4",
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "LOW"
+        }
+      ]
+    },
+    {
+      "key": "AY5xRBUDuo75zM3LFXJt",
+      "rule": "pythonbugs:S6466",
+      "severity": "CRITICAL",
+      "component": "eecs4313group4_ponyorm:pony/orm/sqlbuilding.py",
+      "project": "eecs4313group4_ponyorm",
+      "line": 332,
+      "hash": "f0a32a26a6ab5d1a8248a8455af79212",
+      "textRange": {
+        "startLine": 332,
+        "endLine": 332,
+        "startOffset": 24,
+        "endOffset": 37
+      },
+      "flows": [
+        {
+          "locations": [
+            {
+              "component": "eecs4313group4_ponyorm:pony/orm/sqlbuilding.py",
+              "textRange": {
+                "startLine": 332,
+                "endLine": 332,
+                "startOffset": 24,
+                "endOffset": 37
+              },
+              "msg": "The access on a collection that may trigger an \u0027IndexError\u0027"
+            },
+            {
+              "component": "eecs4313group4_ponyorm:pony/orm/sqlbuilding.py",
+              "textRange": {
+                "startLine": 109,
+                "endLine": 109,
+                "startOffset": 13,
+                "endOffset": 15
+              },
+              "msg": "Value is assigned here"
+            },
+            {
+              "component": "eecs4313group4_ponyorm:pony/orm/sqlbuilding.py",
+              "textRange": {
+                "startLine": 114,
+                "endLine": 114,
+                "startOffset": 4,
+                "endOffset": 17
+              },
+              "msg": "Value is returned"
+            },
+            {
+              "component": "eecs4313group4_ponyorm:pony/orm/sqlbuilding.py",
+              "textRange": {
+                "startLine": 328,
+                "endLine": 328,
+                "startOffset": 21,
+                "endOffset": 48
+              },
+              "msg": "Return value is received"
+            },
+            {
+              "component": "eecs4313group4_ponyorm:pony/orm/sqlbuilding.py",
+              "textRange": {
+                "startLine": 332,
+                "endLine": 332,
+                "startOffset": 24,
+                "endOffset": 37
+              },
+              "msg": "The collection contains 0 elements"
+            }
+          ]
+        }
+      ],
+      "status": "OPEN",
+      "message": "Fix this access on a collection that may trigger an \u0027IndexError\u0027.",
+      "effort": "10min",
+      "debt": "10min",
+      "author": "",
+      "tags": [],
+      "creationDate": "2024-03-24T17:20:31+0100",
+      "updateDate": "2024-03-24T17:20:31+0100",
+      "type": "BUG",
+      "organization": "eecs4313group4",
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "HIGH"
+        }
+      ]
+    },
+    {
+      "key": "AY5xRBUDuo75zM3LFXJu",
+      "rule": "pythonbugs:S6466",
+      "severity": "CRITICAL",
+      "component": "eecs4313group4_ponyorm:pony/orm/sqlbuilding.py",
+      "project": "eecs4313group4_ponyorm",
+      "line": 342,
+      "hash": "f0a32a26a6ab5d1a8248a8455af79212",
+      "textRange": {
+        "startLine": 342,
+        "endLine": 342,
+        "startOffset": 24,
+        "endOffset": 37
+      },
+      "flows": [
+        {
+          "locations": [
+            {
+              "component": "eecs4313group4_ponyorm:pony/orm/sqlbuilding.py",
+              "textRange": {
+                "startLine": 342,
+                "endLine": 342,
+                "startOffset": 24,
+                "endOffset": 37
+              },
+              "msg": "The access on a collection that may trigger an \u0027IndexError\u0027"
+            },
+            {
+              "component": "eecs4313group4_ponyorm:pony/orm/sqlbuilding.py",
+              "textRange": {
+                "startLine": 109,
+                "endLine": 109,
+                "startOffset": 13,
+                "endOffset": 15
+              },
+              "msg": "Value is assigned here"
+            },
+            {
+              "component": "eecs4313group4_ponyorm:pony/orm/sqlbuilding.py",
+              "textRange": {
+                "startLine": 114,
+                "endLine": 114,
+                "startOffset": 4,
+                "endOffset": 17
+              },
+              "msg": "Value is returned"
+            },
+            {
+              "component": "eecs4313group4_ponyorm:pony/orm/sqlbuilding.py",
+              "textRange": {
+                "startLine": 338,
+                "endLine": 338,
+                "startOffset": 21,
+                "endOffset": 48
+              },
+              "msg": "Return value is received"
+            },
+            {
+              "component": "eecs4313group4_ponyorm:pony/orm/sqlbuilding.py",
+              "textRange": {
+                "startLine": 342,
+                "endLine": 342,
+                "startOffset": 24,
+                "endOffset": 37
+              },
+              "msg": "The collection contains 0 elements"
+            }
+          ]
+        }
+      ],
+      "status": "OPEN",
+      "message": "Fix this access on a collection that may trigger an \u0027IndexError\u0027.",
+      "effort": "10min",
+      "debt": "10min",
+      "author": "",
+      "tags": [],
+      "creationDate": "2024-03-24T17:20:31+0100",
+      "updateDate": "2024-03-24T17:20:31+0100",
+      "type": "BUG",
+      "organization": "eecs4313group4",
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "HIGH"
+        }
+      ]
+    },
+    {
+      "key": "AY5xRBSuuo75zM3LFW4i",
+      "rule": "pythonbugs:S2259",
+      "severity": "MAJOR",
+      "component": "eecs4313group4_ponyorm:pony/orm/sqltranslation.py",
+      "project": "eecs4313group4_ponyorm",
+      "line": 2186,
+      "hash": "5e7c78382dbd79d9aeb87943c0820155",
+      "textRange": {
+        "startLine": 2186,
+        "endLine": 2186,
+        "startOffset": 15,
+        "endOffset": 33
+      },
+      "flows": [
+        {
+          "locations": [
+            {
+              "component": "eecs4313group4_ponyorm:pony/orm/sqltranslation.py",
+              "textRange": {
+                "startLine": 2186,
+                "endLine": 2186,
+                "startOffset": 15,
+                "endOffset": 33
+              },
+              "msg": "The attribute access on a value that can be \u0027None\u0027"
+            },
+            {
+              "component": "eecs4313group4_ponyorm:pony/orm/sqltranslation.py",
+              "textRange": {
+                "startLine": 2172,
+                "endLine": 2172,
+                "startOffset": 15,
+                "endOffset": 43
+              },
+              "msg": "Value is assigned here"
+            }
+          ]
+        }
+      ],
+      "status": "OPEN",
+      "message": "Fix this attribute access on a value that can be \u0027None\u0027.",
+      "effort": "10min",
+      "debt": "10min",
+      "author": "",
+      "tags": [
+        "cwe"
+      ],
+      "creationDate": "2024-03-24T17:20:31+0100",
+      "updateDate": "2024-03-24T17:20:31+0100",
+      "type": "BUG",
+      "organization": "eecs4313group4",
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ]
+    },
+    {
+      "key": "AY5xRBSuuo75zM3LFW2F",
+      "rule": "python:S1226",
+      "severity": "MINOR",
+      "component": "eecs4313group4_ponyorm:pony/orm/sqltranslation.py",
+      "project": "eecs4313group4_ponyorm",
+      "line": 2231,
+      "hash": "2bbc213900caf182f048a3e0ad192d8f",
+      "textRange": {
+        "startLine": 2231,
+        "endLine": 2231,
+        "startOffset": 22,
+        "endOffset": 35
+      },
+      "flows": [
+        {
+          "locations": [
+            {
+              "component": "eecs4313group4_ponyorm:pony/orm/sqltranslation.py",
+              "textRange": {
+                "startLine": 2244,
+                "endLine": 2244,
+                "startOffset": 12,
+                "endOffset": 48
+              },
+              "msg": "\u0027sqlquery\u0027 is reassigned here."
+            }
+          ]
+        }
+      ],
+      "status": "OPEN",
+      "message": "Introduce a new variable or use its initial value before reassigning \u0027sqlquery\u0027.",
+      "effort": "5min",
+      "debt": "5min",
+      "author": "",
+      "tags": [],
+      "creationDate": "2024-03-24T17:20:31+0100",
+      "updateDate": "2024-03-24T17:20:31+0100",
+      "type": "BUG",
+      "organization": "eecs4313group4",
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "LOW"
+        }
+      ]
+    },
+    {
+      "key": "AY5xRBSuuo75zM3LFW4j",
+      "rule": "pythonbugs:S2583",
+      "severity": "MAJOR",
+      "component": "eecs4313group4_ponyorm:pony/orm/sqltranslation.py",
+      "project": "eecs4313group4_ponyorm",
+      "line": 2545,
+      "hash": "35bfa7cd7d2a56357cb47615d03e00d8",
+      "textRange": {
+        "startLine": 2545,
+        "endLine": 2545,
+        "startOffset": 13,
+        "endOffset": 32
+      },
+      "flows": [
+        {
+          "locations": [
+            {
+              "component": "eecs4313group4_ponyorm:pony/orm/sqltranslation.py",
+              "textRange": {
+                "startLine": 2546,
+                "endLine": 2546,
+                "startOffset": 12,
+                "endOffset": 32
+              },
+              "msg": "Unreachable code"
+            }
+          ]
+        }
+      ],
+      "status": "OPEN",
+      "message": "Change this condition so that it does not always evaluate to false; some subsequent code is never executed.",
+      "effort": "15min",
+      "debt": "15min",
+      "author": "",
+      "tags": [
+        "cwe",
+        "pitfall",
+        "suspicious",
+        "unused"
+      ],
+      "creationDate": "2024-03-24T17:20:31+0100",
+      "updateDate": "2024-03-24T17:20:31+0100",
+      "type": "BUG",
+      "organization": "eecs4313group4",
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ]
+    },
+    {
+      "key": "AY5xRBPuuo75zM3LFWl9",
+      "rule": "python:S2734",
+      "severity": "BLOCKER",
+      "component": "eecs4313group4_ponyorm:pony/orm/tests/fixtures.py",
+      "project": "eecs4313group4_ponyorm",
+      "line": 195,
+      "hash": "cbe7122b11760e888265ec4fded17f36",
+      "textRange": {
+        "startLine": 195,
+        "endLine": 195,
+        "startOffset": 8,
+        "endOffset": 55
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Remove this return value.",
+      "effort": "5min",
+      "debt": "5min",
+      "author": "",
+      "tags": [],
+      "creationDate": "2024-03-24T17:20:31+0100",
+      "updateDate": "2024-03-24T17:20:31+0100",
+      "type": "BUG",
+      "organization": "eecs4313group4",
+      "cleanCodeAttribute": "CONVENTIONAL",
+      "cleanCodeAttributeCategory": "CONSISTENT",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "HIGH"
+        }
+      ]
+    },
+    {
+      "key": "AY5xRBPuuo75zM3LFWmN",
+      "rule": "python:S5632",
+      "severity": "BLOCKER",
+      "component": "eecs4313group4_ponyorm:pony/orm/tests/fixtures.py",
+      "project": "eecs4313group4_ponyorm",
+      "line": 495,
+      "hash": "a1ea4d0b696d0fb90a7954f366c12e63",
+      "textRange": {
+        "startLine": 495,
+        "endLine": 495,
+        "startOffset": 16,
+        "endOffset": 36
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Change this code so that it raises an object deriving from BaseException.",
+      "effort": "5min",
+      "debt": "5min",
+      "author": "",
+      "tags": [
+        "python3"
+      ],
+      "creationDate": "2024-03-24T17:20:31+0100",
+      "updateDate": "2024-03-24T17:20:31+0100",
+      "type": "BUG",
+      "organization": "eecs4313group4",
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "HIGH"
+        }
+      ]
+    },
+    {
+      "key": "AY5xRBPuuo75zM3LFWmO",
+      "rule": "python:S5632",
+      "severity": "BLOCKER",
+      "component": "eecs4313group4_ponyorm:pony/orm/tests/fixtures.py",
+      "project": "eecs4313group4_ponyorm",
+      "line": 497,
+      "hash": "5715818c144b6339a27a5fa4d8302e55",
+      "textRange": {
+        "startLine": 497,
+        "endLine": 497,
+        "startOffset": 16,
+        "endOffset": 45
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Change this code so that it raises an object deriving from BaseException.",
+      "effort": "5min",
+      "debt": "5min",
+      "author": "",
+      "tags": [
+        "python3"
+      ],
+      "creationDate": "2024-03-24T17:20:31+0100",
+      "updateDate": "2024-03-24T17:20:31+0100",
+      "type": "BUG",
+      "organization": "eecs4313group4",
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "HIGH"
+        }
+      ]
+    },
+    {
+      "key": "AY5xRBN3uo75zM3LFWhC",
+      "rule": "python:S1764",
+      "severity": "MAJOR",
+      "component": "eecs4313group4_ponyorm:pony/orm/tests/test_core_multiset.py",
+      "project": "eecs4313group4_ponyorm",
+      "line": 129,
+      "hash": "46b69076b30cfd2804a974a30e7532d3",
+      "textRange": {
+        "startLine": 129,
+        "endLine": 129,
+        "startOffset": 37,
+        "endOffset": 45
+      },
+      "flows": [
+        {
+          "locations": [
+            {
+              "component": "eecs4313group4_ponyorm:pony/orm/tests/test_core_multiset.py",
+              "textRange": {
+                "startLine": 129,
+                "endLine": 129,
+                "startOffset": 25,
+                "endOffset": 33
+              }
+            }
+          ]
+        }
+      ],
+      "status": "OPEN",
+      "message": "Correct one of the identical sub-expressions on both sides of operator \"!\u003d\".",
+      "effort": "2min",
+      "debt": "2min",
+      "author": "",
+      "tags": [],
+      "creationDate": "2024-03-24T17:20:31+0100",
+      "updateDate": "2024-03-24T17:20:31+0100",
+      "type": "BUG",
+      "organization": "eecs4313group4",
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ]
+    },
+    {
+      "key": "AY5xRBOwuo75zM3LFWi1",
+      "rule": "python:S905",
+      "severity": "MAJOR",
+      "component": "eecs4313group4_ponyorm:pony/orm/tests/test_db_session.py",
+      "project": "eecs4313group4_ponyorm",
+      "line": 62,
+      "hash": "2260380a88f9b8759c0ccb1230f1498e",
+      "textRange": {
+        "startLine": 62,
+        "endLine": 62,
+        "startOffset": 12,
+        "endOffset": 15
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Remove or refactor this statement; it has no side effects.",
+      "effort": "10min",
+      "debt": "10min",
+      "author": "",
+      "tags": [
+        "cwe",
+        "unused"
+      ],
+      "creationDate": "2024-03-24T17:20:31+0100",
+      "updateDate": "2024-03-24T17:20:31+0100",
+      "type": "BUG",
+      "organization": "eecs4313group4",
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ]
+    },
+    {
+      "key": "AY5xRBOwuo75zM3LFWi2",
+      "rule": "python:S905",
+      "severity": "MAJOR",
+      "component": "eecs4313group4_ponyorm:pony/orm/tests/test_db_session.py",
+      "project": "eecs4313group4_ponyorm",
+      "line": 76,
+      "hash": "2260380a88f9b8759c0ccb1230f1498e",
+      "textRange": {
+        "startLine": 76,
+        "endLine": 76,
+        "startOffset": 12,
+        "endOffset": 15
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Remove or refactor this statement; it has no side effects.",
+      "effort": "10min",
+      "debt": "10min",
+      "author": "",
+      "tags": [
+        "cwe",
+        "unused"
+      ],
+      "creationDate": "2024-03-24T17:20:31+0100",
+      "updateDate": "2024-03-24T17:20:31+0100",
+      "type": "BUG",
+      "organization": "eecs4313group4",
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ]
+    },
+    {
+      "key": "AY5xRBOwuo75zM3LFWi3",
+      "rule": "python:S905",
+      "severity": "MAJOR",
+      "component": "eecs4313group4_ponyorm:pony/orm/tests/test_db_session.py",
+      "project": "eecs4313group4_ponyorm",
+      "line": 90,
+      "hash": "2260380a88f9b8759c0ccb1230f1498e",
+      "textRange": {
+        "startLine": 90,
+        "endLine": 90,
+        "startOffset": 12,
+        "endOffset": 15
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Remove or refactor this statement; it has no side effects.",
+      "effort": "10min",
+      "debt": "10min",
+      "author": "",
+      "tags": [
+        "cwe",
+        "unused"
+      ],
+      "creationDate": "2024-03-24T17:20:31+0100",
+      "updateDate": "2024-03-24T17:20:31+0100",
+      "type": "BUG",
+      "organization": "eecs4313group4",
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ]
+    },
+    {
+      "key": "AY5xRBOwuo75zM3LFWi4",
+      "rule": "python:S905",
+      "severity": "MAJOR",
+      "component": "eecs4313group4_ponyorm:pony/orm/tests/test_db_session.py",
+      "project": "eecs4313group4_ponyorm",
+      "line": 104,
+      "hash": "2260380a88f9b8759c0ccb1230f1498e",
+      "textRange": {
+        "startLine": 104,
+        "endLine": 104,
+        "startOffset": 12,
+        "endOffset": 15
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Remove or refactor this statement; it has no side effects.",
+      "effort": "10min",
+      "debt": "10min",
+      "author": "",
+      "tags": [
+        "cwe",
+        "unused"
+      ],
+      "creationDate": "2024-03-24T17:20:31+0100",
+      "updateDate": "2024-03-24T17:20:31+0100",
+      "type": "BUG",
+      "organization": "eecs4313group4",
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ]
+    },
+    {
+      "key": "AY5xRBOwuo75zM3LFWi5",
+      "rule": "python:S905",
+      "severity": "MAJOR",
+      "component": "eecs4313group4_ponyorm:pony/orm/tests/test_db_session.py",
+      "project": "eecs4313group4_ponyorm",
+      "line": 118,
+      "hash": "2260380a88f9b8759c0ccb1230f1498e",
+      "textRange": {
+        "startLine": 118,
+        "endLine": 118,
+        "startOffset": 12,
+        "endOffset": 15
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Remove or refactor this statement; it has no side effects.",
+      "effort": "10min",
+      "debt": "10min",
+      "author": "",
+      "tags": [
+        "cwe",
+        "unused"
+      ],
+      "creationDate": "2024-03-24T17:20:31+0100",
+      "updateDate": "2024-03-24T17:20:31+0100",
+      "type": "BUG",
+      "organization": "eecs4313group4",
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ]
+    },
+    {
+      "key": "AY5xRBOwuo75zM3LFWi8",
+      "rule": "python:S905",
+      "severity": "MAJOR",
+      "component": "eecs4313group4_ponyorm:pony/orm/tests/test_db_session.py",
+      "project": "eecs4313group4_ponyorm",
+      "line": 146,
+      "hash": "2260380a88f9b8759c0ccb1230f1498e",
+      "textRange": {
+        "startLine": 146,
+        "endLine": 146,
+        "startOffset": 12,
+        "endOffset": 15
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Remove or refactor this statement; it has no side effects.",
+      "effort": "10min",
+      "debt": "10min",
+      "author": "",
+      "tags": [
+        "cwe",
+        "unused"
+      ],
+      "creationDate": "2024-03-24T17:20:31+0100",
+      "updateDate": "2024-03-24T17:20:31+0100",
+      "type": "BUG",
+      "organization": "eecs4313group4",
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ]
+    },
+    {
+      "key": "AY5xRBOwuo75zM3LFWi9",
+      "rule": "python:S905",
+      "severity": "MAJOR",
+      "component": "eecs4313group4_ponyorm:pony/orm/tests/test_db_session.py",
+      "project": "eecs4313group4_ponyorm",
+      "line": 163,
+      "hash": "2260380a88f9b8759c0ccb1230f1498e",
+      "textRange": {
+        "startLine": 163,
+        "endLine": 163,
+        "startOffset": 12,
+        "endOffset": 15
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Remove or refactor this statement; it has no side effects.",
+      "effort": "10min",
+      "debt": "10min",
+      "author": "",
+      "tags": [
+        "cwe",
+        "unused"
+      ],
+      "creationDate": "2024-03-24T17:20:31+0100",
+      "updateDate": "2024-03-24T17:20:31+0100",
+      "type": "BUG",
+      "organization": "eecs4313group4",
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ]
+    },
+    {
+      "key": "AY5xRBOwuo75zM3LFWi-",
+      "rule": "python:S905",
+      "severity": "MAJOR",
+      "component": "eecs4313group4_ponyorm:pony/orm/tests/test_db_session.py",
+      "project": "eecs4313group4_ponyorm",
+      "line": 180,
+      "hash": "2260380a88f9b8759c0ccb1230f1498e",
+      "textRange": {
+        "startLine": 180,
+        "endLine": 180,
+        "startOffset": 12,
+        "endOffset": 15
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Remove or refactor this statement; it has no side effects.",
+      "effort": "10min",
+      "debt": "10min",
+      "author": "",
+      "tags": [
+        "cwe",
+        "unused"
+      ],
+      "creationDate": "2024-03-24T17:20:31+0100",
+      "updateDate": "2024-03-24T17:20:31+0100",
+      "type": "BUG",
+      "organization": "eecs4313group4",
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ]
+    },
+    {
+      "key": "AY5xRBOwuo75zM3LFWi_",
+      "rule": "python:S905",
+      "severity": "MAJOR",
+      "component": "eecs4313group4_ponyorm:pony/orm/tests/test_db_session.py",
+      "project": "eecs4313group4_ponyorm",
+      "line": 197,
+      "hash": "2260380a88f9b8759c0ccb1230f1498e",
+      "textRange": {
+        "startLine": 197,
+        "endLine": 197,
+        "startOffset": 12,
+        "endOffset": 15
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Remove or refactor this statement; it has no side effects.",
+      "effort": "10min",
+      "debt": "10min",
+      "author": "",
+      "tags": [
+        "cwe",
+        "unused"
+      ],
+      "creationDate": "2024-03-24T17:20:31+0100",
+      "updateDate": "2024-03-24T17:20:31+0100",
+      "type": "BUG",
+      "organization": "eecs4313group4",
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ]
+    },
+    {
+      "key": "AY5xRBOwuo75zM3LFWjA",
+      "rule": "python:S905",
+      "severity": "MAJOR",
+      "component": "eecs4313group4_ponyorm:pony/orm/tests/test_db_session.py",
+      "project": "eecs4313group4_ponyorm",
+      "line": 214,
+      "hash": "819b376d2b1110cab289069ca10d51a1",
+      "textRange": {
+        "startLine": 214,
+        "endLine": 214,
+        "startOffset": 22,
+        "endOffset": 25
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Remove or refactor this statement; it has no side effects.",
+      "effort": "10min",
+      "debt": "10min",
+      "author": "",
+      "tags": [
+        "cwe",
+        "unused"
+      ],
+      "creationDate": "2024-03-24T17:20:31+0100",
+      "updateDate": "2024-03-24T17:20:31+0100",
+      "type": "BUG",
+      "organization": "eecs4313group4",
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ]
+    },
+    {
+      "key": "AY5xRBOwuo75zM3LFWjD",
+      "rule": "python:S905",
+      "severity": "MAJOR",
+      "component": "eecs4313group4_ponyorm:pony/orm/tests/test_db_session.py",
+      "project": "eecs4313group4_ponyorm",
+      "line": 239,
+      "hash": "2260380a88f9b8759c0ccb1230f1498e",
+      "textRange": {
+        "startLine": 239,
+        "endLine": 239,
+        "startOffset": 12,
+        "endOffset": 15
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Remove or refactor this statement; it has no side effects.",
+      "effort": "10min",
+      "debt": "10min",
+      "author": "",
+      "tags": [
+        "cwe",
+        "unused"
+      ],
+      "creationDate": "2024-03-24T17:20:31+0100",
+      "updateDate": "2024-03-24T17:20:31+0100",
+      "type": "BUG",
+      "organization": "eecs4313group4",
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ]
+    },
+    {
+      "key": "AY5xRBOwuo75zM3LFWjL",
+      "rule": "python:S905",
+      "severity": "MAJOR",
+      "component": "eecs4313group4_ponyorm:pony/orm/tests/test_db_session.py",
+      "project": "eecs4313group4_ponyorm",
+      "line": 351,
+      "hash": "2260380a88f9b8759c0ccb1230f1498e",
+      "textRange": {
+        "startLine": 351,
+        "endLine": 351,
+        "startOffset": 12,
+        "endOffset": 15
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Remove or refactor this statement; it has no side effects.",
+      "effort": "10min",
+      "debt": "10min",
+      "author": "",
+      "tags": [
+        "cwe",
+        "unused"
+      ],
+      "creationDate": "2024-03-24T17:20:31+0100",
+      "updateDate": "2024-03-24T17:20:31+0100",
+      "type": "BUG",
+      "organization": "eecs4313group4",
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ]
+    },
+    {
+      "key": "AY5xRBOwuo75zM3LFWjM",
+      "rule": "python:S905",
+      "severity": "MAJOR",
+      "component": "eecs4313group4_ponyorm:pony/orm/tests/test_db_session.py",
+      "project": "eecs4313group4_ponyorm",
+      "line": 360,
+      "hash": "2260380a88f9b8759c0ccb1230f1498e",
+      "textRange": {
+        "startLine": 360,
+        "endLine": 360,
+        "startOffset": 12,
+        "endOffset": 17
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Remove or refactor this statement; it has no side effects.",
+      "effort": "10min",
+      "debt": "10min",
+      "author": "",
+      "tags": [
+        "cwe",
+        "unused"
+      ],
+      "creationDate": "2024-03-24T17:20:31+0100",
+      "updateDate": "2024-03-24T17:20:31+0100",
+      "type": "BUG",
+      "organization": "eecs4313group4",
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ]
+    },
+    {
+      "key": "AY5xRBOwuo75zM3LFWjN",
+      "rule": "python:S905",
+      "severity": "MAJOR",
+      "component": "eecs4313group4_ponyorm:pony/orm/tests/test_db_session.py",
+      "project": "eecs4313group4_ponyorm",
+      "line": 370,
+      "hash": "2260380a88f9b8759c0ccb1230f1498e",
+      "textRange": {
+        "startLine": 370,
+        "endLine": 370,
+        "startOffset": 12,
+        "endOffset": 17
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Remove or refactor this statement; it has no side effects.",
+      "effort": "10min",
+      "debt": "10min",
+      "author": "",
+      "tags": [
+        "cwe",
+        "unused"
+      ],
+      "creationDate": "2024-03-24T17:20:31+0100",
+      "updateDate": "2024-03-24T17:20:31+0100",
+      "type": "BUG",
+      "organization": "eecs4313group4",
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ]
+    },
+    {
+      "key": "AY5xRBOwuo75zM3LFWjO",
+      "rule": "python:S905",
+      "severity": "MAJOR",
+      "component": "eecs4313group4_ponyorm:pony/orm/tests/test_db_session.py",
+      "project": "eecs4313group4_ponyorm",
+      "line": 382,
+      "hash": "2260380a88f9b8759c0ccb1230f1498e",
+      "textRange": {
+        "startLine": 382,
+        "endLine": 382,
+        "startOffset": 12,
+        "endOffset": 15
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Remove or refactor this statement; it has no side effects.",
+      "effort": "10min",
+      "debt": "10min",
+      "author": "",
+      "tags": [
+        "cwe",
+        "unused"
+      ],
+      "creationDate": "2024-03-24T17:20:31+0100",
+      "updateDate": "2024-03-24T17:20:31+0100",
+      "type": "BUG",
+      "organization": "eecs4313group4",
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ]
+    },
+    {
+      "key": "AY5xRBM8uo75zM3LFWeU",
+      "rule": "python:S5642",
+      "severity": "BLOCKER",
+      "component": "eecs4313group4_ponyorm:pony/orm/tests/test_declarative_exceptions.py",
+      "project": "eecs4313group4_ponyorm",
+      "line": 83,
+      "hash": "6479a899d8627aa9e1a7411233e018ce",
+      "textRange": {
+        "startLine": 83,
+        "endLine": 83,
+        "startOffset": 39,
+        "endOffset": 41
+      },
+      "flows": [
+        {
+          "locations": [
+            {
+              "component": "eecs4313group4_ponyorm:pony/orm/tests/test_declarative_exceptions.py",
+              "textRange": {
+                "startLine": 83,
+                "endLine": 83,
+                "startOffset": 42,
+                "endOffset": 43
+              },
+              "msg": "The result value of this expression does not support the membership protocol."
+            }
+          ]
+        }
+      ],
+      "status": "OPEN",
+      "message": "Change the type of 2; type int does not support membership protocol.",
+      "effort": "20min",
+      "debt": "20min",
+      "author": "",
+      "tags": [],
+      "creationDate": "2024-03-24T17:20:31+0100",
+      "updateDate": "2024-03-24T17:20:31+0100",
+      "type": "BUG",
+      "organization": "eecs4313group4",
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "HIGH"
+        }
+      ]
+    },
+    {
+      "key": "AY5xRBM8uo75zM3LFWeY",
+      "rule": "python:S930",
+      "severity": "BLOCKER",
+      "component": "eecs4313group4_ponyorm:pony/orm/tests/test_declarative_exceptions.py",
+      "project": "eecs4313group4_ponyorm",
+      "line": 191,
+      "hash": "d856ea8d272716a70fc1b2a72836051b",
+      "textRange": {
+        "startLine": 191,
+        "endLine": 191,
+        "startOffset": 37,
+        "endOffset": 40
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Remove 1 unexpected arguments; \u0027len\u0027 expects 1 positional arguments.",
+      "effort": "10min",
+      "debt": "10min",
+      "author": "",
+      "tags": [
+        "cwe"
+      ],
+      "creationDate": "2024-03-24T17:20:31+0100",
+      "updateDate": "2024-03-24T17:20:31+0100",
+      "type": "BUG",
+      "organization": "eecs4313group4",
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "HIGH"
+        }
+      ]
+    },
+    {
+      "key": "AY5xRBM8uo75zM3LFWeZ",
+      "rule": "python:S2201",
+      "severity": "MAJOR",
+      "component": "eecs4313group4_ponyorm:pony/orm/tests/test_declarative_exceptions.py",
+      "project": "eecs4313group4_ponyorm",
+      "line": 206,
+      "hash": "4ff7b9329b95eb796d4ca45f71b3a04c",
+      "textRange": {
+        "startLine": 206,
+        "endLine": 206,
+        "startOffset": 8,
+        "endOffset": 11
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "The return value of \"max\" must be used.",
+      "effort": "5min",
+      "debt": "5min",
+      "author": "",
+      "tags": [],
+      "creationDate": "2024-03-24T17:20:31+0100",
+      "updateDate": "2024-03-24T17:20:31+0100",
+      "type": "BUG",
+      "organization": "eecs4313group4",
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ]
+    },
+    {
+      "key": "AY5xRBM8uo75zM3LFWea",
+      "rule": "python:S2201",
+      "severity": "MAJOR",
+      "component": "eecs4313group4_ponyorm:pony/orm/tests/test_declarative_exceptions.py",
+      "project": "eecs4313group4_ponyorm",
+      "line": 209,
+      "hash": "efad0ab30cf0cf4153346e7f880f5867",
+      "textRange": {
+        "startLine": 209,
+        "endLine": 209,
+        "startOffset": 8,
+        "endOffset": 11
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "The return value of \"max\" must be used.",
+      "effort": "5min",
+      "debt": "5min",
+      "author": "",
+      "tags": [],
+      "creationDate": "2024-03-24T17:20:31+0100",
+      "updateDate": "2024-03-24T17:20:31+0100",
+      "type": "BUG",
+      "organization": "eecs4313group4",
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ]
+    },
+    {
+      "key": "AY5xRBM8uo75zM3LFWeb",
+      "rule": "python:S2201",
+      "severity": "MAJOR",
+      "component": "eecs4313group4_ponyorm:pony/orm/tests/test_declarative_exceptions.py",
+      "project": "eecs4313group4_ponyorm",
+      "line": 212,
+      "hash": "3906b467435faf2cae11f03883452d21",
+      "textRange": {
+        "startLine": 212,
+        "endLine": 212,
+        "startOffset": 8,
+        "endOffset": 11
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "The return value of \"sum\" must be used.",
+      "effort": "5min",
+      "debt": "5min",
+      "author": "",
+      "tags": [],
+      "creationDate": "2024-03-24T17:20:31+0100",
+      "updateDate": "2024-03-24T17:20:31+0100",
+      "type": "BUG",
+      "organization": "eecs4313group4",
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ]
+    },
+    {
+      "key": "AY5xRBM8uo75zM3LFWec",
+      "rule": "python:S2201",
+      "severity": "MAJOR",
+      "component": "eecs4313group4_ponyorm:pony/orm/tests/test_declarative_exceptions.py",
+      "project": "eecs4313group4_ponyorm",
+      "line": 215,
+      "hash": "87006e3a60e21689369d17d4863f689f",
+      "textRange": {
+        "startLine": 215,
+        "endLine": 215,
+        "startOffset": 8,
+        "endOffset": 11
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "The return value of \"sum\" must be used.",
+      "effort": "5min",
+      "debt": "5min",
+      "author": "",
+      "tags": [],
+      "creationDate": "2024-03-24T17:20:31+0100",
+      "updateDate": "2024-03-24T17:20:31+0100",
+      "type": "BUG",
+      "organization": "eecs4313group4",
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ]
+    },
+    {
+      "key": "AY5xRBM8uo75zM3LFWed",
+      "rule": "python:S2201",
+      "severity": "MAJOR",
+      "component": "eecs4313group4_ponyorm:pony/orm/tests/test_declarative_exceptions.py",
+      "project": "eecs4313group4_ponyorm",
+      "line": 218,
+      "hash": "89bc572ecec568b19d16d65dd2734356",
+      "textRange": {
+        "startLine": 218,
+        "endLine": 218,
+        "startOffset": 8,
+        "endOffset": 11
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "The return value of \"sum\" must be used.",
+      "effort": "5min",
+      "debt": "5min",
+      "author": "",
+      "tags": [],
+      "creationDate": "2024-03-24T17:20:31+0100",
+      "updateDate": "2024-03-24T17:20:31+0100",
+      "type": "BUG",
+      "organization": "eecs4313group4",
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ]
+    },
+    {
+      "key": "AY5xRBO2uo75zM3LFWjt",
+      "rule": "python:S5845",
+      "severity": "CRITICAL",
+      "component": "eecs4313group4_ponyorm:pony/orm/tests/test_declarative_query_set_monad.py",
+      "project": "eecs4313group4_ponyorm",
+      "line": 308,
+      "hash": "b74359717091de8a52109277f9613e61",
+      "textRange": {
+        "startLine": 308,
+        "endLine": 308,
+        "startOffset": 25,
+        "endOffset": 35
+      },
+      "flows": [
+        {
+          "locations": [
+            {
+              "component": "eecs4313group4_ponyorm:pony/orm/tests/test_declarative_query_set_monad.py",
+              "textRange": {
+                "startLine": 307,
+                "endLine": 307,
+                "startOffset": 8,
+                "endOffset": 46
+              },
+              "msg": "Last assignment of \"result\""
+            }
+          ]
+        }
+      ],
+      "status": "OPEN",
+      "message": "Change this assertion to not compare dissimilar types (set and dict).",
+      "effort": "5min",
+      "debt": "5min",
+      "author": "",
+      "tags": [
+        "tests"
+      ],
+      "creationDate": "2024-03-24T17:20:31+0100",
+      "updateDate": "2024-03-24T17:20:31+0100",
+      "type": "BUG",
+      "organization": "eecs4313group4",
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "HIGH"
+        }
+      ]
+    },
+    {
+      "key": "AY5xRBNGuo75zM3LFWfC",
+      "rule": "python:S1244",
+      "severity": "MAJOR",
+      "component": "eecs4313group4_ponyorm:pony/orm/tests/test_declarative_sqltranslator2.py",
+      "project": "eecs4313group4_ponyorm",
+      "line": 213,
+      "hash": "14b51ed1a85364e8d108860d405805bb",
+      "textRange": {
+        "startLine": 213,
+        "endLine": 213,
+        "startOffset": 51,
+        "endOffset": 70
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Do not perform equality checks with floating point values.",
+      "effort": "5min",
+      "debt": "5min",
+      "author": "",
+      "tags": [],
+      "creationDate": "2024-03-24T17:20:31+0100",
+      "updateDate": "2024-03-24T17:20:31+0100",
+      "type": "BUG",
+      "organization": "eecs4313group4",
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ]
+    },
+    {
+      "key": "AY5xRBNWuo75zM3LFWfb",
+      "rule": "python:S905",
+      "severity": "MAJOR",
+      "component": "eecs4313group4_ponyorm:pony/orm/tests/test_hybrid_methods_and_properties.py",
+      "project": "eecs4313group4_ponyorm",
+      "line": 62,
+      "hash": "c8b541ccbdc24a8971a8508ece39f3ed",
+      "textRange": {
+        "startLine": 62,
+        "endLine": 62,
+        "startOffset": 8,
+        "endOffset": 38
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Remove or refactor this statement; it has no side effects.",
+      "effort": "10min",
+      "debt": "10min",
+      "author": "",
+      "tags": [
+        "cwe",
+        "unused"
+      ],
+      "creationDate": "2024-03-24T17:20:31+0100",
+      "updateDate": "2024-03-24T17:20:31+0100",
+      "type": "BUG",
+      "organization": "eecs4313group4",
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ]
+    },
+    {
+      "key": "AY5xRBNWuo75zM3LFWfc",
+      "rule": "python:S905",
+      "severity": "MAJOR",
+      "component": "eecs4313group4_ponyorm:pony/orm/tests/test_hybrid_methods_and_properties.py",
+      "project": "eecs4313group4_ponyorm",
+      "line": 66,
+      "hash": "c8b541ccbdc24a8971a8508ece39f3ed",
+      "textRange": {
+        "startLine": 66,
+        "endLine": 66,
+        "startOffset": 8,
+        "endOffset": 38
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Remove or refactor this statement; it has no side effects.",
+      "effort": "10min",
+      "debt": "10min",
+      "author": "",
+      "tags": [
+        "cwe",
+        "unused"
+      ],
+      "creationDate": "2024-03-24T17:20:31+0100",
+      "updateDate": "2024-03-24T17:20:31+0100",
+      "type": "BUG",
+      "organization": "eecs4313group4",
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ]
+    },
+    {
+      "key": "AY5xRBNMuo75zM3LFWfH",
+      "rule": "python:S1656",
+      "severity": "MAJOR",
+      "component": "eecs4313group4_ponyorm:pony/orm/tests/test_json.py",
+      "project": "eecs4313group4_ponyorm",
+      "line": 279,
+      "hash": "d32e5d6bf7c120a8fb8f5fca2cf2bbe5",
+      "textRange": {
+        "startLine": 279,
+        "endLine": 279,
+        "startOffset": 15,
+        "endOffset": 16
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Remove or correct this useless self-assignment.",
+      "effort": "3min",
+      "debt": "3min",
+      "author": "",
+      "tags": [],
+      "creationDate": "2024-03-24T17:20:31+0100",
+      "updateDate": "2024-03-24T17:20:31+0100",
+      "type": "BUG",
+      "organization": "eecs4313group4",
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ]
+    },
+    {
+      "key": "AY5xRBP4uo75zM3LFWmg",
+      "rule": "python:S2201",
+      "severity": "MAJOR",
+      "component": "eecs4313group4_ponyorm:pony/orm/tests/test_prefetching.py",
+      "project": "eecs4313group4_ponyorm",
+      "line": 106,
+      "hash": "adef37ebb9cd6e90e85e8c41c49846be",
+      "textRange": {
+        "startLine": 106,
+        "endLine": 106,
+        "startOffset": 8,
+        "endOffset": 11
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "The return value of \"set\" must be used.",
+      "effort": "5min",
+      "debt": "5min",
+      "author": "",
+      "tags": [],
+      "creationDate": "2024-03-24T17:20:31+0100",
+      "updateDate": "2024-03-24T17:20:31+0100",
+      "type": "BUG",
+      "organization": "eecs4313group4",
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ]
+    },
+    {
+      "key": "AY5xRBP4uo75zM3LFWmh",
+      "rule": "python:S2201",
+      "severity": "MAJOR",
+      "component": "eecs4313group4_ponyorm:pony/orm/tests/test_prefetching.py",
+      "project": "eecs4313group4_ponyorm",
+      "line": 112,
+      "hash": "adef37ebb9cd6e90e85e8c41c49846be",
+      "textRange": {
+        "startLine": 112,
+        "endLine": 112,
+        "startOffset": 8,
+        "endOffset": 11
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "The return value of \"set\" must be used.",
+      "effort": "5min",
+      "debt": "5min",
+      "author": "",
+      "tags": [],
+      "creationDate": "2024-03-24T17:20:31+0100",
+      "updateDate": "2024-03-24T17:20:31+0100",
+      "type": "BUG",
+      "organization": "eecs4313group4",
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ]
+    },
+    {
+      "key": "AY5xRBK-uo75zM3LFWZ0",
+      "rule": "python:S2734",
+      "severity": "BLOCKER",
+      "component": "eecs4313group4_ponyorm:pony/thirdparty/decorator.py",
+      "project": "eecs4313group4_ponyorm",
+      "line": 248,
+      "hash": "58d5a5469e9fe3ff348e2368ef1c8444",
+      "textRange": {
+        "startLine": 248,
+        "endLine": 248,
+        "startOffset": 8,
+        "endOffset": 65
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Remove this return value.",
+      "effort": "5min",
+      "debt": "5min",
+      "author": "",
+      "tags": [],
+      "creationDate": "2024-03-24T17:20:31+0100",
+      "updateDate": "2024-03-24T17:20:31+0100",
+      "type": "BUG",
+      "organization": "eecs4313group4",
+      "cleanCodeAttribute": "CONVENTIONAL",
+      "cleanCodeAttributeCategory": "CONSISTENT",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "HIGH"
+        }
+      ]
+    },
+    {
+      "key": "AY5xRBULuo75zM3LFXJx",
+      "rule": "python:S3923",
+      "severity": "MAJOR",
+      "component": "eecs4313group4_ponyorm:pony/utils/utils.py",
+      "project": "eecs4313group4_ponyorm",
+      "line": 98,
+      "hash": "958fb51d7d83c4a6e9418e7eaa153d9a",
+      "textRange": {
+        "startLine": 98,
+        "endLine": 98,
+        "startOffset": 8,
+        "endOffset": 10
+      },
+      "flows": [
+        {
+          "locations": [
+            {
+              "component": "eecs4313group4_ponyorm:pony/utils/utils.py",
+              "textRange": {
+                "startLine": 99,
+                "endLine": 99,
+                "startOffset": 12,
+                "endOffset": 21
+              },
+              "msg": "Duplicated statements."
+            }
+          ]
+        },
+        {
+          "locations": [
+            {
+              "component": "eecs4313group4_ponyorm:pony/utils/utils.py",
+              "textRange": {
+                "startLine": 101,
+                "endLine": 101,
+                "startOffset": 12,
+                "endOffset": 21
+              },
+              "msg": "Duplicated statements."
+            }
+          ]
+        }
+      ],
+      "status": "OPEN",
+      "message": "Remove this if statement or edit its code blocks so that they\u0027re not all the same.",
+      "effort": "15min",
+      "debt": "15min",
+      "author": "",
+      "tags": [],
+      "creationDate": "2024-03-24T17:20:31+0100",
+      "updateDate": "2024-03-24T17:20:31+0100",
+      "type": "BUG",
+      "organization": "eecs4313group4",
+      "cleanCodeAttribute": "CLEAR",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "RELIABILITY",
+          "severity": "MEDIUM"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "organization": "eecs4313group4",
+      "key": "eecs4313group4_ponyorm:pony/orm/tests/test_core_multiset.py",
+      "uuid": "AY5xRBCauo75zM3LFWYR",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "test_core_multiset.py",
+      "longName": "pony/orm/tests/test_core_multiset.py",
+      "path": "pony/orm/tests/test_core_multiset.py"
+    },
+    {
+      "organization": "eecs4313group4",
+      "key": "eecs4313group4_ponyorm:pony/utils/utils.py",
+      "uuid": "AY5xRBCauo75zM3LFWZo",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "utils.py",
+      "longName": "pony/utils/utils.py",
+      "path": "pony/utils/utils.py"
+    },
+    {
+      "organization": "eecs4313group4",
+      "key": "eecs4313group4_ponyorm:pony/orm/tests/test_prefetching.py",
+      "uuid": "AY5xRBCauo75zM3LFWYw",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "test_prefetching.py",
+      "longName": "pony/orm/tests/test_prefetching.py",
+      "path": "pony/orm/tests/test_prefetching.py"
+    },
+    {
+      "organization": "eecs4313group4",
+      "key": "eecs4313group4_ponyorm",
+      "uuid": "AY5w5li_o-ZM8AU2vYyq",
+      "enabled": true,
+      "qualifier": "TRK",
+      "name": "PonyORM",
+      "longName": "PonyORM"
+    },
+    {
+      "organization": "eecs4313group4",
+      "key": "eecs4313group4_ponyorm:pony/orm/dbproviders/sqlite.py",
+      "uuid": "AY5xRBCauo75zM3LFWZU",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "sqlite.py",
+      "longName": "pony/orm/dbproviders/sqlite.py",
+      "path": "pony/orm/dbproviders/sqlite.py"
+    },
+    {
+      "organization": "eecs4313group4",
+      "key": "eecs4313group4_ponyorm:pony/orm/tests/fixtures.py",
+      "uuid": "AY5xRBCauo75zM3LFWYu",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "fixtures.py",
+      "longName": "pony/orm/tests/fixtures.py",
+      "path": "pony/orm/tests/fixtures.py"
+    },
+    {
+      "organization": "eecs4313group4",
+      "key": "eecs4313group4_ponyorm:pony/orm/sqltranslation.py",
+      "uuid": "AY5xRBCauo75zM3LFWZa",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "sqltranslation.py",
+      "longName": "pony/orm/sqltranslation.py",
+      "path": "pony/orm/sqltranslation.py"
+    },
+    {
+      "organization": "eecs4313group4",
+      "key": "eecs4313group4_ponyorm:pony/orm/tests/test_declarative_exceptions.py",
+      "uuid": "AY5xRBCauo75zM3LFWYA",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "test_declarative_exceptions.py",
+      "longName": "pony/orm/tests/test_declarative_exceptions.py",
+      "path": "pony/orm/tests/test_declarative_exceptions.py"
+    },
+    {
+      "organization": "eecs4313group4",
+      "key": "eecs4313group4_ponyorm:pony/orm/core.py",
+      "uuid": "AY5xRBCauo75zM3LFWZb",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "core.py",
+      "longName": "pony/orm/core.py",
+      "path": "pony/orm/core.py"
+    },
+    {
+      "organization": "eecs4313group4",
+      "key": "eecs4313group4_ponyorm:pony/flask/example/templates/index.html",
+      "uuid": "AY5xRBCauo75zM3LFWXg",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "index.html",
+      "longName": "pony/flask/example/templates/index.html",
+      "path": "pony/flask/example/templates/index.html"
+    },
+    {
+      "organization": "eecs4313group4",
+      "key": "eecs4313group4_ponyorm:pony/orm/tests/test_declarative_query_set_monad.py",
+      "uuid": "AY5xRBCauo75zM3LFWYh",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "test_declarative_query_set_monad.py",
+      "longName": "pony/orm/tests/test_declarative_query_set_monad.py",
+      "path": "pony/orm/tests/test_declarative_query_set_monad.py"
+    },
+    {
+      "organization": "eecs4313group4",
+      "key": "eecs4313group4_ponyorm:pony/flask/example/templates/reg.html",
+      "uuid": "AY5xRBCauo75zM3LFWXf",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "reg.html",
+      "longName": "pony/flask/example/templates/reg.html",
+      "path": "pony/flask/example/templates/reg.html"
+    },
+    {
+      "organization": "eecs4313group4",
+      "key": "eecs4313group4_ponyorm:pony/orm/tests/test_db_session.py",
+      "uuid": "AY5xRBCauo75zM3LFWYg",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "test_db_session.py",
+      "longName": "pony/orm/tests/test_db_session.py",
+      "path": "pony/orm/tests/test_db_session.py"
+    },
+    {
+      "organization": "eecs4313group4",
+      "key": "eecs4313group4_ponyorm:pony/orm/tests/test_json.py",
+      "uuid": "AY5xRBCauo75zM3LFWYG",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "test_json.py",
+      "longName": "pony/orm/tests/test_json.py",
+      "path": "pony/orm/tests/test_json.py"
+    },
+    {
+      "organization": "eecs4313group4",
+      "key": "eecs4313group4_ponyorm:pony/orm/sqlbuilding.py",
+      "uuid": "AY5xRBCauo75zM3LFWZk",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "sqlbuilding.py",
+      "longName": "pony/orm/sqlbuilding.py",
+      "path": "pony/orm/sqlbuilding.py"
+    },
+    {
+      "organization": "eecs4313group4",
+      "key": "eecs4313group4_ponyorm:pony/orm/tests/test_hybrid_methods_and_properties.py",
+      "uuid": "AY5xRBCauo75zM3LFWYI",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "test_hybrid_methods_and_properties.py",
+      "longName": "pony/orm/tests/test_hybrid_methods_and_properties.py",
+      "path": "pony/orm/tests/test_hybrid_methods_and_properties.py"
+    },
+    {
+      "organization": "eecs4313group4",
+      "key": "eecs4313group4_ponyorm:pony/orm/tests/test_declarative_sqltranslator2.py",
+      "uuid": "AY5xRBCauo75zM3LFWYD",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "test_declarative_sqltranslator2.py",
+      "longName": "pony/orm/tests/test_declarative_sqltranslator2.py",
+      "path": "pony/orm/tests/test_declarative_sqltranslator2.py"
+    },
+    {
+      "organization": "eecs4313group4",
+      "key": "eecs4313group4_ponyorm:pony/thirdparty/decorator.py",
+      "uuid": "AY5xRBCauo75zM3LFWXb",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "decorator.py",
+      "longName": "pony/thirdparty/decorator.py",
+      "path": "pony/thirdparty/decorator.py"
+    },
+    {
+      "organization": "eecs4313group4",
+      "key": "eecs4313group4_ponyorm:pony/orm/dbapiprovider.py",
+      "uuid": "AY5xRBCauo75zM3LFWZd",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "dbapiprovider.py",
+      "longName": "pony/orm/dbapiprovider.py",
+      "path": "pony/orm/dbapiprovider.py"
+    },
+    {
+      "organization": "eecs4313group4",
+      "key": "eecs4313group4_ponyorm:pony/flask/example/templates/login.html",
+      "uuid": "AY5xRBCauo75zM3LFWXe",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "login.html",
+      "longName": "pony/flask/example/templates/login.html",
+      "path": "pony/flask/example/templates/login.html"
+    }
+  ],
+  "organizations": [
+    {
+      "key": "eecs4313group4",
+      "name": "EECS4313Group4"
+    }
+  ],
+  "facets": []
+}
