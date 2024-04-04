@@ -1,0 +1,488 @@
+file_path,line_number,type,severity,description
+org.apache.openjpa:openjpa-parent:openjpa-examples/simple/src/main/java/reversemapping/schema/ToursDB_schema.sql,18,BUG,MAJOR,Use VARCHAR2 instead of CHAR.
+org.apache.openjpa:openjpa-parent:openjpa-examples/simple/src/main/java/reversemapping/schema/ToursDB_schema.sql,40,BUG,MAJOR,Use VARCHAR2 instead of CHAR.
+org.apache.openjpa:openjpa-parent:openjpa-examples/simple/src/main/java/reversemapping/schema/ToursDB_schema.sql,68,BUG,MAJOR,Use VARCHAR2 instead of CHAR.
+org.apache.openjpa:openjpa-parent:openjpa-examples/simple/src/main/java/reversemapping/schema/ToursDB_schema.sql,87,BUG,MAJOR,Use VARCHAR2 instead of CHAR.
+org.apache.openjpa:openjpa-parent:openjpa-examples/simple/src/main/java/reversemapping/schema/ToursDB_schema.sql,89,BUG,MAJOR,Use VARCHAR2 instead of CHAR.
+org.apache.openjpa:openjpa-parent:openjpa-examples/simple/src/main/java/reversemapping/schema/ToursDB_schema.sql,91,BUG,MAJOR,Use VARCHAR2 instead of CHAR.
+org.apache.openjpa:openjpa-parent:openjpa-examples/simple/src/main/java/reversemapping/schema/ToursDB_schema.sql,93,BUG,MAJOR,Use VARCHAR2 instead of CHAR.
+org.apache.openjpa:openjpa-parent:openjpa-examples/simple/src/main/java/reversemapping/schema/ToursDB_schema.sql,119,BUG,MAJOR,Use VARCHAR2 instead of CHAR.
+org.apache.openjpa:openjpa-parent:openjpa-examples/simple/src/main/java/reversemapping/schema/ToursDB_schema.sql,161,BUG,MAJOR,Use VARCHAR2 instead of CHAR.
+org.apache.openjpa:openjpa-parent:openjpa-examples/simple/src/main/java/reversemapping/schema/ToursDB_schema.sql,163,BUG,MAJOR,Use VARCHAR2 instead of CHAR.
+org.apache.openjpa:openjpa-parent:openjpa-examples/simple/src/main/java/reversemapping/schema/ToursDB_schema.sql,165,BUG,MAJOR,Use VARCHAR2 instead of CHAR.
+org.apache.openjpa:openjpa-parent:openjpa-examples/simple/src/main/java/reversemapping/schema/ToursDB_schema.sql,167,BUG,MAJOR,Use VARCHAR2 instead of CHAR.
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/ant/package.html,19,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <html> tag.
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/ant/package.html,19,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/ant/package.html,19,BUG,MAJOR,Add a <title> tag to this page.
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/conf/package.html,19,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <html> tag.
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/conf/package.html,19,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/conf/package.html,19,BUG,MAJOR,Add a <title> tag to this page.
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/identifier/DBIdentifier.java,134,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""name"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/identifier/DBIdentifier.java,369,BUG,MINOR,"This class overrides ""equals()"" and should therefore also override ""hashCode()""."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/identifier/DBIdentifier.java,652,BUG,MAJOR,"Either override Object.equals(Object obj), or totally rename the method to prevent any confusion."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/identifier/QualifiedDBIdentifier.java,187,BUG,MINOR,"This class overrides ""equals()"" and should therefore also override ""hashCode()""."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/AbstractJDBCSeq.java,182,BUG,BLOCKER,"Use try-with-resources or close this ""Connection"" in a ""finally"" clause."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/BatchingPreparedStatementManagerImpl.java,241,BUG,CRITICAL,Remove this throw statement from this finally block.
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/FinderCacheImpl.java,318,BUG,MAJOR,"Strings and Boxed types should be compared using ""equals()""."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/FinderCacheImpl.java,331,BUG,MAJOR,"Strings and Boxed types should be compared using ""equals()""."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/JDBCStoreManager.java,385,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""res"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/JDBCStoreManager.java,1440,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""parent"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/StoredProcedureQuery.java,209,BUG,MAJOR,"The return value of ""get"" must be used."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/TableJDBCSeq.java,628,BUG,MAJOR,"""stat"" is a method parameter, and should not be used for synchronization."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/TableJDBCSeq.java,944,BUG,MAJOR,"Change this condition so that it does not always evaluate to ""false"""
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/EqualTypeExpression.java,132,BUG,MAJOR,"This conditional operation returns the same value whether the condition is ""true"" or ""false""."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/EqualTypeExpression.java,134,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""sub"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/NotEqualTypeExpression.java,131,BUG,MAJOR,"This conditional operation returns the same value whether the condition is ""true"" or ""false""."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/PCPath.java,425,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""action"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/PCPath.java,1001,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""lastAction"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/PCPath.java,1197,BUG,MINOR,Add a type test to this method.
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/SimpleCaseExpression.java,93,BUG,MAJOR,"Change this condition so that it does not always evaluate to ""true"""
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/UnaryOp.java,145,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""type"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/Val.java,40,BUG,MINOR,Remove this useless shift
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/Val.java,51,BUG,MAJOR,"Correct one of the identical sub-expressions on both sides of operator ""<<"""
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/package.html,19,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <html> tag.
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/package.html,19,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/package.html,19,BUG,MAJOR,Add a <title> tag to this page.
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/package.html,19,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <html> tag.
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/package.html,19,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/package.html,19,BUG,MAJOR,Add a <title> tag to this page.
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/ClassMapping.java,274,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""fms"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/ClassMapping.java,300,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""ret"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/JavaSQLTypes.java,62,BUG,MAJOR,"Use ""BigDecimal.valueOf"" instead."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/JavaSQLTypes.java,70,BUG,MAJOR,"Use ""BigDecimal.valueOf"" instead."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/MappingDefaultsImpl.java,684,BUG,MAJOR,"This branch can not be reached because the condition duplicates a previous condition in the same sequence of ""if/else if"" statements"
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/ReverseMappingTool.java,1279,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""sub"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/package.html,19,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <html> tag.
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/package.html,19,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/package.html,19,BUG,MAJOR,Add a <title> tag to this page.
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/ColumnVersionStrategy.java,106,BUG,MAJOR,"Use ""BigDecimal.valueOf"" instead."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/ColumnVersionStrategy.java,109,BUG,MAJOR,"Use ""BigDecimal.valueOf"" instead."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/ElementEmbedValueHandler.java,130,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""rval"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/RelationFieldStrategy.java,803,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""sm"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/RelationFieldStrategy.java,805,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""sm"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/RelationRelationMapTableFieldStrategy.java,184,BUG,MAJOR,"Change this condition so that it does not always evaluate to ""false"""
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/StoreCollectionFieldStrategy.java,317,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""oid"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/package.html,19,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <html> tag.
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/package.html,19,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/package.html,19,BUG,MAJOR,Add a <title> tag to this page.
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/Column.java,48,BUG,MINOR,Remove this useless shift
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/Column.java,50,BUG,MAJOR,"Correct one of the identical sub-expressions on both sides of operator ""<<"""
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/DBCPDriverDataSource.java,50,BUG,MINOR,"Use a thread-safe type; adding ""volatile"" is not enough to make this field thread-safe."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/DBCPDriverDataSource.java,76,BUG,MAJOR,"Change this condition so that it does not always evaluate to ""false"""
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/ForeignKey.java,655,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""_joins"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/ForeignKey.java,850,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""locCols"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/ForeignKey.java,854,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""pkCols"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/LocalConstraint.java,109,BUG,MAJOR,"Change this condition so that it does not always evaluate to ""true"""
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/LocalConstraint.java,110,BUG,MAJOR,"Change this condition so that it does not always evaluate to ""true"""
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/SchemaGenerator.java,97,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""schemaArray"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/SchemaGenerator.java,568,BUG,MAJOR,"Remove this call to ""equals""; comparisons between unrelated types always return false."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/SchemaTool.java,1347,BUG,BLOCKER,"Use try-with-resources or close this ""Connection"" in a ""finally"" clause."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/Table.java,705,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""joined"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/Table.java,717,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""joined"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/package.html,19,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <html> tag.
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/package.html,19,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/package.html,19,BUG,MAJOR,Add a <title> tag to this page.
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/DB2Dictionary.java,1120,BUG,MAJOR,"Use an ""instanceof"" comparison instead."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/DBDictionary.java,1635,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""col"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/DBDictionary.java,3786,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""commonCreateAlterSequenceSQL"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/DBDictionaryFactory.java,78,BUG,MAJOR,"""NullPointerException"" will be thrown when invoking method ""dictionaryClassForString()""."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/HSQLDictionary.java,345,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""val"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/HSQLDictionary.java,349,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""val"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/Join.java,198,BUG,MAJOR,Return a non null object.
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/JoinSet.java,173,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""getNode()"" can return null."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/JoinSet.java,405,BUG,MAJOR,Return a non null object.
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/LogicalUnion.java,230,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""sels"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/OracleDictionary.java,764,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""col"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/OracleDictionary.java,819,BUG,MAJOR,"Use an ""instanceof"" comparison instead."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/OracleDictionary.java,865,BUG,MAJOR,"Use an ""instanceof"" comparison instead."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/OracleDictionary.java,867,BUG,MAJOR,"Use an ""instanceof"" comparison instead."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/PostgresDictionary.java,555,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""strName"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/PostgresDictionary.java,601,BUG,BLOCKER,"Use try-with-resources or close this ""LargeObject"" in a ""finally"" clause."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/PostgresDictionary.java,630,BUG,BLOCKER,"Use try-with-resources or close this ""LargeObject"" in a ""finally"" clause."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/PostgresDictionary.java,666,BUG,BLOCKER,"Use try-with-resources or close this ""LargeObject"" in a ""finally"" clause."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/PostgresDictionary.java,680,BUG,BLOCKER,"Use try-with-resources or close this ""LargeObject"" in a ""finally"" clause."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/PostgresDictionary.java,886,BUG,MAJOR,"Use an ""instanceof"" comparison instead."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/PrimaryRow.java,44,BUG,MAJOR,"Correct one of the identical sub-expressions on both sides of operator ""<<"""
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/RowImpl.java,61,BUG,MINOR,Remove this useless shift
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/RowManagerImpl.java,292,BUG,MINOR,Add a type test to this method.
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/SQLServerDictionary.java,190,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""url"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/SelectImpl.java,78,BUG,MINOR,Remove this useless shift
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/SelectImpl.java,80,BUG,MAJOR,"Correct one of the identical sub-expressions on both sides of operator ""<<"""
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/SelectImpl.java,1710,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""_grouped"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/SelectImpl.java,3377,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""_ids"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/SelectImpl.java,3382,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""_idents"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/SelectImpl.java,3387,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""_aliases"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/SelectImpl.java,3392,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""_selectAs"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/SolidDBDictionary.java,379,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""schemaName"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/SolidDBDictionary.java,380,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""schemaName"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/SolidDBDictionary.java,383,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""seqName"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/SolidDBDictionary.java,384,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""seqName"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/SolidDBDictionary.java,398,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""val"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/SolidDBDictionary.java,402,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""val"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/SolidDBDictionary.java,406,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""val"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/SolidDBDictionary.java,425,BUG,MINOR,"Remove the boxing of ""val""."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/SolidDBDictionary.java,429,BUG,MINOR,"Remove the boxing of ""val""."
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/SolidDBDictionary.java,452,BUG,MAJOR,"Change this condition so that it does not always evaluate to ""false"""
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/SolidDBDictionary.java,463,BUG,MAJOR,"Change this condition so that it does not always evaluate to ""false"""
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/package.html,19,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <html> tag.
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/package.html,19,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/package.html,19,BUG,MAJOR,Add a <title> tag to this page.
+org.apache.openjpa:openjpa-parent:openjpa-jest/src/main/java/org/apache/openjpa/persistence/jest/JESTServlet.java,74,BUG,MAJOR,"Remove this misleading mutable servlet instance field or make it ""static"" and/or ""final"""
+org.apache.openjpa:openjpa-parent:openjpa-jest/src/main/java/org/apache/openjpa/persistence/jest/JESTServlet.java,111,VULNERABILITY,MINOR,"Handle the following exception that could be thrown by ""handleError"": IOException."
+org.apache.openjpa:openjpa-parent:openjpa-jest/src/main/java/org/apache/openjpa/persistence/jest/JESTServlet.java,114,VULNERABILITY,MINOR,"Handle the ""ServletException"" thrown here in a ""try/catch"" block."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/abstractstore/package.html,19,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <html> tag.
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/abstractstore/package.html,19,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/abstractstore/package.html,19,BUG,MAJOR,Add a <title> tag to this page.
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/ant/package.html,19,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <html> tag.
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/ant/package.html,19,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/ant/package.html,19,BUG,MAJOR,Add a <title> tag to this page.
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/audit/package.html,19,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <html> tag.
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/audit/package.html,19,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/audit/package.html,19,BUG,MAJOR,Add a <title> tag to this page.
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/conf/CacheMarshallerImpl.java,130,BUG,BLOCKER,"Use try-with-resources or close this ""ObjectOutputStream"" in a ""finally"" clause."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/conf/Specification.java,91,BUG,MINOR,"This class overrides ""equals()"" and should therefore also override ""hashCode()""."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/conf/package.html,19,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <html> tag.
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/conf/package.html,19,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/conf/package.html,19,BUG,MAJOR,Add a <title> tag to this page.
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/datacache/ClearableScheduler.java,131,BUG,MINOR,"Cast one of the operands of this multiplication operation to a ""long""."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/datacache/ClearableScheduler.java,144,BUG,MAJOR,"Either re-interrupt this method or rethrow the ""InterruptedException"" that can be caught here."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/datacache/package.html,19,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <html> tag.
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/datacache/package.html,19,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/datacache/package.html,19,BUG,MAJOR,Add a <title> tag to this page.
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/ee/package.html,19,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <html> tag.
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/ee/package.html,19,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/ee/package.html,19,BUG,MAJOR,Add a <title> tag to this page.
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/enhance/ApplicationIdTool.java,427,BUG,MAJOR,"Strings and Boxed types should be compared using ""equals()""."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/enhance/ApplicationIdTool.java,464,BUG,BLOCKER,"Use try-with-resources or close this ""PrintWriter"" in a ""finally"" clause."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/enhance/ApplicationIdTool.java,654,BUG,MAJOR,"Strings and Boxed types should be compared using ""equals()""."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/enhance/CodeGenerator.java,136,BUG,MAJOR,"Use ""isAssignableFrom"" instead."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/enhance/InstrumentationFactory.java,117,BUG,MAJOR,"""NullPointerException"" will be thrown when invoking method ""loadVMClass()""."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/enhance/InstrumentationFactory.java,154,BUG,BLOCKER,"Use try-with-resources or close this ""ZipOutputStream"" in a ""finally"" clause."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/enhance/InstrumentationFactory.java,340,BUG,BLOCKER,"Use try-with-resources or close this ""URLClassLoader"" in a ""finally"" clause."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/enhance/PCClassFileTransformer.java,173,BUG,MAJOR,"Change this condition so that it does not always evaluate to ""false"""
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/enhance/PCDataGenerator.java,194,BUG,MAJOR,"Call ""Optional#isPresent()"" or ""!Optional#isEmpty()"" before accessing the value."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/enhance/PCDataGenerator.java,344,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""impl"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/enhance/PCEnhancer.java,126,BUG,MINOR,Remove this useless shift
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/enhance/PCEnhancer.java,128,BUG,MAJOR,"Correct one of the identical sub-expressions on both sides of operator ""<<"""
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/enhance/PCEnhancer.java,976,BUG,MAJOR,"Call ""Optional#isPresent()"" or ""!Optional#isEmpty()"" before accessing the value."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/enhance/PCEnhancer.java,1085,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""owner"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/enhance/PCEnhancer.java,2298,BUG,MAJOR,"Use ""isAssignableFrom"" instead."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/enhance/PCEnhancer.java,2403,BUG,MAJOR,"Use ""isAssignableFrom"" instead."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/enhance/PCEnhancer.java,3835,BUG,MAJOR,"Change this condition so that it does not always evaluate to ""false"""
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/enhance/PCEnhancer.java,3949,BUG,MAJOR,"Change this condition so that it does not always evaluate to ""false"""
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/enhance/PCEnhancer.java,3963,BUG,MAJOR,"Change this condition so that it does not always evaluate to ""false"""
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/enhance/PCEnhancer.java,4663,BUG,MAJOR,"Call ""Optional#isPresent()"" or ""!Optional#isEmpty()"" before accessing the value."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/enhance/PCEnhancer.java,5316,BUG,MAJOR,"Call ""Optional#isPresent()"" or ""!Optional#isEmpty()"" before accessing the value."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/enhance/PCEnhancer.java,5333,BUG,MAJOR,"Call ""Optional#isPresent()"" or ""!Optional#isEmpty()"" before accessing the value."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/enhance/PCEnhancer.java,5374,BUG,MAJOR,"Call ""Optional#isPresent()"" or ""!Optional#isEmpty()"" before accessing the value."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/enhance/PCEnhancer.java,5391,BUG,MAJOR,"Call ""Optional#isPresent()"" or ""!Optional#isEmpty()"" before accessing the value."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/enhance/Reflection.java,970,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""method"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/enhance/Reflection.java,973,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""method"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/enhance/package.html,19,BUG,MAJOR,Add a <title> tag to this page.
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/enhance/package.html,19,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <html> tag.
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/enhance/package.html,19,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/event/BeanLifecycleCallbacks.java,37,BUG,MAJOR,Add a no-arg constructor to this class.
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/event/CallbackModes.java,32,BUG,MINOR,Remove this useless shift
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/event/CallbackModes.java,42,BUG,MAJOR,"Correct one of the identical sub-expressions on both sides of operator ""<<"""
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/event/JMSRemoteCommitProvider.java,182,BUG,BLOCKER,"Use try-with-resources or close this ""TopicSubscriber"" in a ""finally"" clause."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/event/JMSRemoteCommitProvider.java,279,BUG,MAJOR,"Either re-interrupt this method or rethrow the ""InterruptedException"" that can be caught here."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/event/MethodLifecycleCallbacks.java,38,BUG,MAJOR,Add a no-arg constructor to this class.
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/event/TCPRemoteCommitProvider.java,389,BUG,MAJOR,"Either re-interrupt this method or rethrow the ""InterruptedException"" that can be caught here."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/event/TCPRemoteCommitProvider.java,423,BUG,MAJOR,"""notify"" may not wake up the appropriate thread."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/event/TCPRemoteCommitProvider.java,465,BUG,MAJOR,"Either re-interrupt this method or rethrow the ""InterruptedException"" that can be caught here."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/event/TCPRemoteCommitProvider.java,702,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""_s"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/event/package.html,19,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <html> tag.
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/event/package.html,19,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/event/package.html,19,BUG,MAJOR,Add a <title> tag to this page.
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/instrumentation/AbstractQueryCacheInstrument.java,214,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""stats"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/AutoDetach.java,29,BUG,MINOR,Remove this useless shift
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/AutoDetach.java,40,BUG,MAJOR,"Correct one of the identical sub-expressions on both sides of operator ""<<"""
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/BrokerImpl.java,138,BUG,MINOR,Remove this useless shift
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/BrokerImpl.java,140,BUG,MAJOR,"Correct one of the identical sub-expressions on both sides of operator ""<<"""
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/BrokerImpl.java,1827,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""_savepoints"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/BrokerImpl.java,1872,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""_savepoints"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/BrokerImpl.java,4869,BUG,MAJOR,"Use ""isAssignableFrom"" instead."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/DetachedStateManager.java,625,BUG,MAJOR,"Strings and Boxed types should be compared using ""equals()""."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/Filters.java,60,BUG,MAJOR,"Use ""BigDecimal.valueOf"" instead."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/Filters.java,1027,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""s"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/ObjectIdStateManager.java,664,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""getValue"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/ObjectIdStateManager.java,669,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""getValue"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/ObjectIdStateManager.java,674,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""getValue"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/ObjectIdStateManager.java,679,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""getValue"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/ObjectIdStateManager.java,684,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""getValue"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/ObjectIdStateManager.java,689,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""getValue"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/ObjectIdStateManager.java,694,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""getValue"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/ObjectIdStateManager.java,699,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""getValue"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/OpCallbacks.java,42,BUG,MINOR,Remove this useless shift
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/PCState.java,46,BUG,CRITICAL,"Remove this reference to ""PNewState""."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/PCState.java,51,BUG,CRITICAL,"Remove this reference to ""PCleanState""."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/PCState.java,56,BUG,CRITICAL,"Remove this reference to ""PDirtyState""."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/PCState.java,61,BUG,CRITICAL,"Remove this reference to ""PDeletedState""."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/PCState.java,66,BUG,CRITICAL,"Remove this reference to ""PNewDeletedState""."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/PCState.java,71,BUG,CRITICAL,"Remove this reference to ""PNewProvisionalState""."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/PCState.java,76,BUG,CRITICAL,"Remove this reference to ""PNonTransState""."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/PCState.java,81,BUG,CRITICAL,"Remove this reference to ""PNonTransDirtyState""."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/PCState.java,86,BUG,CRITICAL,"Remove this reference to ""PNonTransNewState""."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/PCState.java,91,BUG,CRITICAL,"Remove this reference to ""PNonTransDeletedState""."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/PCState.java,96,BUG,CRITICAL,"Remove this reference to ""HollowState""."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/PCState.java,101,BUG,CRITICAL,"Remove this reference to ""TransientState""."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/PCState.java,106,BUG,CRITICAL,"Remove this reference to ""TCleanState""."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/PCState.java,111,BUG,CRITICAL,"Remove this reference to ""TDirtyState""."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/PCState.java,116,BUG,CRITICAL,"Remove this reference to ""TLoadedState""."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/PCState.java,121,BUG,CRITICAL,"Remove this reference to ""ECopyState""."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/PCState.java,126,BUG,CRITICAL,"Remove this reference to ""ECleanState""."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/PCState.java,131,BUG,CRITICAL,"Remove this reference to ""EDirtyState""."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/PCState.java,136,BUG,CRITICAL,"Remove this reference to ""EDeletedState""."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/PCState.java,141,BUG,CRITICAL,"Remove this reference to ""ENonTransState""."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/PCState.java,146,BUG,CRITICAL,"Remove this reference to ""PNewFlushedDeletedState""."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/PCState.java,151,BUG,CRITICAL,"Remove this reference to ""PNewFlushedDeletedFlushedState""."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/PCState.java,156,BUG,CRITICAL,"Remove this reference to ""PDeletedFlushedState""."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,638,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""compileForCompilation()"" can return null."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,729,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""comp"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,738,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""comp"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/StateManagerImpl.java,92,BUG,MINOR,Remove this useless shift
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/StateManagerImpl.java,94,BUG,MAJOR,"Correct one of the identical sub-expressions on both sides of operator ""<<"""
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/StateManagerImpl.java,3340,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""fetch"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/StateManagerImpl.java,3344,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""fetch"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/StateManagerImpl.java,3583,BUG,MAJOR,"Make the ""org.apache.openjpa.enhance.PersistenceCapable"" class ""Serializable"" or don't write it."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/StoreContext.java,44,BUG,MINOR,Remove this useless shift
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/StoreContext.java,46,BUG,MAJOR,"Correct one of the identical sub-expressions on both sides of operator ""<<"""
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/exps/CandidatePath.java,195,BUG,MINOR,Add a type test to this method.
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/exps/CandidatePath.java,198,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""other"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/exps/ExpressionFactory.java,46,BUG,MAJOR,"Either override Object.equals(Object obj), or totally rename the method to prevent any confusion."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/exps/InMemoryExpressionFactory.java,149,BUG,MAJOR,"Change this condition so that it does not always evaluate to ""false"""
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/exps/InMemoryExpressionFactory.java,153,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""group"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/exps/InMemoryExpressionFactory.java,764,BUG,MINOR,Add a type test to this method.
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/exps/QueryExpressions.java,46,BUG,MAJOR,"Correct one of the identical sub-expressions on both sides of operator ""<<"""
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/exps/package.html,19,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <html> tag.
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/exps/package.html,19,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/exps/package.html,19,BUG,MAJOR,Add a <title> tag to this page.
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/jpql/JPQLExpressionBuilder.java,164,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""fmd"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/jpql/JPQLExpressionBuilder.java,268,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""fmd"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/jpql/JPQLExpressionBuilder.java,600,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""selectClause"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/jpql/JPQLExpressionBuilder.java,733,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""fmd"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/jpql/JPQLExpressionBuilder.java,781,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""alias"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/jpql/package.html,19,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <html> tag.
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/jpql/package.html,19,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/jpql/package.html,19,BUG,MAJOR,Add a <title> tag to this page.
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/package.html,19,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <html> tag.
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/package.html,19,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/package.html,19,BUG,MAJOR,Add a <title> tag to this page.
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/meta/AccessCode.java,77,BUG,MAJOR,"Correct one of the identical sub-expressions on both sides of operator ""<<"""
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/meta/ClassMetaData.java,286,BUG,MAJOR,"Use an ""instanceof"" comparison instead."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/meta/Extensions.java,446,BUG,MINOR,Add a type test to this method.
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/meta/Extensions.java,450,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""hk"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/meta/FetchGroup.java,286,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""_meta"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/meta/FetchGroup.java,335,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""_meta"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/meta/FieldMetaData.java,1860,BUG,MAJOR,"Use ""isAssignableFrom"" instead."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/meta/InheritanceComparator.java,85,BUG,MAJOR,"Change this condition so that it does not always evaluate to ""true"""
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/meta/JavaTypes.java,326,BUG,MAJOR,"Use ""BigDecimal.valueOf"" instead."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/meta/LifecycleMetaData.java,41,BUG,MINOR,Remove this useless shift
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/meta/MetaDataRepository.java,1881,BUG,MAJOR,"""map"" is a method parameter, and should not be used for synchronization."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/meta/ValueMetaDataImpl.java,370,BUG,MAJOR,"Strings and Boxed types should be compared using ""equals()""."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/meta/package.html,19,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <html> tag.
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/meta/package.html,19,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/meta/package.html,19,BUG,MAJOR,Add a <title> tag to this page.
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/util/ApplicationIds.java,513,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""id"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/util/ImplHelper.java,294,BUG,MAJOR,"""o"" is a method parameter, and should not be used for synchronization."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/util/OpenJPAException.java,126,BUG,MAJOR,"Make this method ""synchronized"" to match the parent class implementation."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/util/ProxyManagerImpl.java,412,BUG,MAJOR,"""NullPointerException"" will be thrown when invoking method ""instantiateProxy()""."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/util/ProxyManagerImpl.java,430,BUG,MAJOR,"""NullPointerException"" will be thrown when invoking method ""instantiateProxy()""."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/util/ProxyManagerImpl.java,448,BUG,MAJOR,"""NullPointerException"" will be thrown when invoking method ""instantiateProxy()""."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/util/ProxyManagerImpl.java,466,BUG,MAJOR,"""NullPointerException"" will be thrown when invoking method ""instantiateProxy()""."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/util/ProxyManagerImpl.java,1810,BUG,MAJOR,"Use an ""instanceof"" comparison instead."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/util/StoreFacadeTypeRegistry.java,110,BUG,MINOR,Add a type test to this method.
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/util/StoreFacadeTypeRegistry.java,114,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""k"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/util/package.html,19,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <html> tag.
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/util/package.html,19,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/util/package.html,19,BUG,MAJOR,Add a <title> tag to this page.
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/util/proxy/DelayedVectorProxy.java,430,BUG,MAJOR,"Make this method ""synchronized"" to match the parent class implementation."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/util/proxy/DelayedVectorProxy.java,442,BUG,MAJOR,"Make this method ""synchronized"" to match the parent class implementation."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/util/proxy/DelayedVectorProxy.java,455,BUG,MAJOR,"Make this method ""synchronized"" to match the parent class implementation."
+org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/validation/ValidatingLifecycleEventManager.java,111,BUG,MAJOR,"Make this method ""synchronized"" to match the parent class implementation."
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/ant/package.html,22,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <html> tag.
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/ant/package.html,22,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/ant/package.html,22,BUG,MAJOR,Add a <title> tag to this page.
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/conf/Configurations.java,90,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""plugin"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/conf/Configurations.java,136,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""origCls"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/conf/Configurations.java,226,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""conf"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/conf/Value.java,556,BUG,MAJOR,Return a non null object.
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/conf/package.html,19,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <html> tag.
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/conf/package.html,19,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/conf/package.html,19,BUG,MAJOR,Add a <title> tag to this page.
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/graph/package.html,19,BUG,MAJOR,Add a <title> tag to this page.
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/graph/package.html,19,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <html> tag.
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/graph/package.html,19,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/identifier/IdentifierImpl.java,63,BUG,MINOR,"This class overrides ""hashCode()"" and should therefore also override ""equals()""."
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/identifier/IdentifierUtilImpl.java,100,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""combined"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/jdbc/ConfiguringConnectionDecorator.java,162,BUG,BLOCKER,"Use try-with-resources or close this ""Statement"" in a ""finally"" clause."
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/jdbc/ConfiguringConnectionDecorator.java,171,BUG,BLOCKER,"Use try-with-resources or close this ""Statement"" in a ""finally"" clause."
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/jdbc/package.html,19,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <html> tag.
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/jdbc/package.html,19,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/jdbc/package.html,19,BUG,MAJOR,Add a <title> tag to this page.
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/log/package.html,19,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <html> tag.
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/log/package.html,19,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/log/package.html,19,BUG,MAJOR,Add a <title> tag to this page.
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/meta/XMLMetaDataSerializer.java,113,BUG,BLOCKER,"Use try-with-resources or close this ""FileWriter"" in a ""finally"" clause."
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/meta/package.html,19,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <html> tag.
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/meta/package.html,19,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/meta/package.html,19,BUG,MAJOR,Add a <title> tag to this page.
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/rop/package.html,19,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <html> tag.
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/rop/package.html,19,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/rop/package.html,19,BUG,MAJOR,Add a <title> tag to this page.
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/util/FormatPreservingProperties.java,203,BUG,MAJOR,"Make this method ""synchronized"" to match the parent class implementation."
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/util/Localizer.java,91,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""cls"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/util/Options.java,645,BUG,MAJOR,"Make this method ""synchronized"" to match the parent class implementation."
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/util/StringUtil.java,113,BUG,MAJOR,"Strings and Boxed types should be compared using ""equals()""."
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/util/StringUtil.java,115,BUG,MAJOR,"Strings and Boxed types should be compared using ""equals()""."
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/util/TypedProperties.java,161,BUG,MAJOR,"Make this method ""synchronized"" to match the parent class implementation."
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/util/collections/AbstractReferenceMap.java,983,BUG,MINOR,"This class overrides ""hashCode()"" and should therefore also override ""equals()""."
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/util/collections/AbstractReferenceMap.java,1001,BUG,MINOR,"This class overrides ""hashCode()"" and should therefore also override ""equals()""."
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/util/collections/LRUMap.java,332,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""header"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/util/collections/TreeBidiMap.java,323,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""leastNode()"" can return null."
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/util/collections/TreeBidiMap.java,337,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""greatestNode()"" can return null."
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/util/collections/TreeBidiMap.java,938,BUG,MAJOR,"""NullPointerException"" will be thrown when invoking method ""rotateRight()""."
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/util/collections/TreeBidiMap.java,964,BUG,MAJOR,"""NullPointerException"" will be thrown when invoking method ""rotateLeft()""."
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/util/collections/TreeBidiMap.java,1473,BUG,MAJOR,"Make the ""K"" class ""Serializable"" or don't write it."
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/util/collections/TreeBidiMap.java,1474,BUG,MAJOR,"Make the ""V"" class ""Serializable"" or don't write it."
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/util/collections/TreeBidiMap.java,2146,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""leastNode()"" can return null."
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/util/collections/TreeBidiMap.java,2154,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""greatestNode()"" can return null."
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/util/concurrent/ConcurrentHashMap.java,79,BUG,CRITICAL,"Save and re-use this ""Random""."
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/util/concurrent/ConcurrentReferenceHashMap.java,59,BUG,CRITICAL,"Save and re-use this ""Random""."
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/util/concurrent/ConcurrentReferenceHashMap.java,115,BUG,MAJOR,"Rename this method or make it ""static""."
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/util/concurrent/package.html,19,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <html> tag.
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/util/concurrent/package.html,19,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/util/concurrent/package.html,19,BUG,MAJOR,Add a <title> tag to this page.
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/util/package.html,19,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <html> tag.
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/util/package.html,19,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/util/package.html,19,BUG,MAJOR,Add a <title> tag to this page.
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/xml/package.html,19,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <html> tag.
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/xml/package.html,19,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/xml/package.html,19,BUG,MAJOR,Add a <title> tag to this page.
+org.apache.openjpa:openjpa-parent:openjpa-persistence-jdbc/src/main/java/org/apache/openjpa/persistence/jdbc/AnnotationPersistenceMappingParser.java,743,BUG,MAJOR,"Remove this ""throw"" statement or make it conditional."
+org.apache.openjpa:openjpa-parent:openjpa-persistence-jdbc/src/main/java/org/apache/openjpa/persistence/jdbc/AnnotationPersistenceMappingParser.java,1505,BUG,MAJOR,"""NullPointerException"" will be thrown when invoking method ""getAttributeOverrideField()""."
+org.apache.openjpa:openjpa-parent:openjpa-persistence-jdbc/src/main/java/org/apache/openjpa/persistence/jdbc/PersistenceMappingDefaults.java,148,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""table"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-persistence-jdbc/src/main/java/org/apache/openjpa/persistence/jdbc/XMLPersistenceMappingParser.java,644,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""_mapKeyTemporal"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-persistence-jdbc/src/main/java/org/apache/openjpa/persistence/jdbc/XMLPersistenceMappingParser.java,1749,BUG,MAJOR,"Remove or correct this ""removeAll"" call."
+org.apache.openjpa:openjpa-parent:openjpa-persistence-jdbc/src/main/java/org/apache/openjpa/persistence/jdbc/package.html,19,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <html> tag.
+org.apache.openjpa:openjpa-parent:openjpa-persistence-jdbc/src/main/java/org/apache/openjpa/persistence/jdbc/package.html,19,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.apache.openjpa:openjpa-parent:openjpa-persistence-jdbc/src/main/java/org/apache/openjpa/persistence/jdbc/package.html,19,BUG,MAJOR,Add a <title> tag to this page.
+org.apache.openjpa:openjpa-parent:openjpa-persistence-jdbc/src/test/java/org/apache/openjpa/persistence/TestUnwrap.java,132,BUG,CRITICAL,Don't use assertNotNull() inside a try-catch catching an AssertionError.
+org.apache.openjpa:openjpa-parent:openjpa-persistence-jdbc/src/test/java/org/apache/openjpa/persistence/TestUnwrap.java,133,BUG,CRITICAL,Don't use assertEquals() inside a try-catch catching an AssertionError.
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/ArgumentException.java,77,BUG,MAJOR,"Make this method ""synchronized"" to match the parent class implementation."
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/EntityExistsException.java,72,BUG,MAJOR,"Make this method ""synchronized"" to match the parent class implementation."
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/EntityManagerFactoryImpl.java,483,BUG,MAJOR,"Strings and Boxed types should be compared using ""equals()""."
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/EntityManagerFactoryImpl.java,490,BUG,MAJOR,"Strings and Boxed types should be compared using ""equals()""."
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/EntityManagerImpl.java,1773,BUG,BLOCKER,"Use try-with-resources or close this ""BrokerBytesInputStream"" in a ""finally"" clause."
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/EntityManagerImpl.java,1803,BUG,MAJOR,"Make the ""org.apache.openjpa.kernel.Broker"" class ""Serializable"" or don't write it."
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/EntityNotFoundException.java,72,BUG,MAJOR,"Make this method ""synchronized"" to match the parent class implementation."
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/InvalidStateException.java,78,BUG,MAJOR,"Make this method ""synchronized"" to match the parent class implementation."
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/JPAFacadeHelper.java,127,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""emf"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/LockTimeoutException.java,68,BUG,MAJOR,"Make this method ""synchronized"" to match the parent class implementation."
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/NoResultException.java,72,BUG,MAJOR,"Make this method ""synchronized"" to match the parent class implementation."
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/NonUniqueResultException.java,72,BUG,MAJOR,"Make this method ""synchronized"" to match the parent class implementation."
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/OptimisticLockException.java,72,BUG,MAJOR,"Make this method ""synchronized"" to match the parent class implementation."
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/PersistenceException.java,71,BUG,MAJOR,"Make this method ""synchronized"" to match the parent class implementation."
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/PersistenceExceptions.java,187,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""queryEx"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/PersistenceMetaDataDefaults.java,321,BUG,MAJOR,"Use an ""instanceof"" comparison instead."
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/PersistenceProductDerivation.java,446,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""rsrc"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/PersistenceProductDerivation.java,449,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""rsrc"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/PersistenceProductDerivation.java,455,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""rsrc"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/PersistenceProductDerivation.java,551,BUG,MAJOR,"Change this condition so that it does not always evaluate to ""false"""
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/PessimisticLockException.java,70,BUG,MAJOR,"Make this method ""synchronized"" to match the parent class implementation."
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/QueryImpl.java,71,BUG,MINOR,"Add a no-arg constructor to ""AbstractQuery""."
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/QueryImpl.java,92,BUG,MAJOR,"Strings and Boxed types should be compared using ""equals()""."
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/QueryTimeoutException.java,75,BUG,MAJOR,"Make this method ""synchronized"" to match the parent class implementation."
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/RollbackException.java,69,BUG,MAJOR,"Make this method ""synchronized"" to match the parent class implementation."
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/TransactionRequiredException.java,78,BUG,MAJOR,"Make this method ""synchronized"" to match the parent class implementation."
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/criteria/CriteriaQueryImpl.java,789,BUG,MINOR,"This class overrides ""equals()"" and should therefore also override ""hashCode()""."
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/criteria/Expressions.java,867,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""e1"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/criteria/Expressions.java,895,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""e1"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/criteria/Expressions.java,923,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""e1"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/criteria/Expressions.java,951,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""e1"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/criteria/Expressions.java,979,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""e1"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/criteria/Expressions.java,1007,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""e1"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/criteria/Expressions.java,1193,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""e"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/criteria/Expressions.java,1334,BUG,MAJOR,"Change this condition so that it does not always evaluate to ""false"""
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/criteria/Joins.java,210,BUG,MAJOR,"A ""Set<Join>"" cannot contain a ""PathImpl""."
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/criteria/Joins.java,259,BUG,MAJOR,"A ""Set<Join>"" cannot contain a ""PathImpl""."
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/criteria/Joins.java,465,BUG,MAJOR,"A ""Set<Join>"" cannot contain a ""PathImpl""."
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/criteria/ParameterExpressionImpl.java,161,BUG,MAJOR,"Change this condition so that it does not always evaluate to ""false"""
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/criteria/PathImpl.java,207,BUG,MAJOR,"A ""Set<Root>"" cannot contain a ""PathImpl""."
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/criteria/PathImpl.java,225,BUG,MAJOR,"A ""Set<Root>"" cannot contain a ""PathImpl""."
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/criteria/PathImpl.java,231,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""parent"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/criteria/SubqueryImpl.java,352,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""root"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/criteria/package.html,19,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <html> tag.
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/criteria/package.html,19,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/criteria/package.html,19,BUG,MAJOR,Add a <title> tag to this page.
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/meta/AbstractManagedType.java,796,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""t1"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/meta/AnnotationProcessor6.java,303,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""modelField"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/meta/AnnotationProcessor6.java,393,BUG,BLOCKER,"Use try-with-resources or close this ""InputStream"" in a ""finally"" clause."
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/meta/AnnotationProcessor6.java,394,BUG,BLOCKER,"Use try-with-resources or close this ""Scanner"" in a ""finally"" clause."
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/meta/MetamodelImpl.java,355,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""f"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/meta/SourceAnnotationHandler.java,475,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""e"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/meta/package.html,19,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <html> tag.
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/meta/package.html,19,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/meta/package.html,19,BUG,MAJOR,Add a <title> tag to this page.
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/osgi/package.html,19,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <html> tag.
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/osgi/package.html,19,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/osgi/package.html,19,BUG,MAJOR,Add a <title> tag to this page.
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/package.html,19,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <html> tag.
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/package.html,19,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/package.html,19,BUG,MAJOR,Add a <title> tag to this page.
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/query/PredicateOperand.java,38,BUG,MAJOR,"Either override Object.equals(Object obj), or totally rename the method to prevent any confusion."
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/query/PredicateOperand.java,47,BUG,MAJOR,"Either override Object.equals(Object obj), or totally rename the method to prevent any confusion."
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/query/PredicateOperand.java,56,BUG,MAJOR,"Either override Object.equals(Object obj), or totally rename the method to prevent any confusion."
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/query/PredicateOperand.java,65,BUG,MAJOR,"Either override Object.equals(Object obj), or totally rename the method to prevent any confusion."
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/query/PredicateOperand.java,74,BUG,MAJOR,"Either override Object.equals(Object obj), or totally rename the method to prevent any confusion."
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/query/PredicateOperand.java,83,BUG,MAJOR,"Either override Object.equals(Object obj), or totally rename the method to prevent any confusion."
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/query/PredicateOperand.java,92,BUG,MAJOR,"Either override Object.equals(Object obj), or totally rename the method to prevent any confusion."
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/query/PredicateOperand.java,101,BUG,MAJOR,"Either override Object.equals(Object obj), or totally rename the method to prevent any confusion."
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/query/package.html,19,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <html> tag.
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/query/package.html,19,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/query/package.html,19,BUG,MAJOR,Add a <title> tag to this page.
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/util/SourceCode.java,566,BUG,MINOR,"This class overrides ""equals()"" and should therefore also override ""hashCode()""."
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/util/SourceCode.java,677,BUG,MINOR,"This class overrides ""equals()"" and should therefore also override ""hashCode()""."
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/util/SourceCode.java,781,BUG,MINOR,"This class overrides ""equals()"" and should therefore also override ""hashCode()""."
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/util/package.html,19,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <html> tag.
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/util/package.html,19,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/util/package.html,19,BUG,MAJOR,Add a <title> tag to this page.
+org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/validation/ValidationUtils.java,144,BUG,MAJOR,"Use an ""instanceof"" comparison instead."
+org.apache.openjpa:openjpa-parent:openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/DistributedJDBCConfigurationImpl.java,184,BUG,MAJOR,"Change this condition so that it does not always evaluate to ""false"""
+org.apache.openjpa:openjpa-parent:openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/DistributedJDBCConfigurationImpl.java,437,BUG,MAJOR,"Change this condition so that it does not always evaluate to ""false"""
+org.apache.openjpa:openjpa-parent:openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/DistributedJDBCStoreManager.java,189,BUG,MAJOR,"Remove this ""return"" statement or make it conditional."
+org.apache.openjpa:openjpa-parent:openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/DistributedJDBCStoreManager.java,197,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""selectStore()"" can return null."
+org.apache.openjpa:openjpa-parent:openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/DistributedJDBCStoreManager.java,227,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""selectStore()"" can return null."
+org.apache.openjpa:openjpa-parent:openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/DistributedJDBCStoreManager.java,290,BUG,MAJOR,"Either re-interrupt this method or rethrow the ""InterruptedException"" that can be caught here."
+org.apache.openjpa:openjpa-parent:openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/DistributedJDBCStoreManager.java,406,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""lookup()"" can return null."
+org.apache.openjpa:openjpa-parent:openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/DistributedJDBCStoreManager.java,426,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""selectStore()"" can return null."
+org.apache.openjpa:openjpa-parent:openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/DistributedJDBCStoreManager.java,505,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""slice"" is nullable here."
+org.apache.openjpa:openjpa-parent:openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/DistributedPreparedStatement.java,73,BUG,BLOCKER,"Use try-with-resources or close this ""DistributedResultSet"" in a ""finally"" clause."
+org.apache.openjpa:openjpa-parent:openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/DistributedSQLStoreQuery.java,143,BUG,MAJOR,"Either re-interrupt this method or rethrow the ""InterruptedException"" that can be caught here."
+org.apache.openjpa:openjpa-parent:openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/DistributedSQLStoreQuery.java,213,BUG,MAJOR,"Either re-interrupt this method or rethrow the ""InterruptedException"" that can be caught here."
+org.apache.openjpa:openjpa-parent:openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/DistributedSQLStoreQuery.java,241,BUG,MAJOR,"Either re-interrupt this method or rethrow the ""InterruptedException"" that can be caught here."
+org.apache.openjpa:openjpa-parent:openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/DistributedStoreQuery.java,146,BUG,MAJOR,"Either re-interrupt this method or rethrow the ""InterruptedException"" that can be caught here."
+org.apache.openjpa:openjpa-parent:openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/DistributedStoreQuery.java,215,BUG,MAJOR,"Either re-interrupt this method or rethrow the ""InterruptedException"" that can be caught here."
+org.apache.openjpa:openjpa-parent:openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/DistributedStoreQuery.java,243,BUG,MAJOR,"Either re-interrupt this method or rethrow the ""InterruptedException"" that can be caught here."
+org.apache.openjpa:openjpa-parent:openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/DistributedTemplate.java,140,BUG,BLOCKER,"Use try-with-resources or close this ""DistributedResultSet"" in a ""finally"" clause."
+org.apache.openjpa:openjpa-parent:openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/DistributedTemplate.java,148,BUG,BLOCKER,"Use try-with-resources or close this ""DistributedResultSet"" in a ""finally"" clause."
+org.apache.openjpa:openjpa-parent:openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/DistributedTemplate.java,203,BUG,BLOCKER,"Use try-with-resources or close this ""DistributedResultSet"" in a ""finally"" clause."
+org.apache.openjpa:openjpa-parent:openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/DistributedTemplate.java,242,BUG,BLOCKER,"Use try-with-resources or close this ""DistributedResultSet"" in a ""finally"" clause."
+org.apache.openjpa:openjpa-parent:openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/UniqueResultObjectProvider.java,153,BUG,MAJOR,"Change this condition so that it does not always evaluate to ""false"""
+org.apache.openjpa:openjpa-parent:openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/UniqueResultObjectProvider.java,175,BUG,MAJOR,"Change this condition so that it does not always evaluate to ""false"""
+org.apache.openjpa:openjpa-parent:openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/UniqueResultObjectProvider.java,188,BUG,MAJOR,"Change this condition so that it does not always evaluate to ""false"""
+org.apache.openjpa:openjpa-parent:openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/package.html,19,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <HTML> tag.
+org.apache.openjpa:openjpa-parent:openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/package.html,19,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.apache.openjpa:openjpa-parent:openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/package.html,19,BUG,MAJOR,Add a <title> tag to this page.
+org.apache.openjpa:openjpa-parent:openjpa-slice/src/main/java/org/apache/openjpa/slice/package.html,19,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <HTML> tag.
+org.apache.openjpa:openjpa-parent:openjpa-slice/src/main/java/org/apache/openjpa/slice/package.html,19,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.apache.openjpa:openjpa-parent:openjpa-slice/src/main/java/org/apache/openjpa/slice/package.html,19,BUG,MAJOR,Add a <title> tag to this page.
+org.apache.openjpa:openjpa-parent:openjpa-tools/openjpa-maven-plugin/src/main/java/org/apache/openjpa/tools/maven/AbstractOpenJpaMappingToolMojo.java,171,BUG,MAJOR,"Use ""isAssignableFrom"" instead."
+org.apache.openjpa:openjpa-parent:openjpa-xmlstore/src/main/java/org/apache/openjpa/xmlstore/XMLStore.java,109,BUG,MAJOR,"Either re-interrupt this method or rethrow the ""InterruptedException"" that can be caught here."
+org.apache.openjpa:openjpa-parent:openjpa-xmlstore/src/main/java/org/apache/openjpa/xmlstore/XMLStore.java,152,BUG,MAJOR,"""notify"" may not wake up the appropriate thread."
+org.apache.openjpa:openjpa-parent:openjpa-xmlstore/src/main/java/org/apache/openjpa/xmlstore/package.html,19,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <html> tag.
+org.apache.openjpa:openjpa-parent:openjpa-xmlstore/src/main/java/org/apache/openjpa/xmlstore/package.html,19,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.apache.openjpa:openjpa-parent:openjpa-xmlstore/src/main/java/org/apache/openjpa/xmlstore/package.html,19,BUG,MAJOR,Add a <title> tag to this page.
+org.apache.openjpa:openjpa-parent:pom.xml,1227,BUG,CRITICAL,"Update this scope and remove the ""systemPath""."
+org.apache.openjpa:openjpa-parent:pom.xml,1268,BUG,CRITICAL,"Update this scope and remove the ""systemPath""."
+org.apache.openjpa:openjpa-parent:pom.xml,1275,BUG,CRITICAL,"Update this scope and remove the ""systemPath""."

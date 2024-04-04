@@ -1,0 +1,55 @@
+file_path,line_number,type,severity,description
+eecs4313group4_ponyorm:pony/flask/example/templates/index.html,1,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <html> tag.
+eecs4313group4_ponyorm:pony/flask/example/templates/index.html,1,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+eecs4313group4_ponyorm:pony/flask/example/templates/login.html,1,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <html> tag.
+eecs4313group4_ponyorm:pony/flask/example/templates/login.html,1,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+eecs4313group4_ponyorm:pony/flask/example/templates/reg.html,1,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <html> tag.
+eecs4313group4_ponyorm:pony/flask/example/templates/reg.html,1,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+eecs4313group4_ponyorm:pony/orm/core.py,880,BUG,MAJOR,Fix this attribute access on a value that can be 'None'.
+eecs4313group4_ponyorm:pony/orm/core.py,2270,BUG,MAJOR,Fix this attribute access on a value that can be 'None'.
+eecs4313group4_ponyorm:pony/orm/core.py,2288,BUG,MAJOR,Fix this attribute access on a value that can be 'None'.
+eecs4313group4_ponyorm:pony/orm/core.py,3985,BUG,BLOCKER,Return an object complying with iterator protocol.
+eecs4313group4_ponyorm:pony/orm/core.py,4817,BUG,MAJOR,Fix this attribute access on a value that can be 'None'.
+eecs4313group4_ponyorm:pony/orm/core.py,6333,BUG,BLOCKER,Return an object complying with iterator protocol.
+eecs4313group4_ponyorm:pony/orm/dbapiprovider.py,197,BUG,CRITICAL,Fix this access on a collection that may trigger an 'IndexError'.
+eecs4313group4_ponyorm:pony/orm/dbproviders/sqlite.py,37,BUG,MINOR,Introduce a new variable or use its initial value before reassigning 'translator'.
+eecs4313group4_ponyorm:pony/orm/sqlbuilding.py,332,BUG,CRITICAL,Fix this access on a collection that may trigger an 'IndexError'.
+eecs4313group4_ponyorm:pony/orm/sqlbuilding.py,342,BUG,CRITICAL,Fix this access on a collection that may trigger an 'IndexError'.
+eecs4313group4_ponyorm:pony/orm/sqltranslation.py,2186,BUG,MAJOR,Fix this attribute access on a value that can be 'None'.
+eecs4313group4_ponyorm:pony/orm/sqltranslation.py,2231,BUG,MINOR,Introduce a new variable or use its initial value before reassigning 'sqlquery'.
+eecs4313group4_ponyorm:pony/orm/sqltranslation.py,2545,BUG,MAJOR,Change this condition so that it does not always evaluate to false; some subsequent code is never executed.
+eecs4313group4_ponyorm:pony/orm/tests/fixtures.py,195,BUG,BLOCKER,Remove this return value.
+eecs4313group4_ponyorm:pony/orm/tests/fixtures.py,495,BUG,BLOCKER,Change this code so that it raises an object deriving from BaseException.
+eecs4313group4_ponyorm:pony/orm/tests/fixtures.py,497,BUG,BLOCKER,Change this code so that it raises an object deriving from BaseException.
+eecs4313group4_ponyorm:pony/orm/tests/test_core_multiset.py,129,BUG,MAJOR,"Correct one of the identical sub-expressions on both sides of operator ""!=""."
+eecs4313group4_ponyorm:pony/orm/tests/test_db_session.py,62,BUG,MAJOR,Remove or refactor this statement; it has no side effects.
+eecs4313group4_ponyorm:pony/orm/tests/test_db_session.py,76,BUG,MAJOR,Remove or refactor this statement; it has no side effects.
+eecs4313group4_ponyorm:pony/orm/tests/test_db_session.py,90,BUG,MAJOR,Remove or refactor this statement; it has no side effects.
+eecs4313group4_ponyorm:pony/orm/tests/test_db_session.py,104,BUG,MAJOR,Remove or refactor this statement; it has no side effects.
+eecs4313group4_ponyorm:pony/orm/tests/test_db_session.py,118,BUG,MAJOR,Remove or refactor this statement; it has no side effects.
+eecs4313group4_ponyorm:pony/orm/tests/test_db_session.py,146,BUG,MAJOR,Remove or refactor this statement; it has no side effects.
+eecs4313group4_ponyorm:pony/orm/tests/test_db_session.py,163,BUG,MAJOR,Remove or refactor this statement; it has no side effects.
+eecs4313group4_ponyorm:pony/orm/tests/test_db_session.py,180,BUG,MAJOR,Remove or refactor this statement; it has no side effects.
+eecs4313group4_ponyorm:pony/orm/tests/test_db_session.py,197,BUG,MAJOR,Remove or refactor this statement; it has no side effects.
+eecs4313group4_ponyorm:pony/orm/tests/test_db_session.py,214,BUG,MAJOR,Remove or refactor this statement; it has no side effects.
+eecs4313group4_ponyorm:pony/orm/tests/test_db_session.py,239,BUG,MAJOR,Remove or refactor this statement; it has no side effects.
+eecs4313group4_ponyorm:pony/orm/tests/test_db_session.py,351,BUG,MAJOR,Remove or refactor this statement; it has no side effects.
+eecs4313group4_ponyorm:pony/orm/tests/test_db_session.py,360,BUG,MAJOR,Remove or refactor this statement; it has no side effects.
+eecs4313group4_ponyorm:pony/orm/tests/test_db_session.py,370,BUG,MAJOR,Remove or refactor this statement; it has no side effects.
+eecs4313group4_ponyorm:pony/orm/tests/test_db_session.py,382,BUG,MAJOR,Remove or refactor this statement; it has no side effects.
+eecs4313group4_ponyorm:pony/orm/tests/test_declarative_exceptions.py,83,BUG,BLOCKER,Change the type of 2; type int does not support membership protocol.
+eecs4313group4_ponyorm:pony/orm/tests/test_declarative_exceptions.py,191,BUG,BLOCKER,Remove 1 unexpected arguments; 'len' expects 1 positional arguments.
+eecs4313group4_ponyorm:pony/orm/tests/test_declarative_exceptions.py,206,BUG,MAJOR,"The return value of ""max"" must be used."
+eecs4313group4_ponyorm:pony/orm/tests/test_declarative_exceptions.py,209,BUG,MAJOR,"The return value of ""max"" must be used."
+eecs4313group4_ponyorm:pony/orm/tests/test_declarative_exceptions.py,212,BUG,MAJOR,"The return value of ""sum"" must be used."
+eecs4313group4_ponyorm:pony/orm/tests/test_declarative_exceptions.py,215,BUG,MAJOR,"The return value of ""sum"" must be used."
+eecs4313group4_ponyorm:pony/orm/tests/test_declarative_exceptions.py,218,BUG,MAJOR,"The return value of ""sum"" must be used."
+eecs4313group4_ponyorm:pony/orm/tests/test_declarative_query_set_monad.py,308,BUG,CRITICAL,Change this assertion to not compare dissimilar types (set and dict).
+eecs4313group4_ponyorm:pony/orm/tests/test_declarative_sqltranslator2.py,213,BUG,MAJOR,Do not perform equality checks with floating point values.
+eecs4313group4_ponyorm:pony/orm/tests/test_hybrid_methods_and_properties.py,62,BUG,MAJOR,Remove or refactor this statement; it has no side effects.
+eecs4313group4_ponyorm:pony/orm/tests/test_hybrid_methods_and_properties.py,66,BUG,MAJOR,Remove or refactor this statement; it has no side effects.
+eecs4313group4_ponyorm:pony/orm/tests/test_json.py,279,BUG,MAJOR,Remove or correct this useless self-assignment.
+eecs4313group4_ponyorm:pony/orm/tests/test_prefetching.py,106,BUG,MAJOR,"The return value of ""set"" must be used."
+eecs4313group4_ponyorm:pony/orm/tests/test_prefetching.py,112,BUG,MAJOR,"The return value of ""set"" must be used."
+eecs4313group4_ponyorm:pony/thirdparty/decorator.py,248,BUG,BLOCKER,Remove this return value.
+eecs4313group4_ponyorm:pony/utils/utils.py,98,BUG,MAJOR,Remove this if statement or edit its code blocks so that they're not all the same.
