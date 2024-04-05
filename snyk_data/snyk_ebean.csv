@@ -1,1 +1,38 @@
-
+﻿File Path,Line Number,Type,Severity,Description
+ebean/ebean-redis/pom.xml,23,Allocation of Resources Without Limits or Throttling,High,Affected versions of this package are vulnerable to Allocation of Resources Without Limits or Throttling. An attacker can cause indefinite amounts of memory to be used by inputting a string of modest size. This can lead to a Denial of Service.
+ebean/ebean-redis/pom.xml,23,Denial of Service (DoS),High,Affected versions of this package are vulnerable to Denial of Service (DoS) in the XML.toJSONObject component via crafted JSON or XML data.
+ebean/ebean-redis/pom.xml,23,Remote Code Execution (RCE),High,"Affected versions of this package are vulnerable to Remote Code Execution (RCE). It provides a web console for managing the database, and by default it does not have a password set."
+ebean/ebean-redis/pom.xml,23,"Dual License: EPL -1.0, MPL-2.0",Medium,io.ebean:ebean-redis@14.0.2 › io.ebean:ebean-core@14.0.2 › com.h2database:h2@2.2.220
+ebean/ebean-postgis-types/pom.xml,6,Remote Code Execution (RCE),High,"Affected versions of this package are vulnerable to Remote Code Execution (RCE). It provides a web console for managing the database, and by default it does not have a password set."
+ebean/ebean-postgis-types/pom.xml,6,"Dual License: EPL -1.0, MPL-2.0",Medium,io.ebean:ebean-redis@14.0.2 › io.ebean:ebean-core@14.0.2 › com.h2database:h2@2.2.220
+ebean/ebean-postgis-types/pom.xml,56,LGPL-3.0 license,Medium,io.ebean:ebean-postgis-types@14.0.2 › org.geolatte:geolatte-geom@1.0.6 › com.vividsolutions:jts@1.13
+ebean/ebean-postgis-types/pom.xml,41,LGPL-2.0 license,Medium,io.ebean:ebean-postgis-types@14.0.2 › net.postgis:postgis-jdbc@2.5.1 › net.postgis:postgis-geometry@2.5.1
+ebean/ebean-postgis-types/pom.xml,41,LGPL-3.0 license,Medium,io.ebean:ebean-postgis-types@14.0.2 › org.geolatte:geolatte-geom@1.0.6 › com.vividsolutions:jts@1.13
+ebean/ebean-postgis-types/pom.xml,56,LGPL-2.0 license,Medium,io.ebean:ebean-postgis-types@14.0.2 › net.postgis:postgis-jdbc@2.5.1 › net.postgis:postgis-geometry@2.5.1
+ebean/ebean-test/pom.xml,120,Remote Code Execution (RCE),High,"Affected versions of this package are vulnerable to Remote Code Execution (RCE). It provides a web console for managing the database, and by default it does not have a password set."
+ebean/ebean-test/pom.xml,120,"Dual License: EPL -1.0, MPL-2.0",Medium,io.ebean:ebean-test@14.0.2 › com.h2database:h2@2.2.220
+ebean/ebean-spring-txn/pom.xml,6,Remote Code Execution (RCE),High,"Affected versions of this package are vulnerable to Remote Code Execution (RCE). It provides a web console for managing the database, and by default it does not have a password set."
+ebean/ebean-spring-txn/pom.xml,6,"Dual License: EPL -1.0, MPL-2.0",Medium,io.ebean:ebean-spring-txn@14.0.2 › io.ebean:ebean-core@14.0.2 › com.h2database:h2@2.2.220
+ebean/platforms/h2/pom.xml,24,Remote Code Execution (RCE),High,"Affected versions of this package are vulnerable to Remote Code Execution (RCE). It provides a web console for managing the database, and by default it does not have a password set."
+ebean/platforms/h2/pom.xml,24,"Dual License: EPL -1.0, MPL-2.0",Medium,io.ebean:ebean-platform-h2@14.0.2 › com.h2database:h2@2.2.220
+ebean/ebean-querybean/pom.xml,12,Remote Code Execution (RCE),High,"Affected versions of this package are vulnerable to Remote Code Execution (RCE). It provides a web console for managing the database, and by default it does not have a password set."
+ebean/ebean-querybean/pom.xml,12,"Dual License: EPL -1.0, MPL-2.0",Medium,io.ebean:ebean-querybean@14.0.2 › io.ebean:ebean-core@14.0.2 › com.h2database:h2@2.2.220
+ebean/ebean-core/pom.xml,78,Remote Code Execution (RCE),High,"Affected versions of this package are vulnerable to Remote Code Execution (RCE). It provides a web console for managing the database, and by default it does not have a password set."
+ebean/ebean-core/pom.xml,78,"Dual License: EPL -1.0, MPL-2.0",Medium,io.ebean:ebean-core@14.0.2 › com.h2database:h2@2.2.220
+ebean/ebean-ddl-generator/pom.xml,12,Remote Code Execution (RCE),High,"Affected versions of this package are vulnerable to Remote Code Execution (RCE). It provides a web console for managing the database, and by default it does not have a password set."
+ebean/ebean-ddl-generator/pom.xml,12,"Dual License: EPL -1.0, MPL-2.0",Medium,io.ebean:ebean-ddl-generator@14.0.2 › io.ebean:ebean-core@14.0.2 › com.h2database:h2@2.2.220
+ebean/ebean-core/src/main/java/io/ebeaninternal/server/type/SimpleAesEncryptor.java,48,Inadequate Padding for AES Encryption,Medium,AES with CBC mode and PKCS5Padding (AES/CBC/PKCS5Padding) used in javax.crypto.Cipher.getInstance is vulnerable to padding oracle attacks. Consider using Galois/Counter Mode (algorithm AES/GCM/NoPadding)
+ebean/ebean-core/src/main/java/io/ebeaninternal/server/type/SimpleAesEncryptor.java,67,Inadequate Padding for AES Encryption,Medium,AES with CBC mode and PKCS5Padding (AES/CBC/PKCS5Padding) used in javax.crypto.Cipher.getInstance is vulnerable to padding oracle attacks. Consider using Galois/Counter Mode (algorithm AES/GCM/NoPadding)
+ebean/ebean-core/src/main/java/io/ebeaninternal/server/type/SimpleAesEncryptor.java,48,Use of a Broken or Risky Cryptographic Algorithm,Medium,The CBC mode used in javax.crypto.Cipher.getInstance does not provide integrity. Consided using Galois/Counter Mode.
+ebean/ebean-core/src/main/java/io/ebeaninternal/server/type/SimpleAesEncryptor.java,67,Use of a Broken or Risky Cryptographic Algorithm,Medium,The CBC mode used in javax.crypto.Cipher.getInstance does not provide integrity. Consided using Galois/Counter Mode.
+ebean/platforms/h2/src/main/java/io/ebean/platform/h2/H2HistoryTrigger.java,97,SQL Injection,Medium,"Unsanitized input from a database flows into prepareStatement, where it is used in an SQL query. This may result in an SQL Injection vulnerability."
+ebean/ebean-test/src/main/java/io/ebean/test/config/platform/HanaSetup.java,21,Use of Hardcoded Credentials,Low,Do not hardcode passwords in code. Found hardcoded password used in here.
+ebean/ebean-test/src/main/java/io/ebean/test/config/platform/SqlServerSetup.java,15,Use of Hardcoded Credentials,Low,Do not hardcode passwords in code. Found hardcoded password used in here.
+ebean/ebean-core/src/main/java/io/ebeaninternal/server/util/Md5.java,13,Use of Password Hash With Insufficient Computational Effort,Low,The MD5 hash (used in java.security.MessageDigest.getInstance) is insecure. Consider changing it to a secure hash algorithm
+ebean/ebean-test/src/main/java/io/ebean/test/config/platform/HanaSetup.java,20,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code.
+ebean/ebean-test/src/main/java/io/ebean/test/config/platform/ClickHouseSetup.java,12,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code.
+ebean/ebean-test/src/main/java/io/ebean/test/config/platform/CockroachSetup.java,12,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code.
+ebean/ebean-test/src/test/java/org/tests/unitinternal/HelloMain.java,26,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code.
+ebean/composites/ebean-postgis/pom.xml,79,LGPL-2.0 license,Medium, io.ebean:ebean-postgis@14.0.2 › net.postgis:postgis-jdbc@2.5.1
+ebean/composites/ebean-postgis/pom.xml,79,LGPL-2.0 license,Medium, io.ebean:ebean-postgis@14.0.2 › net.postgis:postgis-jdbc@2.5.1
+ebean/kotlin-querybean-generator/pom.xml,44,Information Exposure,Low,Affected versions of this package are vulnerable to Information Exposure. A Kotlin application using createTempDir or createTempFile and placing sensitive information within either of these locations would be leaking this information in a read-only way to other users also on this system
