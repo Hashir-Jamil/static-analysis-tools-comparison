@@ -11,15 +11,15 @@ Hashir Jamil,hibernate,hibernate-testing/src/main/java/org/hibernate/testing/byt
 Hashir Jamil,openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/concurrent/ConcurrentHashMap.java,79,BUG,HIGH,"Save and re-use this ""Random"".",no
 Hashir Jamil,openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/HSQLDictionary.java,345,BUG,MEDIUM,"A ""NullPointerException"" could be thrown; ""val"" is nullable here.",no
 Hashir Jamil,openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/conf/package.html,19,BUG,MEDIUM,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element",no
-Zachary Ross,openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/ObjectIdStateManager.java,689,BUG,MEDIUM,"A ""NullPointerException"" could be thrown; ""getValue"" is nullable here."
-Zachary Ross,sqlalchemy,test/ext/test_associationproxy.py,786,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""==""."
+Zachary Ross,openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/ObjectIdStateManager.java,689,BUG,MEDIUM,"A ""NullPointerException"" could be thrown; ""getValue"" is nullable here.",yes
+Zachary Ross,sqlalchemy,test/ext/test_associationproxy.py,786,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""=="".",yes
 Zachary Ross,sqlalchemy,test/dialect/postgresql/test_types.py,4176,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""!=""."
-Zachary Ross,openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/conf/Configurations.java,226,BUG,MEDIUM,"A ""NullPointerException"" could be thrown; ""conf"" is nullable here."
-Zachary Ross,sqlalchemy,test/typing/plain_files/sql/operators.py,49,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""<=""."
-Zachary Ross,ebean,ebean-core/src/main/java/io/ebeaninternal/server/query/DefaultFetchGroupQuery.java,87,BUG,LOW,"Parameter 2 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
-Zachary Ross,hibernate,tooling/metamodel-generator/src/main/java/org/hibernate/processor/validation/ProcessorSessionFactory.java,446,BUG,MEDIUM,"A ""NullPointerException"" could be thrown; ""getEntityName()"" can return null."
-Zachary Ross,sqlalchemy,lib/sqlalchemy/dialects/oracle/base.py,1107,BUG,MEDIUM,Remove this if statement or edit its code blocks so that they're not all the same.
-Zachary Ross,hibernate,hibernate-core/src/main/java/org/hibernate/internal/StatelessSessionImpl.java,411,BUG,LOW,"Parameter 4 to this call is marked ""@NonNull"" but null could be passed."
-Zachary Ross,hibernate,hibernate-core/src/main/java/org/hibernate/internal/SessionImpl.java,1566,BUG,MEDIUM,"Change this condition so that it does not always evaluate to ""true"""
-Zachary Ross,sqlalchemy,test/orm/inheritance/test_single.py,2117,BUG,HIGH,Technologist is used before it is defined. Move the definition before.
-Zachary Ross,openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/StoreCollectionFieldStrategy.java,317,BUG,MEDIUM,"A ""NullPointerException"" could be thrown; ""oid"" is nullable here."
+Zachary Ross,openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/conf/Configurations.java,226,BUG,MEDIUM,"A ""NullPointerException"" could be thrown; ""conf"" is nullable here.",yes
+Zachary Ross,sqlalchemy,test/typing/plain_files/sql/operators.py,49,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""<="".",yes
+Zachary Ross,ebean,ebean-core/src/main/java/io/ebeaninternal/server/query/DefaultFetchGroupQuery.java,87,BUG,LOW,"Parameter 2 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed.",no
+Zachary Ross,hibernate,tooling/metamodel-generator/src/main/java/org/hibernate/processor/validation/ProcessorSessionFactory.java,446,BUG,MEDIUM,"A ""NullPointerException"" could be thrown; ""getEntityName()"" can return null.",yes
+Zachary Ross,sqlalchemy,lib/sqlalchemy/dialects/oracle/base.py,1107,BUG,MEDIUM,Remove this if statement or edit its code blocks so that they're not all the same.,yes
+Zachary Ross,hibernate,hibernate-core/src/main/java/org/hibernate/internal/StatelessSessionImpl.java,411,BUG,LOW,"Parameter 4 to this call is marked ""@NonNull"" but null could be passed.",no
+Zachary Ross,hibernate,hibernate-core/src/main/java/org/hibernate/internal/SessionImpl.java,1566,BUG,MEDIUM,"Change this condition so that it does not always evaluate to ""true""",yes
+Zachary Ross,sqlalchemy,test/orm/inheritance/test_single.py,2117,BUG,HIGH,Technologist is used before it is defined. Move the definition before.,yes
+Zachary Ross,openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/StoreCollectionFieldStrategy.java,317,BUG,MEDIUM,"A ""NullPointerException"" could be thrown; ""oid"" is nullable here.",yes
