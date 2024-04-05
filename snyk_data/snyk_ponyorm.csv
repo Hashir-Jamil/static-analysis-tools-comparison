@@ -1,4 +1,4 @@
-file_path,line_number,type,severity,description
+﻿file_path,line_number,type,severity,description
 pony/pony/flask/example/config.py,3,Hardcoded Secret,High,Avoid hardcoding values that are meant to be secret. Found a hardcoded string used in here.
 pony/pony/orm/examples/bottle_example.py,91,Debug Mode Enabled,Medium,Running the application in debug mode (debug flag is set to True in bottle.run) is a security risk if the application is accessible by untrusted parties
 pony/pony/orm/tests/test_entity_init.py,20,Use of Password Hash With Insufficient Computational Effort,Low,hashlib.md5 is insecure. Consider changing it to a secure hashing algorithm.
