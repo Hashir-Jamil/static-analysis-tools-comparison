@@ -1,25 +1,13 @@
-reviewer,package,file_path,line_number,type,severity,description
-Natalie Dean,openjpa,openjpa-jest/src/main/java/org/apache/openjpa/persistence/jest/QueryCommand.java,90,Quality,High,Type: Unlocked write | Category: Concurrent data access violations
-Natalie Dean,openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/util/CacheMap.java,368,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
-Natalie Dean,openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/datacache/ClearableScheduler.java,187,Quality,Medium,Type: Division or modulo by zero | Category: Integer handling issues
-Natalie Dean,openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,Various,Quality,Medium,Type: Thread deadlock | Category: Program hangs
-Natalie Dean,openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,Various,Quality,Medium,Type: Thread deadlock | Category: Program hangs
-Natalie Dean,openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/Services.java,107,Security,Medium,Type: Unlogged security exception | Category: Medium impact security
-Natalie Dean,openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/util/ImplHelper.java,162,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
-Natalie Dean,openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,Various,Quality,Medium,Type: Thread deadlock | Category: Program hangs
-Natalie Dean,openjpa,openjpa-examples/openbooks/src/main/java/jpa/tools/swing/ErrorDialog.java,Various,Security,High,Type: Display of sensitive data in the user interface | Category: High impact security
-Natalie Dean,ebean,ebean-core/src/main/java/io/ebeaninternal/server/deploy/AssocOneHelpRefInherit.java,Various,Security,Medium,Type: Cleartext sensitive data in a database | Category: Medium impact security
-Natalie Dean,openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/enhance/PCRegistry.java,237,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
-Natalie Dean,openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/meta/ClassMetaData.java,1023,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
-Erika Grandy,openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/VerticalClassStrategy.java,121,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
-Erika Grandy,openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/enhance/PCRegistry.java,251,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
-Erika Grandy,openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/ConstraintUpdateManager.java,425,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
-Erika Grandy,sqlalchemy,lib/sqlalchemy/orm/mapper.py,3652,Quality,Medium,Type: Copy-paste error | Category: Incorrect expression
-Erika Grandy,openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/event/LifecycleEventManager.java,75,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
-Erika Grandy,openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/GetObjectId.java,66,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
-Erika Grandy,openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/MetaDataPlusMappingFactory.java,50,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
-Erika Grandy,ebean,ebean-core/src/main/java/io/ebeaninternal/server/query/CQueryPredicates.java,185,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
-Erika Grandy,ponyorm,pony/orm/decompiling.py,276,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
-Erika Grandy,openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/meta/XMLMetaDataSerializer.java,256,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
-Erika Grandy,openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/query/UnaryExpressionPredicate.java,64,Quality,Medium,Type: Arguments in wrong order | Category: API usage errors
-Erika Grandy,openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/conf/ConfigurationImpl.java,840,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+reviewer,package,file_path,line_number,type,severity,description,false_positive
+Erika Grandy,hibernate,/local-build-plugins/src/main/java/org/hibernate/orm/ReleaseFamilyIdentifier.java,81,Quality,Low,Type: Eq: Problems with implementation of equals() | Category: SpotBugs: Bad practice,yes
+Erika Grandy,hibernate,/local-build-plugins/src/main/java/org/hibernate/orm/post/IndexManager.java,Various,Quality,Low,Type: RV: Bad use of return value | Category: SpotBugs: Bad practice,no
+Erika Grandy,hibernate,/local-build-plugins/src/main/java/org/hibernate/orm/post/LoggingReportTask.java,179,Quality,Low,Type: FS: Format string problem | Category: SpotBugs: Bad practice,no
+Erika Grandy,hibernate,/local-build-plugins/src/main/java/org/hibernate/orm/post/LoggingReportTask.java,154,Quality,Low,Type: Dm: Dubious method used | Category: SpotBugs: Internationalization,no
+Erika Grandy,openjpa,/openjpa-persistence/src/main/java/org/apache/openjpa/persistence/query/BinaryExpressionPredicate.java,71,Quality,Medium,Type: Arguments in wrong order | Category: API usage errors,no
+Erika Grandy,openjpa,/openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/conf/JDBCConfigurationImpl.java,1039,Quality,Medium,Type: Copy-paste error | Category: Incorrect expression,no
+Erika Grandy,openjpa,/openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/SQLStoreQuery.java,177,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences,no
+Erika Grandy,openjpa,/openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/SchemaTool.java,987,Quality,Medium,Type: Logically dead code | Category: Control flow issues,no
+Erika Grandy,ebean,/ebean-ddl-generator/src/main/java/io/ebeaninternal/dbmigration/ddlgeneration/platform/SqlServerDdl.java,129,Quality,Medium,Type: Copy-paste error | Category: Incorrect expression,no
+Erika Grandy,ebean,/ebean-core/src/main/java/io/ebeaninternal/server/query/SqlTreeNodeBean.java,347,Quality,Low,Type: UrF: Unread field | Category: SpotBugs: Performance,no
+Erika Grandy,ebean,/ebean-core-type/src/main/java/io/ebean/core/type/BasicTypeConverter.java,140,Quality,Low,Type: NP: Null pointer dereference | Category: SpotBugs: Bad practice,no
+Erika Grandy,ebean,/ebean-core/src/main/java/io/ebeaninternal/server/util/Md5.java,13,Security,Low,Type: Weak hash algorithm | Category: Sigma,no
