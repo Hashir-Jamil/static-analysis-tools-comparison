@@ -1,334 +1,334 @@
 file_path,line_number,type,severity,description
-eecs4313group4_sqlalchemy:examples/asyncio/async_orm.py,52,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:examples/asyncio/async_orm_writeonly.py,54,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:examples/asyncio/basic.py,29,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:examples/asyncio/gather_orm_statements.py,68,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:examples/asyncio/greenlet_orm.py,70,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:examples/custom_attributes/active_column_defaults.py,47,BUG,LOW,Introduce a new variable or use its initial value before reassigning 'value'.
-eecs4313group4_sqlalchemy:examples/materialized_paths/materialized_paths.py,110,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:examples/performance/__init__.py,47,VULNERABILITY,HIGH,Make sure this MySQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:examples/performance/__init__.py,199,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:examples/sharding/asyncio.py,299,BUG,MEDIUM,Do not perform equality checks with floating point values.
-eecs4313group4_sqlalchemy:examples/sharding/separate_databases.py,278,BUG,MEDIUM,Do not perform equality checks with floating point values.
-eecs4313group4_sqlalchemy:examples/sharding/separate_schema_translates.py,207,BUG,MEDIUM,Do not perform equality checks with floating point values.
-eecs4313group4_sqlalchemy:examples/sharding/separate_tables.py,291,BUG,MEDIUM,Do not perform equality checks with floating point values.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/dialects/mssql/base.py,1953,BUG,MEDIUM,Fix this attribute access on a value that can be 'None'.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/dialects/mssql/pyodbc.py,35,VULNERABILITY,HIGH,Make sure this database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/dialects/mysql/base.py,218,VULNERABILITY,HIGH,Make sure this MySQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/dialects/mysql/base.py,323,VULNERABILITY,HIGH,Make sure this MySQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/dialects/mysql/base.py,343,VULNERABILITY,HIGH,Make sure this MySQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/dialects/mysql/base.py,385,VULNERABILITY,HIGH,Make sure this MySQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/dialects/mysql/base.py,389,VULNERABILITY,HIGH,Make sure this MySQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/dialects/mysql/base.py,433,VULNERABILITY,HIGH,Make sure this MySQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/dialects/mysql/base.py,989,VULNERABILITY,HIGH,Make sure this MySQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/dialects/mysql/mysqldb.py,46,VULNERABILITY,HIGH,Make sure this MySQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/dialects/mysql/mysqldb.py,62,VULNERABILITY,HIGH,Make sure this MySQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/dialects/mysql/pymysql.py,37,VULNERABILITY,HIGH,Make sure this MySQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/dialects/oracle/base.py,1107,BUG,MEDIUM,Remove this if statement or edit its code blocks so that they're not all the same.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/dialects/oracle/cx_oracle.py,508,BUG,MEDIUM,Remove this if statement or edit its code blocks so that they're not all the same.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/dialects/postgresql/base.py,171,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/dialects/postgresql/base.py,272,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/dialects/postgresql/base.py,318,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/dialects/postgresql/base.py,421,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/dialects/postgresql/base.py,1498,BUG,MEDIUM,Remove or rework this redundant alternative.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/dialects/postgresql/json.py,131,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/dialects/postgresql/pg8000.py,55,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/dialects/postgresql/pg8000.py,68,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/dialects/postgresql/psycopg.py,32,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/dialects/postgresql/psycopg.py,39,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/dialects/postgresql/psycopg.py,45,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/dialects/postgresql/psycopg2.py,63,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/dialects/postgresql/psycopg2.py,88,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/dialects/postgresql/psycopg2.py,266,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/dialects/postgresql/psycopg2.py,313,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/dialects/postgresql/psycopg2.py,474,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/dialects/postgresql/ranges.py,294,BUG,MEDIUM,Change this condition so that it does not always evaluate to true; some subsequent code is never executed.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/dialects/sqlite/base.py,2405,BUG,MEDIUM,Group parts of the regex together to make the intended operator precedence explicit.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/dialects/sqlite/base.py,2621,BUG,MEDIUM,Group parts of the regex together to make the intended operator precedence explicit.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/engine/base.py,2518,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/engine/create.py,123,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/engine/create.py,136,VULNERABILITY,HIGH,Make sure this MySQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/engine/events.py,61,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/engine/interfaces.py,2723,VULNERABILITY,HIGH,Make sure this MySQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/engine/interfaces.py,2732,VULNERABILITY,HIGH,Make sure this MySQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/engine/interfaces.py,2739,VULNERABILITY,HIGH,Make sure this MySQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/engine/interfaces.py,2777,VULNERABILITY,HIGH,Make sure this MySQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/engine/result.py,1875,BUG,HIGH,Return an object complying with iterator protocol. Consider explicitly raising a NotImplementedError if this class is not (yet) meant to support this method.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/engine/url.py,861,BUG,LOW,Rework this part of the regex to not match the empty string.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/event/attr.py,110,BUG,HIGH,"Fix this code; ""_empty_collection"" does not have a ""__getitem__"" method."
-eecs4313group4_sqlalchemy:lib/sqlalchemy/ext/associationproxy.py,1011,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""and""."
-eecs4313group4_sqlalchemy:lib/sqlalchemy/ext/asyncio/base.py,136,BUG,HIGH,"Fix this code; ""StartableContext"" does not have a ""__getitem__"" method."
-eecs4313group4_sqlalchemy:lib/sqlalchemy/ext/asyncio/engine.py,188,BUG,HIGH,"Fix this code; ""StartableContext"" does not have a ""__getitem__"" method."
-eecs4313group4_sqlalchemy:lib/sqlalchemy/ext/asyncio/engine.py,1321,BUG,HIGH,"Fix this code; ""StartableContext"" does not have a ""__getitem__"" method."
-eecs4313group4_sqlalchemy:lib/sqlalchemy/ext/asyncio/scoping.py,114,BUG,HIGH,Remove this unexpected named argument 'use_intermediate_variable'.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/ext/asyncio/session.py,1634,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/ext/asyncio/session.py,1804,BUG,HIGH,"Fix this code; ""StartableContext"" does not have a ""__getitem__"" method."
-eecs4313group4_sqlalchemy:lib/sqlalchemy/ext/automap.py,146,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/ext/automap.py,176,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/ext/declarative/__init__.py,58,BUG,HIGH,"Change or remove this string; ""instrument_declarative"" is not defined."
-eecs4313group4_sqlalchemy:lib/sqlalchemy/orm/context.py,1950,BUG,LOW,Introduce a new variable or use its initial value before reassigning 'left'.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/orm/decl_api.py,175,BUG,LOW,Introduce a new variable or use its initial value before reassigning 'dict_'.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/orm/dependency.py,414,BUG,MEDIUM,Remove this if statement or edit its code blocks so that they're not all the same.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/orm/dynamic.py,175,BUG,HIGH,Return an object complying with iterator protocol. Consider explicitly raising a NotImplementedError if this class is not (yet) meant to support this method.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/orm/session.py,4882,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/orm/strategies.py,2286,BUG,LOW,Introduce a new variable or use its initial value before reassigning 'adapter'.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/orm/util.py,1404,BUG,MEDIUM,Fix this attribute access on a value that can be 'None'.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/pool/events.py,49,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/sql/annotation.py,271,BUG,LOW,Introduce a new variable or use its initial value before reassigning 'cls'.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/sql/cache_key.py,442,BUG,HIGH,Return a value of type `int` here.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/sql/coercions.py,675,BUG,LOW,Introduce a new variable or use its initial value before reassigning 'code'.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/sql/compiler.py,5699,BUG,LOW,Introduce a new variable or use its initial value before reassigning 'visited_bindparam'.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/sql/elements.py,876,BUG,HIGH,Return a value of type `int` in this method. Consider explicitly raising a TypeError if this class is not meant to support this method.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/sql/events.py,75,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/sql/lambdas.py,220,BUG,LOW,Introduce a new variable or use its initial value before reassigning 'fn'.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/sql/operators.py,570,BUG,HIGH,Return a value of type `int` in this method. Consider explicitly raising a TypeError if this class is not meant to support this method.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/sql/schema.py,823,BUG,MEDIUM,Remove or correct this useless self-assignment.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/sql/schema.py,1885,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/sql/traversals.py,816,BUG,MEDIUM,Fix this attribute access on a value that can be 'None'.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/sql/util.py,1399,BUG,MEDIUM,Fix this attribute access on a value that can be 'None'.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/testing/assertions.py,353,BUG,MEDIUM,Group parts of the regex together to make the intended operator precedence explicit.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/testing/assertions.py,356,BUG,MEDIUM,Group parts of the regex together to make the intended operator precedence explicit.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/testing/plugin/plugin_base.py,402,BUG,HIGH,Remove this unexpected named argument 'raise_'.
-eecs4313group4_sqlalchemy:lib/sqlalchemy/testing/suite/test_dialect.py,64,BUG,HIGH,"Add a ""self"" or class parameter"
-eecs4313group4_sqlalchemy:lib/sqlalchemy/testing/suite/test_types.py,797,BUG,HIGH,"Add a ""self"" or class parameter"
-eecs4313group4_sqlalchemy:lib/sqlalchemy/util/_collections.py,422,BUG,MEDIUM,Change this condition so that it does not always evaluate to false; some subsequent code is never executed.
-eecs4313group4_sqlalchemy:test/aaa_profiling/test_memusage.py,339,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
-eecs4313group4_sqlalchemy:test/aaa_profiling/test_memusage.py,339,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
-eecs4313group4_sqlalchemy:test/aaa_profiling/test_memusage.py,1437,BUG,MEDIUM,"The return value of ""str"" must be used."
-eecs4313group4_sqlalchemy:test/aaa_profiling/test_memusage.py,1459,BUG,MEDIUM,"The return value of ""str"" must be used."
-eecs4313group4_sqlalchemy:test/aaa_profiling/test_orm.py,238,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
-eecs4313group4_sqlalchemy:test/base/test_except.py,532,BUG,HIGH,"Add a ""self"" or class parameter"
-eecs4313group4_sqlalchemy:test/base/test_utils.py,1813,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""|""."
-eecs4313group4_sqlalchemy:test/base/test_utils.py,1892,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""-""."
-eecs4313group4_sqlalchemy:test/base/test_utils.py,1907,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
-eecs4313group4_sqlalchemy:test/base/test_utils.py,1952,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""&""."
-eecs4313group4_sqlalchemy:test/base/test_utils.py,2010,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""^""."
-eecs4313group4_sqlalchemy:test/base/test_utils.py,2618,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""&""."
-eecs4313group4_sqlalchemy:test/base/test_utils.py,2620,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""&""."
-eecs4313group4_sqlalchemy:test/dialect/mssql/test_reflection.py,1108,BUG,MEDIUM,"Remove this use of the output from ""eq_""; ""eq_"" doesnâ€™t return anything."
-eecs4313group4_sqlalchemy:test/dialect/mysql/test_dialect.py,107,BUG,LOW,Introduce a new variable or use its initial value before reassigning 'connection'.
-eecs4313group4_sqlalchemy:test/dialect/mysql/test_dialect.py,270,VULNERABILITY,HIGH,Make sure this MySQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:test/dialect/mysql/test_types.py,584,BUG,LOW,Introduce a new variable or use its initial value before reassigning 'bit_table'.
-eecs4313group4_sqlalchemy:test/dialect/postgresql/test_compiler.py,1927,BUG,MEDIUM,"The return value of ""isinstance"" must be used."
-eecs4313group4_sqlalchemy:test/dialect/postgresql/test_dialect.py,375,BUG,HIGH,"Add a ""self"" or class parameter"
-eecs4313group4_sqlalchemy:test/dialect/postgresql/test_dialect.py,796,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:test/dialect/postgresql/test_dialect.py,797,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:test/dialect/postgresql/test_dialect.py,798,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:test/dialect/postgresql/test_dialect.py,799,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:test/dialect/postgresql/test_dialect.py,800,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:test/dialect/postgresql/test_dialect.py,801,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:test/dialect/postgresql/test_reflection.py,790,BUG,MEDIUM,Remove or correct this useless self-assignment.
-eecs4313group4_sqlalchemy:test/dialect/postgresql/test_reflection.py,808,BUG,MEDIUM,Remove or correct this useless self-assignment.
-eecs4313group4_sqlalchemy:test/dialect/postgresql/test_reflection.py,1288,BUG,MEDIUM,Remove or correct this useless self-assignment.
-eecs4313group4_sqlalchemy:test/dialect/postgresql/test_reflection.py,1404,BUG,MEDIUM,Remove or correct this useless self-assignment.
-eecs4313group4_sqlalchemy:test/dialect/postgresql/test_reflection.py,1427,BUG,MEDIUM,Remove or correct this useless self-assignment.
-eecs4313group4_sqlalchemy:test/dialect/postgresql/test_types.py,280,BUG,LOW,Introduce a new variable or use its initial value before reassigning 'metadata'.
-eecs4313group4_sqlalchemy:test/dialect/postgresql/test_types.py,300,BUG,LOW,Introduce a new variable or use its initial value before reassigning 'metadata'.
-eecs4313group4_sqlalchemy:test/dialect/postgresql/test_types.py,706,BUG,LOW,Introduce a new variable or use its initial value before reassigning 'metadata'.
-eecs4313group4_sqlalchemy:test/dialect/postgresql/test_types.py,742,BUG,LOW,Introduce a new variable or use its initial value before reassigning 'metadata'.
-eecs4313group4_sqlalchemy:test/dialect/postgresql/test_types.py,790,BUG,LOW,Introduce a new variable or use its initial value before reassigning 'metadata'.
-eecs4313group4_sqlalchemy:test/dialect/postgresql/test_types.py,801,BUG,LOW,Introduce a new variable or use its initial value before reassigning 'metadata'.
-eecs4313group4_sqlalchemy:test/dialect/postgresql/test_types.py,4175,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""==""."
-eecs4313group4_sqlalchemy:test/dialect/postgresql/test_types.py,4176,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""!=""."
-eecs4313group4_sqlalchemy:test/dialect/postgresql/test_types.py,4820,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""-""."
-eecs4313group4_sqlalchemy:test/dialect/postgresql/test_types.py,4831,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""-""."
-eecs4313group4_sqlalchemy:test/dialect/postgresql/test_types.py,5196,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""-""."
-eecs4313group4_sqlalchemy:test/dialect/postgresql/test_types.py,5338,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""-""."
-eecs4313group4_sqlalchemy:test/dialect/postgresql/test_types.py,6208,BUG,HIGH,"Add a ""self"" or class parameter"
-eecs4313group4_sqlalchemy:test/dialect/test_sqlite.py,2740,BUG,HIGH,"Add a ""self"" or class parameter"
-eecs4313group4_sqlalchemy:test/engine/test_ddlevents.py,975,BUG,MEDIUM,"Remove this use of the output from ""against""; ""against"" doesnâ€™t return anything."
-eecs4313group4_sqlalchemy:test/engine/test_ddlevents.py,977,BUG,MEDIUM,"Remove this use of the output from ""against""; ""against"" doesnâ€™t return anything."
-eecs4313group4_sqlalchemy:test/engine/test_ddlevents.py,980,BUG,MEDIUM,"Remove this use of the output from ""against""; ""against"" doesnâ€™t return anything."
-eecs4313group4_sqlalchemy:test/engine/test_ddlevents.py,983,BUG,MEDIUM,"Remove this use of the output from ""against""; ""against"" doesnâ€™t return anything."
-eecs4313group4_sqlalchemy:test/engine/test_ddlevents.py,995,BUG,MEDIUM,"Remove this use of the output from ""against""; ""against"" doesnâ€™t return anything."
-eecs4313group4_sqlalchemy:test/engine/test_ddlevents.py,998,BUG,MEDIUM,"Remove this use of the output from ""against""; ""against"" doesnâ€™t return anything."
-eecs4313group4_sqlalchemy:test/engine/test_ddlevents.py,1001,BUG,MEDIUM,"Remove this use of the output from ""against""; ""against"" doesnâ€™t return anything."
-eecs4313group4_sqlalchemy:test/engine/test_ddlevents.py,1004,BUG,MEDIUM,"Remove this use of the output from ""against""; ""against"" doesnâ€™t return anything."
-eecs4313group4_sqlalchemy:test/engine/test_parseconnect.py,543,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:test/engine/test_parseconnect.py,555,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:test/engine/test_parseconnect.py,567,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:test/engine/test_parseconnect.py,576,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:test/engine/test_parseconnect.py,584,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:test/engine/test_parseconnect.py,595,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:test/engine/test_parseconnect.py,616,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:test/engine/test_parseconnect.py,798,VULNERABILITY,HIGH,Make sure this MySQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:test/engine/test_parseconnect.py,802,VULNERABILITY,HIGH,Make sure this MySQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:test/engine/test_parseconnect.py,809,VULNERABILITY,HIGH,Make sure this MySQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:test/engine/test_parseconnect.py,811,VULNERABILITY,HIGH,Make sure this MySQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:test/engine/test_parseconnect.py,812,VULNERABILITY,HIGH,Make sure this MySQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:test/engine/test_parseconnect.py,813,VULNERABILITY,HIGH,Make sure this MySQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:test/engine/test_reconnect.py,389,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:test/engine/test_transaction.py,143,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""==""."
-eecs4313group4_sqlalchemy:test/engine/test_transaction.py,810,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""==""."
-eecs4313group4_sqlalchemy:test/ext/asyncio/test_session_py3k.py,1129,BUG,HIGH,B is used before it is defined. Move the definition before.
-eecs4313group4_sqlalchemy:test/ext/test_associationproxy.py,786,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""==""."
-eecs4313group4_sqlalchemy:test/ext/test_associationproxy.py,791,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""!=""."
-eecs4313group4_sqlalchemy:test/ext/test_associationproxy.py,3833,BUG,HIGH,UserKeywordAssociation is used before it is defined. Move the definition before.
-eecs4313group4_sqlalchemy:test/ext/test_associationproxy.py,3889,BUG,HIGH,UserKeywordAssociation is used before it is defined. Move the definition before.
-eecs4313group4_sqlalchemy:test/ext/test_associationproxy.py,4013,BUG,HIGH,Keyword is used before it is defined. Move the definition before.
-eecs4313group4_sqlalchemy:test/ext/test_associationproxy.py,4039,BUG,HIGH,Keyword is used before it is defined. Move the definition before.
-eecs4313group4_sqlalchemy:test/ext/test_horizontal_shard.py,147,BUG,MEDIUM,Change this condition so that it does not always evaluate to true; some subsequent code is never executed.
-eecs4313group4_sqlalchemy:test/ext/test_horizontal_shard.py,744,BUG,MEDIUM,Change this condition so that it does not always evaluate to true; some subsequent code is never executed.
-eecs4313group4_sqlalchemy:test/ext/test_mutable.py,456,BUG,MEDIUM,Remove or correct this useless self-assignment.
-eecs4313group4_sqlalchemy:test/ext/test_serializer.py,226,BUG,MEDIUM,"The return value of ""str"" must be used."
-eecs4313group4_sqlalchemy:test/orm/declarative/test_abs_import_only.py,65,BUG,HIGH,Bar is used before it is defined. Move the definition before.
-eecs4313group4_sqlalchemy:test/orm/declarative/test_basic.py,1740,BUG,MEDIUM,"The return value of ""type"" must be used."
-eecs4313group4_sqlalchemy:test/orm/declarative/test_basic.py,3422,BUG,MEDIUM,This branch duplicates the one on line 3405.
-eecs4313group4_sqlalchemy:test/orm/declarative/test_dc_transforms.py,1538,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
-eecs4313group4_sqlalchemy:test/orm/declarative/test_dc_transforms.py,1541,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
-eecs4313group4_sqlalchemy:test/orm/declarative/test_dc_transforms.py,1544,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
-eecs4313group4_sqlalchemy:test/orm/declarative/test_dc_transforms.py,1547,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
-eecs4313group4_sqlalchemy:test/orm/declarative/test_mixin.py,1997,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
-eecs4313group4_sqlalchemy:test/orm/declarative/test_tm_future_annotations.py,334,BUG,HIGH,B is used before it is defined. Move the definition before.
-eecs4313group4_sqlalchemy:test/orm/declarative/test_tm_future_annotations.py,359,BUG,HIGH,B is used before it is defined. Move the definition before.
-eecs4313group4_sqlalchemy:test/orm/inheritance/test_poly_linked_list.py,246,BUG,MEDIUM,Fix this attribute access on a value that can be 'None'.
-eecs4313group4_sqlalchemy:test/orm/inheritance/test_single.py,2116,BUG,HIGH,Executive is used before it is defined. Move the definition before.
-eecs4313group4_sqlalchemy:test/orm/inheritance/test_single.py,2117,BUG,HIGH,Technologist is used before it is defined. Move the definition before.
-eecs4313group4_sqlalchemy:test/orm/test_attributes.py,634,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
-eecs4313group4_sqlalchemy:test/orm/test_attributes.py,1760,BUG,HIGH,Return a value of type `bool` in this method. Consider explicitly raising a TypeError if this class is not meant to support this method.
-eecs4313group4_sqlalchemy:test/orm/test_attributes.py,2312,BUG,MEDIUM,Remove or correct this useless self-assignment.
-eecs4313group4_sqlalchemy:test/orm/test_core_compilation.py,368,BUG,HIGH,"Add a ""self"" or class parameter"
-eecs4313group4_sqlalchemy:test/orm/test_events.py,3458,BUG,MEDIUM,"The return value of ""str"" must be used."
-eecs4313group4_sqlalchemy:test/orm/test_events.py,3459,BUG,MEDIUM,"The return value of ""str"" must be used."
-eecs4313group4_sqlalchemy:test/orm/test_mapper.py,1922,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
-eecs4313group4_sqlalchemy:test/orm/test_merge.py,52,BUG,MEDIUM,Fix this attribute access on a value that can be 'None'.
-eecs4313group4_sqlalchemy:test/orm/test_merge.py,1861,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""==""."
-eecs4313group4_sqlalchemy:test/orm/test_options.py,1514,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
-eecs4313group4_sqlalchemy:test/orm/test_query.py,5406,BUG,MEDIUM,Delete this unreachable code or refactor the code to make it reachable.
-eecs4313group4_sqlalchemy:test/orm/test_relationships.py,1110,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""==""."
-eecs4313group4_sqlalchemy:test/orm/test_session.py,1528,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
-eecs4313group4_sqlalchemy:test/orm/test_utils.py,583,BUG,HIGH,"Add a ""self"" or class parameter"
-eecs4313group4_sqlalchemy:test/orm/test_utils.py,879,BUG,MEDIUM,Do not perform equality checks with floating point values.
-eecs4313group4_sqlalchemy:test/orm/test_utils.py,885,BUG,MEDIUM,Do not perform equality checks with floating point values.
-eecs4313group4_sqlalchemy:test/orm/test_versioning.py,2082,BUG,MEDIUM,Remove or correct this useless self-assignment.
-eecs4313group4_sqlalchemy:test/perf/compiled_extensions.py,172,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
-eecs4313group4_sqlalchemy:test/perf/compiled_extensions.py,237,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
-eecs4313group4_sqlalchemy:test/perf/compiled_extensions.py,237,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""==""."
-eecs4313group4_sqlalchemy:test/perf/compiled_extensions.py,238,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
-eecs4313group4_sqlalchemy:test/perf/compiled_extensions.py,238,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""==""."
-eecs4313group4_sqlalchemy:test/perf/compiled_extensions.py,242,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
-eecs4313group4_sqlalchemy:test/perf/compiled_extensions.py,243,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
-eecs4313group4_sqlalchemy:test/perf/compiled_extensions.py,247,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
-eecs4313group4_sqlalchemy:test/perf/compiled_extensions.py,248,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
-eecs4313group4_sqlalchemy:test/perf/compiled_extensions.py,252,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
-eecs4313group4_sqlalchemy:test/perf/compiled_extensions.py,252,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""!=""."
-eecs4313group4_sqlalchemy:test/perf/compiled_extensions.py,253,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
-eecs4313group4_sqlalchemy:test/perf/compiled_extensions.py,253,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""!=""."
-eecs4313group4_sqlalchemy:test/perf/compiled_extensions.py,257,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
-eecs4313group4_sqlalchemy:test/perf/compiled_extensions.py,258,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
-eecs4313group4_sqlalchemy:test/perf/compiled_extensions.py,262,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
-eecs4313group4_sqlalchemy:test/perf/compiled_extensions.py,263,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
-eecs4313group4_sqlalchemy:test/perf/compiled_extensions.py,553,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
-eecs4313group4_sqlalchemy:test/perf/compiled_extensions.py,553,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""==""."
-eecs4313group4_sqlalchemy:test/perf/compiled_extensions.py,554,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
-eecs4313group4_sqlalchemy:test/perf/compiled_extensions.py,555,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
-eecs4313group4_sqlalchemy:test/perf/compiled_extensions.py,560,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
-eecs4313group4_sqlalchemy:test/perf/compiled_extensions.py,560,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""!=""."
-eecs4313group4_sqlalchemy:test/perf/compiled_extensions.py,561,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
-eecs4313group4_sqlalchemy:test/perf/compiled_extensions.py,562,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
-eecs4313group4_sqlalchemy:test/perf/compiled_extensions.py,575,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
-eecs4313group4_sqlalchemy:test/perf/compiled_extensions.py,575,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""<=""."
-eecs4313group4_sqlalchemy:test/perf/compiled_extensions.py,576,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
-eecs4313group4_sqlalchemy:test/perf/compiled_extensions.py,577,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
-eecs4313group4_sqlalchemy:test/perf/compiled_extensions.py,578,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
-eecs4313group4_sqlalchemy:test/perf/compiled_extensions.py,578,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""<=""."
-eecs4313group4_sqlalchemy:test/perf/compiled_extensions.py,583,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
-eecs4313group4_sqlalchemy:test/perf/compiled_extensions.py,583,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""<""."
-eecs4313group4_sqlalchemy:test/perf/compiled_extensions.py,584,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
-eecs4313group4_sqlalchemy:test/perf/compiled_extensions.py,585,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
-eecs4313group4_sqlalchemy:test/perf/compiled_extensions.py,586,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
-eecs4313group4_sqlalchemy:test/perf/compiled_extensions.py,586,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""<""."
-eecs4313group4_sqlalchemy:test/perf/compiled_extensions.py,599,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
-eecs4313group4_sqlalchemy:test/perf/compiled_extensions.py,599,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator "">=""."
-eecs4313group4_sqlalchemy:test/perf/compiled_extensions.py,600,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
-eecs4313group4_sqlalchemy:test/perf/compiled_extensions.py,601,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
-eecs4313group4_sqlalchemy:test/perf/compiled_extensions.py,602,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
-eecs4313group4_sqlalchemy:test/perf/compiled_extensions.py,602,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator "">=""."
-eecs4313group4_sqlalchemy:test/perf/compiled_extensions.py,607,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
-eecs4313group4_sqlalchemy:test/perf/compiled_extensions.py,607,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator "">""."
-eecs4313group4_sqlalchemy:test/perf/compiled_extensions.py,608,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
-eecs4313group4_sqlalchemy:test/perf/compiled_extensions.py,608,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator "">""."
-eecs4313group4_sqlalchemy:test/perf/compiled_extensions.py,609,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
-eecs4313group4_sqlalchemy:test/perf/compiled_extensions.py,610,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
-eecs4313group4_sqlalchemy:test/perf/compiled_extensions.py,610,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator "">""."
-eecs4313group4_sqlalchemy:test/perf/compiled_extensions.py,643,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
-eecs4313group4_sqlalchemy:test/perf/compiled_extensions.py,667,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
-eecs4313group4_sqlalchemy:test/perf/compiled_extensions.py,691,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
-eecs4313group4_sqlalchemy:test/perf/compiled_extensions.py,727,BUG,MEDIUM,"The return value of ""str"" must be used."
-eecs4313group4_sqlalchemy:test/perf/compiled_extensions.py,728,BUG,MEDIUM,"The return value of ""str"" must be used."
-eecs4313group4_sqlalchemy:test/perf/compiled_extensions.py,772,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
-eecs4313group4_sqlalchemy:test/perf/invalidate_stresstest.py,17,VULNERABILITY,HIGH,Make sure this MySQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:test/sql/test_compiler.py,3884,BUG,MEDIUM,"The return value of ""str"" must be used."
-eecs4313group4_sqlalchemy:test/sql/test_constraints.py,312,BUG,MEDIUM,Remove this if statement or edit its code blocks so that they're not all the same.
-eecs4313group4_sqlalchemy:test/sql/test_external_traversal.py,359,BUG,MEDIUM,"The return value of ""set"" must be used."
-eecs4313group4_sqlalchemy:test/sql/test_external_traversal.py,1006,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""==""."
-eecs4313group4_sqlalchemy:test/sql/test_external_traversal.py,1043,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""==""."
-eecs4313group4_sqlalchemy:test/sql/test_from_linter.py,280,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""==""."
-eecs4313group4_sqlalchemy:test/sql/test_from_linter.py,284,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""==""."
-eecs4313group4_sqlalchemy:test/sql/test_from_linter.py,296,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""==""."
-eecs4313group4_sqlalchemy:test/sql/test_from_linter.py,403,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""==""."
-eecs4313group4_sqlalchemy:test/sql/test_operators.py,575,BUG,MEDIUM,"This conditional expression returns the same value whether the condition is ""true"" or ""false""."
-eecs4313group4_sqlalchemy:test/sql/test_operators.py,595,BUG,MEDIUM,"This conditional expression returns the same value whether the condition is ""true"" or ""false""."
-eecs4313group4_sqlalchemy:test/sql/test_operators.py,1754,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""==""."
-eecs4313group4_sqlalchemy:test/sql/test_operators.py,1766,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""==""."
-eecs4313group4_sqlalchemy:test/sql/test_operators.py,1913,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""-""."
-eecs4313group4_sqlalchemy:test/sql/test_operators.py,1917,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""-""."
-eecs4313group4_sqlalchemy:test/sql/test_operators.py,1921,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""-""."
-eecs4313group4_sqlalchemy:test/sql/test_operators.py,1925,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""-""."
-eecs4313group4_sqlalchemy:test/sql/test_operators.py,1929,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""-""."
-eecs4313group4_sqlalchemy:test/sql/test_operators.py,1933,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""-""."
-eecs4313group4_sqlalchemy:test/sql/test_operators.py,1938,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""-""."
-eecs4313group4_sqlalchemy:test/sql/test_operators.py,1943,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""-""."
-eecs4313group4_sqlalchemy:test/sql/test_operators.py,1948,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""/""."
-eecs4313group4_sqlalchemy:test/sql/test_operators.py,1952,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""/""."
-eecs4313group4_sqlalchemy:test/sql/test_operators.py,1957,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""/""."
-eecs4313group4_sqlalchemy:test/sql/test_operators.py,1963,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""/""."
-eecs4313group4_sqlalchemy:test/sql/test_operators.py,1968,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""/""."
-eecs4313group4_sqlalchemy:test/sql/test_operators.py,1973,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""/""."
-eecs4313group4_sqlalchemy:test/sql/test_operators.py,1977,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""-""."
-eecs4313group4_sqlalchemy:test/sql/test_operators.py,1982,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""-""."
-eecs4313group4_sqlalchemy:test/sql/test_operators.py,1989,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""-""."
-eecs4313group4_sqlalchemy:test/sql/test_operators.py,1989,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""/""."
-eecs4313group4_sqlalchemy:test/sql/test_operators.py,1989,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""-""."
-eecs4313group4_sqlalchemy:test/sql/test_operators.py,1996,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""-""."
-eecs4313group4_sqlalchemy:test/sql/test_operators.py,1996,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""/""."
-eecs4313group4_sqlalchemy:test/sql/test_operators.py,1996,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""/""."
-eecs4313group4_sqlalchemy:test/sql/test_operators.py,2003,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""/""."
-eecs4313group4_sqlalchemy:test/sql/test_operators.py,2003,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""-""."
-eecs4313group4_sqlalchemy:test/sql/test_operators.py,2009,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""/""."
-eecs4313group4_sqlalchemy:test/sql/test_operators.py,2009,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""-""."
-eecs4313group4_sqlalchemy:test/sql/test_operators.py,2016,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""-""."
-eecs4313group4_sqlalchemy:test/sql/test_operators.py,2022,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""==""."
-eecs4313group4_sqlalchemy:test/sql/test_operators.py,2026,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""!=""."
-eecs4313group4_sqlalchemy:test/sql/test_operators.py,2723,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""==""."
-eecs4313group4_sqlalchemy:test/sql/test_operators.py,2727,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator "">""."
-eecs4313group4_sqlalchemy:test/sql/test_operators.py,2740,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""==""."
-eecs4313group4_sqlalchemy:test/sql/test_operators.py,2745,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""==""."
-eecs4313group4_sqlalchemy:test/sql/test_operators.py,2827,BUG,MEDIUM,"The return value of ""isinstance"" must be used."
-eecs4313group4_sqlalchemy:test/sql/test_resultset.py,365,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""!=""."
-eecs4313group4_sqlalchemy:test/sql/test_resultset.py,372,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""!=""."
-eecs4313group4_sqlalchemy:test/sql/test_selectable.py,1439,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
-eecs4313group4_sqlalchemy:test/sql/test_selectable.py,3186,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
-eecs4313group4_sqlalchemy:test/sql/test_selectable.py,3553,BUG,MEDIUM,"The return value of ""repr"" must be used."
-eecs4313group4_sqlalchemy:test/sql/test_types.py,234,BUG,HIGH,"Add a ""self"" or class parameter"
-eecs4313group4_sqlalchemy:test/sql/test_types.py,326,BUG,MEDIUM,"The return value of ""repr"" must be used."
-eecs4313group4_sqlalchemy:test/sql/test_types.py,332,BUG,MEDIUM,"The return value of ""str"" must be used."
-eecs4313group4_sqlalchemy:test/sql/test_update.py,861,BUG,HIGH,"Add a ""self"" or class parameter"
-eecs4313group4_sqlalchemy:test/sql/test_values.py,75,BUG,MEDIUM,"The return value of ""str"" must be used."
-eecs4313group4_sqlalchemy:test/sql/test_values.py,402,BUG,MEDIUM,"The return value of ""str"" must be used."
-eecs4313group4_sqlalchemy:test/typing/plain_files/engine/engines.py,30,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:test/typing/plain_files/ext/asyncio/async_sessionmaker.py,59,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:test/typing/plain_files/ext/asyncio/create_proxy_methods.py,55,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
-eecs4313group4_sqlalchemy:test/typing/plain_files/ext/asyncio/create_proxy_methods.py,97,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
-eecs4313group4_sqlalchemy:test/typing/plain_files/ext/hybrid/hybrid_two.py,136,BUG,MEDIUM,Delete this unreachable code or refactor the code to make it reachable.
-eecs4313group4_sqlalchemy:test/typing/plain_files/orm/issue_9340.py,34,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
-eecs4313group4_sqlalchemy:test/typing/plain_files/sql/operators.py,29,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator "">""."
-eecs4313group4_sqlalchemy:test/typing/plain_files/sql/operators.py,33,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator "">=""."
-eecs4313group4_sqlalchemy:test/typing/plain_files/sql/operators.py,37,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""==""."
-eecs4313group4_sqlalchemy:test/typing/plain_files/sql/operators.py,41,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""!=""."
-eecs4313group4_sqlalchemy:test/typing/plain_files/sql/operators.py,45,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""<""."
-eecs4313group4_sqlalchemy:test/typing/plain_files/sql/operators.py,49,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""<=""."
-eecs4313group4_sqlalchemy:test/typing/plain_files/sql/operators.py,64,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator "">>""."
-eecs4313group4_sqlalchemy:test/typing/plain_files/sql/operators.py,104,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""-""."
-eecs4313group4_sqlalchemy:test/typing/plain_files/sql/operators.py,112,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""/""."
-eecs4313group4_sqlalchemy:test/typing/plain_files/sql/operators.py,116,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""%""."
+examples/asyncio/async_orm.py,52,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
+examples/asyncio/async_orm_writeonly.py,54,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
+examples/asyncio/basic.py,29,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
+examples/asyncio/gather_orm_statements.py,68,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
+examples/asyncio/greenlet_orm.py,70,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
+examples/custom_attributes/active_column_defaults.py,47,BUG,LOW,Introduce a new variable or use its initial value before reassigning 'value'.
+examples/materialized_paths/materialized_paths.py,110,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
+examples/performance/__init__.py,47,VULNERABILITY,HIGH,Make sure this MySQL database password gets changed and removed from the code.
+examples/performance/__init__.py,199,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
+examples/sharding/asyncio.py,299,BUG,MEDIUM,Do not perform equality checks with floating point values.
+examples/sharding/separate_databases.py,278,BUG,MEDIUM,Do not perform equality checks with floating point values.
+examples/sharding/separate_schema_translates.py,207,BUG,MEDIUM,Do not perform equality checks with floating point values.
+examples/sharding/separate_tables.py,291,BUG,MEDIUM,Do not perform equality checks with floating point values.
+lib/sqlalchemy/dialects/mssql/base.py,1953,BUG,MEDIUM,Fix this attribute access on a value that can be 'None'.
+lib/sqlalchemy/dialects/mssql/pyodbc.py,35,VULNERABILITY,HIGH,Make sure this database password gets changed and removed from the code.
+lib/sqlalchemy/dialects/mysql/base.py,218,VULNERABILITY,HIGH,Make sure this MySQL database password gets changed and removed from the code.
+lib/sqlalchemy/dialects/mysql/base.py,323,VULNERABILITY,HIGH,Make sure this MySQL database password gets changed and removed from the code.
+lib/sqlalchemy/dialects/mysql/base.py,343,VULNERABILITY,HIGH,Make sure this MySQL database password gets changed and removed from the code.
+lib/sqlalchemy/dialects/mysql/base.py,385,VULNERABILITY,HIGH,Make sure this MySQL database password gets changed and removed from the code.
+lib/sqlalchemy/dialects/mysql/base.py,389,VULNERABILITY,HIGH,Make sure this MySQL database password gets changed and removed from the code.
+lib/sqlalchemy/dialects/mysql/base.py,433,VULNERABILITY,HIGH,Make sure this MySQL database password gets changed and removed from the code.
+lib/sqlalchemy/dialects/mysql/base.py,989,VULNERABILITY,HIGH,Make sure this MySQL database password gets changed and removed from the code.
+lib/sqlalchemy/dialects/mysql/mysqldb.py,46,VULNERABILITY,HIGH,Make sure this MySQL database password gets changed and removed from the code.
+lib/sqlalchemy/dialects/mysql/mysqldb.py,62,VULNERABILITY,HIGH,Make sure this MySQL database password gets changed and removed from the code.
+lib/sqlalchemy/dialects/mysql/pymysql.py,37,VULNERABILITY,HIGH,Make sure this MySQL database password gets changed and removed from the code.
+lib/sqlalchemy/dialects/oracle/base.py,1107,BUG,MEDIUM,Remove this if statement or edit its code blocks so that they're not all the same.
+lib/sqlalchemy/dialects/oracle/cx_oracle.py,508,BUG,MEDIUM,Remove this if statement or edit its code blocks so that they're not all the same.
+lib/sqlalchemy/dialects/postgresql/base.py,171,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
+lib/sqlalchemy/dialects/postgresql/base.py,272,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
+lib/sqlalchemy/dialects/postgresql/base.py,318,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
+lib/sqlalchemy/dialects/postgresql/base.py,421,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
+lib/sqlalchemy/dialects/postgresql/base.py,1498,BUG,MEDIUM,Remove or rework this redundant alternative.
+lib/sqlalchemy/dialects/postgresql/json.py,131,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
+lib/sqlalchemy/dialects/postgresql/pg8000.py,55,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
+lib/sqlalchemy/dialects/postgresql/pg8000.py,68,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
+lib/sqlalchemy/dialects/postgresql/psycopg.py,32,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
+lib/sqlalchemy/dialects/postgresql/psycopg.py,39,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
+lib/sqlalchemy/dialects/postgresql/psycopg.py,45,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
+lib/sqlalchemy/dialects/postgresql/psycopg2.py,63,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
+lib/sqlalchemy/dialects/postgresql/psycopg2.py,88,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
+lib/sqlalchemy/dialects/postgresql/psycopg2.py,266,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
+lib/sqlalchemy/dialects/postgresql/psycopg2.py,313,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
+lib/sqlalchemy/dialects/postgresql/psycopg2.py,474,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
+lib/sqlalchemy/dialects/postgresql/ranges.py,294,BUG,MEDIUM,Change this condition so that it does not always evaluate to true; some subsequent code is never executed.
+lib/sqlalchemy/dialects/sqlite/base.py,2405,BUG,MEDIUM,Group parts of the regex together to make the intended operator precedence explicit.
+lib/sqlalchemy/dialects/sqlite/base.py,2621,BUG,MEDIUM,Group parts of the regex together to make the intended operator precedence explicit.
+lib/sqlalchemy/engine/base.py,2518,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
+lib/sqlalchemy/engine/create.py,123,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
+lib/sqlalchemy/engine/create.py,136,VULNERABILITY,HIGH,Make sure this MySQL database password gets changed and removed from the code.
+lib/sqlalchemy/engine/events.py,61,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
+lib/sqlalchemy/engine/interfaces.py,2723,VULNERABILITY,HIGH,Make sure this MySQL database password gets changed and removed from the code.
+lib/sqlalchemy/engine/interfaces.py,2732,VULNERABILITY,HIGH,Make sure this MySQL database password gets changed and removed from the code.
+lib/sqlalchemy/engine/interfaces.py,2739,VULNERABILITY,HIGH,Make sure this MySQL database password gets changed and removed from the code.
+lib/sqlalchemy/engine/interfaces.py,2777,VULNERABILITY,HIGH,Make sure this MySQL database password gets changed and removed from the code.
+lib/sqlalchemy/engine/result.py,1875,BUG,HIGH,Return an object complying with iterator protocol. Consider explicitly raising a NotImplementedError if this class is not (yet) meant to support this method.
+lib/sqlalchemy/engine/url.py,861,BUG,LOW,Rework this part of the regex to not match the empty string.
+lib/sqlalchemy/event/attr.py,110,BUG,HIGH,"Fix this code; ""_empty_collection"" does not have a ""__getitem__"" method."
+lib/sqlalchemy/ext/associationproxy.py,1011,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""and""."
+lib/sqlalchemy/ext/asyncio/base.py,136,BUG,HIGH,"Fix this code; ""StartableContext"" does not have a ""__getitem__"" method."
+lib/sqlalchemy/ext/asyncio/engine.py,188,BUG,HIGH,"Fix this code; ""StartableContext"" does not have a ""__getitem__"" method."
+lib/sqlalchemy/ext/asyncio/engine.py,1321,BUG,HIGH,"Fix this code; ""StartableContext"" does not have a ""__getitem__"" method."
+lib/sqlalchemy/ext/asyncio/scoping.py,114,BUG,HIGH,Remove this unexpected named argument 'use_intermediate_variable'.
+lib/sqlalchemy/ext/asyncio/session.py,1634,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
+lib/sqlalchemy/ext/asyncio/session.py,1804,BUG,HIGH,"Fix this code; ""StartableContext"" does not have a ""__getitem__"" method."
+lib/sqlalchemy/ext/automap.py,146,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
+lib/sqlalchemy/ext/automap.py,176,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
+lib/sqlalchemy/ext/declarative/__init__.py,58,BUG,HIGH,"Change or remove this string; ""instrument_declarative"" is not defined."
+lib/sqlalchemy/orm/context.py,1950,BUG,LOW,Introduce a new variable or use its initial value before reassigning 'left'.
+lib/sqlalchemy/orm/decl_api.py,175,BUG,LOW,Introduce a new variable or use its initial value before reassigning 'dict_'.
+lib/sqlalchemy/orm/dependency.py,414,BUG,MEDIUM,Remove this if statement or edit its code blocks so that they're not all the same.
+lib/sqlalchemy/orm/dynamic.py,175,BUG,HIGH,Return an object complying with iterator protocol. Consider explicitly raising a NotImplementedError if this class is not (yet) meant to support this method.
+lib/sqlalchemy/orm/session.py,4882,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
+lib/sqlalchemy/orm/strategies.py,2286,BUG,LOW,Introduce a new variable or use its initial value before reassigning 'adapter'.
+lib/sqlalchemy/orm/util.py,1404,BUG,MEDIUM,Fix this attribute access on a value that can be 'None'.
+lib/sqlalchemy/pool/events.py,49,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
+lib/sqlalchemy/sql/annotation.py,271,BUG,LOW,Introduce a new variable or use its initial value before reassigning 'cls'.
+lib/sqlalchemy/sql/cache_key.py,442,BUG,HIGH,Return a value of type `int` here.
+lib/sqlalchemy/sql/coercions.py,675,BUG,LOW,Introduce a new variable or use its initial value before reassigning 'code'.
+lib/sqlalchemy/sql/compiler.py,5699,BUG,LOW,Introduce a new variable or use its initial value before reassigning 'visited_bindparam'.
+lib/sqlalchemy/sql/elements.py,876,BUG,HIGH,Return a value of type `int` in this method. Consider explicitly raising a TypeError if this class is not meant to support this method.
+lib/sqlalchemy/sql/events.py,75,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
+lib/sqlalchemy/sql/lambdas.py,220,BUG,LOW,Introduce a new variable or use its initial value before reassigning 'fn'.
+lib/sqlalchemy/sql/operators.py,570,BUG,HIGH,Return a value of type `int` in this method. Consider explicitly raising a TypeError if this class is not meant to support this method.
+lib/sqlalchemy/sql/schema.py,823,BUG,MEDIUM,Remove or correct this useless self-assignment.
+lib/sqlalchemy/sql/schema.py,1885,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
+lib/sqlalchemy/sql/traversals.py,816,BUG,MEDIUM,Fix this attribute access on a value that can be 'None'.
+lib/sqlalchemy/sql/util.py,1399,BUG,MEDIUM,Fix this attribute access on a value that can be 'None'.
+lib/sqlalchemy/testing/assertions.py,353,BUG,MEDIUM,Group parts of the regex together to make the intended operator precedence explicit.
+lib/sqlalchemy/testing/assertions.py,356,BUG,MEDIUM,Group parts of the regex together to make the intended operator precedence explicit.
+lib/sqlalchemy/testing/plugin/plugin_base.py,402,BUG,HIGH,Remove this unexpected named argument 'raise_'.
+lib/sqlalchemy/testing/suite/test_dialect.py,64,BUG,HIGH,"Add a ""self"" or class parameter"
+lib/sqlalchemy/testing/suite/test_types.py,797,BUG,HIGH,"Add a ""self"" or class parameter"
+lib/sqlalchemy/util/_collections.py,422,BUG,MEDIUM,Change this condition so that it does not always evaluate to false; some subsequent code is never executed.
+test/aaa_profiling/test_memusage.py,339,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
+test/aaa_profiling/test_memusage.py,339,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
+test/aaa_profiling/test_memusage.py,1437,BUG,MEDIUM,"The return value of ""str"" must be used."
+test/aaa_profiling/test_memusage.py,1459,BUG,MEDIUM,"The return value of ""str"" must be used."
+test/aaa_profiling/test_orm.py,238,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
+test/base/test_except.py,532,BUG,HIGH,"Add a ""self"" or class parameter"
+test/base/test_utils.py,1813,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""|""."
+test/base/test_utils.py,1892,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""-""."
+test/base/test_utils.py,1907,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
+test/base/test_utils.py,1952,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""&""."
+test/base/test_utils.py,2010,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""^""."
+test/base/test_utils.py,2618,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""&""."
+test/base/test_utils.py,2620,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""&""."
+test/dialect/mssql/test_reflection.py,1108,BUG,MEDIUM,"Remove this use of the output from ""eq_""; ""eq_"" doesnâ€™t return anything."
+test/dialect/mysql/test_dialect.py,107,BUG,LOW,Introduce a new variable or use its initial value before reassigning 'connection'.
+test/dialect/mysql/test_dialect.py,270,VULNERABILITY,HIGH,Make sure this MySQL database password gets changed and removed from the code.
+test/dialect/mysql/test_types.py,584,BUG,LOW,Introduce a new variable or use its initial value before reassigning 'bit_table'.
+test/dialect/postgresql/test_compiler.py,1927,BUG,MEDIUM,"The return value of ""isinstance"" must be used."
+test/dialect/postgresql/test_dialect.py,375,BUG,HIGH,"Add a ""self"" or class parameter"
+test/dialect/postgresql/test_dialect.py,796,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
+test/dialect/postgresql/test_dialect.py,797,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
+test/dialect/postgresql/test_dialect.py,798,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
+test/dialect/postgresql/test_dialect.py,799,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
+test/dialect/postgresql/test_dialect.py,800,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
+test/dialect/postgresql/test_dialect.py,801,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
+test/dialect/postgresql/test_reflection.py,790,BUG,MEDIUM,Remove or correct this useless self-assignment.
+test/dialect/postgresql/test_reflection.py,808,BUG,MEDIUM,Remove or correct this useless self-assignment.
+test/dialect/postgresql/test_reflection.py,1288,BUG,MEDIUM,Remove or correct this useless self-assignment.
+test/dialect/postgresql/test_reflection.py,1404,BUG,MEDIUM,Remove or correct this useless self-assignment.
+test/dialect/postgresql/test_reflection.py,1427,BUG,MEDIUM,Remove or correct this useless self-assignment.
+test/dialect/postgresql/test_types.py,280,BUG,LOW,Introduce a new variable or use its initial value before reassigning 'metadata'.
+test/dialect/postgresql/test_types.py,300,BUG,LOW,Introduce a new variable or use its initial value before reassigning 'metadata'.
+test/dialect/postgresql/test_types.py,706,BUG,LOW,Introduce a new variable or use its initial value before reassigning 'metadata'.
+test/dialect/postgresql/test_types.py,742,BUG,LOW,Introduce a new variable or use its initial value before reassigning 'metadata'.
+test/dialect/postgresql/test_types.py,790,BUG,LOW,Introduce a new variable or use its initial value before reassigning 'metadata'.
+test/dialect/postgresql/test_types.py,801,BUG,LOW,Introduce a new variable or use its initial value before reassigning 'metadata'.
+test/dialect/postgresql/test_types.py,4175,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""==""."
+test/dialect/postgresql/test_types.py,4176,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""!=""."
+test/dialect/postgresql/test_types.py,4820,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""-""."
+test/dialect/postgresql/test_types.py,4831,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""-""."
+test/dialect/postgresql/test_types.py,5196,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""-""."
+test/dialect/postgresql/test_types.py,5338,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""-""."
+test/dialect/postgresql/test_types.py,6208,BUG,HIGH,"Add a ""self"" or class parameter"
+test/dialect/test_sqlite.py,2740,BUG,HIGH,"Add a ""self"" or class parameter"
+test/engine/test_ddlevents.py,975,BUG,MEDIUM,"Remove this use of the output from ""against""; ""against"" doesnâ€™t return anything."
+test/engine/test_ddlevents.py,977,BUG,MEDIUM,"Remove this use of the output from ""against""; ""against"" doesnâ€™t return anything."
+test/engine/test_ddlevents.py,980,BUG,MEDIUM,"Remove this use of the output from ""against""; ""against"" doesnâ€™t return anything."
+test/engine/test_ddlevents.py,983,BUG,MEDIUM,"Remove this use of the output from ""against""; ""against"" doesnâ€™t return anything."
+test/engine/test_ddlevents.py,995,BUG,MEDIUM,"Remove this use of the output from ""against""; ""against"" doesnâ€™t return anything."
+test/engine/test_ddlevents.py,998,BUG,MEDIUM,"Remove this use of the output from ""against""; ""against"" doesnâ€™t return anything."
+test/engine/test_ddlevents.py,1001,BUG,MEDIUM,"Remove this use of the output from ""against""; ""against"" doesnâ€™t return anything."
+test/engine/test_ddlevents.py,1004,BUG,MEDIUM,"Remove this use of the output from ""against""; ""against"" doesnâ€™t return anything."
+test/engine/test_parseconnect.py,543,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
+test/engine/test_parseconnect.py,555,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
+test/engine/test_parseconnect.py,567,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
+test/engine/test_parseconnect.py,576,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
+test/engine/test_parseconnect.py,584,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
+test/engine/test_parseconnect.py,595,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
+test/engine/test_parseconnect.py,616,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
+test/engine/test_parseconnect.py,798,VULNERABILITY,HIGH,Make sure this MySQL database password gets changed and removed from the code.
+test/engine/test_parseconnect.py,802,VULNERABILITY,HIGH,Make sure this MySQL database password gets changed and removed from the code.
+test/engine/test_parseconnect.py,809,VULNERABILITY,HIGH,Make sure this MySQL database password gets changed and removed from the code.
+test/engine/test_parseconnect.py,811,VULNERABILITY,HIGH,Make sure this MySQL database password gets changed and removed from the code.
+test/engine/test_parseconnect.py,812,VULNERABILITY,HIGH,Make sure this MySQL database password gets changed and removed from the code.
+test/engine/test_parseconnect.py,813,VULNERABILITY,HIGH,Make sure this MySQL database password gets changed and removed from the code.
+test/engine/test_reconnect.py,389,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
+test/engine/test_transaction.py,143,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""==""."
+test/engine/test_transaction.py,810,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""==""."
+test/ext/asyncio/test_session_py3k.py,1129,BUG,HIGH,B is used before it is defined. Move the definition before.
+test/ext/test_associationproxy.py,786,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""==""."
+test/ext/test_associationproxy.py,791,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""!=""."
+test/ext/test_associationproxy.py,3833,BUG,HIGH,UserKeywordAssociation is used before it is defined. Move the definition before.
+test/ext/test_associationproxy.py,3889,BUG,HIGH,UserKeywordAssociation is used before it is defined. Move the definition before.
+test/ext/test_associationproxy.py,4013,BUG,HIGH,Keyword is used before it is defined. Move the definition before.
+test/ext/test_associationproxy.py,4039,BUG,HIGH,Keyword is used before it is defined. Move the definition before.
+test/ext/test_horizontal_shard.py,147,BUG,MEDIUM,Change this condition so that it does not always evaluate to true; some subsequent code is never executed.
+test/ext/test_horizontal_shard.py,744,BUG,MEDIUM,Change this condition so that it does not always evaluate to true; some subsequent code is never executed.
+test/ext/test_mutable.py,456,BUG,MEDIUM,Remove or correct this useless self-assignment.
+test/ext/test_serializer.py,226,BUG,MEDIUM,"The return value of ""str"" must be used."
+test/orm/declarative/test_abs_import_only.py,65,BUG,HIGH,Bar is used before it is defined. Move the definition before.
+test/orm/declarative/test_basic.py,1740,BUG,MEDIUM,"The return value of ""type"" must be used."
+test/orm/declarative/test_basic.py,3422,BUG,MEDIUM,This branch duplicates the one on line 3405.
+test/orm/declarative/test_dc_transforms.py,1538,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
+test/orm/declarative/test_dc_transforms.py,1541,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
+test/orm/declarative/test_dc_transforms.py,1544,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
+test/orm/declarative/test_dc_transforms.py,1547,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
+test/orm/declarative/test_mixin.py,1997,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
+test/orm/declarative/test_tm_future_annotations.py,334,BUG,HIGH,B is used before it is defined. Move the definition before.
+test/orm/declarative/test_tm_future_annotations.py,359,BUG,HIGH,B is used before it is defined. Move the definition before.
+test/orm/inheritance/test_poly_linked_list.py,246,BUG,MEDIUM,Fix this attribute access on a value that can be 'None'.
+test/orm/inheritance/test_single.py,2116,BUG,HIGH,Executive is used before it is defined. Move the definition before.
+test/orm/inheritance/test_single.py,2117,BUG,HIGH,Technologist is used before it is defined. Move the definition before.
+test/orm/test_attributes.py,634,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
+test/orm/test_attributes.py,1760,BUG,HIGH,Return a value of type `bool` in this method. Consider explicitly raising a TypeError if this class is not meant to support this method.
+test/orm/test_attributes.py,2312,BUG,MEDIUM,Remove or correct this useless self-assignment.
+test/orm/test_core_compilation.py,368,BUG,HIGH,"Add a ""self"" or class parameter"
+test/orm/test_events.py,3458,BUG,MEDIUM,"The return value of ""str"" must be used."
+test/orm/test_events.py,3459,BUG,MEDIUM,"The return value of ""str"" must be used."
+test/orm/test_mapper.py,1922,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
+test/orm/test_merge.py,52,BUG,MEDIUM,Fix this attribute access on a value that can be 'None'.
+test/orm/test_merge.py,1861,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""==""."
+test/orm/test_options.py,1514,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
+test/orm/test_query.py,5406,BUG,MEDIUM,Delete this unreachable code or refactor the code to make it reachable.
+test/orm/test_relationships.py,1110,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""==""."
+test/orm/test_session.py,1528,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
+test/orm/test_utils.py,583,BUG,HIGH,"Add a ""self"" or class parameter"
+test/orm/test_utils.py,879,BUG,MEDIUM,Do not perform equality checks with floating point values.
+test/orm/test_utils.py,885,BUG,MEDIUM,Do not perform equality checks with floating point values.
+test/orm/test_versioning.py,2082,BUG,MEDIUM,Remove or correct this useless self-assignment.
+test/perf/compiled_extensions.py,172,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
+test/perf/compiled_extensions.py,237,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
+test/perf/compiled_extensions.py,237,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""==""."
+test/perf/compiled_extensions.py,238,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
+test/perf/compiled_extensions.py,238,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""==""."
+test/perf/compiled_extensions.py,242,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
+test/perf/compiled_extensions.py,243,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
+test/perf/compiled_extensions.py,247,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
+test/perf/compiled_extensions.py,248,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
+test/perf/compiled_extensions.py,252,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
+test/perf/compiled_extensions.py,252,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""!=""."
+test/perf/compiled_extensions.py,253,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
+test/perf/compiled_extensions.py,253,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""!=""."
+test/perf/compiled_extensions.py,257,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
+test/perf/compiled_extensions.py,258,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
+test/perf/compiled_extensions.py,262,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
+test/perf/compiled_extensions.py,263,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
+test/perf/compiled_extensions.py,553,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
+test/perf/compiled_extensions.py,553,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""==""."
+test/perf/compiled_extensions.py,554,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
+test/perf/compiled_extensions.py,555,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
+test/perf/compiled_extensions.py,560,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
+test/perf/compiled_extensions.py,560,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""!=""."
+test/perf/compiled_extensions.py,561,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
+test/perf/compiled_extensions.py,562,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
+test/perf/compiled_extensions.py,575,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
+test/perf/compiled_extensions.py,575,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""<=""."
+test/perf/compiled_extensions.py,576,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
+test/perf/compiled_extensions.py,577,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
+test/perf/compiled_extensions.py,578,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
+test/perf/compiled_extensions.py,578,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""<=""."
+test/perf/compiled_extensions.py,583,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
+test/perf/compiled_extensions.py,583,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""<""."
+test/perf/compiled_extensions.py,584,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
+test/perf/compiled_extensions.py,585,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
+test/perf/compiled_extensions.py,586,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
+test/perf/compiled_extensions.py,586,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""<""."
+test/perf/compiled_extensions.py,599,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
+test/perf/compiled_extensions.py,599,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator "">=""."
+test/perf/compiled_extensions.py,600,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
+test/perf/compiled_extensions.py,601,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
+test/perf/compiled_extensions.py,602,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
+test/perf/compiled_extensions.py,602,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator "">=""."
+test/perf/compiled_extensions.py,607,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
+test/perf/compiled_extensions.py,607,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator "">""."
+test/perf/compiled_extensions.py,608,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
+test/perf/compiled_extensions.py,608,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator "">""."
+test/perf/compiled_extensions.py,609,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
+test/perf/compiled_extensions.py,610,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
+test/perf/compiled_extensions.py,610,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator "">""."
+test/perf/compiled_extensions.py,643,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
+test/perf/compiled_extensions.py,667,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
+test/perf/compiled_extensions.py,691,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
+test/perf/compiled_extensions.py,727,BUG,MEDIUM,"The return value of ""str"" must be used."
+test/perf/compiled_extensions.py,728,BUG,MEDIUM,"The return value of ""str"" must be used."
+test/perf/compiled_extensions.py,772,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
+test/perf/invalidate_stresstest.py,17,VULNERABILITY,HIGH,Make sure this MySQL database password gets changed and removed from the code.
+test/sql/test_compiler.py,3884,BUG,MEDIUM,"The return value of ""str"" must be used."
+test/sql/test_constraints.py,312,BUG,MEDIUM,Remove this if statement or edit its code blocks so that they're not all the same.
+test/sql/test_external_traversal.py,359,BUG,MEDIUM,"The return value of ""set"" must be used."
+test/sql/test_external_traversal.py,1006,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""==""."
+test/sql/test_external_traversal.py,1043,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""==""."
+test/sql/test_from_linter.py,280,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""==""."
+test/sql/test_from_linter.py,284,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""==""."
+test/sql/test_from_linter.py,296,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""==""."
+test/sql/test_from_linter.py,403,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""==""."
+test/sql/test_operators.py,575,BUG,MEDIUM,"This conditional expression returns the same value whether the condition is ""true"" or ""false""."
+test/sql/test_operators.py,595,BUG,MEDIUM,"This conditional expression returns the same value whether the condition is ""true"" or ""false""."
+test/sql/test_operators.py,1754,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""==""."
+test/sql/test_operators.py,1766,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""==""."
+test/sql/test_operators.py,1913,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""-""."
+test/sql/test_operators.py,1917,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""-""."
+test/sql/test_operators.py,1921,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""-""."
+test/sql/test_operators.py,1925,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""-""."
+test/sql/test_operators.py,1929,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""-""."
+test/sql/test_operators.py,1933,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""-""."
+test/sql/test_operators.py,1938,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""-""."
+test/sql/test_operators.py,1943,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""-""."
+test/sql/test_operators.py,1948,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""/""."
+test/sql/test_operators.py,1952,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""/""."
+test/sql/test_operators.py,1957,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""/""."
+test/sql/test_operators.py,1963,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""/""."
+test/sql/test_operators.py,1968,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""/""."
+test/sql/test_operators.py,1973,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""/""."
+test/sql/test_operators.py,1977,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""-""."
+test/sql/test_operators.py,1982,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""-""."
+test/sql/test_operators.py,1989,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""-""."
+test/sql/test_operators.py,1989,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""/""."
+test/sql/test_operators.py,1989,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""-""."
+test/sql/test_operators.py,1996,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""-""."
+test/sql/test_operators.py,1996,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""/""."
+test/sql/test_operators.py,1996,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""/""."
+test/sql/test_operators.py,2003,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""/""."
+test/sql/test_operators.py,2003,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""-""."
+test/sql/test_operators.py,2009,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""/""."
+test/sql/test_operators.py,2009,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""-""."
+test/sql/test_operators.py,2016,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""-""."
+test/sql/test_operators.py,2022,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""==""."
+test/sql/test_operators.py,2026,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""!=""."
+test/sql/test_operators.py,2723,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""==""."
+test/sql/test_operators.py,2727,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator "">""."
+test/sql/test_operators.py,2740,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""==""."
+test/sql/test_operators.py,2745,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""==""."
+test/sql/test_operators.py,2827,BUG,MEDIUM,"The return value of ""isinstance"" must be used."
+test/sql/test_resultset.py,365,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""!=""."
+test/sql/test_resultset.py,372,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""!=""."
+test/sql/test_selectable.py,1439,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
+test/sql/test_selectable.py,3186,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
+test/sql/test_selectable.py,3553,BUG,MEDIUM,"The return value of ""repr"" must be used."
+test/sql/test_types.py,234,BUG,HIGH,"Add a ""self"" or class parameter"
+test/sql/test_types.py,326,BUG,MEDIUM,"The return value of ""repr"" must be used."
+test/sql/test_types.py,332,BUG,MEDIUM,"The return value of ""str"" must be used."
+test/sql/test_update.py,861,BUG,HIGH,"Add a ""self"" or class parameter"
+test/sql/test_values.py,75,BUG,MEDIUM,"The return value of ""str"" must be used."
+test/sql/test_values.py,402,BUG,MEDIUM,"The return value of ""str"" must be used."
+test/typing/plain_files/engine/engines.py,30,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
+test/typing/plain_files/ext/asyncio/async_sessionmaker.py,59,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
+test/typing/plain_files/ext/asyncio/create_proxy_methods.py,55,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
+test/typing/plain_files/ext/asyncio/create_proxy_methods.py,97,BUG,MEDIUM,Remove or refactor this statement; it has no side effects.
+test/typing/plain_files/ext/hybrid/hybrid_two.py,136,BUG,MEDIUM,Delete this unreachable code or refactor the code to make it reachable.
+test/typing/plain_files/orm/issue_9340.py,34,VULNERABILITY,HIGH,Make sure this PostgreSQL database password gets changed and removed from the code.
+test/typing/plain_files/sql/operators.py,29,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator "">""."
+test/typing/plain_files/sql/operators.py,33,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator "">=""."
+test/typing/plain_files/sql/operators.py,37,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""==""."
+test/typing/plain_files/sql/operators.py,41,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""!=""."
+test/typing/plain_files/sql/operators.py,45,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""<""."
+test/typing/plain_files/sql/operators.py,49,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""<=""."
+test/typing/plain_files/sql/operators.py,64,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator "">>""."
+test/typing/plain_files/sql/operators.py,104,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""-""."
+test/typing/plain_files/sql/operators.py,112,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""/""."
+test/typing/plain_files/sql/operators.py,116,BUG,MEDIUM,"Correct one of the identical sub-expressions on both sides of operator ""%""."
