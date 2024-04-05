@@ -2,61 +2,61 @@ file_path,line_number,type,severity,description
 sqlalchemy/doc/build/requirements.txt,5,HTTP Request Smuggling,Medium,Affected versions of this package are vulnerable to HTTP Request Smuggling via the parse and validate strings capabilities in the int constructor.
 sqlalchemy/doc/build/requirements.txt,5,HTTP Request Smuggling,Medium,Affected versions of this package are vulnerable to HTTP Request Smuggling via the parse and validate strings capabilities in the int constructor.
 sqlalchemy/doc/build/requirements.txt,5,MPL-2.0 License ,Medium,No remediation path available
-sqlalchemy/doc/build/requirements.txt,5,Open Redirect,Low,"Affected versions of this package are vulnerable to Open Redirect via the StaticFileHandler class, due to improper validation of the default_filename parameter in the initialize function. Exploiting this vulnerability is possible under specific configurations and might result in a redirect to an attacker-controlled site."
-sqlalchemy/examples/performance/__init__.py,332,Code Injection,Medium,"Unsanitized input from a command line argument flows into __import__, where it is executed as Python code. This may result in a Code Injection vulnerability."
-sqlalchemy/examples/performance/__init__.py,391,Code Injection,Medium,"Unsanitized input from a command line argument flows into __import__, where it is executed as Python code. This may result in a Code Injection vulnerability."
-sqlalchemy/lib/sqlalchemy/dialects/mssql/base.py,3168,SQL Injection,Medium,"Unsanitized input from a database flows into execute, where it is used in an SQL query. This may result in an SQL Injection vulnerability"
-sqlalchemy/?test/ext/test_extendedattr.py,222,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. Found hardcoded credential used in user_name.
-sqlalchemy/?test/ext/test_extendedattr.py,255,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. Found hardcoded credential used in user_name.
-sqlalchemy/?test/ext/test_extendedattr.py,268,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. Found hardcoded credential used in user_name.
-sqlalchemy/?test/orm/test_attributes.py,247,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. Found hardcoded credential used in user_name.
-sqlalchemy/?test/orm/test_attributes.py,260,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. Found hardcoded credential used in user_name.
-sqlalchemy/?test/orm/test_attributes.py,550,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. Found hardcoded credential used in user_name.
-sqlalchemy/?test/orm/test_attributes.py,574,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. Found hardcoded credential used in user_name.
-sqlalchemy/?test/orm/test_naturalpks.py,114,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. Found hardcoded credential used in user_name.
-sqlalchemy/?test/orm/test_naturalpks.py,140,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. Found hardcoded credential used in user_name.
-sqlalchemy/?test/orm/test_naturalpks.py,167,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. Found hardcoded credential used in user_name.
-sqlalchemy/?test/orm/test_naturalpks.py,188,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. Found hardcoded credential used in user_name.
-sqlalchemy/?test/orm/test_naturalpks.py,204,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. Found hardcoded credential used in user_name.
-sqlalchemy/?test/orm/test_naturalpks.py,243,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. Found hardcoded credential used in user_name.
-sqlalchemy/?test/orm/test_naturalpks.py,262,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. Found hardcoded credential used in user_name.
-sqlalchemy/?test/orm/test_naturalpks.py,276,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. Found hardcoded credential used in user_name.
-sqlalchemy/?test/orm/test_naturalpks.py,277,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. Found hardcoded credential used in user_name.
-sqlalchemy/?test/orm/test_naturalpks.py,277,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. Found hardcoded credential used in user_name.
-sqlalchemy/?test/orm/test_naturalpks.py,282,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. Found hardcoded credential used in user_name.
-sqlalchemy/?test/orm/test_naturalpks.py,287,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. Found hardcoded credential used in user_name.
-sqlalchemy/?test/orm/test_naturalpks.py,368,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. Found hardcoded credential used in user_name.
-sqlalchemy/?test/orm/test_naturalpks.py,443,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. Found hardcoded credential used in user_name.
-sqlalchemy/?test/orm/test_naturalpks.py,501,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. Found hardcoded credential used in user_name.
-sqlalchemy/?test/orm/test_naturalpks.py,529,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. Found hardcoded credential used in user_name.
-sqlalchemy/?test/orm/test_naturalpks.py,581,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. Found hardcoded credential used in user_name.
-sqlalchemy/?test/orm/test_naturalpks.py,582,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. Found hardcoded credential used in user_name.
-sqlalchemy/?test/orm/test_naturalpks.py,622,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. Found hardcoded credential used in user_name.
-sqlalchemy/?test/orm/test_naturalpks.py,651,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. Found hardcoded credential used in user_name.
-sqlalchemy/?test/orm/test_naturalpks.py,671,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. Found hardcoded credential used in user_name.
-sqlalchemy/?test/orm/test_naturalpks.py,678,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. Found hardcoded credential used in user_name.
-sqlalchemy/?test/orm/test_naturalpks.py,686,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. Found hardcoded credential used in user_name.
-sqlalchemy/?test/orm/test_naturalpks.py,705,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. Found hardcoded credential used in user_name.
-sqlalchemy/?test/orm/test_naturalpks.py,1095,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. Found hardcoded credential used in user_name.
-sqlalchemy/?test/orm/test_naturalpks.py,1124,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. Found hardcoded credential used in user_name.
-sqlalchemy/?test/orm/test_naturalpks.py,1138,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. Found hardcoded credential used in user_name.
-sqlalchemy/?test/orm/test_naturalpks.py,1139,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. Found hardcoded credential used in user_name.
-sqlalchemy/?test/orm/test_naturalpks.py,1139,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. Found hardcoded credential used in user_name.
-sqlalchemy/?test/orm/test_naturalpks.py,1157,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. Found hardcoded credential used in user_name.
-sqlalchemy/?test/orm/test_naturalpks.py,1242,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. Found hardcoded credential used in user_name.
-sqlalchemy/?test/orm/test_naturalpks.py,1247,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. Found hardcoded credential used in user_name.
-sqlalchemy/?test/orm/test_naturalpks.py,1283,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. Found hardcoded credential used in user_name.
-sqlalchemy/?test/orm/test_naturalpks.py,1328,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. Found hardcoded credential used in user_name.
-sqlalchemy/?test/orm/test_naturalpks.py,1336,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. Found hardcoded credential used in user_name.
-sqlalchemy/?test/orm/test_naturalpks.py,1368,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. Found hardcoded credential used in user_name.
-sqlalchemy/?test/orm/test_naturalpks.py,1469,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. Found hardcoded credential used in user_name.
-sqlalchemy/?test/ext/asyncio/test_scoping_py3k.py,32,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. Found hardcoded credential used in user_name.
+sqlalchemy/doc/build/requirements.txt,5,Open Redirect,Low,"Affected versions of this package are vulnerable to Open Redirect via theÂ StaticFileHandlerÂ class, due to improper validation of theÂ default_filenameÂ parameter in theÂ initializeÂ function. Exploiting this vulnerability is possible under specific configurations and might result in a redirect to an attacker-controlled site."
+sqlalchemy/examples/performance/__init__.py,332,Code Injection,Medium,"Unsanitized input fromÂ a command line argumentÂ flowsÂ intoÂ __import__, where it is executed as Python code. This may result in a Code Injection vulnerability."
+sqlalchemy/examples/performance/__init__.py,391,Code Injection,Medium,"Unsanitized input fromÂ a command line argumentÂ flowsÂ intoÂ __import__, where it is executed as Python code. This may result in a Code Injection vulnerability."
+sqlalchemy/lib/sqlalchemy/dialects/mssql/base.py,3168,SQL Injection,Medium,"Unsanitized input fromÂ a databaseÂ flowsÂ intoÂ execute, where it is used in an SQL query. This may result in an SQL Injection vulnerability"
+sqlalchemy/?test/ext/test_extendedattr.py,222,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. FoundÂ hardcodedÂ credential used inÂ user_name.
+sqlalchemy/?test/ext/test_extendedattr.py,255,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. FoundÂ hardcodedÂ credential used inÂ user_name.
+sqlalchemy/?test/ext/test_extendedattr.py,268,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. FoundÂ hardcodedÂ credential used inÂ user_name.
+sqlalchemy/?test/orm/test_attributes.py,247,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. FoundÂ hardcodedÂ credential used inÂ user_name.
+sqlalchemy/?test/orm/test_attributes.py,260,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. FoundÂ hardcodedÂ credential used inÂ user_name.
+sqlalchemy/?test/orm/test_attributes.py,550,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. FoundÂ hardcodedÂ credential used inÂ user_name.
+sqlalchemy/?test/orm/test_attributes.py,574,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. FoundÂ hardcodedÂ credential used inÂ user_name.
+sqlalchemy/?test/orm/test_naturalpks.py,114,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. FoundÂ hardcodedÂ credential used inÂ user_name.
+sqlalchemy/?test/orm/test_naturalpks.py,140,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. FoundÂ hardcodedÂ credential used inÂ user_name.
+sqlalchemy/?test/orm/test_naturalpks.py,167,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. FoundÂ hardcodedÂ credential used inÂ user_name.
+sqlalchemy/?test/orm/test_naturalpks.py,188,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. FoundÂ hardcodedÂ credential used inÂ user_name.
+sqlalchemy/?test/orm/test_naturalpks.py,204,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. FoundÂ hardcodedÂ credential used inÂ user_name.
+sqlalchemy/?test/orm/test_naturalpks.py,243,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. FoundÂ hardcodedÂ credential used inÂ user_name.
+sqlalchemy/?test/orm/test_naturalpks.py,262,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. FoundÂ hardcodedÂ credential used inÂ user_name.
+sqlalchemy/?test/orm/test_naturalpks.py,276,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. FoundÂ hardcodedÂ credential used inÂ user_name.
+sqlalchemy/?test/orm/test_naturalpks.py,277,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. FoundÂ hardcodedÂ credential used inÂ user_name.
+sqlalchemy/?test/orm/test_naturalpks.py,277,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. FoundÂ hardcodedÂ credential used inÂ user_name.
+sqlalchemy/?test/orm/test_naturalpks.py,282,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. FoundÂ hardcodedÂ credential used inÂ user_name.
+sqlalchemy/?test/orm/test_naturalpks.py,287,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. FoundÂ hardcodedÂ credential used inÂ user_name.
+sqlalchemy/?test/orm/test_naturalpks.py,368,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. FoundÂ hardcodedÂ credential used inÂ user_name.
+sqlalchemy/?test/orm/test_naturalpks.py,443,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. FoundÂ hardcodedÂ credential used inÂ user_name.
+sqlalchemy/?test/orm/test_naturalpks.py,501,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. FoundÂ hardcodedÂ credential used inÂ user_name.
+sqlalchemy/?test/orm/test_naturalpks.py,529,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. FoundÂ hardcodedÂ credential used inÂ user_name.
+sqlalchemy/?test/orm/test_naturalpks.py,581,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. FoundÂ hardcodedÂ credential used inÂ user_name.
+sqlalchemy/?test/orm/test_naturalpks.py,582,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. FoundÂ hardcodedÂ credential used inÂ user_name.
+sqlalchemy/?test/orm/test_naturalpks.py,622,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. FoundÂ hardcodedÂ credential used inÂ user_name.
+sqlalchemy/?test/orm/test_naturalpks.py,651,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. FoundÂ hardcodedÂ credential used inÂ user_name.
+sqlalchemy/?test/orm/test_naturalpks.py,671,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. FoundÂ hardcodedÂ credential used inÂ user_name.
+sqlalchemy/?test/orm/test_naturalpks.py,678,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. FoundÂ hardcodedÂ credential used inÂ user_name.
+sqlalchemy/?test/orm/test_naturalpks.py,686,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. FoundÂ hardcodedÂ credential used inÂ user_name.
+sqlalchemy/?test/orm/test_naturalpks.py,705,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. FoundÂ hardcodedÂ credential used inÂ user_name.
+sqlalchemy/?test/orm/test_naturalpks.py,1095,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. FoundÂ hardcodedÂ credential used inÂ user_name.
+sqlalchemy/?test/orm/test_naturalpks.py,1124,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. FoundÂ hardcodedÂ credential used inÂ user_name.
+sqlalchemy/?test/orm/test_naturalpks.py,1138,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. FoundÂ hardcodedÂ credential used inÂ user_name.
+sqlalchemy/?test/orm/test_naturalpks.py,1139,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. FoundÂ hardcodedÂ credential used inÂ user_name.
+sqlalchemy/?test/orm/test_naturalpks.py,1139,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. FoundÂ hardcodedÂ credential used inÂ user_name.
+sqlalchemy/?test/orm/test_naturalpks.py,1157,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. FoundÂ hardcodedÂ credential used inÂ user_name.
+sqlalchemy/?test/orm/test_naturalpks.py,1242,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. FoundÂ hardcodedÂ credential used inÂ user_name.
+sqlalchemy/?test/orm/test_naturalpks.py,1247,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. FoundÂ hardcodedÂ credential used inÂ user_name.
+sqlalchemy/?test/orm/test_naturalpks.py,1283,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. FoundÂ hardcodedÂ credential used inÂ user_name.
+sqlalchemy/?test/orm/test_naturalpks.py,1328,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. FoundÂ hardcodedÂ credential used inÂ user_name.
+sqlalchemy/?test/orm/test_naturalpks.py,1336,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. FoundÂ hardcodedÂ credential used inÂ user_name.
+sqlalchemy/?test/orm/test_naturalpks.py,1368,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. FoundÂ hardcodedÂ credential used inÂ user_name.
+sqlalchemy/?test/orm/test_naturalpks.py,1469,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. FoundÂ hardcodedÂ credential used inÂ user_name.
+sqlalchemy/?test/ext/asyncio/test_scoping_py3k.py,32,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. FoundÂ hardcodedÂ credential used inÂ user_name.
 sqlalchemy/??test/perf/many_table_reflection.py,141,SQL Injection,Low,"Unsanitized input from a command line argument flows into sqlalchemy.schema.DDL, where it is used in an SQL query. This may result in an SQL Injection vulnerability."
 sqlalchemy/??test/perf/many_table_reflection.py,143,SQL Injection,Low,"Unsanitized input from a command line argument flows into sqlalchemy.schema.DDL, where it is used in an SQL query. This may result in an SQL Injection vulnerability."
 sqlalchemy/??test/perf/many_table_reflection.py,162,SQL Injection,Low,"Unsanitized input from a command line argument flows into sqlalchemy.schema.DDL, where it is used in an SQL query. This may result in an SQL Injection vulnerability."
 sqlalchemy/??test/perf/many_table_reflection.py,162,SQL Injection,Low,"Unsanitized input from a command line argument flows into sqlalchemy.schema.DDL, where it is used in an SQL query. This may result in an SQL Injection vulnerability."
 sqlalchemy/??test/perf/many_table_reflection.py,552,SQL Injection,Low,"Unsanitized input from a command line argument flows into sqlalchemy.schema.DDL, where it is used in an SQL query. This may result in an SQL Injection vulnerability."
-sqlalchemy/???lib/sqlalchemy/util/compat.py,103,Use of Password Hash With Insufficient Computational Effort,Low,hashlib.md5 is insecure. Consider changing it to a secure hashing algorithm.
-sqlalchemy/???lib/sqlalchemy/util/compat.py,108,Use of Password Hash With Insufficient Computational Effort,Low,hashlib.md5 is insecure. Consider changing it to a secure hashing algorithm.
-sqlalchemy/?examples/dogpile_caching/environment.py,50,Use of Password Hash With Insufficient Computational Effort,Low,hashlib.md5 is insecure. Consider changing it to a secure hashing algorithm.
-sqlalchemy/??test/orm/test_dynamic.py,1344,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. Found hardcoded credential used in user_name.
+sqlalchemy/???lib/sqlalchemy/util/compat.py,103,Use of Password Hash With Insufficient Computational Effort,Low,hashlib.md5Â is insecure. Consider changing it to a secure hashing algorithm.
+sqlalchemy/???lib/sqlalchemy/util/compat.py,108,Use of Password Hash With Insufficient Computational Effort,Low,hashlib.md5Â is insecure. Consider changing it to a secure hashing algorithm.
+sqlalchemy/?examples/dogpile_caching/environment.py,50,Use of Password Hash With Insufficient Computational Effort,Low,hashlib.md5Â is insecure. Consider changing it to a secure hashing algorithm.
+sqlalchemy/??test/orm/test_dynamic.py,1344,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. FoundÂ hardcodedÂ credential used inÂ user_name.
