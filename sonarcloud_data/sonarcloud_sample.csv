@@ -1,0 +1,25 @@
+package,file_path,line_number,type,severity,description
+hibernate,org.hibernate.orm:hibernate-core/src/main/java/org/hibernate/tool/schema/internal/exec/ScriptTargetOutputToFile.java,98,BUG,MINOR,"Do something with the ""boolean"" value returned by ""createNewFile""."
+hibernate,org.hibernate.orm:hibernate-core/src/main/java/org/hibernate/query/internal/QueryInterpretationCacheStandardImpl.java,206,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""o"" is nullable here."
+hibernate,org.hibernate.orm:hibernate-core/src/main/java/org/hibernate/event/internal/DefaultUpdateEventListener.java,31,BUG,MAJOR,"Change this condition so that it does not always evaluate to ""true"""
+sqlalchemy,eecs4313group4_sqlalchemy:test/orm/declarative/test_dc_transforms.py,1544,BUG,MAJOR,Remove or refactor this statement; it has no side effects.
+openjpa,org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/util/collections/TreeBidiMap.java,1473,BUG,MAJOR,"Make the ""K"" class ""Serializable"" or don't write it."
+hibernate,org.hibernate.orm:hibernate-core/src/main/java/org/hibernate/persister/entity/mutation/AbstractDeleteCoordinator.java,87,BUG,MAJOR,"Change this condition so that it does not always evaluate to ""false"""
+openjpa,org.apache.openjpa:openjpa-parent:openjpa-persistence/src/main/java/org/apache/openjpa/persistence/query/PredicateOperand.java,47,BUG,MAJOR,"Either override Object.equals(Object obj), or totally rename the method to prevent any confusion."
+openjpa,org.apache.openjpa:openjpa-parent:openjpa-jest/src/main/java/org/apache/openjpa/persistence/jest/JESTServlet.java,74,BUG,MAJOR,"Remove this misleading mutable servlet instance field or make it ""static"" and/or ""final"""
+hibernate,org.hibernate.orm:hibernate-testing/src/main/java/org/hibernate/testing/bytecode/enhancement/BytecodeEnhancerRunner.java,228,BUG,MINOR,"Do something with the ""boolean"" value returned by ""createNewFile""."
+openjpa,org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/util/concurrent/ConcurrentHashMap.java,79,BUG,CRITICAL,"Save and re-use this ""Random""."
+openjpa,org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/HSQLDictionary.java,345,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""val"" is nullable here."
+openjpa,org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/conf/package.html,19,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+openjpa,org.apache.openjpa:openjpa-parent:openjpa-kernel/src/main/java/org/apache/openjpa/kernel/ObjectIdStateManager.java,689,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""getValue"" is nullable here."
+sqlalchemy,eecs4313group4_sqlalchemy:test/ext/test_associationproxy.py,786,BUG,MAJOR,"Correct one of the identical sub-expressions on both sides of operator ""==""."
+sqlalchemy,eecs4313group4_sqlalchemy:test/dialect/postgresql/test_types.py,4176,BUG,MAJOR,"Correct one of the identical sub-expressions on both sides of operator ""!=""."
+openjpa,org.apache.openjpa:openjpa-parent:openjpa-lib/src/main/java/org/apache/openjpa/lib/conf/Configurations.java,226,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""conf"" is nullable here."
+sqlalchemy,eecs4313group4_sqlalchemy:test/typing/plain_files/sql/operators.py,49,BUG,MAJOR,"Correct one of the identical sub-expressions on both sides of operator ""<=""."
+ebean,org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/query/DefaultFetchGroupQuery.java,87,BUG,MINOR,"Parameter 2 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
+hibernate,org.hibernate.orm:tooling/metamodel-generator/src/main/java/org/hibernate/processor/validation/ProcessorSessionFactory.java,446,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""getEntityName()"" can return null."
+sqlalchemy,eecs4313group4_sqlalchemy:lib/sqlalchemy/dialects/oracle/base.py,1107,BUG,MAJOR,Remove this if statement or edit its code blocks so that they're not all the same.
+hibernate,org.hibernate.orm:hibernate-core/src/main/java/org/hibernate/internal/StatelessSessionImpl.java,411,BUG,MINOR,"Parameter 4 to this call is marked ""@NonNull"" but null could be passed."
+hibernate,org.hibernate.orm:hibernate-core/src/main/java/org/hibernate/internal/SessionImpl.java,1566,BUG,MAJOR,"Change this condition so that it does not always evaluate to ""true"""
+sqlalchemy,eecs4313group4_sqlalchemy:test/orm/inheritance/test_single.py,2117,BUG,BLOCKER,Technologist is used before it is defined. Move the definition before.
+openjpa,org.apache.openjpa:openjpa-parent:openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/StoreCollectionFieldStrategy.java,317,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""oid"" is nullable here."
