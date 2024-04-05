@@ -1,0 +1,186 @@
+file_path,line_number,type,severity,description
+/ebean-core/src/main/java/io/ebeaninternal/server/loadcontext/DLoadBeanContext.java,98,Quality,Medium,Type: Using invalid iterator | Category: API usage errors
+/ebean-api/src/main/java/io/ebean/config/dbplatform/DbPlatformTypeParser.java,29,Quality,Medium,Type: Arguments in wrong order | Category: API usage errors
+/ebean-ddl-generator/src/main/java/io/ebeaninternal/dbmigration/ddlgeneration/platform/AbstractHanaDdl.java,110,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+/kotlin-querybean-generator/src/main/java/io/ebean/querybean/generator/PropertyTypeAssoc.java,27,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+/querybean-generator/src/main/java/io/ebean/querybean/generator/PropertyTypeAssoc.java,27,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+/ebean-ddl-generator/src/main/java/io/ebeaninternal/dbmigration/ddlgeneration/platform/DB2Ddl.java,113,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+/ebean-core/src/main/java/io/ebeaninternal/server/query/CQueryUpdate.java,87,Quality,Medium,Type: Unguarded write | Category: Concurrent data access violations
+/ebean-core/src/main/java/io/ebeaninternal/server/query/CQueryRowCount.java,70,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+/ebean-core/src/main/java/io/ebeaninternal/server/query/CQuery.java,749,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+/ebean-core/src/main/java/io/ebeaninternal/server/query/CQueryFetchSingleAttribute.java,166,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+/ebean-core/src/main/java/io/ebeaninternal/server/query/CQuery.java,570,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+/ebean-core/src/main/java/io/ebeaninternal/server/query/CQuery.java,550,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+/ebean-core/src/main/java/io/ebeaninternal/server/query/CQueryBindCapture.java,38,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+/ebean-core/src/main/java/io/ebeaninternal/server/query/CQueryFetchSingleAttribute.java,112,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+/ebean-core/src/main/java/io/ebeaninternal/server/query/CQueryBindCapture.java,83,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+/ebean-redis/src/main/java/io/ebean/redis/RedisCacheFactory.java,139,Quality,Medium,Type: Unguarded write | Category: Concurrent data access violations
+/ebean-core/src/main/java/io/ebeaninternal/server/loadcontext/DLoadManyContext.java,67,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+/ebean-core/src/main/java/io/ebeaninternal/server/query/CQueryBindCapture.java,72,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+/ebean-core/src/main/java/io/ebeaninternal/server/query/CQueryRowCount.java,57,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+/ebean-core/src/main/java/io/ebeaninternal/server/query/CQueryBindCapture.java,72,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+/ebean-core/src/main/java/io/ebeaninternal/server/loadcontext/DLoadManyContext.java,158,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+/ebean-core/src/main/java/io/ebeaninternal/server/query/CQueryFetchSingleAttribute.java,65,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+/ebean-core/src/main/java/io/ebeaninternal/server/query/CQuery.java,341,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+/ebean-core/src/main/java/io/ebeaninternal/server/query/CQuery.java,481,Quality,Medium,Type: Unguarded write | Category: Concurrent data access violations
+/ebean-core/src/main/java/io/ebeaninternal/server/query/CQueryBindCapture.java,83,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+/ebean-core/src/main/java/io/ebeaninternal/server/query/CQueryUpdate.java,51,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+/ebean-core/src/main/java/io/ebeaninternal/server/query/CQuery.java,368,Quality,Medium,Type: Unguarded write | Category: Concurrent data access violations
+/ebean-core/src/main/java/io/ebeaninternal/server/core/MultiTenantDbSchemaSupplier.java,114,Various,Low,Type: Resource leak on an exceptional path | Category: Exceptional resource leaks
+/ebean-core/src/main/java/io/ebeaninternal/server/persist/ExeCallableSql.java,79,Various,Low,Type: Resource leak on an exceptional path | Category: Exceptional resource leaks
+/ebean-core/src/main/java/io/ebeaninternal/server/core/MultiTenantDbSchemaSupplier.java,97,Various,Low,Type: Resource leak on an exceptional path | Category: Exceptional resource leaks
+/ebean-core/src/main/java/io/ebeaninternal/server/core/MultiTenantDbCatalogSupplier.java,100,Various,Low,Type: Resource leak on an exceptional path | Category: Exceptional resource leaks
+/ebean-core/src/main/java/io/ebeaninternal/server/core/MultiTenantDbCatalogSupplier.java,110,Various,Low,Type: Resource leak on an exceptional path | Category: Exceptional resource leaks
+/ebean-core/src/main/java/io/ebeaninternal/server/profile/DTimeMetricStats.java,24,Quality,Medium,Type: Result is not floating-point | Category: Incorrect expression
+/ebean-ddl-generator/src/main/java/io/ebeaninternal/dbmigration/ddlgeneration/platform/SqlServerDdl.java,129,Quality,Medium,Type: Copy-paste error | Category: Incorrect expression
+/ebean-core/src/main/java/io/ebeaninternal/server/profile/DTimeMetricStats.java,96,Quality,Medium,Type: Result is not floating-point | Category: Incorrect expression
+/ebean-api/src/main/java/io/ebean/config/dbplatform/DbDefaultValue.java,121,Quality,Medium,Type: Useless call | Category: Incorrect expression
+/ebean-test/src/main/java/io/ebean/test/config/AutoConfigureForTesting.java,40,Quality,Medium,Type: Useless call | Category: Incorrect expression
+/ebean-ddl-generator/src/main/java/io/ebeaninternal/dbmigration/ddlgeneration/platform/SqlServerHistoryDdl.java,90,Quality,Medium,Type: Useless call | Category: Incorrect expression
+/ebean-core/src/main/java/io/ebeaninternal/server/query/CQuery.java,442,Security,Low,Type: Cleartext sensitive data in a file | Category: Low impact security
+/ebean-core/src/main/java/io/ebeaninternal/server/query/SqlTreeLoadBean.java,349,Security,Low,Type: Cleartext sensitive data in a file | Category: Low impact security
+/ebean-core/src/main/java/io/ebeaninternal/server/deploy/id/IdBinderEmbedded.java,Various,Security,Low,Type: Cleartext sensitive data in a file | Category: Low impact security
+/ebean-core/src/main/java/io/ebeaninternal/server/deploy/id/IdBinderEmbedded.java,Various,Security,Low,Type: Cleartext sensitive data in a file | Category: Low impact security
+/ebean-core/src/main/java/io/ebeaninternal/server/deploy/AssocOneHelpEmbedded.java,Various,Security,Low,Type: Cleartext sensitive data in a file | Category: Low impact security
+/ebean-core/src/main/java/io/ebeaninternal/server/query/CQueryFetchSingleAttribute.java,Various,Security,Low,Type: Cleartext sensitive data in a file | Category: Low impact security
+/ebean-core/src/main/java/io/ebeaninternal/server/query/SqlTreeLoadBean.java,Various,Security,Low,Type: Cleartext sensitive data in a file | Category: Low impact security
+/ebean-core/src/main/java/io/ebeaninternal/server/query/DefaultRelationalQueryEngine.java,Various,Security,Low,Type: Cleartext sensitive data in a file | Category: Low impact security
+/ebean-core/src/main/java/io/ebeaninternal/server/deploy/AssocOneHelpEmbedded.java,Various,Security,Low,Type: Cleartext sensitive data in a file | Category: Low impact security
+/ebean-core/src/main/java/io/ebeaninternal/server/dto/DtoQueryPlanConSetter.java,25,Security,Low,Type: Cleartext sensitive data in a file | Category: Low impact security
+/ebean-core/src/main/java/io/ebeaninternal/server/query/CQuery.java,511,Security,Low,Type: Cleartext sensitive data in a file | Category: Low impact security
+/ebean-core/src/main/java/io/ebeaninternal/server/query/DefaultRelationalQueryEngine.java,Various,Security,Low,Type: Cleartext sensitive data in a file | Category: Low impact security
+/ebean-core/src/main/java/io/ebeaninternal/server/query/CQueryFetchSingleAttribute.java,Various,Security,Low,Type: Cleartext sensitive data in a file | Category: Low impact security
+/ebean-core/src/main/java/io/ebeaninternal/server/dto/DtoMetaConstructor.java,Various,Security,Low,Type: Cleartext sensitive data in a file | Category: Low impact security
+/ebean-core/src/main/java/io/ebeaninternal/server/deploy/AssocOneHelpEmbedded.java,Various,Security,Low,Type: Cleartext sensitive data in a file | Category: Low impact security
+/ebean-core/src/main/java/io/ebeaninternal/server/deploy/AssocOneHelpEmbedded.java,Various,Security,Low,Type: Cleartext sensitive data in a file | Category: Low impact security
+/ebean-core/src/main/java/io/ebeaninternal/server/query/SqlTreeLoadBean.java,349,Security,Low,Type: Cleartext sensitive data in a file | Category: Low impact security
+/ebean-core/src/main/java/io/ebeaninternal/server/query/CQuery.java,527,Security,Low,Type: Cleartext sensitive data in a file | Category: Low impact security
+/ebean-core/src/main/java/io/ebeaninternal/server/dto/DtoQueryPlanConPlus.java,25,Security,Low,Type: Cleartext sensitive data in a file | Category: Low impact security
+/ebean-core/src/main/java/io/ebeaninternal/server/query/SqlTreeLoadBean.java,125,Security,Low,Type: Cleartext sensitive data in a file | Category: Low impact security
+/ebean-core/src/main/java/io/ebeaninternal/server/query/CQueryIteratorWithBuffer.java,39,Security,Low,Type: Cleartext sensitive data in a file | Category: Low impact security
+/ebean-core/src/main/java/io/ebeaninternal/server/dto/DtoQueryPlanConPlus.java,25,Security,Low,Type: Cleartext sensitive data in a file | Category: Low impact security
+/ebean-core/src/main/java/io/ebeaninternal/server/persist/DefaultPersister.java,1176,Security,Medium,Type: Cleartext sensitive data in a database | Category: Medium impact security
+/ebean-core/src/main/java/io/ebeaninternal/server/persist/DefaultPersister.java,Various,Security,Medium,Type: Cleartext sensitive data in a database | Category: Medium impact security
+/ebean-core/src/main/java/io/ebeaninternal/server/query/CQueryEngine.java,Various,Security,Medium,Type: Cleartext sensitive data in a database | Category: Medium impact security
+/ebean-core/src/main/java/io/ebeaninternal/server/deploy/AssocOneHelpRefInherit.java,Various,Security,Medium,Type: Cleartext sensitive data in a database | Category: Medium impact security
+/ebean-core/src/main/java/io/ebeaninternal/server/deploy/AssocOneHelp.java,Various,Security,Medium,Type: Cleartext sensitive data in a database | Category: Medium impact security
+/ebean-core/src/main/java/io/ebeaninternal/server/persist/DefaultPersister.java,371,Security,Medium,Type: Cleartext sensitive data in a database | Category: Medium impact security
+/ebean-core/src/main/java/io/ebeaninternal/server/deploy/AssocOneHelp.java,Various,Security,Medium,Type: Cleartext sensitive data in a database | Category: Medium impact security
+/ebean-core/src/main/java/io/ebeaninternal/server/persist/SaveManyBeans.java,183,Security,Medium,Type: Cleartext sensitive data in a database | Category: Medium impact security
+/ebean-core/src/main/java/io/ebeaninternal/server/util/Md5.java,13,Security,Medium,Type: Risky cryptographic hashing function | Category: Medium impact security
+/ebean-core/src/main/java/io/ebeaninternal/server/persist/dml/DmlBeanPersister.java,Various,Security,Medium,Type: Cleartext sensitive data in a database | Category: Medium impact security
+/ebean-core/src/main/java/io/ebeaninternal/server/deploy/AssocOneHelpRefInherit.java,Various,Security,Medium,Type: Cleartext sensitive data in a database | Category: Medium impact security
+/ebean-core/src/main/java/io/ebeaninternal/server/query/CQueryEngine.java,Various,Security,Medium,Type: Cleartext sensitive data in a database | Category: Medium impact security
+/ebean-core/src/main/java/io/ebeaninternal/server/type/EnumToDbIntegerMap.java,65,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+/ebean-core/src/main/java/io/ebeaninternal/server/deploy/parse/DeployCreateProperties.java,136,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+/ebean-core/src/main/java/io/ebeaninternal/server/query/CQueryFetchSingleAttribute.java,88,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+/ebean-core/src/main/java/io/ebeaninternal/server/core/OrmQueryRequest.java,370,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+/ebean-core/src/main/java/io/ebeaninternal/server/deploy/BeanDescriptorDraftHelp.java,50,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+/ebean-core/src/main/java/io/ebeaninternal/server/persist/dml/InsertHandler.java,125,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+/ebean-test/src/main/java/io/ebean/test/config/AutoConfigureForTesting.java,47,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+/ebean-core/src/main/java/io/ebeaninternal/server/core/PersistDeferredRelationship.java,48,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+/ebean-core/src/main/java/io/ebeaninternal/server/query/DefaultOrmQueryEngine.java,138,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+/ebean-core/src/main/java/io/ebeaninternal/server/core/PersistRequestBean.java,271,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+/ebean-core/src/main/java/io/ebeaninternal/server/persist/dml/GeneratedProperties.java,74,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+/ebean-core/src/main/java/io/ebeaninternal/server/el/ElComparatorProperty.java,Various,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+/ebean-core/src/main/java/io/ebeaninternal/server/persist/BatchedPstmt.java,180,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+/ebean-core/src/main/java/io/ebeaninternal/server/core/OrmQueryRequest.java,360,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+/ebean-core/src/main/java/io/ebeaninternal/server/type/DefaultTypeManager.java,657,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+/ebean-core/src/main/java/io/ebeaninternal/server/deploy/BeanPropertyAssocMany.java,1102,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+/ebean-core/src/main/java/io/ebeaninternal/server/persist/SaveManyBeans.java,176,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+/ebean-core/src/main/java/io/ebeaninternal/server/core/OrmQueryRequest.java,387,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+/ebean-core/src/main/java/io/ebeaninternal/server/persist/DefaultPersister.java,796,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+/ebean-core/src/main/java/io/ebeaninternal/server/deploy/DynamicPropertyAggregationFormulaMTO.java,39,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+/querybean-generator/src/main/java/io/ebean/querybean/generator/ProcessingContext.java,Various,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+/ebean-ddl-generator/src/main/java/io/ebeaninternal/dbmigration/DdlGenerator.java,201,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+/ebean-core/src/main/java/io/ebeaninternal/server/core/PersistRequestBean.java,1261,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+/ebean-core/src/main/java/io/ebeaninternal/server/core/PersistRequestBean.java,Various,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+/ebean-core/src/main/java/io/ebeaninternal/server/core/PersistRequestBean.java,Various,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+/ebean-core/src/main/java/io/ebeaninternal/server/persist/ExeUpdateSql.java,64,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+/ebean-core/src/main/java/io/ebeaninternal/server/idgen/UuidV1IdGenerator.java,72,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+/ebean-ddl-generator/src/main/java/io/ebeaninternal/dbmigration/DdlGenerator.java,193,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+/ebean-core/src/main/java/io/ebeaninternal/server/deploy/BeanProperty.java,Various,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+/ebean-core/src/main/java/io/ebeaninternal/server/query/CQueryPredicates.java,185,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+/ebean-core/src/main/java/io/ebeaninternal/server/expression/IdInExpression.java,80,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+/ebean-test/src/main/java/io/ebean/test/config/platform/H2Setup.java,17,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+/ebean-core/src/main/java/io/ebeaninternal/server/json/DJsonContext.java,251,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+/ebean-core/src/main/java/io/ebeaninternal/server/persist/dmlbind/BindableEmbedded.java,51,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+/ebean-core-type/src/main/java/io/ebean/core/type/ScalarTypeBaseDateTime.java,72,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+/ebean-core/src/main/java/io/ebeaninternal/server/deploy/BeanDescriptorCacheHelp.java,283,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+/ebean-core/src/main/java/io/ebeaninternal/server/json/DJsonContext.java,163,Quality,Medium,Type: Dereference before null check | Category: Null pointer dereferences
+/ebean-core/src/main/java/io/ebeaninternal/server/query/SqlTreeBuilder.java,687,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+/ebean-core/src/main/java/io/ebeaninternal/server/type/DefaultTypeManager.java,633,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+/ebean-core/src/main/java/io/ebeaninternal/server/deploy/id/IdBinderEmbedded.java,287,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+/ebean-core/src/main/java/io/ebeaninternal/server/deploy/BeanPropertyAssocOne.java,128,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+/ebean-api/src/main/java/io/ebean/common/BeanList.java,Various,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+/ebean-api/src/main/java/io/ebean/DbContext.java,101,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+/platforms/h2/src/main/java/io/ebean/platform/h2/H2HistoryTrigger.java,77,Various,High,Type: Resource leak | Category: Resource leaks
+/ebean-core/src/main/java/io/ebeaninternal/server/transaction/TransactionFactoryTenant.java,47,Various,High,Type: Resource leak | Category: Resource leaks
+/ebean-core/src/main/java/io/ebeaninternal/server/util/Md5.java,13,Security,Low,Type: Weak hash algorithm | Category: Sigma
+/ebean-core/src/main/java/io/ebeaninternal/server/querydefn/DefaultRelationalQuery.java,34,Quality,Low,Type: Se: Incorrect definition of Serializable class | Category: SpotBugs: Bad practice
+/ebean-core/src/main/java/io/ebeaninternal/server/deploy/BeanDescriptor.java,2894,Quality,Low,Type: RC: Questionable use of reference equality rather than calling equals | Category: SpotBugs: Bad practice
+/ebean-core/src/main/java/io/ebeaninternal/server/querydefn/OrmQueryProperties.java,60,Quality,Low,Type: Se: Incorrect definition of Serializable class | Category: SpotBugs: Bad practice
+/ebean-core/src/main/java/io/ebeaninternal/server/deploy/BeanDescriptor.java,2869,Quality,Low,Type: RC: Questionable use of reference equality rather than calling equals | Category: SpotBugs: Bad practice
+/ebean-ddl-generator/src/main/java/io/ebeaninternal/dbmigration/ddlgeneration/platform/PostgresDdl.java,137,Quality,Low,Type: Eq: Problems with implementation of equals() | Category: SpotBugs: Bad practice
+/ebean-core/src/main/java/io/ebeaninternal/server/querydefn/OrmQueryProperties.java,175,Quality,Low,Type: Se: Incorrect definition of Serializable class | Category: SpotBugs: Bad practice
+/ebean-core/src/main/java/io/ebeaninternal/server/type/ScalarTypeBoolean.java,197,Quality,Low,Type: NP: Null pointer dereference | Category: SpotBugs: Bad practice
+/ebean-core/src/main/java/io/ebeaninternal/server/deploy/meta/DeployBeanDescriptor.java,39,Quality,Low,Type: Se: Incorrect definition of Serializable class | Category: SpotBugs: Bad practice
+/ebean-api/src/main/java/io/ebean/meta/SortMetric.java,Various,Quality,Low,Type: Se: Incorrect definition of Serializable class | Category: SpotBugs: Bad practice
+/ebean-core/src/main/java/io/ebeaninternal/server/deploy/parse/DeployInheritInfo.java,262,Quality,Low,Type: Eq: Problems with implementation of equals() | Category: SpotBugs: Bad practice
+/ebean-ddl-generator/src/main/java/io/ebeaninternal/dbmigration/IndexMigration.java,118,Quality,Low,Type: Eq: Problems with implementation of equals() | Category: SpotBugs: Bad practice
+/ebean-core/src/main/java/io/ebeaninternal/server/deploy/BeanDescriptor.java,1818,Quality,Low,Type: RC: Questionable use of reference equality rather than calling equals | Category: SpotBugs: Bad practice
+/ebean-core/src/main/java/io/ebeaninternal/server/type/ScalarTypeBoolean.java,253,Quality,Low,Type: NP: Null pointer dereference | Category: SpotBugs: Bad practice
+/ebean-core/src/main/java/io/ebeaninternal/server/json/WriteJson.java,592,Quality,Low,Type: NP: Null pointer dereference | Category: SpotBugs: Bad practice
+/ebean-core/src/main/java/io/ebeaninternal/server/type/ScalarTypeBoolean.java,334,Quality,Low,Type: NP: Null pointer dereference | Category: SpotBugs: Bad practice
+/ebean-core/src/main/java/io/ebeaninternal/server/idgen/UuidV1IdGenerator.java,254,Quality,Low,Type: RV: Bad use of return value | Category: SpotBugs: Bad practice
+/ebean-core/src/main/java/io/ebeaninternal/server/transaction/ImplicitReadOnlyTransaction.java,300,Quality,Low,Type: NP: Null pointer dereference | Category: SpotBugs: Bad practice
+/ebean-core/src/main/java/io/ebeaninternal/server/el/ElComparatorProperty.java,14,Quality,Low,Type: Se: Incorrect definition of Serializable class | Category: SpotBugs: Bad practice
+/ebean-core/src/main/java/io/ebeaninternal/server/deploy/ChainedBeanPersistController.java,178,Quality,Low,Type: Se: Incorrect definition of Serializable class | Category: SpotBugs: Bad practice
+/ebean-core/src/main/java/io/ebeaninternal/server/deploy/ChainedBeanQueryAdapter.java,83,Quality,Low,Type: Se: Incorrect definition of Serializable class | Category: SpotBugs: Bad practice
+/ebean-core/src/main/java/io/ebeaninternal/server/querydefn/OrmQueryDetail.java,549,Quality,Low,Type: Eq: Problems with implementation of equals() | Category: SpotBugs: Bad practice
+/ebean-core/src/main/java/io/ebeaninternal/server/querydefn/DefaultRelationalQuery.java,57,Quality,Low,Type: Se: Incorrect definition of Serializable class | Category: SpotBugs: Bad practice
+/ebean-core-type/src/main/java/io/ebean/core/type/BasicTypeConverter.java,123,Quality,Low,Type: NP: Null pointer dereference | Category: SpotBugs: Bad practice
+/ebean-core/src/main/java/io/ebeaninternal/server/type/ScalarTypeBoolean.java,285,Quality,Low,Type: NP: Null pointer dereference | Category: SpotBugs: Bad practice
+/ebean-core/src/main/java/io/ebeaninternal/server/deploy/id/ImportedIdSimple.java,29,Quality,Low,Type: Se: Incorrect definition of Serializable class | Category: SpotBugs: Bad practice
+/ebean-core/src/main/java/io/ebeaninternal/api/TransactionEvent.java,31,Quality,Low,Type: Se: Incorrect definition of Serializable class | Category: SpotBugs: Bad practice
+/ebean-ddl-generator/src/main/java/io/ebeaninternal/dbmigration/model/MigrationResource.java,49,Quality,Low,Type: Eq: Problems with implementation of equals() | Category: SpotBugs: Bad practice
+/ebean-api/src/main/java/io/ebean/bean/InterceptReadWrite.java,Various,Quality,Low,Type: Se: Incorrect definition of Serializable class | Category: SpotBugs: Bad practice
+/ebean-core/src/main/java/io/ebeaninternal/server/transaction/NoTransaction.java,177,Quality,Low,Type: NP: Null pointer dereference | Category: SpotBugs: Bad practice
+/ebean-core/src/main/java/io/ebeaninternal/server/transaction/ImplicitReadOnlyTransaction.java,277,Quality,Low,Type: NP: Null pointer dereference | Category: SpotBugs: Bad practice
+/ebean-core-type/src/main/java/io/ebean/core/type/BasicTypeConverter.java,140,Quality,Low,Type: NP: Null pointer dereference | Category: SpotBugs: Bad practice
+/ebean-core/src/main/java/io/ebeaninternal/api/ManyWhereJoins.java,26,Quality,Low,Type: Se: Incorrect definition of Serializable class | Category: SpotBugs: Bad practice
+/ebean-core/src/main/java/io/ebeaninternal/server/transaction/NoTransaction.java,311,Quality,Low,Type: NP: Null pointer dereference | Category: SpotBugs: Bad practice
+/ebean-core/src/main/java/io/ebeaninternal/server/type/ScalarTypeBoolean.java,166,Quality,Low,Type: NP: Null pointer dereference | Category: SpotBugs: Bad practice
+/ebean-core/src/main/java/io/ebeaninternal/server/profile/DTimeMetricStats.java,24,Quality,Medium,Type: ICAST: Casting from integer values | Category: SpotBugs: Correctness
+/ebean-core/src/main/java/io/ebeaninternal/server/idgen/UuidV1IdGenerator.java,98,Quality,Medium,Type: INT: Suspicious integer expression | Category: SpotBugs: Correctness
+/tests/test-java16/target/generated-sources/annotations/org/example/records/query/QCustomConstructor.java,Various,Quality,Low,Type: UuF: Unused field | Category: SpotBugs: Dodgy code
+/tests/test-java16/target/generated-sources/annotations/org/example/records/query/QUserRole.java,Various,Quality,Low,Type: UuF: Unused field | Category: SpotBugs: Dodgy code
+/tests/test-java16/target/generated-sources/annotations/org/example/records/query/QContact.java,Various,Quality,Low,Type: UuF: Unused field | Category: SpotBugs: Dodgy code
+/tests/test-java16/target/generated-sources/annotations/org/example/records/query/QUserSite.java,Various,Quality,Low,Type: UuF: Unused field | Category: SpotBugs: Dodgy code
+/tests/test-java16/target/generated-sources/annotations/org/example/records/query/QCustomToString.java,Various,Quality,Low,Type: UuF: Unused field | Category: SpotBugs: Dodgy code
+/ebean-ddl-generator/src/main/java/io/ebeaninternal/dbmigration/model/ModelContainer.java,262,Quality,Low,Type: DLS: Dead local store | Category: SpotBugs: Dodgy code
+/ebean-api/src/main/java/io/ebean/config/dbplatform/AbstractDbEncrypt.java,50,Quality,Low,Type: UwF: Unwritten field | Category: SpotBugs: Dodgy code
+/tests/test-java16/target/generated-sources/annotations/org/example/records/query/QCourseRecordEntity.java,Various,Quality,Low,Type: UwF: Unwritten field | Category: SpotBugs: Dodgy code
+/ebean-core/src/main/java/io/ebeaninternal/server/transaction/DefaultProfileStream.java,64,Quality,Low,Type: UrF: Unread field | Category: SpotBugs: Dodgy code
+/tests/test-java16/target/generated-sources/annotations/org/example/records/query/QCourse.java,Various,Quality,Low,Type: UuF: Unused field | Category: SpotBugs: Dodgy code
+/ebean-api/src/main/java/io/ebean/search/AbstractMatch.java,81,Quality,Low,Type: UwF: Unwritten field | Category: SpotBugs: Dodgy code
+/tests/test-java16/target/generated-sources/annotations/org/example/records/query/QUserSiteId.java,Various,Quality,Low,Type: UuF: Unused field | Category: SpotBugs: Dodgy code
+/tests/test-java16/target/generated-sources/annotations/org/example/records/query/QCourse.java,Various,Quality,Low,Type: UwF: Unwritten field | Category: SpotBugs: Dodgy code
+/tests/test-java16/target/generated-sources/annotations/org/example/records/query/QAddress.java,Various,Quality,Low,Type: UuF: Unused field | Category: SpotBugs: Dodgy code
+/ebean-ddl-generator/src/main/java/io/ebeaninternal/dbmigration/ddlgeneration/platform/SqlServerHistoryDdl.java,90,Quality,Low,Type: RV: Bad use of return value | Category: SpotBugs: Dodgy code
+/tests/test-java16/target/generated-sources/annotations/org/example/records/query/QUserRole.java,Various,Quality,Low,Type: UwF: Unwritten field | Category: SpotBugs: Dodgy code
+/ebean-core/src/main/java/io/ebeaninternal/server/deploy/id/IdBinderFactory.java,31,Quality,Low,Type: BC: Bad casts of object references | Category: SpotBugs: Dodgy code
+/tests/test-java16/target/generated-sources/annotations/org/example/records/query/QUserSite.java,Various,Quality,Low,Type: UwF: Unwritten field | Category: SpotBugs: Dodgy code
+/tests/test-java16/target/generated-sources/annotations/org/example/records/query/QCustomAccessors.java,Various,Quality,Low,Type: UuF: Unused field | Category: SpotBugs: Dodgy code
+/tests/test-java16/target/generated-sources/annotations/org/example/records/query/QUserRoleId.java,Various,Quality,Low,Type: UuF: Unused field | Category: SpotBugs: Dodgy code
+/tests/test-java16/target/generated-sources/annotations/org/example/records/query/QCourseRecordEntity.java,Various,Quality,Low,Type: UuF: Unused field | Category: SpotBugs: Dodgy code
+/ebean-core/src/main/java/io/ebeaninternal/server/deploy/parse/DeployCreateProperties.java,113,Quality,Low,Type: DCN: Don't Catch NullPointer Exception | Category: SpotBugs: Dodgy code
+/tests/test-java16/target/generated-sources/annotations/org/example/records/query/QCustomEquals.java,Various,Quality,Low,Type: UuF: Unused field | Category: SpotBugs: Dodgy code
+/ebean-api/src/main/java/io/ebean/EbeanVersion.java,38,Quality,Low,Type: Dm: Dubious method used | Category: SpotBugs: Internationalization
+/kotlin-querybean-generator/src/main/java/io/ebean/querybean/generator/SimpleQueryBeanWriter.java,379,Quality,Low,Type: Dm: Dubious method used | Category: SpotBugs: Internationalization
+/ebean-redis/src/main/java/io/ebean/redis/RedisCacheFactory.java,166,Quality,Medium,Type: AT: Possible atomicity violation | Category: SpotBugs: Multithreaded correctness
+/ebean-api/src/main/java/io/ebean/DatabaseFactory.java,145,Quality,Medium,Type: LI: Unsynchronized Lazy Initialization | Category: SpotBugs: Multithreaded correctness
+/ebean-core/src/main/java/io/ebeaninternal/server/query/SqlTreeNodeBean.java,347,Quality,Low,Type: UrF: Unread field | Category: SpotBugs: Performance
+/ebean-core/src/main/java/io/ebeaninternal/server/readaudit/DefaultReadAuditLogger.java,Various,Quality,Low,Type: SS: Unread field should be static | Category: SpotBugs: Performance
+/ebean-core/src/main/java/io/ebeaninternal/server/idgen/UuidV1RndIdGenerator.java,40,Quality,Low,Type: Dm: Dubious method used | Category: SpotBugs: Performance
+/kotlin-querybean-generator/src/main/java/io/ebean/querybean/generator/SimpleQueryBeanWriter.java,279,Quality,Low,Type: UPM: Private method is never called | Category: SpotBugs: Performance

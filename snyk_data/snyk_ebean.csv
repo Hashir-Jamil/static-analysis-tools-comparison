@@ -1,4 +1,4 @@
-﻿File Path,Line Number,Type,Severity,Description
+﻿file_path,line_number,type,severity,description
 ebean/ebean-redis/pom.xml,23,Allocation of Resources Without Limits or Throttling,High,Affected versions of this package are vulnerable to Allocation of Resources Without Limits or Throttling. An attacker can cause indefinite amounts of memory to be used by inputting a string of modest size. This can lead to a Denial of Service.
 ebean/ebean-redis/pom.xml,23,Denial of Service (DoS),High,Affected versions of this package are vulnerable to Denial of Service (DoS) in the XML.toJSONObject component via crafted JSON or XML data.
 ebean/ebean-redis/pom.xml,23,Remote Code Execution (RCE),High,"Affected versions of this package are vulnerable to Remote Code Execution (RCE). It provides a web console for managing the database, and by default it does not have a password set."

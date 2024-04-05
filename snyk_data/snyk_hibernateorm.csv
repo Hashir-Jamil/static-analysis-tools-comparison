@@ -1,4 +1,4 @@
-﻿File Path,Line Number,Type,Severity,Description
+﻿file_path,line_number,type,severity,description
 hibernate-orm/hibernate-core/src/main/java/org/hibernate/jpa/boot/internal/PersistenceXmlParser.java,474,XML External Entity (XXE) Injection,Medium,"Unsanitized input from a database flows into executeQuery, where it is used in an SQL query. This may result in an SQL Injection vulnerability."
 hibernate-orm/hibernate-core/src/main/java/org/hibernate/jpa/boot/internal/PersistenceXmlParser.java,74,SQL Injection,Medium,"Unsanitized input from data from a remote resource flows into parse, which allows expansion of external entity references. This may result in a XXE attack leading to the disclosure of confidential data or denial of service."
 Breadcrumbshibernate-orm/hibernate-community-dialects/src/test/java/org/hibernate/community/dialect/functional/cache/SQLFunctionsInterSystemsTest.java,251,SQL Injection,Low,"Unsanitized input from a database flows into update, where it is used in an SQL query. This may result in an SQL Injection vulnerability."

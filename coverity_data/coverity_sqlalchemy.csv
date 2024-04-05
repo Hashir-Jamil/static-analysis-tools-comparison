@@ -1,0 +1,61 @@
+﻿file_path,line_number,type,severity,description
+/test/typing/plain_files/sql/operators.py,Various,Quality,Medium,Type: Same on both sides | Category: Incorrect expression
+/test/typing/plain_files/ext/hybrid/hybrid_two.py,136,Quality,Medium,Type: Structurally dead code | Category: Control flow issues
+/test/sql/test_query.py,149,Quality,Medium,Type: Copy-paste error | Category: Incorrect expression
+/test/sql/test_operators.py,Various,Quality,Medium,Type: Logically dead code | Category: Control flow issues
+/test/sql/test_operators.py,2727,Quality,Medium,Type: Same on both sides | Category: Incorrect expression
+/test/sql/test_operators.py,Various,Quality,Medium,Type: Identical code for different branches | Category: Incorrect expression
+/test/orm/test_query.py,5363,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+/test/orm/test_query.py,3102,Quality,Medium,Type: Attribute/item access or function call before check for None or undefined | Category: Null pointer dereferences
+/test/orm/test_query.py,Various,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+/test/orm/test_query.py,5409,Quality,Medium,Type: Structurally dead code | Category: Control flow issues
+/test/orm/test_query.py,1841,Quality,Medium,Type: Attribute/item access or function call before check for None or undefined | Category: Null pointer dereferences
+/test/orm/test_deferred.py,172,Quality,Medium,Type: Copy-paste error | Category: Incorrect expression
+/test/orm/test_attributes.py,Various,Quality,Medium,Type: Attribute/item access or function call before check for None or undefined | Category: Null pointer dereferences
+/test/ext/test_associationproxy.py,1962,Quality,Medium,Type: Attribute/item access or function call before check for None or undefined | Category: Null pointer dereferences
+/test/ext/test_associationproxy.py,2004,Quality,Medium,Type: Attribute/item access or function call before check for None or undefined | Category: Null pointer dereferences
+/test/ext/test_associationproxy.py,2912,Quality,Medium,Type: Attribute/item access or function call before check for None or undefined | Category: Null pointer dereferences
+/test/ext/test_associationproxy.py,2841,Quality,Medium,Type: Attribute/item access or function call before check for None or undefined | Category: Null pointer dereferences
+/test/ext/test_associationproxy.py,2344,Quality,Medium,Type: Attribute/item access or function call before check for None or undefined | Category: Null pointer dereferences
+/test/ext/asyncio/test_engine_py3k.py,343,Quality,Medium,Type: Attribute/item access or function call before check for None or undefined | Category: Null pointer dereferences
+/test/ext/asyncio/test_engine_py3k.py,269,Quality,Medium,Type: Attribute/item access or function call before check for None or undefined | Category: Null pointer dereferences
+/test/ext/asyncio/test_engine_py3k.py,330,Quality,Medium,Type: Attribute/item access or function call before check for None or undefined | Category: Null pointer dereferences
+/test/dialect/postgresql/test_types.py,4177,Quality,Medium,Type: Attribute/item access or function call before check for None or undefined | Category: Null pointer dereferences
+/test/base/test_utils.py,Various,Quality,Medium,Type: Attribute/item access or function call before check for None or undefined | Category: Null pointer dereferences
+/setup.cfg,74,Security,Low,Type: Hard-coded secret | Category: Sigma
+/setup.cfg,65,Security,Low,Type: Hard-coded secret | Category: Sigma
+/setup.cfg,84,Security,Low,Type: Hard-coded secret | Category: Sigma
+/setup.cfg,Various,Security,Low,Type: Hard-coded secret | Category: Sigma
+/setup.cfg,69,Security,Low,Type: Hard-coded secret | Category: Sigma
+/setup.cfg,76,Security,Low,Type: Hard-coded secret | Category: Sigma
+/setup.cfg,79,Security,Low,Type: Hard-coded secret | Category: Sigma
+/setup.cfg,78,Security,Low,Type: Hard-coded secret | Category: Sigma
+/setup.cfg,75,Security,Low,Type: Hard-coded secret | Category: Sigma
+/setup.cfg,Various,Security,Low,Type: Hard-coded secret | Category: Sigma
+/setup.cfg,72,Security,Low,Type: Hard-coded secret | Category: Sigma
+/setup.cfg,67,Security,Low,Type: Hard-coded secret | Category: Sigma
+/setup.cfg,73,Security,Low,Type: Hard-coded secret | Category: Sigma
+/setup.cfg,83,Security,Low,Type: Hard-coded secret | Category: Sigma
+/setup.cfg,71,Security,Low,Type: Hard-coded secret | Category: Sigma
+/setup.cfg,77,Security,Low,Type: Hard-coded secret | Category: Sigma
+/setup.cfg,68,Security,Low,Type: Hard-coded secret | Category: Sigma
+/setup.cfg,82,Security,Low,Type: Hard-coded secret | Category: Sigma
+/setup.cfg,66,Security,Low,Type: Hard-coded secret | Category: Sigma
+/setup.cfg,70,Security,Low,Type: Hard-coded secret | Category: Sigma
+/lib/sqlalchemy/testing/entities.py,73,Quality,Medium,Type: Attribute/item access or function call before check for None or undefined | Category: Null pointer dereferences
+/lib/sqlalchemy/testing/assertions.py,551,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+/lib/sqlalchemy/sql/traversals.py,816,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+/lib/sqlalchemy/sql/traversals.py,816,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+/lib/sqlalchemy/sql/compiler.py,3943,Quality,Medium,Type: Copy-paste error | Category: Incorrect expression
+/lib/sqlalchemy/pool/base.py,1364,Quality,Medium,Type: Attribute/item access or function call before check for None or undefined | Category: Null pointer dereferences
+/lib/sqlalchemy/orm/properties.py,576,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+/lib/sqlalchemy/orm/persistence.py,359,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+/lib/sqlalchemy/orm/mapper.py,3652,Quality,Medium,Type: Copy-paste error | Category: Incorrect expression
+/lib/sqlalchemy/orm/evaluator.py,148,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+/lib/sqlalchemy/orm/context.py,1786,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+/lib/sqlalchemy/ext/mypy/names.py,41,Quality,Medium,Type: Typo in identifier | Category: Incorrect expression
+/lib/sqlalchemy/ext/associationproxy.py,1261,Quality,Medium,Type: Attribute/item access or function call before check for None or undefined | Category: Null pointer dereferences
+/lib/sqlalchemy/dialects/postgresql/ranges.py,651,Quality,Medium,Type: Logically dead code | Category: Control flow issues
+/lib/sqlalchemy/dialects/postgresql/ranges.py,297,Quality,Medium,Type: Logically dead code | Category: Control flow issues
+/lib/sqlalchemy/dialects/postgresql/base.py,2933,Quality,Medium,Type: Attribute/item access or function call before check for None or undefined | Category: Null pointer dereferences
+/lib/sqlalchemy/__init__.py,284,Quality,Medium,Type: Typo in identifier | Category: Incorrect expression

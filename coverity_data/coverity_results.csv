@@ -1,0 +1,1012 @@
+package,file_path,line_number,type,severity,description
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/loadcontext/DLoadBeanContext.java,98,Quality,Medium,Type: Using invalid iterator | Category: API usage errors
+ebean,ebean-api/src/main/java/io/ebean/config/dbplatform/DbPlatformTypeParser.java,29,Quality,Medium,Type: Arguments in wrong order | Category: API usage errors
+ebean,ebean-ddl-generator/src/main/java/io/ebeaninternal/dbmigration/ddlgeneration/platform/AbstractHanaDdl.java,110,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+ebean,kotlin-querybean-generator/src/main/java/io/ebean/querybean/generator/PropertyTypeAssoc.java,27,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+ebean,querybean-generator/src/main/java/io/ebean/querybean/generator/PropertyTypeAssoc.java,27,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+ebean,ebean-ddl-generator/src/main/java/io/ebeaninternal/dbmigration/ddlgeneration/platform/DB2Ddl.java,113,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/query/CQueryUpdate.java,87,Quality,Medium,Type: Unguarded write | Category: Concurrent data access violations
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/query/CQueryRowCount.java,70,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/query/CQuery.java,749,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/query/CQueryFetchSingleAttribute.java,166,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/query/CQuery.java,570,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/query/CQuery.java,550,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/query/CQueryBindCapture.java,38,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/query/CQueryFetchSingleAttribute.java,112,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/query/CQueryBindCapture.java,83,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+ebean,ebean-redis/src/main/java/io/ebean/redis/RedisCacheFactory.java,139,Quality,Medium,Type: Unguarded write | Category: Concurrent data access violations
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/loadcontext/DLoadManyContext.java,67,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/query/CQueryBindCapture.java,72,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/query/CQueryRowCount.java,57,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/query/CQueryBindCapture.java,72,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/loadcontext/DLoadManyContext.java,158,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/query/CQueryFetchSingleAttribute.java,65,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/query/CQuery.java,341,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/query/CQuery.java,481,Quality,Medium,Type: Unguarded write | Category: Concurrent data access violations
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/query/CQueryBindCapture.java,83,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/query/CQueryUpdate.java,51,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/query/CQuery.java,368,Quality,Medium,Type: Unguarded write | Category: Concurrent data access violations
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/core/MultiTenantDbSchemaSupplier.java,114,Various,Low,Type: Resource leak on an exceptional path | Category: Exceptional resource leaks
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/persist/ExeCallableSql.java,79,Various,Low,Type: Resource leak on an exceptional path | Category: Exceptional resource leaks
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/core/MultiTenantDbSchemaSupplier.java,97,Various,Low,Type: Resource leak on an exceptional path | Category: Exceptional resource leaks
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/core/MultiTenantDbCatalogSupplier.java,100,Various,Low,Type: Resource leak on an exceptional path | Category: Exceptional resource leaks
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/core/MultiTenantDbCatalogSupplier.java,110,Various,Low,Type: Resource leak on an exceptional path | Category: Exceptional resource leaks
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/profile/DTimeMetricStats.java,24,Quality,Medium,Type: Result is not floating-point | Category: Incorrect expression
+ebean,ebean-ddl-generator/src/main/java/io/ebeaninternal/dbmigration/ddlgeneration/platform/SqlServerDdl.java,129,Quality,Medium,Type: Copy-paste error | Category: Incorrect expression
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/profile/DTimeMetricStats.java,96,Quality,Medium,Type: Result is not floating-point | Category: Incorrect expression
+ebean,ebean-api/src/main/java/io/ebean/config/dbplatform/DbDefaultValue.java,121,Quality,Medium,Type: Useless call | Category: Incorrect expression
+ebean,ebean-test/src/main/java/io/ebean/test/config/AutoConfigureForTesting.java,40,Quality,Medium,Type: Useless call | Category: Incorrect expression
+ebean,ebean-ddl-generator/src/main/java/io/ebeaninternal/dbmigration/ddlgeneration/platform/SqlServerHistoryDdl.java,90,Quality,Medium,Type: Useless call | Category: Incorrect expression
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/query/CQuery.java,442,Security,Low,Type: Cleartext sensitive data in a file | Category: Low impact security
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/query/SqlTreeLoadBean.java,349,Security,Low,Type: Cleartext sensitive data in a file | Category: Low impact security
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/deploy/id/IdBinderEmbedded.java,Various,Security,Low,Type: Cleartext sensitive data in a file | Category: Low impact security
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/deploy/id/IdBinderEmbedded.java,Various,Security,Low,Type: Cleartext sensitive data in a file | Category: Low impact security
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/deploy/AssocOneHelpEmbedded.java,Various,Security,Low,Type: Cleartext sensitive data in a file | Category: Low impact security
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/query/CQueryFetchSingleAttribute.java,Various,Security,Low,Type: Cleartext sensitive data in a file | Category: Low impact security
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/query/SqlTreeLoadBean.java,Various,Security,Low,Type: Cleartext sensitive data in a file | Category: Low impact security
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/query/DefaultRelationalQueryEngine.java,Various,Security,Low,Type: Cleartext sensitive data in a file | Category: Low impact security
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/deploy/AssocOneHelpEmbedded.java,Various,Security,Low,Type: Cleartext sensitive data in a file | Category: Low impact security
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/dto/DtoQueryPlanConSetter.java,25,Security,Low,Type: Cleartext sensitive data in a file | Category: Low impact security
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/query/CQuery.java,511,Security,Low,Type: Cleartext sensitive data in a file | Category: Low impact security
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/query/DefaultRelationalQueryEngine.java,Various,Security,Low,Type: Cleartext sensitive data in a file | Category: Low impact security
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/query/CQueryFetchSingleAttribute.java,Various,Security,Low,Type: Cleartext sensitive data in a file | Category: Low impact security
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/dto/DtoMetaConstructor.java,Various,Security,Low,Type: Cleartext sensitive data in a file | Category: Low impact security
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/deploy/AssocOneHelpEmbedded.java,Various,Security,Low,Type: Cleartext sensitive data in a file | Category: Low impact security
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/deploy/AssocOneHelpEmbedded.java,Various,Security,Low,Type: Cleartext sensitive data in a file | Category: Low impact security
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/query/SqlTreeLoadBean.java,349,Security,Low,Type: Cleartext sensitive data in a file | Category: Low impact security
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/query/CQuery.java,527,Security,Low,Type: Cleartext sensitive data in a file | Category: Low impact security
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/dto/DtoQueryPlanConPlus.java,25,Security,Low,Type: Cleartext sensitive data in a file | Category: Low impact security
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/query/SqlTreeLoadBean.java,125,Security,Low,Type: Cleartext sensitive data in a file | Category: Low impact security
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/query/CQueryIteratorWithBuffer.java,39,Security,Low,Type: Cleartext sensitive data in a file | Category: Low impact security
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/dto/DtoQueryPlanConPlus.java,25,Security,Low,Type: Cleartext sensitive data in a file | Category: Low impact security
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/persist/DefaultPersister.java,1176,Security,Medium,Type: Cleartext sensitive data in a database | Category: Medium impact security
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/persist/DefaultPersister.java,Various,Security,Medium,Type: Cleartext sensitive data in a database | Category: Medium impact security
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/query/CQueryEngine.java,Various,Security,Medium,Type: Cleartext sensitive data in a database | Category: Medium impact security
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/deploy/AssocOneHelpRefInherit.java,Various,Security,Medium,Type: Cleartext sensitive data in a database | Category: Medium impact security
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/deploy/AssocOneHelp.java,Various,Security,Medium,Type: Cleartext sensitive data in a database | Category: Medium impact security
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/persist/DefaultPersister.java,371,Security,Medium,Type: Cleartext sensitive data in a database | Category: Medium impact security
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/deploy/AssocOneHelp.java,Various,Security,Medium,Type: Cleartext sensitive data in a database | Category: Medium impact security
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/persist/SaveManyBeans.java,183,Security,Medium,Type: Cleartext sensitive data in a database | Category: Medium impact security
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/util/Md5.java,13,Security,Medium,Type: Risky cryptographic hashing function | Category: Medium impact security
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/persist/dml/DmlBeanPersister.java,Various,Security,Medium,Type: Cleartext sensitive data in a database | Category: Medium impact security
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/deploy/AssocOneHelpRefInherit.java,Various,Security,Medium,Type: Cleartext sensitive data in a database | Category: Medium impact security
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/query/CQueryEngine.java,Various,Security,Medium,Type: Cleartext sensitive data in a database | Category: Medium impact security
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/type/EnumToDbIntegerMap.java,65,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/deploy/parse/DeployCreateProperties.java,136,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/query/CQueryFetchSingleAttribute.java,88,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/core/OrmQueryRequest.java,370,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/deploy/BeanDescriptorDraftHelp.java,50,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/persist/dml/InsertHandler.java,125,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+ebean,ebean-test/src/main/java/io/ebean/test/config/AutoConfigureForTesting.java,47,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/core/PersistDeferredRelationship.java,48,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/query/DefaultOrmQueryEngine.java,138,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/core/PersistRequestBean.java,271,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/persist/dml/GeneratedProperties.java,74,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/el/ElComparatorProperty.java,Various,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/persist/BatchedPstmt.java,180,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/core/OrmQueryRequest.java,360,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/type/DefaultTypeManager.java,657,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/deploy/BeanPropertyAssocMany.java,1102,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/persist/SaveManyBeans.java,176,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/core/OrmQueryRequest.java,387,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/persist/DefaultPersister.java,796,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/deploy/DynamicPropertyAggregationFormulaMTO.java,39,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+ebean,querybean-generator/src/main/java/io/ebean/querybean/generator/ProcessingContext.java,Various,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+ebean,ebean-ddl-generator/src/main/java/io/ebeaninternal/dbmigration/DdlGenerator.java,201,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/core/PersistRequestBean.java,1261,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/core/PersistRequestBean.java,Various,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/core/PersistRequestBean.java,Various,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/persist/ExeUpdateSql.java,64,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/idgen/UuidV1IdGenerator.java,72,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+ebean,ebean-ddl-generator/src/main/java/io/ebeaninternal/dbmigration/DdlGenerator.java,193,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/deploy/BeanProperty.java,Various,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/query/CQueryPredicates.java,185,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/expression/IdInExpression.java,80,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+ebean,ebean-test/src/main/java/io/ebean/test/config/platform/H2Setup.java,17,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/json/DJsonContext.java,251,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/persist/dmlbind/BindableEmbedded.java,51,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+ebean,ebean-core-type/src/main/java/io/ebean/core/type/ScalarTypeBaseDateTime.java,72,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/deploy/BeanDescriptorCacheHelp.java,283,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/json/DJsonContext.java,163,Quality,Medium,Type: Dereference before null check | Category: Null pointer dereferences
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/query/SqlTreeBuilder.java,687,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/type/DefaultTypeManager.java,633,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/deploy/id/IdBinderEmbedded.java,287,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/deploy/BeanPropertyAssocOne.java,128,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+ebean,ebean-api/src/main/java/io/ebean/common/BeanList.java,Various,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+ebean,ebean-api/src/main/java/io/ebean/DbContext.java,101,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+ebean,platforms/h2/src/main/java/io/ebean/platform/h2/H2HistoryTrigger.java,77,Various,High,Type: Resource leak | Category: Resource leaks
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/transaction/TransactionFactoryTenant.java,47,Various,High,Type: Resource leak | Category: Resource leaks
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/util/Md5.java,13,Security,Low,Type: Weak hash algorithm | Category: Sigma
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/querydefn/DefaultRelationalQuery.java,34,Quality,Low,Type: Se: Incorrect definition of Serializable class | Category: SpotBugs: Bad practice
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/deploy/BeanDescriptor.java,2894,Quality,Low,Type: RC: Questionable use of reference equality rather than calling equals | Category: SpotBugs: Bad practice
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/querydefn/OrmQueryProperties.java,60,Quality,Low,Type: Se: Incorrect definition of Serializable class | Category: SpotBugs: Bad practice
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/deploy/BeanDescriptor.java,2869,Quality,Low,Type: RC: Questionable use of reference equality rather than calling equals | Category: SpotBugs: Bad practice
+ebean,ebean-ddl-generator/src/main/java/io/ebeaninternal/dbmigration/ddlgeneration/platform/PostgresDdl.java,137,Quality,Low,Type: Eq: Problems with implementation of equals() | Category: SpotBugs: Bad practice
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/querydefn/OrmQueryProperties.java,175,Quality,Low,Type: Se: Incorrect definition of Serializable class | Category: SpotBugs: Bad practice
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/type/ScalarTypeBoolean.java,197,Quality,Low,Type: NP: Null pointer dereference | Category: SpotBugs: Bad practice
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/deploy/meta/DeployBeanDescriptor.java,39,Quality,Low,Type: Se: Incorrect definition of Serializable class | Category: SpotBugs: Bad practice
+ebean,ebean-api/src/main/java/io/ebean/meta/SortMetric.java,Various,Quality,Low,Type: Se: Incorrect definition of Serializable class | Category: SpotBugs: Bad practice
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/deploy/parse/DeployInheritInfo.java,262,Quality,Low,Type: Eq: Problems with implementation of equals() | Category: SpotBugs: Bad practice
+ebean,ebean-ddl-generator/src/main/java/io/ebeaninternal/dbmigration/IndexMigration.java,118,Quality,Low,Type: Eq: Problems with implementation of equals() | Category: SpotBugs: Bad practice
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/deploy/BeanDescriptor.java,1818,Quality,Low,Type: RC: Questionable use of reference equality rather than calling equals | Category: SpotBugs: Bad practice
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/type/ScalarTypeBoolean.java,253,Quality,Low,Type: NP: Null pointer dereference | Category: SpotBugs: Bad practice
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/json/WriteJson.java,592,Quality,Low,Type: NP: Null pointer dereference | Category: SpotBugs: Bad practice
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/type/ScalarTypeBoolean.java,334,Quality,Low,Type: NP: Null pointer dereference | Category: SpotBugs: Bad practice
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/idgen/UuidV1IdGenerator.java,254,Quality,Low,Type: RV: Bad use of return value | Category: SpotBugs: Bad practice
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/transaction/ImplicitReadOnlyTransaction.java,300,Quality,Low,Type: NP: Null pointer dereference | Category: SpotBugs: Bad practice
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/el/ElComparatorProperty.java,14,Quality,Low,Type: Se: Incorrect definition of Serializable class | Category: SpotBugs: Bad practice
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/deploy/ChainedBeanPersistController.java,178,Quality,Low,Type: Se: Incorrect definition of Serializable class | Category: SpotBugs: Bad practice
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/deploy/ChainedBeanQueryAdapter.java,83,Quality,Low,Type: Se: Incorrect definition of Serializable class | Category: SpotBugs: Bad practice
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/querydefn/OrmQueryDetail.java,549,Quality,Low,Type: Eq: Problems with implementation of equals() | Category: SpotBugs: Bad practice
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/querydefn/DefaultRelationalQuery.java,57,Quality,Low,Type: Se: Incorrect definition of Serializable class | Category: SpotBugs: Bad practice
+ebean,ebean-core-type/src/main/java/io/ebean/core/type/BasicTypeConverter.java,123,Quality,Low,Type: NP: Null pointer dereference | Category: SpotBugs: Bad practice
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/type/ScalarTypeBoolean.java,285,Quality,Low,Type: NP: Null pointer dereference | Category: SpotBugs: Bad practice
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/deploy/id/ImportedIdSimple.java,29,Quality,Low,Type: Se: Incorrect definition of Serializable class | Category: SpotBugs: Bad practice
+ebean,ebean-core/src/main/java/io/ebeaninternal/api/TransactionEvent.java,31,Quality,Low,Type: Se: Incorrect definition of Serializable class | Category: SpotBugs: Bad practice
+ebean,ebean-ddl-generator/src/main/java/io/ebeaninternal/dbmigration/model/MigrationResource.java,49,Quality,Low,Type: Eq: Problems with implementation of equals() | Category: SpotBugs: Bad practice
+ebean,ebean-api/src/main/java/io/ebean/bean/InterceptReadWrite.java,Various,Quality,Low,Type: Se: Incorrect definition of Serializable class | Category: SpotBugs: Bad practice
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/transaction/NoTransaction.java,177,Quality,Low,Type: NP: Null pointer dereference | Category: SpotBugs: Bad practice
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/transaction/ImplicitReadOnlyTransaction.java,277,Quality,Low,Type: NP: Null pointer dereference | Category: SpotBugs: Bad practice
+ebean,ebean-core-type/src/main/java/io/ebean/core/type/BasicTypeConverter.java,140,Quality,Low,Type: NP: Null pointer dereference | Category: SpotBugs: Bad practice
+ebean,ebean-core/src/main/java/io/ebeaninternal/api/ManyWhereJoins.java,26,Quality,Low,Type: Se: Incorrect definition of Serializable class | Category: SpotBugs: Bad practice
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/transaction/NoTransaction.java,311,Quality,Low,Type: NP: Null pointer dereference | Category: SpotBugs: Bad practice
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/type/ScalarTypeBoolean.java,166,Quality,Low,Type: NP: Null pointer dereference | Category: SpotBugs: Bad practice
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/profile/DTimeMetricStats.java,24,Quality,Medium,Type: ICAST: Casting from integer values | Category: SpotBugs: Correctness
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/idgen/UuidV1IdGenerator.java,98,Quality,Medium,Type: INT: Suspicious integer expression | Category: SpotBugs: Correctness
+ebean,tests/test-java16/target/generated-sources/annotations/org/example/records/query/QCustomConstructor.java,Various,Quality,Low,Type: UuF: Unused field | Category: SpotBugs: Dodgy code
+ebean,tests/test-java16/target/generated-sources/annotations/org/example/records/query/QUserRole.java,Various,Quality,Low,Type: UuF: Unused field | Category: SpotBugs: Dodgy code
+ebean,tests/test-java16/target/generated-sources/annotations/org/example/records/query/QContact.java,Various,Quality,Low,Type: UuF: Unused field | Category: SpotBugs: Dodgy code
+ebean,tests/test-java16/target/generated-sources/annotations/org/example/records/query/QUserSite.java,Various,Quality,Low,Type: UuF: Unused field | Category: SpotBugs: Dodgy code
+ebean,tests/test-java16/target/generated-sources/annotations/org/example/records/query/QCustomToString.java,Various,Quality,Low,Type: UuF: Unused field | Category: SpotBugs: Dodgy code
+ebean,ebean-ddl-generator/src/main/java/io/ebeaninternal/dbmigration/model/ModelContainer.java,262,Quality,Low,Type: DLS: Dead local store | Category: SpotBugs: Dodgy code
+ebean,ebean-api/src/main/java/io/ebean/config/dbplatform/AbstractDbEncrypt.java,50,Quality,Low,Type: UwF: Unwritten field | Category: SpotBugs: Dodgy code
+ebean,tests/test-java16/target/generated-sources/annotations/org/example/records/query/QCourseRecordEntity.java,Various,Quality,Low,Type: UwF: Unwritten field | Category: SpotBugs: Dodgy code
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/transaction/DefaultProfileStream.java,64,Quality,Low,Type: UrF: Unread field | Category: SpotBugs: Dodgy code
+ebean,tests/test-java16/target/generated-sources/annotations/org/example/records/query/QCourse.java,Various,Quality,Low,Type: UuF: Unused field | Category: SpotBugs: Dodgy code
+ebean,ebean-api/src/main/java/io/ebean/search/AbstractMatch.java,81,Quality,Low,Type: UwF: Unwritten field | Category: SpotBugs: Dodgy code
+ebean,tests/test-java16/target/generated-sources/annotations/org/example/records/query/QUserSiteId.java,Various,Quality,Low,Type: UuF: Unused field | Category: SpotBugs: Dodgy code
+ebean,tests/test-java16/target/generated-sources/annotations/org/example/records/query/QCourse.java,Various,Quality,Low,Type: UwF: Unwritten field | Category: SpotBugs: Dodgy code
+ebean,tests/test-java16/target/generated-sources/annotations/org/example/records/query/QAddress.java,Various,Quality,Low,Type: UuF: Unused field | Category: SpotBugs: Dodgy code
+ebean,ebean-ddl-generator/src/main/java/io/ebeaninternal/dbmigration/ddlgeneration/platform/SqlServerHistoryDdl.java,90,Quality,Low,Type: RV: Bad use of return value | Category: SpotBugs: Dodgy code
+ebean,tests/test-java16/target/generated-sources/annotations/org/example/records/query/QUserRole.java,Various,Quality,Low,Type: UwF: Unwritten field | Category: SpotBugs: Dodgy code
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/deploy/id/IdBinderFactory.java,31,Quality,Low,Type: BC: Bad casts of object references | Category: SpotBugs: Dodgy code
+ebean,tests/test-java16/target/generated-sources/annotations/org/example/records/query/QUserSite.java,Various,Quality,Low,Type: UwF: Unwritten field | Category: SpotBugs: Dodgy code
+ebean,tests/test-java16/target/generated-sources/annotations/org/example/records/query/QCustomAccessors.java,Various,Quality,Low,Type: UuF: Unused field | Category: SpotBugs: Dodgy code
+ebean,tests/test-java16/target/generated-sources/annotations/org/example/records/query/QUserRoleId.java,Various,Quality,Low,Type: UuF: Unused field | Category: SpotBugs: Dodgy code
+ebean,tests/test-java16/target/generated-sources/annotations/org/example/records/query/QCourseRecordEntity.java,Various,Quality,Low,Type: UuF: Unused field | Category: SpotBugs: Dodgy code
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/deploy/parse/DeployCreateProperties.java,113,Quality,Low,Type: DCN: Don't Catch NullPointer Exception | Category: SpotBugs: Dodgy code
+ebean,tests/test-java16/target/generated-sources/annotations/org/example/records/query/QCustomEquals.java,Various,Quality,Low,Type: UuF: Unused field | Category: SpotBugs: Dodgy code
+ebean,ebean-api/src/main/java/io/ebean/EbeanVersion.java,38,Quality,Low,Type: Dm: Dubious method used | Category: SpotBugs: Internationalization
+ebean,kotlin-querybean-generator/src/main/java/io/ebean/querybean/generator/SimpleQueryBeanWriter.java,379,Quality,Low,Type: Dm: Dubious method used | Category: SpotBugs: Internationalization
+ebean,ebean-redis/src/main/java/io/ebean/redis/RedisCacheFactory.java,166,Quality,Medium,Type: AT: Possible atomicity violation | Category: SpotBugs: Multithreaded correctness
+ebean,ebean-api/src/main/java/io/ebean/DatabaseFactory.java,145,Quality,Medium,Type: LI: Unsynchronized Lazy Initialization | Category: SpotBugs: Multithreaded correctness
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/query/SqlTreeNodeBean.java,347,Quality,Low,Type: UrF: Unread field | Category: SpotBugs: Performance
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/readaudit/DefaultReadAuditLogger.java,Various,Quality,Low,Type: SS: Unread field should be static | Category: SpotBugs: Performance
+ebean,ebean-core/src/main/java/io/ebeaninternal/server/idgen/UuidV1RndIdGenerator.java,40,Quality,Low,Type: Dm: Dubious method used | Category: SpotBugs: Performance
+ebean,kotlin-querybean-generator/src/main/java/io/ebean/querybean/generator/SimpleQueryBeanWriter.java,279,Quality,Low,Type: UPM: Private method is never called | Category: SpotBugs: Performance
+hibernate,local-build-plugins/src/main/java/org/hibernate/orm/jakarta/JakartaPlugin.java,121,Quality,Low,Type: DLS: Dead local store | Category: SpotBugs: Dodgy code
+hibernate,local-build-plugins/src/main/java/org/hibernate/orm/docs/DocumentationPublishingPlugin.java,Various,Quality,Low,Type: DLS: Dead local store | Category: SpotBugs: Dodgy code
+hibernate,local-build-plugins/src/main/java/org/hibernate/orm/docs/GenerateDescriptorTask.java,84,Quality,Low,Type: DMI: Dubious method invocation | Category: SpotBugs: Dodgy code
+hibernate,local-build-plugins/src/main/java/org/hibernate/orm/post/Helper.java,36,Quality,Low,Type: DP: Use doPrivileged | Category: SpotBugs: Malicious code vulnerability
+hibernate,local-build-plugins/src/main/java/org/hibernate/orm/docs/DescriptorAccess.java,55,Quality,Low,Type: Dm: Dubious method used | Category: SpotBugs: Internationalization
+hibernate,local-build-plugins/src/main/java/org/hibernate/orm/antlr/AntlrHelper.java,Various,Quality,Low,Type: Dm: Dubious method used | Category: SpotBugs: Internationalization
+hibernate,local-build-plugins/src/main/java/org/hibernate/orm/post/AbstractJandexAwareTask.java,118,Quality,Low,Type: Dm: Dubious method used | Category: SpotBugs: Internationalization
+hibernate,local-build-plugins/src/main/java/org/hibernate/orm/properties/AsciiDocWriter.java,40,Quality,Low,Type: Dm: Dubious method used | Category: SpotBugs: Internationalization
+hibernate,local-build-plugins/src/main/java/org/hibernate/orm/post/DialectReportTask.java,107,Quality,Low,Type: Dm: Dubious method used | Category: SpotBugs: Internationalization
+hibernate,local-build-plugins/src/main/java/org/hibernate/orm/post/IndexManager.java,221,Quality,Low,Type: Dm: Dubious method used | Category: SpotBugs: Internationalization
+hibernate,local-build-plugins/src/main/java/org/hibernate/orm/post/LoggingReportTask.java,154,Quality,Low,Type: Dm: Dubious method used | Category: SpotBugs: Internationalization
+hibernate,local-build-plugins/src/main/java/org/hibernate/orm/ReleaseFamilyIdentifier.java,81,Quality,Low,Type: Eq: Problems with implementation of equals() | Category: SpotBugs: Bad practice
+hibernate,local-build-plugins/src/main/java/org/hibernate/orm/docs/GenerateDescriptorTask.java,75,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+hibernate,local-build-plugins/src/main/java/org/hibernate/orm/post/LoggingReportTask.java,179,Quality,Low,Type: FS: Format string problem | Category: SpotBugs: Bad practice
+hibernate,local-build-plugins/src/main/java/org/hibernate/orm/post/LoggingReportTask.java,Various,Quality,Low,Type: FS: Format string problem | Category: SpotBugs: Bad practice
+hibernate,local-build-plugins/src/main/java/org/hibernate/orm/properties/AsciiDocWriter.java,95,Quality,Low,Type: FS: Format string problem | Category: SpotBugs: Bad practice
+hibernate,local-build-plugins/src/main/java/org/hibernate/orm/antlr/AntlrHelper.java,Various,Quality,Low,Type: RV: Bad use of return value | Category: SpotBugs: Bad practice
+hibernate,local-build-plugins/src/main/java/org/hibernate/orm/jakarta/JakartaDirectoryTransformation.java,67,Quality,Low,Type: RV: Bad use of return value | Category: SpotBugs: Bad practice
+hibernate,local-build-plugins/src/main/java/org/hibernate/orm/post/IndexManager.java,Various,Quality,Low,Type: RV: Bad use of return value | Category: SpotBugs: Bad practice
+hibernate,local-build-plugins/src/main/java/org/hibernate/orm/antlr/SplitGrammarGenerationTask.java,79,Quality,Low,Type: RV: Bad use of return value | Category: SpotBugs: Bad practice
+hibernate,local-build-plugins/src/main/java/org/hibernate/orm/antlr/AntlrHelper.java,60,Various,Low,Type: Resource leak on an exceptional path | Category: Exceptional resource leaks
+hibernate,local-build-plugins/src/main/java/org/hibernate/orm/antlr/AntlrHelper.java,55,Various,Low,Type: Resource leak on an exceptional path | Category: Exceptional resource leaks
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/Column.java,894,Quality,Medium,Type: Using invalid iterator | Category: API usage errors
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/query/BinaryExpressionPredicate.java,71,Quality,Medium,Type: Arguments in wrong order | Category: API usage errors
+openjpa,openjpa-examples/openbooks/src/main/java/openbook/domain/Book.java,138,Quality,Medium,Type: Unsafe dependence on database key | Category: API usage errors
+openjpa,openjpa-examples/openbooks/src/main/java/openbook/domain/Book.java,151,Quality,Medium,Type: Unsafe dependence on database key | Category: API usage errors
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/jpql/JPQLExpressionBuilder.java,1430,Quality,Medium,Type: Arguments in wrong order | Category: API usage errors
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/jpql/JPQLExpressionBuilder.java,442,Quality,Medium,Type: Arguments in wrong order | Category: API usage errors
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/query/UnaryExpressionPredicate.java,64,Quality,Medium,Type: Arguments in wrong order | Category: API usage errors
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/enhance/PCRegistry.java,224,Quality,Medium,Type: Using invalid iterator | Category: API usage errors
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/jpql/JPQLExpressionBuilder.java,622,Quality,Medium,Type: Arguments in wrong order | Category: API usage errors
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/Null.java,50,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/collections/UnmodifiableEntrySet.java,164,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/FoxProDictionary.java,131,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/FirebirdDictionary.java,493,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/H2Dictionary.java,303,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/HSQLDictionary.java,389,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/collections/LinkedMap.java,253,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/criteria/RootImpl.java,119,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/HSQLDictionary.java,210,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/JDBCStoreManager.java,1651,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/RowImpl.java,1027,Quality,Medium,Type: Failure to call super.clone() | Category: Class hierarchy inconsistencies
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/SchemaGroup.java,463,Quality,Medium,Type: Failure to call super.clone() | Category: Class hierarchy inconsistencies
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/DelegatingFetchConfiguration.java,518,Quality,Medium,Type: Failure to call super.clone() | Category: Class hierarchy inconsistencies
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/FetchConfigurationImpl.java,209,Quality,Medium,Type: Failure to call super.clone() | Category: Class hierarchy inconsistencies
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/PostgresDictionary.java,305,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/conf/ConfigurationImpl.java,1048,Quality,Medium,Type: Failure to call super.clone() | Category: Class hierarchy inconsistencies
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/identifier/DBIdentifier.java,324,Quality,Medium,Type: Failure to call super.clone() | Category: Class hierarchy inconsistencies
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/XMLSchemaParser.java,321,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/concurrent/ConcurrentHashMap.java,629,Quality,Medium,Type: Failure to call super.clone() | Category: Class hierarchy inconsistencies
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/InstanceofExpression.java,69,Quality,Low,Type: Unused value | Category: Code maintainability issues
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/DBDictionary.java,4476,Quality,Low,Type: Unused value | Category: Code maintainability issues
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,1690,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-jest/src/main/java/org/apache/openjpa/persistence/jest/JESTServlet.java,138,Quality,High,Type: Unlocked write | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/AbstractBrokerFactory.java,255,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/conf/ConfigurationImpl.java,766,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-jest/src/main/java/org/apache/openjpa/persistence/jest/XMLFormatter.java,447,Quality,High,Type: Unlocked write | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/ee/OSGiManagedRuntime.java,Various,Quality,Medium,Type: Data race condition | Category: Concurrent data access violations
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/FormatPreservingProperties.java,640,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/conf/CacheMarshallersValue.java,Various,Quality,High,Type: Unlocked write | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/event/LifecycleEventManager.java,252,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/datacache/QueryCacheStoreQuery.java,634,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/conf/ObjectValue.java,123,Quality,High,Type: Unlocked write | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/util/CacheMap.java,276,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/enhance/PCRegistry.java,251,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/BrokerImpl.java,3924,Quality,High,Type: Unlocked write | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/util/CacheMap.java,508,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/util/CacheMap.java,637,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/enhance/Reflection.java,879,Quality,High,Type: Unlocked write | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/ExpressionStoreQuery.java,900,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/ValueMapDiscriminatorStrategy.java,96,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/enhance/Reflection.java,96,Quality,High,Type: Unlocked write | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/AuditManager.java,147,Quality,Medium,Type: Unguarded write | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/event/TCPRemoteCommitProvider.java,673,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/meta/AnnotationProcessor6.java,228,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/util/CacheMap.java,533,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/FormatPreservingProperties.java,464,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/datacache/ClearableScheduler.java,88,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/event/TCPRemoteCommitProvider.java,580,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/datacache/QueryCacheStoreQuery.java,687,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/AbstractBrokerFactory.java,149,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/AbstractBrokerFactory.java,622,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/StoredProcedureQueryImpl.java,155,Quality,High,Type: Unlocked write | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/AbstractBrokerFactory.java,377,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/enhance/Reflection.java,76,Quality,High,Type: Unlocked write | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/datacache/ClearableScheduler.java,134,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/conf/JDBCConfigurationImpl.java,Various,Quality,High,Type: Unlocked write | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/meta/SequenceMetaData.java,420,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/conf/MetaDataRepositoryValue.java,54,Quality,High,Type: Unlocked write | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/AbstractBrokerFactory.java,249,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/meta/InterfaceImplGenerator.java,239,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/event/DynamicTCPRemoteCommitProvider.java,107,Quality,Medium,Type: Unguarded write | Category: Concurrent data access violations
+openjpa,openjpa-jest/src/main/java/org/apache/openjpa/persistence/jest/QueryCommand.java,90,Quality,High,Type: Unlocked write | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/ExpressionStoreQuery.java,321,Quality,High,Type: Unlocked write | Category: Concurrent data access violations
+openjpa,openjpa-jest/src/main/java/org/apache/openjpa/persistence/jest/FindCommand.java,86,Quality,High,Type: Unlocked write | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/util/CacheMap.java,368,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/util/CacheMap.java,523,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/conf/PluginValue.java,Various,Quality,High,Type: Unlocked write | Category: Concurrent data access violations
+openjpa,openjpa-jest/src/main/java/org/apache/openjpa/persistence/jest/DomainCommand.java,59,Quality,High,Type: Unlocked write | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,1684,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-jest/src/main/java/org/apache/openjpa/persistence/jest/XMLFormatter.java,Various,Quality,High,Type: Unlocked write | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/enhance/PCRegistry.java,237,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-jest/src/main/java/org/apache/openjpa/persistence/jest/AbstractCommand.java,269,Quality,High,Type: Unlocked write | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/event/LifecycleEventManager.java,258,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/enhance/PCRegistry.java,244,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/event/LifecycleEventManager.java,75,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/AbstractBrokerFactory.java,697,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/FormatPreservingProperties.java,640,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/event/TCPRemoteCommitProvider.java,378,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/event/SingleJVMRemoteCommitProvider.java,64,Quality,High,Type: Unlocked write | Category: Concurrent data access violations
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/meta/AnnotationProcessor6.java,190,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-persistence-jdbc/src/main/java/org/apache/openjpa/persistence/jdbc/XMLPersistenceMappingParser.java,1602,Quality,Medium,Type: Stray semicolon | Category: Control flow issues
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/SchemaTool.java,987,Quality,Medium,Type: Logically dead code | Category: Control flow issues
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/SolidDBDictionary.java,452,Quality,Medium,Type: Logically dead code | Category: Control flow issues
+openjpa,openjpa-examples/openbooks/src/main/java/openbook/tools/util/TextProcessingUtility.java,Various,Quality,Medium,Type: Logically dead code | Category: Control flow issues
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/SimpleCaseExpression.java,96,Quality,Medium,Type: Logically dead code | Category: Control flow issues
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/JPAFacadeHelper.java,237,Quality,Medium,Type: Missing break in switch | Category: Control flow issues
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/SolidDBDictionary.java,464,Quality,Medium,Type: Logically dead code | Category: Control flow issues
+openjpa,openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/DistributedResultSet.java,545,Quality,Medium,Type: Logically dead code | Category: Control flow issues
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/datacache/QueryCacheStoreQuery.java,641,Quality,High,Type: Check of thread-shared field evades lock acquisition | Category: Data race undermines locking
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/AbstractBrokerFactory.java,622,Quality,High,Type: Check of thread-shared field evades lock acquisition | Category: Data race undermines locking
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/concurrent/ConcurrentHashMap.java,762,Quality,High,Type: Check of thread-shared field evades lock acquisition | Category: Data race undermines locking
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/StateManagerImpl.java,283,Quality,High,Type: Check of thread-shared field evades lock acquisition | Category: Data race undermines locking
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/concurrent/ConcurrentReferenceHashMap.java,1122,Quality,High,Type: Check of thread-shared field evades lock acquisition | Category: Data race undermines locking
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/ValueMapDiscriminatorStrategy.java,96,Quality,High,Type: Check of thread-shared field evades lock acquisition | Category: Data race undermines locking
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/SchemaTool.java,1403,Various,Low,Type: Resource leak on an exceptional path | Category: Exceptional resource leaks
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/AnnotationPersistenceMetaDataSerializer.java,1226,Various,Low,Type: Resource leak on an exceptional path | Category: Exceptional resource leaks
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/AbstractJDBCSeq.java,184,Various,Low,Type: Resource leak on an exceptional path | Category: Exceptional resource leaks
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/meta/JarFileURLMetaDataIterator.java,184,Various,Low,Type: Resource leak on an exceptional path | Category: Exceptional resource leaks
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/StoredProcedureQuery.java,181,Various,Low,Type: Resource leak on an exceptional path | Category: Exceptional resource leaks
+openjpa,openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/DistributedTemplate.java,244,Various,Low,Type: Resource leak on an exceptional path | Category: Exceptional resource leaks
+openjpa,openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/DistributedTemplate.java,205,Various,Low,Type: Resource leak on an exceptional path | Category: Exceptional resource leaks
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/SybaseDictionary.java,318,Various,Low,Type: Resource leak on an exceptional path | Category: Exceptional resource leaks
+openjpa,openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/DistributedTemplate.java,150,Various,Low,Type: Resource leak on an exceptional path | Category: Exceptional resource leaks
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/meta/ZipFileMetaDataIterator.java,147,Various,Low,Type: Resource leak on an exceptional path | Category: Exceptional resource leaks
+openjpa,openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/DistributedPreparedStatement.java,75,Various,Low,Type: Resource leak on an exceptional path | Category: Exceptional resource leaks
+openjpa,openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/DistributedTemplate.java,142,Various,Low,Type: Resource leak on an exceptional path | Category: Exceptional resource leaks
+openjpa,openjpa-jest/src/main/java/org/apache/openjpa/persistence/jest/JSONObjectFormatter.java,72,Security,High,Type: Display of sensitive data in the user interface | Category: High impact security
+openjpa,openjpa-examples/openbooks/src/main/java/jpa/tools/swing/ErrorDialog.java,Various,Security,High,Type: Display of sensitive data in the user interface | Category: High impact security
+openjpa,openjpa-kernel/target/generated-sources/javacc/org/apache/openjpa/kernel/jpql/JPQLTokenManager.java,Various,Quality,Medium,Type: Copy-paste error | Category: Incorrect expression
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/datacache/AbstractDataCache.java,99,Quality,Medium,Type: Useless call | Category: Incorrect expression
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/BrokerImpl.java,5371,Quality,Medium,Type: Property getter or setter mixup | Category: Incorrect expression
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/NotEqualTypeExpression.java,131,Quality,Medium,Type: Identical code for different branches | Category: Incorrect expression
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/Column.java,883,Quality,Medium,Type: Copy-paste error | Category: Incorrect expression
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/conf/JDBCConfigurationImpl.java,1039,Quality,Medium,Type: Copy-paste error | Category: Incorrect expression
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/EqualTypeExpression.java,132,Quality,Medium,Type: Identical code for different branches | Category: Incorrect expression
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/StoredProcedureQuery.java,209,Quality,Medium,Type: Useless call | Category: Incorrect expression
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/datacache/ClearableScheduler.java,187,Quality,Medium,Type: Division or modulo by zero | Category: Integer handling issues
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/Filters.java,Various,Quality,Medium,Type: Division or modulo by zero | Category: Integer handling issues
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/Services.java,107,Security,Medium,Type: Unlogged security exception | Category: Medium impact security
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/exps/SimpleCase.java,Various,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/AnnotationPersistenceMetaDataParser.java,782,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/DistributedStoreQuery.java,239,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/JoinSet.java,173,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/exps/Coalesce.java,Various,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/DBDictionary.java,1635,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/BatchingPreparedStatementManagerImpl.java,255,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/MethodStoreQuery.java,182,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/SQLServerDictionary.java,187,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/DistributedJDBCStoreManager.java,501,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/DistributedJDBCStoreManager.java,150,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-persistence-jdbc/src/main/java/org/apache/openjpa/persistence/jdbc/XMLPersistenceMappingSerializer.java,668,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/QueryImpl.java,590,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/jpql/JPQLExpressionBuilder.java,730,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/ReverseMappingTool.java,1018,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/exps/AbstractExpressionBuilder.java,257,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-junit5/src/main/java/org/apache/openjpa/junit5/internal/OpenJPADirectoriesEnhancer.java,171,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/EntityManagerFactoryImpl.java,285,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/RelationFieldStrategy.java,242,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-persistence-jdbc/src/main/java/org/apache/openjpa/persistence/jdbc/AnnotationPersistenceMappingParser.java,1168,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/meta/XMLMetaDataSerializer.java,256,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/jpql/JPQLExpressionBuilder.java,1990,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/exps/InMemoryExpressionFactory.java,153,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/StoredProcedureQueryImpl.java,134,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-persistence-jdbc/src/main/java/org/apache/openjpa/persistence/jdbc/XMLPersistenceMappingParser.java,914,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/FetchConfigurationImpl.java,199,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/datacache/DataCacheStoreManager.java,256,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/meta/MetaDataTool.java,171,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-persistence-jdbc/src/main/java/org/apache/openjpa/persistence/jdbc/AnnotationPersistenceMappingParser.java,1505,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/meta/FetchGroup.java,335,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/util/ApplicationIds.java,335,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/criteria/SubqueryImpl.java,352,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/SolidDBDictionary.java,207,Quality,Medium,Type: Dereference before null check | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/meta/FieldMetaData.java,1745,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/PreparedStatementManagerImpl.java,205,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/GetColumn.java,83,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/JDBCStoreQuery.java,1068,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/DBDictionary.java,576,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/SolidDBDictionary.java,379,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/ForeignKey.java,655,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/event/LifecycleEventManager.java,Various,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/DBDictionary.java,3786,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/LobFieldStrategy.java,Various,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/SolidDBDictionary.java,409,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/jpql/JPQLExpressionBuilder.java,798,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/PCPath.java,1001,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-examples/openbooks/src/main/java/jpa/tools/swing/PowerPointViewer.java,120,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/Services.java,144,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+openjpa,openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/DistributedSQLStoreQuery.java,237,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/VerticalClassStrategy.java,78,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/RelationFieldStrategy.java,850,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/enhance/PCClassFileTransformer.java,112,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/PCPath.java,644,Quality,Medium,Type: Dereference before null check | Category: Null pointer dereferences
+openjpa,openjpa-examples/openbooks/src/main/java/jpa/tools/swing/Finder.java,88,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-examples/openbooks/src/main/java/openbook/tools/CommandProcessor.java,190,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/query/QueryDefinitionImpl.java,321,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/HandlerFieldStrategy.java,460,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/SQLStoreQuery.java,395,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/AnnotationPersistenceMetaDataParser.java,Various,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/SQLStoreQuery.java,231,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/HandlerFieldStrategy.java,220,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/identifier/IdentifierUtilImpl.java,100,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/GetColumn.java,84,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/XMLPersistenceMetaDataSerializer.java,972,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/meta/ClassMetaData.java,1230,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/GetObjectId.java,107,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/ResultShapePacker.java,64,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/FlatClassStrategy.java,73,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/UnaryOp.java,Various,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/ForeignKey.java,816,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/meta/AbstractManagedType.java,794,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/jpql/JPQLExpressionBuilder.java,846,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/HandlerFieldStrategy.java,234,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/criteria/PathImpl.java,181,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/DistributedJDBCStoreManager.java,183,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/RelationFieldStrategy.java,399,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-persistence-jdbc/src/main/java/org/apache/openjpa/persistence/jdbc/AnnotationPersistenceMappingSerializer.java,696,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/JDBCStoreManager.java,793,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/RelationToManyInverseKeyFieldStrategy.java,Various,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/ElementEmbedValueHandler.java,130,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/BrokerImpl.java,4004,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/PCPath.java,889,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/criteria/CriteriaQueryImpl.java,452,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/FormatPreservingProperties.java,333,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/EqualTypeExpression.java,134,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/exps/GeneralCase.java,Various,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/SchemaGroup.java,493,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/SQLEmbed.java,72,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/enhance/PCEnhancer.java,3514,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/FetchConfigurationImpl.java,477,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/SelectConstructor.java,152,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/criteria/Joins.java,Various,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/StateManagerImpl.java,3304,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/Table.java,Various,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-persistence-jdbc/src/main/java/org/apache/openjpa/persistence/jdbc/XMLPersistenceMappingParser.java,946,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/PCPath.java,425,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/Type.java,71,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/DelegatingJoinable.java,121,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/enhance/ApplicationIdTool.java,461,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/SchemaTool.java,1134,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/BrokerImpl.java,881,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/MetaDataPlusMappingFactory.java,50,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+openjpa,openjpa-persistence-jdbc/src/main/java/org/apache/openjpa/persistence/jdbc/PersistenceMappingDefaults.java,148,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/SelectImpl.java,1710,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/RelationRelationMapTableFieldStrategy.java,122,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/DistributedSQLStoreQuery.java,208,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/enhance/PCEnhancer.java,5125,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/DBDictionary.java,3129,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/DistributedJDBCStoreManager.java,227,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/HSQLDictionary.java,352,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/PCPath.java,Various,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-examples/openbooks/src/main/java/jpa/tools/swing/EntityTable.java,Various,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-examples/openbooks/src/main/java/jpa/tools/swing/SwingHelper.java,Various,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/exps/NullIf.java,Various,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+openjpa,openjpa-persistence-jdbc/src/main/java/org/apache/openjpa/persistence/jdbc/XMLPersistenceMappingParser.java,1424,Quality,Medium,Type: Dereference before null check | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/FetchConfigurationImpl.java,Various,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/jpql/JPQLExpressionBuilder.java,454,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/criteria/SubqueryImpl.java,320,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/PersistenceProductDerivation.java,365,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/JDBCStoreQuery.java,1081,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/LogicalUnion.java,230,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/Table.java,Various,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/DistributedJDBCStoreManager.java,426,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/criteria/PathImpl.java,231,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/XMLPersistenceMetaDataParser.java,1485,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/SolidDBDictionary.java,383,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/VerticalClassStrategy.java,121,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-persistence-jdbc/src/main/java/org/apache/openjpa/persistence/jdbc/XMLPersistenceMappingParser.java,839,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/HandlerStrategies.java,210,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/jpql/JPQLExpressionBuilder.java,239,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/SQLStoreQuery.java,177,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/util/ImplHelper.java,162,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/datacache/DataCacheStoreManager.java,567,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/conf/ConfigurationImpl.java,840,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/DistributedJDBCStoreManager.java,505,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/EntityManagerImpl.java,1040,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/enhance/InstrumentationFactory.java,117,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/jpql/JPQLExpressionBuilder.java,781,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+openjpa,openjpa-examples/openbooks/src/main/java/jpa/tools/swing/PreparedQueryViewer.java,31,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/graph/DepthFirstAnalysis.java,241,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/conf/Configurations.java,159,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/conf/ConfigurationImpl.java,909,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/OracleDictionary.java,764,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/query/QueryDefinitionImpl.java,331,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+openjpa,openjpa-examples/openbooks/src/main/java/openbook/client/Demo.java,679,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/ConstraintUpdateManager.java,425,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/meta/FetchGroup.java,286,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/SchemaTool.java,1154,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/VersionAttachStrategy.java,187,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/meta/ClassMetaData.java,Various,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/SelectConstructor.java,Various,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/collections/TreeBidiMap.java,984,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/Extension.java,203,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/criteria/SubqueryImpl.java,323,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/DistributedJDBCStoreManager.java,367,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/meta/ClassMetaData.java,1023,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/RelationRelationMapTableFieldStrategy.java,578,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/instrumentation/AbstractQueryCacheInstrument.java,214,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/meta/ClassAnnotationMetaDataFilter.java,67,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/ReverseMappingTool.java,1279,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/GetObjectId.java,66,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/DistributedJDBCStoreManager.java,406,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/meta/AnnotationProcessor6.java,303,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/jpql/JPQLExpressionBuilder.java,741,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/MappingTool.java,776,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,144,Quality,Medium,Type: Dereference before null check | Category: Null pointer dereferences
+openjpa,openjpa-examples/openbooks/src/main/java/jpa/tools/swing/FileScanner.java,48,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/XMLPersistenceMetaDataSerializer.java,948,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+openjpa,openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/DistributedJDBCStoreManager.java,197,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/HandlerRelationMapTableFieldStrategy.java,492,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/meta/InterfaceImplGenerator.java,193,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/conf/ConfigurationImpl.java,540,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/jpql/JPQLExpressionBuilder.java,1613,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,1664,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,1620,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/AbstractBrokerFactory.java,140,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,1590,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,1580,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/StateManagerImpl.java,3188,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/StateManagerImpl.java,Various,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,1653,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,Various,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,533,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,Various,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,1641,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,Various,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/StateManagerImpl.java,Various,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/StateManagerImpl.java,Various,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,1676,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,638,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,425,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,Various,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/StateManagerImpl.java,Various,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,Various,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,Various,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,1631,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/LocalManagedRuntime.java,86,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,Various,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/StateManagerImpl.java,Various,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,1600,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/LocalManagedRuntime.java,135,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,1567,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,1610,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-examples/simple/src/main/java/embeddables/Main.java,35,Various,High,Type: Resource leak | Category: Resource leaks
+openjpa,openjpa-examples/openbooks/src/main/java/openbook/tools/converter/SourceRenderer.java,107,Various,High,Type: Resource leak | Category: Resource leaks
+openjpa,openjpa-tools/openjpa-maven-plugin/target/it/nonDefaultPersistenceXml/src/test/java/org/apache/openjpa/tools/maven/test/ItNonDefaultXmlTest.java,107,Various,High,Type: Resource leak | Category: Resource leaks
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/DerbyDictionary.java,176,Various,High,Type: Resource leak | Category: Resource leaks
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/meta/XMLMetaDataParser.java,381,Various,High,Type: Resource leak | Category: Resource leaks
+openjpa,openjpa-jest/src/main/java/org/apache/openjpa/persistence/jest/JESTContext.java,Various,Various,High,Type: Resource leak | Category: Resource leaks
+openjpa,openjpa-tools/openjpa-maven-plugin/target/it/default_settings/src/test/java/org/apache/openjpa/tools/maven/test/ItDefaultSettingsTest.java,110,Various,High,Type: Resource leak | Category: Resource leaks
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/meta/XMLMetaDataParser.java,383,Various,High,Type: Resource leak | Category: Resource leaks
+openjpa,openjpa-tools/openjpa-maven-plugin/target/it/default_settings/src/test/java/org/apache/openjpa/tools/maven/test/ItDefaultSettingsTest.java,110,Various,High,Type: Resource leak | Category: Resource leaks
+openjpa,openjpa-tools/openjpa-maven-plugin/target/it/default_settings/src/test/java/org/apache/openjpa/tools/maven/test/ItDefaultSettingsTest.java,89,Various,High,Type: Resource leak | Category: Resource leaks
+openjpa,openjpa-tools/openjpa-maven-plugin/target/it/sqlActionDropSchema/src/test/java/org/apache/openjpa/tools/maven/test/ItDropSchemaTest.java,50,Various,High,Type: Resource leak | Category: Resource leaks
+openjpa,openjpa-tools/openjpa-maven-plugin/target/it/nonDefaultPersistenceXml/src/test/java/org/apache/openjpa/tools/maven/test/ItNonDefaultXmlTest.java,107,Various,High,Type: Resource leak | Category: Resource leaks
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/DBDictionary.java,5037,Various,High,Type: Resource leak | Category: Resource leaks
+openjpa,openjpa-jest/src/main/java/org/apache/openjpa/persistence/jest/JESTContext.java,325,Various,High,Type: Resource leak | Category: Resource leaks
+openjpa,openjpa-examples/openbooks/src/main/java/openbook/tools/converter/SourceRenderer.java,107,Various,High,Type: Resource leak | Category: Resource leaks
+openjpa,openjpa-examples/openbooks/src/main/java/openbook/util/PropertyHelper.java,119,Various,High,Type: Resource leak | Category: Resource leaks
+openjpa,openjpa-examples/openbooks/src/main/java/openbook/util/PropertyHelper.java,135,Various,High,Type: Resource leak | Category: Resource leaks
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/DBDictionary.java,5035,Various,High,Type: Resource leak | Category: Resource leaks
+openjpa,openjpa-examples/openbooks/src/main/java/jpa/tools/swing/Finder.java,104,Various,High,Type: Resource leak | Category: Resource leaks
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/TemporaryClassLoader.java,91,Various,High,Type: Resource leak | Category: Resource leaks
+openjpa,openjpa-tools/openjpa-maven-plugin/target/it/sqlActionRefresh/src/test/java/org/apache/openjpa/tools/maven/test/ItRefreshSchemaTest.java,52,Various,High,Type: Resource leak | Category: Resource leaks
+openjpa,openjpa-tools/openjpa-maven-plugin/target/it/nonDefaultPersistenceXml/src/test/java/org/apache/openjpa/tools/maven/test/ItNonDefaultXmlTest.java,86,Various,High,Type: Resource leak | Category: Resource leaks
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/Column.java,894,Quality,Medium,Type: Using invalid iterator | Category: API usage errors
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/query/BinaryExpressionPredicate.java,71,Quality,Medium,Type: Arguments in wrong order | Category: API usage errors
+openjpa,openjpa-examples/openbooks/src/main/java/openbook/domain/Book.java,138,Quality,Medium,Type: Unsafe dependence on database key | Category: API usage errors
+openjpa,openjpa-examples/openbooks/src/main/java/openbook/domain/Book.java,151,Quality,Medium,Type: Unsafe dependence on database key | Category: API usage errors
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/jpql/JPQLExpressionBuilder.java,1430,Quality,Medium,Type: Arguments in wrong order | Category: API usage errors
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/jpql/JPQLExpressionBuilder.java,442,Quality,Medium,Type: Arguments in wrong order | Category: API usage errors
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/query/UnaryExpressionPredicate.java,64,Quality,Medium,Type: Arguments in wrong order | Category: API usage errors
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/enhance/PCRegistry.java,224,Quality,Medium,Type: Using invalid iterator | Category: API usage errors
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/jpql/JPQLExpressionBuilder.java,622,Quality,Medium,Type: Arguments in wrong order | Category: API usage errors
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/Null.java,50,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/collections/UnmodifiableEntrySet.java,164,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/FoxProDictionary.java,131,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/FirebirdDictionary.java,493,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/H2Dictionary.java,303,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/HSQLDictionary.java,389,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/collections/LinkedMap.java,253,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/criteria/RootImpl.java,119,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/HSQLDictionary.java,210,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/JDBCStoreManager.java,1651,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/RowImpl.java,1027,Quality,Medium,Type: Failure to call super.clone() | Category: Class hierarchy inconsistencies
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/SchemaGroup.java,463,Quality,Medium,Type: Failure to call super.clone() | Category: Class hierarchy inconsistencies
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/DelegatingFetchConfiguration.java,518,Quality,Medium,Type: Failure to call super.clone() | Category: Class hierarchy inconsistencies
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/FetchConfigurationImpl.java,209,Quality,Medium,Type: Failure to call super.clone() | Category: Class hierarchy inconsistencies
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/PostgresDictionary.java,305,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/conf/ConfigurationImpl.java,1048,Quality,Medium,Type: Failure to call super.clone() | Category: Class hierarchy inconsistencies
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/identifier/DBIdentifier.java,324,Quality,Medium,Type: Failure to call super.clone() | Category: Class hierarchy inconsistencies
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/XMLSchemaParser.java,321,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/concurrent/ConcurrentHashMap.java,629,Quality,Medium,Type: Failure to call super.clone() | Category: Class hierarchy inconsistencies
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/InstanceofExpression.java,69,Quality,Low,Type: Unused value | Category: Code maintainability issues
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/DBDictionary.java,4476,Quality,Low,Type: Unused value | Category: Code maintainability issues
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,1690,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-jest/src/main/java/org/apache/openjpa/persistence/jest/JESTServlet.java,138,Quality,High,Type: Unlocked write | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/AbstractBrokerFactory.java,255,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/conf/ConfigurationImpl.java,766,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-jest/src/main/java/org/apache/openjpa/persistence/jest/XMLFormatter.java,447,Quality,High,Type: Unlocked write | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/ee/OSGiManagedRuntime.java,Various,Quality,Medium,Type: Data race condition | Category: Concurrent data access violations
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/FormatPreservingProperties.java,640,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/conf/CacheMarshallersValue.java,Various,Quality,High,Type: Unlocked write | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/event/LifecycleEventManager.java,252,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/datacache/QueryCacheStoreQuery.java,634,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/conf/ObjectValue.java,123,Quality,High,Type: Unlocked write | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/util/CacheMap.java,276,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/enhance/PCRegistry.java,251,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/BrokerImpl.java,3924,Quality,High,Type: Unlocked write | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/util/CacheMap.java,508,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/util/CacheMap.java,637,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/enhance/Reflection.java,879,Quality,High,Type: Unlocked write | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/ExpressionStoreQuery.java,900,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/ValueMapDiscriminatorStrategy.java,96,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/enhance/Reflection.java,96,Quality,High,Type: Unlocked write | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/AuditManager.java,147,Quality,Medium,Type: Unguarded write | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/event/TCPRemoteCommitProvider.java,673,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/meta/AnnotationProcessor6.java,228,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/util/CacheMap.java,533,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/FormatPreservingProperties.java,464,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/datacache/ClearableScheduler.java,88,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/event/TCPRemoteCommitProvider.java,580,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/datacache/QueryCacheStoreQuery.java,687,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/AbstractBrokerFactory.java,149,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/AbstractBrokerFactory.java,622,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/StoredProcedureQueryImpl.java,155,Quality,High,Type: Unlocked write | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/AbstractBrokerFactory.java,377,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/enhance/Reflection.java,76,Quality,High,Type: Unlocked write | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/datacache/ClearableScheduler.java,134,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/conf/JDBCConfigurationImpl.java,Various,Quality,High,Type: Unlocked write | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/meta/SequenceMetaData.java,420,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/conf/MetaDataRepositoryValue.java,54,Quality,High,Type: Unlocked write | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/AbstractBrokerFactory.java,249,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/meta/InterfaceImplGenerator.java,239,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/event/DynamicTCPRemoteCommitProvider.java,107,Quality,Medium,Type: Unguarded write | Category: Concurrent data access violations
+openjpa,openjpa-jest/src/main/java/org/apache/openjpa/persistence/jest/QueryCommand.java,90,Quality,High,Type: Unlocked write | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/ExpressionStoreQuery.java,321,Quality,High,Type: Unlocked write | Category: Concurrent data access violations
+openjpa,openjpa-jest/src/main/java/org/apache/openjpa/persistence/jest/FindCommand.java,86,Quality,High,Type: Unlocked write | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/util/CacheMap.java,368,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/util/CacheMap.java,523,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/conf/PluginValue.java,Various,Quality,High,Type: Unlocked write | Category: Concurrent data access violations
+openjpa,openjpa-jest/src/main/java/org/apache/openjpa/persistence/jest/DomainCommand.java,59,Quality,High,Type: Unlocked write | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,1684,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-jest/src/main/java/org/apache/openjpa/persistence/jest/XMLFormatter.java,Various,Quality,High,Type: Unlocked write | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/enhance/PCRegistry.java,237,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-jest/src/main/java/org/apache/openjpa/persistence/jest/AbstractCommand.java,269,Quality,High,Type: Unlocked write | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/event/LifecycleEventManager.java,258,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/enhance/PCRegistry.java,244,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/event/LifecycleEventManager.java,75,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/AbstractBrokerFactory.java,697,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/FormatPreservingProperties.java,640,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/event/TCPRemoteCommitProvider.java,378,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/event/SingleJVMRemoteCommitProvider.java,64,Quality,High,Type: Unlocked write | Category: Concurrent data access violations
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/meta/AnnotationProcessor6.java,190,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+openjpa,openjpa-persistence-jdbc/src/main/java/org/apache/openjpa/persistence/jdbc/XMLPersistenceMappingParser.java,1602,Quality,Medium,Type: Stray semicolon | Category: Control flow issues
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/SchemaTool.java,987,Quality,Medium,Type: Logically dead code | Category: Control flow issues
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/SolidDBDictionary.java,452,Quality,Medium,Type: Logically dead code | Category: Control flow issues
+openjpa,openjpa-examples/openbooks/src/main/java/openbook/tools/util/TextProcessingUtility.java,Various,Quality,Medium,Type: Logically dead code | Category: Control flow issues
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/SimpleCaseExpression.java,96,Quality,Medium,Type: Logically dead code | Category: Control flow issues
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/JPAFacadeHelper.java,237,Quality,Medium,Type: Missing break in switch | Category: Control flow issues
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/SolidDBDictionary.java,464,Quality,Medium,Type: Logically dead code | Category: Control flow issues
+openjpa,openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/DistributedResultSet.java,545,Quality,Medium,Type: Logically dead code | Category: Control flow issues
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/datacache/QueryCacheStoreQuery.java,641,Quality,High,Type: Check of thread-shared field evades lock acquisition | Category: Data race undermines locking
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/AbstractBrokerFactory.java,622,Quality,High,Type: Check of thread-shared field evades lock acquisition | Category: Data race undermines locking
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/concurrent/ConcurrentHashMap.java,762,Quality,High,Type: Check of thread-shared field evades lock acquisition | Category: Data race undermines locking
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/StateManagerImpl.java,283,Quality,High,Type: Check of thread-shared field evades lock acquisition | Category: Data race undermines locking
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/concurrent/ConcurrentReferenceHashMap.java,1122,Quality,High,Type: Check of thread-shared field evades lock acquisition | Category: Data race undermines locking
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/ValueMapDiscriminatorStrategy.java,96,Quality,High,Type: Check of thread-shared field evades lock acquisition | Category: Data race undermines locking
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/SchemaTool.java,1403,Various,Low,Type: Resource leak on an exceptional path | Category: Exceptional resource leaks
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/AnnotationPersistenceMetaDataSerializer.java,1226,Various,Low,Type: Resource leak on an exceptional path | Category: Exceptional resource leaks
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/AbstractJDBCSeq.java,184,Various,Low,Type: Resource leak on an exceptional path | Category: Exceptional resource leaks
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/meta/JarFileURLMetaDataIterator.java,184,Various,Low,Type: Resource leak on an exceptional path | Category: Exceptional resource leaks
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/StoredProcedureQuery.java,181,Various,Low,Type: Resource leak on an exceptional path | Category: Exceptional resource leaks
+openjpa,openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/DistributedTemplate.java,244,Various,Low,Type: Resource leak on an exceptional path | Category: Exceptional resource leaks
+openjpa,openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/DistributedTemplate.java,205,Various,Low,Type: Resource leak on an exceptional path | Category: Exceptional resource leaks
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/SybaseDictionary.java,318,Various,Low,Type: Resource leak on an exceptional path | Category: Exceptional resource leaks
+openjpa,openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/DistributedTemplate.java,150,Various,Low,Type: Resource leak on an exceptional path | Category: Exceptional resource leaks
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/meta/ZipFileMetaDataIterator.java,147,Various,Low,Type: Resource leak on an exceptional path | Category: Exceptional resource leaks
+openjpa,openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/DistributedPreparedStatement.java,75,Various,Low,Type: Resource leak on an exceptional path | Category: Exceptional resource leaks
+openjpa,openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/DistributedTemplate.java,142,Various,Low,Type: Resource leak on an exceptional path | Category: Exceptional resource leaks
+openjpa,openjpa-jest/src/main/java/org/apache/openjpa/persistence/jest/JSONObjectFormatter.java,72,Security,High,Type: Display of sensitive data in the user interface | Category: High impact security
+openjpa,openjpa-examples/openbooks/src/main/java/jpa/tools/swing/ErrorDialog.java,Various,Security,High,Type: Display of sensitive data in the user interface | Category: High impact security
+openjpa,openjpa-kernel/target/generated-sources/javacc/org/apache/openjpa/kernel/jpql/JPQLTokenManager.java,Various,Quality,Medium,Type: Copy-paste error | Category: Incorrect expression
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/datacache/AbstractDataCache.java,99,Quality,Medium,Type: Useless call | Category: Incorrect expression
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/BrokerImpl.java,5371,Quality,Medium,Type: Property getter or setter mixup | Category: Incorrect expression
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/NotEqualTypeExpression.java,131,Quality,Medium,Type: Identical code for different branches | Category: Incorrect expression
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/Column.java,883,Quality,Medium,Type: Copy-paste error | Category: Incorrect expression
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/conf/JDBCConfigurationImpl.java,1039,Quality,Medium,Type: Copy-paste error | Category: Incorrect expression
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/EqualTypeExpression.java,132,Quality,Medium,Type: Identical code for different branches | Category: Incorrect expression
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/StoredProcedureQuery.java,209,Quality,Medium,Type: Useless call | Category: Incorrect expression
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/datacache/ClearableScheduler.java,187,Quality,Medium,Type: Division or modulo by zero | Category: Integer handling issues
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/Filters.java,Various,Quality,Medium,Type: Division or modulo by zero | Category: Integer handling issues
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/Services.java,107,Security,Medium,Type: Unlogged security exception | Category: Medium impact security
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/exps/SimpleCase.java,Various,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/AnnotationPersistenceMetaDataParser.java,782,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/DistributedStoreQuery.java,239,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/JoinSet.java,173,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/exps/Coalesce.java,Various,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/DBDictionary.java,1635,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/BatchingPreparedStatementManagerImpl.java,255,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/MethodStoreQuery.java,182,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/SQLServerDictionary.java,187,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/DistributedJDBCStoreManager.java,501,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/DistributedJDBCStoreManager.java,150,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-persistence-jdbc/src/main/java/org/apache/openjpa/persistence/jdbc/XMLPersistenceMappingSerializer.java,668,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/QueryImpl.java,590,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/jpql/JPQLExpressionBuilder.java,730,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/ReverseMappingTool.java,1018,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/exps/AbstractExpressionBuilder.java,257,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-junit5/src/main/java/org/apache/openjpa/junit5/internal/OpenJPADirectoriesEnhancer.java,171,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/EntityManagerFactoryImpl.java,285,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/RelationFieldStrategy.java,242,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-persistence-jdbc/src/main/java/org/apache/openjpa/persistence/jdbc/AnnotationPersistenceMappingParser.java,1168,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/meta/XMLMetaDataSerializer.java,256,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/jpql/JPQLExpressionBuilder.java,1990,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/exps/InMemoryExpressionFactory.java,153,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/StoredProcedureQueryImpl.java,134,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-persistence-jdbc/src/main/java/org/apache/openjpa/persistence/jdbc/XMLPersistenceMappingParser.java,914,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/FetchConfigurationImpl.java,199,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/datacache/DataCacheStoreManager.java,256,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/meta/MetaDataTool.java,171,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-persistence-jdbc/src/main/java/org/apache/openjpa/persistence/jdbc/AnnotationPersistenceMappingParser.java,1505,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/meta/FetchGroup.java,335,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/util/ApplicationIds.java,335,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/criteria/SubqueryImpl.java,352,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/SolidDBDictionary.java,207,Quality,Medium,Type: Dereference before null check | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/meta/FieldMetaData.java,1745,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/PreparedStatementManagerImpl.java,205,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/GetColumn.java,83,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/JDBCStoreQuery.java,1068,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/DBDictionary.java,576,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/SolidDBDictionary.java,379,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/ForeignKey.java,655,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/event/LifecycleEventManager.java,Various,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/DBDictionary.java,3786,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/LobFieldStrategy.java,Various,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/SolidDBDictionary.java,409,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/jpql/JPQLExpressionBuilder.java,798,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/PCPath.java,1001,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-examples/openbooks/src/main/java/jpa/tools/swing/PowerPointViewer.java,120,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/Services.java,144,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+openjpa,openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/DistributedSQLStoreQuery.java,237,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/VerticalClassStrategy.java,78,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/RelationFieldStrategy.java,850,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/enhance/PCClassFileTransformer.java,112,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/PCPath.java,644,Quality,Medium,Type: Dereference before null check | Category: Null pointer dereferences
+openjpa,openjpa-examples/openbooks/src/main/java/jpa/tools/swing/Finder.java,88,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-examples/openbooks/src/main/java/openbook/tools/CommandProcessor.java,190,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/query/QueryDefinitionImpl.java,321,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/HandlerFieldStrategy.java,460,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/SQLStoreQuery.java,395,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/AnnotationPersistenceMetaDataParser.java,Various,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/SQLStoreQuery.java,231,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/HandlerFieldStrategy.java,220,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/identifier/IdentifierUtilImpl.java,100,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/GetColumn.java,84,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/XMLPersistenceMetaDataSerializer.java,972,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/meta/ClassMetaData.java,1230,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/GetObjectId.java,107,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/ResultShapePacker.java,64,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/FlatClassStrategy.java,73,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/UnaryOp.java,Various,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/ForeignKey.java,816,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/meta/AbstractManagedType.java,794,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/jpql/JPQLExpressionBuilder.java,846,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/HandlerFieldStrategy.java,234,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/criteria/PathImpl.java,181,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/DistributedJDBCStoreManager.java,183,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/RelationFieldStrategy.java,399,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-persistence-jdbc/src/main/java/org/apache/openjpa/persistence/jdbc/AnnotationPersistenceMappingSerializer.java,696,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/JDBCStoreManager.java,793,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/RelationToManyInverseKeyFieldStrategy.java,Various,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/ElementEmbedValueHandler.java,130,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/BrokerImpl.java,4004,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/PCPath.java,889,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/criteria/CriteriaQueryImpl.java,452,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/FormatPreservingProperties.java,333,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/EqualTypeExpression.java,134,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/exps/GeneralCase.java,Various,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/SchemaGroup.java,493,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/SQLEmbed.java,72,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/enhance/PCEnhancer.java,3514,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/FetchConfigurationImpl.java,477,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/SelectConstructor.java,152,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/criteria/Joins.java,Various,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/StateManagerImpl.java,3304,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/Table.java,Various,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-persistence-jdbc/src/main/java/org/apache/openjpa/persistence/jdbc/XMLPersistenceMappingParser.java,946,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/PCPath.java,425,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/Type.java,71,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/DelegatingJoinable.java,121,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/enhance/ApplicationIdTool.java,461,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/SchemaTool.java,1134,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/BrokerImpl.java,881,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/MetaDataPlusMappingFactory.java,50,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+openjpa,openjpa-persistence-jdbc/src/main/java/org/apache/openjpa/persistence/jdbc/PersistenceMappingDefaults.java,148,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/SelectImpl.java,1710,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/RelationRelationMapTableFieldStrategy.java,122,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/DistributedSQLStoreQuery.java,208,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/enhance/PCEnhancer.java,5125,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/DBDictionary.java,3129,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/DistributedJDBCStoreManager.java,227,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/HSQLDictionary.java,352,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/PCPath.java,Various,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-examples/openbooks/src/main/java/jpa/tools/swing/EntityTable.java,Various,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-examples/openbooks/src/main/java/jpa/tools/swing/SwingHelper.java,Various,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/exps/NullIf.java,Various,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+openjpa,openjpa-persistence-jdbc/src/main/java/org/apache/openjpa/persistence/jdbc/XMLPersistenceMappingParser.java,1424,Quality,Medium,Type: Dereference before null check | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/FetchConfigurationImpl.java,Various,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/jpql/JPQLExpressionBuilder.java,454,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/criteria/SubqueryImpl.java,320,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/PersistenceProductDerivation.java,365,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/JDBCStoreQuery.java,1081,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/LogicalUnion.java,230,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/Table.java,Various,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/DistributedJDBCStoreManager.java,426,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/criteria/PathImpl.java,231,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/XMLPersistenceMetaDataParser.java,1485,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/SolidDBDictionary.java,383,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/VerticalClassStrategy.java,121,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-persistence-jdbc/src/main/java/org/apache/openjpa/persistence/jdbc/XMLPersistenceMappingParser.java,839,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/HandlerStrategies.java,210,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/jpql/JPQLExpressionBuilder.java,239,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/SQLStoreQuery.java,177,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/util/ImplHelper.java,162,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/datacache/DataCacheStoreManager.java,567,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/conf/ConfigurationImpl.java,840,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/DistributedJDBCStoreManager.java,505,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/EntityManagerImpl.java,1040,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/enhance/InstrumentationFactory.java,117,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/jpql/JPQLExpressionBuilder.java,781,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+openjpa,openjpa-examples/openbooks/src/main/java/jpa/tools/swing/PreparedQueryViewer.java,31,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/graph/DepthFirstAnalysis.java,241,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/conf/Configurations.java,159,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/conf/ConfigurationImpl.java,909,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/OracleDictionary.java,764,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/query/QueryDefinitionImpl.java,331,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+openjpa,openjpa-examples/openbooks/src/main/java/openbook/client/Demo.java,679,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/ConstraintUpdateManager.java,425,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/meta/FetchGroup.java,286,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/SchemaTool.java,1154,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/VersionAttachStrategy.java,187,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/meta/ClassMetaData.java,Various,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/SelectConstructor.java,Various,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/collections/TreeBidiMap.java,984,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/Extension.java,203,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/criteria/SubqueryImpl.java,323,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/DistributedJDBCStoreManager.java,367,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/meta/ClassMetaData.java,1023,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/RelationRelationMapTableFieldStrategy.java,578,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/instrumentation/AbstractQueryCacheInstrument.java,214,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/meta/ClassAnnotationMetaDataFilter.java,67,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/ReverseMappingTool.java,1279,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/GetObjectId.java,66,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/DistributedJDBCStoreManager.java,406,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/meta/AnnotationProcessor6.java,303,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/jpql/JPQLExpressionBuilder.java,741,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/MappingTool.java,776,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,144,Quality,Medium,Type: Dereference before null check | Category: Null pointer dereferences
+openjpa,openjpa-examples/openbooks/src/main/java/jpa/tools/swing/FileScanner.java,48,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/XMLPersistenceMetaDataSerializer.java,948,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+openjpa,openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/DistributedJDBCStoreManager.java,197,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/HandlerRelationMapTableFieldStrategy.java,492,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/meta/InterfaceImplGenerator.java,193,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/conf/ConfigurationImpl.java,540,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/jpql/JPQLExpressionBuilder.java,1613,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,1664,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,1620,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/AbstractBrokerFactory.java,140,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,1590,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,1580,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/StateManagerImpl.java,3188,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/StateManagerImpl.java,Various,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,1653,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,Various,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,533,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,Various,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,1641,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,Various,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/StateManagerImpl.java,Various,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/StateManagerImpl.java,Various,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,1676,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,638,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,425,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,Various,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/StateManagerImpl.java,Various,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,Various,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,Various,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,1631,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/LocalManagedRuntime.java,86,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,Various,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/StateManagerImpl.java,Various,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,1600,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/LocalManagedRuntime.java,135,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,1567,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,1610,Quality,Medium,Type: Thread deadlock | Category: Program hangs
+openjpa,openjpa-examples/simple/src/main/java/embeddables/Main.java,35,Various,High,Type: Resource leak | Category: Resource leaks
+openjpa,openjpa-examples/openbooks/src/main/java/openbook/tools/converter/SourceRenderer.java,107,Various,High,Type: Resource leak | Category: Resource leaks
+openjpa,openjpa-tools/openjpa-maven-plugin/target/it/nonDefaultPersistenceXml/src/test/java/org/apache/openjpa/tools/maven/test/ItNonDefaultXmlTest.java,107,Various,High,Type: Resource leak | Category: Resource leaks
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/DerbyDictionary.java,176,Various,High,Type: Resource leak | Category: Resource leaks
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/meta/XMLMetaDataParser.java,381,Various,High,Type: Resource leak | Category: Resource leaks
+openjpa,openjpa-jest/src/main/java/org/apache/openjpa/persistence/jest/JESTContext.java,Various,Various,High,Type: Resource leak | Category: Resource leaks
+openjpa,openjpa-tools/openjpa-maven-plugin/target/it/default_settings/src/test/java/org/apache/openjpa/tools/maven/test/ItDefaultSettingsTest.java,110,Various,High,Type: Resource leak | Category: Resource leaks
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/meta/XMLMetaDataParser.java,383,Various,High,Type: Resource leak | Category: Resource leaks
+openjpa,openjpa-tools/openjpa-maven-plugin/target/it/default_settings/src/test/java/org/apache/openjpa/tools/maven/test/ItDefaultSettingsTest.java,110,Various,High,Type: Resource leak | Category: Resource leaks
+openjpa,openjpa-tools/openjpa-maven-plugin/target/it/default_settings/src/test/java/org/apache/openjpa/tools/maven/test/ItDefaultSettingsTest.java,89,Various,High,Type: Resource leak | Category: Resource leaks
+openjpa,openjpa-tools/openjpa-maven-plugin/target/it/sqlActionDropSchema/src/test/java/org/apache/openjpa/tools/maven/test/ItDropSchemaTest.java,50,Various,High,Type: Resource leak | Category: Resource leaks
+openjpa,openjpa-tools/openjpa-maven-plugin/target/it/nonDefaultPersistenceXml/src/test/java/org/apache/openjpa/tools/maven/test/ItNonDefaultXmlTest.java,107,Various,High,Type: Resource leak | Category: Resource leaks
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/DBDictionary.java,5037,Various,High,Type: Resource leak | Category: Resource leaks
+openjpa,openjpa-jest/src/main/java/org/apache/openjpa/persistence/jest/JESTContext.java,325,Various,High,Type: Resource leak | Category: Resource leaks
+openjpa,openjpa-examples/openbooks/src/main/java/openbook/tools/converter/SourceRenderer.java,107,Various,High,Type: Resource leak | Category: Resource leaks
+openjpa,openjpa-examples/openbooks/src/main/java/openbook/util/PropertyHelper.java,119,Various,High,Type: Resource leak | Category: Resource leaks
+openjpa,openjpa-examples/openbooks/src/main/java/openbook/util/PropertyHelper.java,135,Various,High,Type: Resource leak | Category: Resource leaks
+openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/DBDictionary.java,5035,Various,High,Type: Resource leak | Category: Resource leaks
+openjpa,openjpa-examples/openbooks/src/main/java/jpa/tools/swing/Finder.java,104,Various,High,Type: Resource leak | Category: Resource leaks
+openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/TemporaryClassLoader.java,91,Various,High,Type: Resource leak | Category: Resource leaks
+openjpa,openjpa-tools/openjpa-maven-plugin/target/it/sqlActionRefresh/src/test/java/org/apache/openjpa/tools/maven/test/ItRefreshSchemaTest.java,52,Various,High,Type: Resource leak | Category: Resource leaks
+openjpa,openjpa-tools/openjpa-maven-plugin/target/it/nonDefaultPersistenceXml/src/test/java/org/apache/openjpa/tools/maven/test/ItNonDefaultXmlTest.java,86,Various,High,Type: Resource leak | Category: Resource leaks
+ponyorm,pony/utils/utils.py,98,Quality,Medium,Type: Identical code for different branches | Category: Incorrect expression
+ponyorm,pony/orm/tests/test_f_strings.py,22,Quality,Medium,Type: Typo in identifier | Category: Incorrect expression
+ponyorm,pony/orm/sqltranslation.py,2357,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+ponyorm,pony/orm/sqltranslation.py,300,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+ponyorm,pony/orm/sqltranslation.py,2546,Quality,Medium,Type: Logically dead code | Category: Control flow issues
+ponyorm,pony/orm/sqltranslation.py,179,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+ponyorm,pony/orm/sqltranslation.py,2441,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+ponyorm,pony/orm/sqltranslation.py,2220,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+ponyorm,pony/orm/sqltranslation.py,2186,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+ponyorm,pony/orm/sqltranslation.py,822,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+ponyorm,pony/orm/sqltranslation.py,2290,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+ponyorm,pony/orm/sqlbuilding.py,554,Quality,Medium,Type: Logically dead code | Category: Control flow issues
+ponyorm,pony/orm/sqlbuilding.py,210,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+ponyorm,pony/orm/decompiling.py,276,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+ponyorm,pony/orm/dbschema.py,131,Quality,Medium,Type: Logically dead code | Category: Control flow issues
+ponyorm,pony/orm/dbproviders/oracle.py,468,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+ponyorm,pony/orm/dbproviders/oracle.py,469,Quality,Medium,Type: Logically dead code | Category: Control flow issues
+ponyorm,pony/orm/dbproviders/oracle.py,469,Quality,Medium,Type: Attribute/item access or function call before check for None or undefined | Category: Null pointer dereferences
+ponyorm,pony/orm/dbapiprovider.py,410,Quality,Medium,Type: Attribute/item access or function call before check for None or undefined | Category: Null pointer dereferences
+ponyorm,pony/orm/core.py,Various,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+ponyorm,pony/orm/core.py,655,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+ponyorm,pony/orm/core.py,558,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+ponyorm,pony/orm/core.py,5160,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+ponyorm,pony/orm/core.py,4897,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+ponyorm,pony/orm/core.py,2288,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+ponyorm,pony/orm/core.py,784,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+ponyorm,pony/orm/core.py,1541,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+ponyorm,pony/orm/core.py,4105,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+ponyorm,pony/orm/core.py,2270,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+ponyorm,pony/orm/core.py,880,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+ponyorm,pony/orm/core.py,2928,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+ponyorm,pony/orm/core.py,6154,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+ponyorm,pony/orm/core.py,3947,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+ponyorm,pony/orm/core.py,4817,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+ponyorm,pony/orm/core.py,961,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+ponyorm,pony/orm/core.py,Various,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+ponyorm,pony/javascript/pony.js,497,Quality,Medium,Type: Missing break in switch | Category: Control flow issues
+ponyorm,pony/javascript/pony.js,503,Quality,Medium,Type: Missing break in switch | Category: Control flow issues
+sqlalchemy,test/typing/plain_files/sql/operators.py,Various,Quality,Medium,Type: Same on both sides | Category: Incorrect expression
+sqlalchemy,test/typing/plain_files/ext/hybrid/hybrid_two.py,136,Quality,Medium,Type: Structurally dead code | Category: Control flow issues
+sqlalchemy,test/sql/test_query.py,149,Quality,Medium,Type: Copy-paste error | Category: Incorrect expression
+sqlalchemy,test/sql/test_operators.py,Various,Quality,Medium,Type: Logically dead code | Category: Control flow issues
+sqlalchemy,test/sql/test_operators.py,2727,Quality,Medium,Type: Same on both sides | Category: Incorrect expression
+sqlalchemy,test/sql/test_operators.py,Various,Quality,Medium,Type: Identical code for different branches | Category: Incorrect expression
+sqlalchemy,test/orm/test_query.py,5363,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+sqlalchemy,test/orm/test_query.py,3102,Quality,Medium,Type: Attribute/item access or function call before check for None or undefined | Category: Null pointer dereferences
+sqlalchemy,test/orm/test_query.py,Various,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+sqlalchemy,test/orm/test_query.py,5409,Quality,Medium,Type: Structurally dead code | Category: Control flow issues
+sqlalchemy,test/orm/test_query.py,1841,Quality,Medium,Type: Attribute/item access or function call before check for None or undefined | Category: Null pointer dereferences
+sqlalchemy,test/orm/test_deferred.py,172,Quality,Medium,Type: Copy-paste error | Category: Incorrect expression
+sqlalchemy,test/orm/test_attributes.py,Various,Quality,Medium,Type: Attribute/item access or function call before check for None or undefined | Category: Null pointer dereferences
+sqlalchemy,test/ext/test_associationproxy.py,1962,Quality,Medium,Type: Attribute/item access or function call before check for None or undefined | Category: Null pointer dereferences
+sqlalchemy,test/ext/test_associationproxy.py,2004,Quality,Medium,Type: Attribute/item access or function call before check for None or undefined | Category: Null pointer dereferences
+sqlalchemy,test/ext/test_associationproxy.py,2912,Quality,Medium,Type: Attribute/item access or function call before check for None or undefined | Category: Null pointer dereferences
+sqlalchemy,test/ext/test_associationproxy.py,2841,Quality,Medium,Type: Attribute/item access or function call before check for None or undefined | Category: Null pointer dereferences
+sqlalchemy,test/ext/test_associationproxy.py,2344,Quality,Medium,Type: Attribute/item access or function call before check for None or undefined | Category: Null pointer dereferences
+sqlalchemy,test/ext/asyncio/test_engine_py3k.py,343,Quality,Medium,Type: Attribute/item access or function call before check for None or undefined | Category: Null pointer dereferences
+sqlalchemy,test/ext/asyncio/test_engine_py3k.py,269,Quality,Medium,Type: Attribute/item access or function call before check for None or undefined | Category: Null pointer dereferences
+sqlalchemy,test/ext/asyncio/test_engine_py3k.py,330,Quality,Medium,Type: Attribute/item access or function call before check for None or undefined | Category: Null pointer dereferences
+sqlalchemy,test/dialect/postgresql/test_types.py,4177,Quality,Medium,Type: Attribute/item access or function call before check for None or undefined | Category: Null pointer dereferences
+sqlalchemy,test/base/test_utils.py,Various,Quality,Medium,Type: Attribute/item access or function call before check for None or undefined | Category: Null pointer dereferences
+sqlalchemy,setup.cfg,74,Security,Low,Type: Hard-coded secret | Category: Sigma
+sqlalchemy,setup.cfg,65,Security,Low,Type: Hard-coded secret | Category: Sigma
+sqlalchemy,setup.cfg,84,Security,Low,Type: Hard-coded secret | Category: Sigma
+sqlalchemy,setup.cfg,Various,Security,Low,Type: Hard-coded secret | Category: Sigma
+sqlalchemy,setup.cfg,69,Security,Low,Type: Hard-coded secret | Category: Sigma
+sqlalchemy,setup.cfg,76,Security,Low,Type: Hard-coded secret | Category: Sigma
+sqlalchemy,setup.cfg,79,Security,Low,Type: Hard-coded secret | Category: Sigma
+sqlalchemy,setup.cfg,78,Security,Low,Type: Hard-coded secret | Category: Sigma
+sqlalchemy,setup.cfg,75,Security,Low,Type: Hard-coded secret | Category: Sigma
+sqlalchemy,setup.cfg,Various,Security,Low,Type: Hard-coded secret | Category: Sigma
+sqlalchemy,setup.cfg,72,Security,Low,Type: Hard-coded secret | Category: Sigma
+sqlalchemy,setup.cfg,67,Security,Low,Type: Hard-coded secret | Category: Sigma
+sqlalchemy,setup.cfg,73,Security,Low,Type: Hard-coded secret | Category: Sigma
+sqlalchemy,setup.cfg,83,Security,Low,Type: Hard-coded secret | Category: Sigma
+sqlalchemy,setup.cfg,71,Security,Low,Type: Hard-coded secret | Category: Sigma
+sqlalchemy,setup.cfg,77,Security,Low,Type: Hard-coded secret | Category: Sigma
+sqlalchemy,setup.cfg,68,Security,Low,Type: Hard-coded secret | Category: Sigma
+sqlalchemy,setup.cfg,82,Security,Low,Type: Hard-coded secret | Category: Sigma
+sqlalchemy,setup.cfg,66,Security,Low,Type: Hard-coded secret | Category: Sigma
+sqlalchemy,setup.cfg,70,Security,Low,Type: Hard-coded secret | Category: Sigma
+sqlalchemy,lib/sqlalchemy/testing/entities.py,73,Quality,Medium,Type: Attribute/item access or function call before check for None or undefined | Category: Null pointer dereferences
+sqlalchemy,lib/sqlalchemy/testing/assertions.py,551,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+sqlalchemy,lib/sqlalchemy/sql/traversals.py,816,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+sqlalchemy,lib/sqlalchemy/sql/traversals.py,816,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+sqlalchemy,lib/sqlalchemy/sql/compiler.py,3943,Quality,Medium,Type: Copy-paste error | Category: Incorrect expression
+sqlalchemy,lib/sqlalchemy/pool/base.py,1364,Quality,Medium,Type: Attribute/item access or function call before check for None or undefined | Category: Null pointer dereferences
+sqlalchemy,lib/sqlalchemy/orm/properties.py,576,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+sqlalchemy,lib/sqlalchemy/orm/persistence.py,359,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+sqlalchemy,lib/sqlalchemy/orm/mapper.py,3652,Quality,Medium,Type: Copy-paste error | Category: Incorrect expression
+sqlalchemy,lib/sqlalchemy/orm/evaluator.py,148,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+sqlalchemy,lib/sqlalchemy/orm/context.py,1786,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+sqlalchemy,lib/sqlalchemy/ext/mypy/names.py,41,Quality,Medium,Type: Typo in identifier | Category: Incorrect expression
+sqlalchemy,lib/sqlalchemy/ext/associationproxy.py,1261,Quality,Medium,Type: Attribute/item access or function call before check for None or undefined | Category: Null pointer dereferences
+sqlalchemy,lib/sqlalchemy/dialects/postgresql/ranges.py,651,Quality,Medium,Type: Logically dead code | Category: Control flow issues
+sqlalchemy,lib/sqlalchemy/dialects/postgresql/ranges.py,297,Quality,Medium,Type: Logically dead code | Category: Control flow issues
+sqlalchemy,lib/sqlalchemy/dialects/postgresql/base.py,2933,Quality,Medium,Type: Attribute/item access or function call before check for None or undefined | Category: Null pointer dereferences
+sqlalchemy,lib/sqlalchemy/__init__.py,284,Quality,Medium,Type: Typo in identifier | Category: Incorrect expression

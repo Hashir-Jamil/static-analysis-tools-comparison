@@ -1,0 +1,23 @@
+file_path,line_number,type,severity,description
+/local-build-plugins/src/main/java/org/hibernate/orm/jakarta/JakartaPlugin.java,121,Quality,Low,Type: DLS: Dead local store | Category: SpotBugs: Dodgy code
+/local-build-plugins/src/main/java/org/hibernate/orm/docs/DocumentationPublishingPlugin.java,Various,Quality,Low,Type: DLS: Dead local store | Category: SpotBugs: Dodgy code
+/local-build-plugins/src/main/java/org/hibernate/orm/docs/GenerateDescriptorTask.java,84,Quality,Low,Type: DMI: Dubious method invocation | Category: SpotBugs: Dodgy code
+/local-build-plugins/src/main/java/org/hibernate/orm/post/Helper.java,36,Quality,Low,Type: DP: Use doPrivileged | Category: SpotBugs: Malicious code vulnerability
+/local-build-plugins/src/main/java/org/hibernate/orm/docs/DescriptorAccess.java,55,Quality,Low,Type: Dm: Dubious method used | Category: SpotBugs: Internationalization
+/local-build-plugins/src/main/java/org/hibernate/orm/antlr/AntlrHelper.java,Various,Quality,Low,Type: Dm: Dubious method used | Category: SpotBugs: Internationalization
+/local-build-plugins/src/main/java/org/hibernate/orm/post/AbstractJandexAwareTask.java,118,Quality,Low,Type: Dm: Dubious method used | Category: SpotBugs: Internationalization
+/local-build-plugins/src/main/java/org/hibernate/orm/properties/AsciiDocWriter.java,40,Quality,Low,Type: Dm: Dubious method used | Category: SpotBugs: Internationalization
+/local-build-plugins/src/main/java/org/hibernate/orm/post/DialectReportTask.java,107,Quality,Low,Type: Dm: Dubious method used | Category: SpotBugs: Internationalization
+/local-build-plugins/src/main/java/org/hibernate/orm/post/IndexManager.java,221,Quality,Low,Type: Dm: Dubious method used | Category: SpotBugs: Internationalization
+/local-build-plugins/src/main/java/org/hibernate/orm/post/LoggingReportTask.java,154,Quality,Low,Type: Dm: Dubious method used | Category: SpotBugs: Internationalization
+/local-build-plugins/src/main/java/org/hibernate/orm/ReleaseFamilyIdentifier.java,81,Quality,Low,Type: Eq: Problems with implementation of equals() | Category: SpotBugs: Bad practice
+/local-build-plugins/src/main/java/org/hibernate/orm/docs/GenerateDescriptorTask.java,75,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+/local-build-plugins/src/main/java/org/hibernate/orm/post/LoggingReportTask.java,179,Quality,Low,Type: FS: Format string problem | Category: SpotBugs: Bad practice
+/local-build-plugins/src/main/java/org/hibernate/orm/post/LoggingReportTask.java,Various,Quality,Low,Type: FS: Format string problem | Category: SpotBugs: Bad practice
+/local-build-plugins/src/main/java/org/hibernate/orm/properties/AsciiDocWriter.java,95,Quality,Low,Type: FS: Format string problem | Category: SpotBugs: Bad practice
+/local-build-plugins/src/main/java/org/hibernate/orm/antlr/AntlrHelper.java,Various,Quality,Low,Type: RV: Bad use of return value | Category: SpotBugs: Bad practice
+/local-build-plugins/src/main/java/org/hibernate/orm/jakarta/JakartaDirectoryTransformation.java,67,Quality,Low,Type: RV: Bad use of return value | Category: SpotBugs: Bad practice
+/local-build-plugins/src/main/java/org/hibernate/orm/post/IndexManager.java,Various,Quality,Low,Type: RV: Bad use of return value | Category: SpotBugs: Bad practice
+/local-build-plugins/src/main/java/org/hibernate/orm/antlr/SplitGrammarGenerationTask.java,79,Quality,Low,Type: RV: Bad use of return value | Category: SpotBugs: Bad practice
+/local-build-plugins/src/main/java/org/hibernate/orm/antlr/AntlrHelper.java,60,Various,Low,Type: Resource leak on an exceptional path | Category: Exceptional resource leaks
+/local-build-plugins/src/main/java/org/hibernate/orm/antlr/AntlrHelper.java,55,Various,Low,Type: Resource leak on an exceptional path | Category: Exceptional resource leaks

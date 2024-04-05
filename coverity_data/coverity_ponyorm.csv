@@ -1,0 +1,39 @@
+﻿file_path,line_number,type,severity,description
+/pony/utils/utils.py,98,Quality,Medium,Type: Identical code for different branches | Category: Incorrect expression
+/pony/orm/tests/test_f_strings.py,22,Quality,Medium,Type: Typo in identifier | Category: Incorrect expression
+/pony/orm/sqltranslation.py,2357,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+/pony/orm/sqltranslation.py,300,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+/pony/orm/sqltranslation.py,2546,Quality,Medium,Type: Logically dead code | Category: Control flow issues
+/pony/orm/sqltranslation.py,179,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+/pony/orm/sqltranslation.py,2441,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+/pony/orm/sqltranslation.py,2220,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+/pony/orm/sqltranslation.py,2186,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+/pony/orm/sqltranslation.py,822,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+/pony/orm/sqltranslation.py,2290,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+/pony/orm/sqlbuilding.py,554,Quality,Medium,Type: Logically dead code | Category: Control flow issues
+/pony/orm/sqlbuilding.py,210,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+/pony/orm/decompiling.py,276,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+/pony/orm/dbschema.py,131,Quality,Medium,Type: Logically dead code | Category: Control flow issues
+/pony/orm/dbproviders/oracle.py,468,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+/pony/orm/dbproviders/oracle.py,469,Quality,Medium,Type: Logically dead code | Category: Control flow issues
+/pony/orm/dbproviders/oracle.py,469,Quality,Medium,Type: Attribute/item access or function call before check for None or undefined | Category: Null pointer dereferences
+/pony/orm/dbapiprovider.py,410,Quality,Medium,Type: Attribute/item access or function call before check for None or undefined | Category: Null pointer dereferences
+/pony/orm/core.py,Various,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+/pony/orm/core.py,655,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+/pony/orm/core.py,558,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+/pony/orm/core.py,5160,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+/pony/orm/core.py,4897,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+/pony/orm/core.py,2288,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+/pony/orm/core.py,784,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+/pony/orm/core.py,1541,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+/pony/orm/core.py,4105,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+/pony/orm/core.py,2270,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+/pony/orm/core.py,880,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+/pony/orm/core.py,2928,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+/pony/orm/core.py,6154,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+/pony/orm/core.py,3947,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+/pony/orm/core.py,4817,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+/pony/orm/core.py,961,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+/pony/orm/core.py,Various,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+/pony/javascript/pony.js,497,Quality,Medium,Type: Missing break in switch | Category: Control flow issues
+/pony/javascript/pony.js,503,Quality,Medium,Type: Missing break in switch | Category: Control flow issues

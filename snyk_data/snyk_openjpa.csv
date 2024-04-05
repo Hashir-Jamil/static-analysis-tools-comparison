@@ -1,4 +1,4 @@
-﻿File Path,Line Number,Type,Severity,Description
+﻿file_path,line_number,type,severity,description
 openjpa/openjpa-jdbc/pom.xml,62,SQL Injection,Critical,"Affected versions of this package are vulnerable to SQL Injection when using PreferQueryMode=SIMPLE, which is not the default setting"
 openjpa/openjpa-jdbc/pom.xml,57,Remote Code Execution,High,ffected versions of this package are vulnerable to Remote Code Execution (RCE) when using java.sql.Statement or java.sql.PreparedStatement to process untrusted input.
 openjpa/openjpa-jdbc/pom.xml,67,Information Exposure,Low,"Affected versions of this package are vulnerable to Information Exposure. If a BasicDataSource is created with jmxName set, the password property is exposed via jmx and is visible to anyone who is connected to jmx port."
