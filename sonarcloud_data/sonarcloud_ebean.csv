@@ -1,203 +1,203 @@
 file_path,line_number,type,severity,description
-org.avaje:java11-oss:ebean-api/src/main/java/io/ebean/bean/package.html,1,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <HTML> tag.
-org.avaje:java11-oss:ebean-api/src/main/java/io/ebean/bean/package.html,1,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
-org.avaje:java11-oss:ebean-api/src/main/java/io/ebean/cache/package.html,1,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <HTML> tag.
-org.avaje:java11-oss:ebean-api/src/main/java/io/ebean/cache/package.html,1,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
-org.avaje:java11-oss:ebean-api/src/main/java/io/ebean/common/package.html,1,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <HTML> tag.
-org.avaje:java11-oss:ebean-api/src/main/java/io/ebean/common/package.html,1,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
-org.avaje:java11-oss:ebean-api/src/main/java/io/ebean/config/DatabaseConfig.java,523,BUG,MINOR,"Cast one of the operands of this multiplication operation to a ""long""."
-org.avaje:java11-oss:ebean-api/src/main/java/io/ebean/config/dbplatform/DbDefaultValue.java,121,BUG,MAJOR,"The return value of ""valueOf"" must be used."
-org.avaje:java11-oss:ebean-api/src/main/java/io/ebean/config/dbplatform/package.html,1,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <HTML> tag.
-org.avaje:java11-oss:ebean-api/src/main/java/io/ebean/config/dbplatform/package.html,1,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
-org.avaje:java11-oss:ebean-api/src/main/java/io/ebean/config/package.html,1,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <HTML> tag.
-org.avaje:java11-oss:ebean-api/src/main/java/io/ebean/config/package.html,1,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
-org.avaje:java11-oss:ebean-api/src/main/java/io/ebean/event/package.html,1,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <HTML> tag.
-org.avaje:java11-oss:ebean-api/src/main/java/io/ebean/event/package.html,1,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
-org.avaje:java11-oss:ebean-api/src/main/java/io/ebean/overview.html,1,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <html> tag.
-org.avaje:java11-oss:ebean-api/src/main/java/io/ebean/overview.html,1,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
-org.avaje:java11-oss:ebean-api/src/main/java/io/ebean/package.html,1,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <HTML> tag.
-org.avaje:java11-oss:ebean-api/src/main/java/io/ebean/package.html,1,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/cache/DefaultServerCache.java,259,BUG,MINOR,"Cast one of the operands of this subtraction operation to a ""long""."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/cluster/package.html,1,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <HTML> tag.
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/cluster/package.html,1,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultBeanLoader.java,225,BUG,MAJOR,"Change this condition so that it does not always evaluate to ""false"""
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,223,BUG,MINOR,"This method's return value is marked ""@Nonnull via meta-annotation"" but null is returned."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,505,BUG,MAJOR,"Change this condition so that it does not always evaluate to ""false"""
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,636,BUG,MAJOR,"Change this condition so that it does not always evaluate to ""false"""
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,673,BUG,MINOR,"Parameter 1 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,692,BUG,MINOR,"Parameter 1 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,804,BUG,MINOR,"Parameter 3 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,809,BUG,MINOR,"Parameter 3 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,920,BUG,MINOR,"Parameter 3 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,993,BUG,MINOR,"This method's return value is marked ""@Nonnull via meta-annotation"" but null is returned."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1000,BUG,MINOR,"This method's return value is marked ""@Nonnull via meta-annotation"" but null is returned."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1067,BUG,MINOR,"This method's return value is marked ""@Nonnull via meta-annotation"" but null is returned."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1271,BUG,MAJOR,"Change this condition so that it does not always evaluate to ""false"""
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1290,BUG,MAJOR,"Change this condition so that it does not always evaluate to ""false"""
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1316,BUG,MAJOR,"Change this condition so that it does not always evaluate to ""false"""
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1596,BUG,MINOR,"Parameter 2 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1618,BUG,MINOR,"Parameter 2 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1628,BUG,MINOR,"Parameter 2 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1649,BUG,MINOR,"Parameter 2 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1654,BUG,MINOR,"Parameter 3 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1659,BUG,MINOR,"Parameter 2 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1669,BUG,MINOR,"Parameter 3 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1674,BUG,MINOR,"Parameter 3 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1704,BUG,MINOR,"Parameter 3 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1709,BUG,MINOR,"Parameter 2 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1717,BUG,MINOR,"This method's return value is marked ""@Nonnull via meta-annotation"" but null is returned."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1730,BUG,MINOR,"This method's return value is marked ""@Nonnull via meta-annotation"" but null is returned."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1736,BUG,MINOR,"Parameter 3 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1741,BUG,MINOR,"Parameter 2 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1755,BUG,MINOR,"Parameter 2 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1760,BUG,MINOR,"Parameter 2 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1784,BUG,MINOR,"Parameter 3 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1794,BUG,MINOR,"Parameter 3 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1808,BUG,MINOR,"Parameter 3 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1818,BUG,MINOR,"Parameter 3 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1835,BUG,MINOR,"Parameter 2 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1849,BUG,MINOR,"Parameter 2 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1860,BUG,MINOR,"Parameter 2 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1873,BUG,MINOR,"Parameter 2 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1916,BUG,MINOR,"Parameter 2 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1947,BUG,MINOR,"Parameter 2 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1963,BUG,MINOR,"Parameter 2 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,2193,BUG,MINOR,"Parameter 2 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,2240,BUG,MINOR,"This method's return value is marked ""@Nonnull via meta-annotation"" but null is returned."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,2249,BUG,MINOR,"This method's return value is marked ""@Nonnull via meta-annotation"" but null is returned."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/MultiTenantDbCatalogSupplier.java,99,BUG,BLOCKER,"Use try-with-resources or close this ""Connection"" in a ""finally"" clause."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/MultiTenantDbCatalogSupplier.java,109,BUG,BLOCKER,"Use try-with-resources or close this ""Connection"" in a ""finally"" clause."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/MultiTenantDbSchemaSupplier.java,96,BUG,BLOCKER,"Use try-with-resources or close this ""Connection"" in a ""finally"" clause."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/MultiTenantDbSchemaSupplier.java,113,BUG,BLOCKER,"Use try-with-resources or close this ""Connection"" in a ""finally"" clause."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/package.html,1,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <HTML> tag.
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/package.html,1,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/deploy/BeanDescriptor.java,152,BUG,MINOR,"Use a thread-safe type; adding ""volatile"" is not enough to make this field thread-safe."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/deploy/BeanDescriptor.java,153,BUG,MINOR,"Use a thread-safe type; adding ""volatile"" is not enough to make this field thread-safe."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/deploy/BeanListHelp.java,100,BUG,MAJOR,"The return value of ""size"" must be used."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/deploy/BeanMapHelp.java,147,BUG,MAJOR,"The return value of ""size"" must be used."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/deploy/BeanSetHelp.java,105,BUG,MAJOR,"The return value of ""size"" must be used."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/deploy/generatedproperty/package.html,1,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <HTML> tag.
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/deploy/generatedproperty/package.html,1,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/deploy/id/ImportedIdSimple.java,79,BUG,MINOR,"This class overrides ""equals()"" and should therefore also override ""hashCode()""."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/deploy/id/package.html,1,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <HTML> tag.
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/deploy/id/package.html,1,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/deploy/meta/DeployBeanProperty.java,1143,BUG,MINOR,"This method's return value is marked ""@Nonnull via meta-annotation"" but null is returned."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/deploy/meta/DeployBeanProperty.java,1151,BUG,MINOR,"This method's return value is marked ""@Nonnull via meta-annotation"" but null is returned."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/deploy/meta/package.html,1,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <html> tag.
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/deploy/meta/package.html,1,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/deploy/package.html,1,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <html> tag.
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/deploy/package.html,1,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/deploy/parse/package.html,1,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <HTML> tag.
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/deploy/parse/package.html,1,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/executor/DaemonExecutorService.java,58,BUG,MAJOR,"Either re-interrupt this method or rethrow the ""InterruptedException"" that can be caught here."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/executor/DaemonScheduleThreadPool.java,53,BUG,MAJOR,"Either re-interrupt this method or rethrow the ""InterruptedException"" that can be caught here."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/expression/DefaultExpressionList.java,759,BUG,MAJOR,"Change this condition so that it does not always evaluate to ""false"""
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/expression/DefaultExpressionList.java,864,BUG,MAJOR,"Change this condition so that it does not always evaluate to ""false"""
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/expression/DefaultExpressionList.java,869,BUG,MAJOR,"Change this condition so that it does not always evaluate to ""false"""
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/expression/DefaultExpressionList.java,1087,BUG,MAJOR,"Change this condition so that it does not always evaluate to ""false"""
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/expression/DefaultExpressionList.java,1092,BUG,MAJOR,"Change this condition so that it does not always evaluate to ""false"""
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/expression/JunctionExpression.java,292,BUG,MAJOR,"Change this condition so that it does not always evaluate to ""false"""
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/expression/JunctionExpression.java,655,BUG,MAJOR,"Change this condition so that it does not always evaluate to ""false"""
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/expression/JunctionExpression.java,660,BUG,MAJOR,"Change this condition so that it does not always evaluate to ""false"""
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/expression/JunctionExpression.java,880,BUG,MAJOR,"Change this condition so that it does not always evaluate to ""false"""
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/expression/JunctionExpression.java,885,BUG,MAJOR,"Change this condition so that it does not always evaluate to ""false"""
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/expression/package.html,1,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <HTML> tag.
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/expression/package.html,1,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/idgen/package.html,1,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <HTML> tag.
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/idgen/package.html,1,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/persist/BatchedSqlException.java,20,BUG,MAJOR,"Make this method ""synchronized"" to match the parent class implementation."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/persist/DefaultPersister.java,778,BUG,MAJOR,"Change this condition so that it does not always evaluate to ""false"""
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/persist/MergeHandler.java,61,BUG,MAJOR,"Change this condition so that it does not always evaluate to ""false"""
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/persist/dml/InsertMetaOptionsPostgres.java,58,BUG,MAJOR,"Change this condition so that it does not always evaluate to ""true"""
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/persist/dml/InsertMetaOptionsPostgres.java,76,BUG,MAJOR,"Change this condition so that it does not always evaluate to ""true"""
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/persist/dml/package.html,1,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <HTML> tag.
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/persist/dml/package.html,1,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/persist/dmlbind/package.html,1,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <HTML> tag.
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/persist/dmlbind/package.html,1,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/persist/package.html,1,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <HTML> tag.
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/persist/package.html,1,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/profile/DTimeMetricStats.java,24,BUG,MINOR,"Cast one of the operands of this division operation to a ""float""."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/profile/DTimeMetricStats.java,96,BUG,MINOR,"Cast one of the operands of this integer division to a ""double""."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/properties/package.html,1,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <HTML> tag.
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/properties/package.html,1,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/query/CQueryIteratorSimple.java,39,BUG,MINOR,"Add a ""NoSuchElementException"" for iteration beyond the end of the collection."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/query/DefaultFetchGroupQuery.java,77,BUG,MINOR,"Parameter 2 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/query/DefaultFetchGroupQuery.java,82,BUG,MINOR,"Parameter 2 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/query/DefaultFetchGroupQuery.java,87,BUG,MINOR,"Parameter 2 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/query/DefaultFetchGroupQuery.java,92,BUG,MINOR,"Parameter 2 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/query/DefaultFetchGroupQuery.java,97,BUG,MINOR,"Parameter 2 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/query/DefaultFetchGroupQuery.java,102,BUG,MINOR,"Parameter 3 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/query/DefaultOrmQueryEngine.java,141,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""result"" is nullable here."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/query/DtoQueryIterator.java,34,BUG,MINOR,"Add a ""NoSuchElementException"" for iteration beyond the end of the collection."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/query/LimitOffsetPagedList.java,94,BUG,MAJOR,"Either re-interrupt this method or rethrow the ""InterruptedException"" that can be caught here."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/query/SqlTreeBuilder.java,687,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""parentJoin"" is nullable here."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/querydefn/DefaultOrmQuery.java,258,BUG,MAJOR,"Change this condition so that it does not always evaluate to ""false"""
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/querydefn/DefaultOrmQuery.java,1559,BUG,MINOR,"This method's return value is marked ""@Nonnull via meta-annotation"" but null is returned."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/querydefn/OrmQueryDetail.java,120,BUG,MINOR,"This class overrides ""hashCode()"" and should therefore also override ""equals()""."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/transaction/JtaTransaction.java,38,BUG,MAJOR,"Change this condition so that it does not always evaluate to ""false"""
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/transaction/package.html,1,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <HTML> tag.
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/transaction/package.html,1,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/type/DefaultTypeManager.java,210,BUG,MAJOR,"Use an ""instanceof"" comparison instead."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/type/ScalarTypeWrapper.java,154,BUG,CRITICAL,"Refactor this getter so that it actually refers to the field ""scalarType""."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/type/SimpleAesEncryptor.java,35,VULNERABILITY,CRITICAL,"Use a dynamically-generated, random IV."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/type/SimpleAesEncryptor.java,48,VULNERABILITY,CRITICAL,Use another cipher mode or disable padding.
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/type/SimpleAesEncryptor.java,67,VULNERABILITY,CRITICAL,Use another cipher mode or disable padding.
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/type/UtilDateParser.java,9,BUG,MAJOR,"Make ""dateTimeProto"" an instance variable."
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/type/package.html,1,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <HTML> tag.
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/type/package.html,1,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/util/package.html,1,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <HTML> tag.
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/util/package.html,1,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/util/package.html,1,BUG,MAJOR,Insert a <!DOCTYPE> declaration to before this <HTML> tag.
-org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/util/package.html,1,BUG,MAJOR,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
-org.avaje:java11-oss:ebean-core/src/test/java/io/ebeaninternal/server/deploy/TableJoinTest.java,57,BUG,MAJOR,Replace this assertion to not have the same actual and expected expression.
-org.avaje:java11-oss:ebean-core/src/test/java/io/ebeaninternal/server/type/DefaultTypeManagerTest.java,51,BUG,MAJOR,Add an assertion predicate after calling this method.
-org.avaje:java11-oss:ebean-core/src/test/java/io/ebeaninternal/server/type/DefaultTypeManagerTest.java,55,BUG,MAJOR,Add an assertion predicate after calling this method.
-org.avaje:java11-oss:ebean-core/src/test/java/io/ebeaninternal/server/type/DefaultTypeManagerTest.java,58,BUG,MAJOR,Add an assertion predicate after calling this method.
-org.avaje:java11-oss:ebean-core/src/test/java/io/ebeaninternal/server/type/DefaultTypeManagerTest.java,71,BUG,MAJOR,Add an assertion predicate after calling this method.
-org.avaje:java11-oss:ebean-core/src/test/java/io/ebeaninternal/server/type/DefaultTypeManagerTest.java,74,BUG,MAJOR,Add an assertion predicate after calling this method.
-org.avaje:java11-oss:ebean-core/src/test/java/io/ebeaninternal/server/type/DefaultTypeManagerTest.java,85,BUG,MAJOR,Add an assertion predicate after calling this method.
-org.avaje:java11-oss:ebean-core/src/test/java/io/ebeaninternal/server/type/DefaultTypeManagerTest.java,89,BUG,MAJOR,Add an assertion predicate after calling this method.
-org.avaje:java11-oss:ebean-core/src/test/java/io/ebeaninternal/server/type/DefaultTypeManagerTest.java,92,BUG,MAJOR,Add an assertion predicate after calling this method.
-org.avaje:java11-oss:ebean-core/src/test/java/io/ebeaninternal/server/type/DefaultTypeManagerTest.java,104,BUG,MAJOR,Add an assertion predicate after calling this method.
-org.avaje:java11-oss:ebean-core/src/test/java/io/ebeaninternal/server/type/DefaultTypeManagerTest.java,107,BUG,MAJOR,Add an assertion predicate after calling this method.
-org.avaje:java11-oss:ebean-core/src/test/java/io/ebeaninternal/server/type/ModifyAwareListTest.java,289,BUG,CRITICAL,Change the assertion arguments to not compare dissimilar types.
-org.avaje:java11-oss:ebean-core/src/test/java/io/ebeaninternal/server/type/ModifyAwareListTest.java,297,BUG,CRITICAL,Change the assertion arguments to not compare dissimilar types.
-org.avaje:java11-oss:ebean-core/src/test/java/io/ebeaninternal/server/type/ModifyAwareMapTest.java,72,BUG,CRITICAL,Change the assertion arguments to not compare dissimilar types.
-org.avaje:java11-oss:ebean-core/src/test/java/io/ebeaninternal/server/type/ModifyAwareMapTest.java,80,BUG,CRITICAL,Change the assertion arguments to not compare dissimilar types.
-org.avaje:java11-oss:ebean-core/src/test/java/io/ebeaninternal/server/type/ModifyAwareSetTest.java,69,BUG,CRITICAL,Change the assertion arguments to not compare dissimilar types.
-org.avaje:java11-oss:ebean-core/src/test/java/io/ebeaninternal/server/type/ModifyAwareSetTest.java,77,BUG,CRITICAL,Change the assertion arguments to not compare dissimilar types.
-org.avaje:java11-oss:ebean-ddl-generator/src/main/java/io/ebeaninternal/dbmigration/model/build/ModelBuildPropertyVisitor.java,209,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""compoundKey"" is nullable here."
-org.avaje:java11-oss:ebean-ddl-generator/src/test/java/io/ebeaninternal/dbmigration/model/ModelContainerTest.java,106,BUG,MINOR,Test the emptiness of the list before calling this assertion predicate.
-org.avaje:java11-oss:ebean-redis/src/main/java/io/ebean/redis/topic/DaemonTopicRunner.java,42,BUG,BLOCKER,Add an end condition to this loop.
-org.avaje:java11-oss:ebean-test/src/main/java/io/ebean/test/config/AutoConfigureForTesting.java,47,BUG,MAJOR,"""NullPointerException"" will be thrown when invoking method ""isExtraServer()""."
-org.avaje:java11-oss:ebean-test/src/test/java/org/tests/generated/TestGeneratedProperties.java,32,BUG,CRITICAL,Change the assertion arguments to not compare a primitive value with null.
-org.avaje:java11-oss:ebean-test/src/test/java/org/tests/generated/TestGeneratedProperties.java,33,BUG,CRITICAL,Change the assertion arguments to not compare a primitive value with null.
-org.avaje:java11-oss:ebean-test/src/test/java/org/tests/model/aggregation/TestAggregationTopLevel.java,240,BUG,CRITICAL,Change the assertion arguments to not compare a primitive value with null.
-org.avaje:java11-oss:ebean-test/src/test/java/org/tests/model/aggregation/TestAggregationTopLevel.java,264,BUG,CRITICAL,Change the assertion arguments to not compare a primitive value with null.
-org.avaje:java11-oss:ebean-test/src/test/java/org/tests/model/onetoone/TestOneToOnePrimaryKeyJoin.java,29,BUG,MAJOR,Add an assertion predicate after calling this method.
-org.avaje:java11-oss:ebean-test/src/test/java/org/tests/model/onetoone/TestOneToOnePrimaryKeyJoin.java,38,BUG,MAJOR,Add an assertion predicate after calling this method.
-org.avaje:java11-oss:ebean-test/src/test/java/org/tests/model/onetoone/TestOneToOnePrimaryKeyJoin.java,50,BUG,MAJOR,Add an assertion predicate after calling this method.
-org.avaje:java11-oss:ebean-test/src/test/java/org/tests/model/onetoone/TestOneToOnePrimaryKeyJoinBidi.java,29,BUG,MAJOR,Add an assertion predicate after calling this method.
-org.avaje:java11-oss:ebean-test/src/test/java/org/tests/model/onetoone/TestOneToOnePrimaryKeyJoinBidi.java,37,BUG,MAJOR,Add an assertion predicate after calling this method.
-org.avaje:java11-oss:ebean-test/src/test/java/org/tests/model/onetoone/TestOneToOnePrimaryKeyJoinBidi.java,49,BUG,MAJOR,Add an assertion predicate after calling this method.
-org.avaje:java11-oss:ebean-test/src/test/java/org/tests/model/onetoone/TestOneToOnePrimaryKeyJoinOptional.java,49,BUG,MAJOR,Add an assertion predicate after calling this method.
-org.avaje:java11-oss:ebean-test/src/test/java/org/tests/model/onetoone/TestOneToOnePrimaryKeyJoinOptional.java,58,BUG,MAJOR,Add an assertion predicate after calling this method.
-org.avaje:java11-oss:ebean-test/src/test/java/org/tests/model/onetoone/TestOneToOnePrimaryKeyJoinOptional.java,70,BUG,MAJOR,Add an assertion predicate after calling this method.
-org.avaje:java11-oss:ebean-test/src/test/java/org/tests/unitinternal/TestEqualsOnEnhanced.java,20,BUG,CRITICAL,Change the assertion arguments to not compare dissimilar types.
-org.avaje:java11-oss:ebean-test/src/test/java/org/tests/unitinternal/TestEqualsOnEnhanced.java,22,BUG,MAJOR,Replace this assertion to not have the same actual and expected expression.
-org.avaje:java11-oss:kotlin-querybean-generator/src/main/java/io/ebean/querybean/generator/ProcessingContext.java,295,BUG,MAJOR,"""NullPointerException"" will be thrown when invoking method ""typeDef()""."
-org.avaje:java11-oss:kotlin-querybean-generator/src/main/java/io/ebean/querybean/generator/ProcessingContext.java,309,BUG,MAJOR,"""NullPointerException"" will be thrown when invoking method ""typeDef()""."
-org.avaje:java11-oss:kotlin-querybean-generator/src/main/java/io/ebean/querybean/generator/ProcessingContext.java,312,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""typeMirror"" is nullable here."
-org.avaje:java11-oss:kotlin-querybean-generator/src/main/java/io/ebean/querybean/generator/ProcessingContext.java,549,BUG,BLOCKER,"Use try-with-resources or close this ""Reader"" in a ""finally"" clause."
-org.avaje:java11-oss:kotlin-querybean-generator/src/main/java/io/ebean/querybean/generator/ProcessingContext.java,550,BUG,BLOCKER,"Use try-with-resources or close this ""LineNumberReader"" in a ""finally"" clause."
-org.avaje:java11-oss:kotlin-querybean-generator/src/main/java/io/ebean/querybean/generator/SimpleModuleInfoWriter.java,47,BUG,BLOCKER,"Use try-with-resources or close this ""Writer"" in a ""finally"" clause."
-org.avaje:java11-oss:kotlin-querybean-generator/src/main/java/io/ebean/querybean/generator/SimpleModuleInfoWriter.java,64,BUG,BLOCKER,"Use try-with-resources or close this ""Writer"" in a ""finally"" clause."
-org.avaje:java11-oss:querybean-generator/src/main/java/io/ebean/querybean/generator/ProcessingContext.java,272,BUG,MAJOR,"""NullPointerException"" will be thrown when invoking method ""typeDef()""."
-org.avaje:java11-oss:querybean-generator/src/main/java/io/ebean/querybean/generator/ProcessingContext.java,287,BUG,MAJOR,"""NullPointerException"" will be thrown when invoking method ""typeDef()""."
-org.avaje:java11-oss:querybean-generator/src/main/java/io/ebean/querybean/generator/ProcessingContext.java,291,BUG,MAJOR,"A ""NullPointerException"" could be thrown; ""typeMirror"" is nullable here."
-org.avaje:java11-oss:querybean-generator/src/main/java/io/ebean/querybean/generator/ProcessingContext.java,528,BUG,BLOCKER,"Use try-with-resources or close this ""Reader"" in a ""finally"" clause."
-org.avaje:java11-oss:querybean-generator/src/main/java/io/ebean/querybean/generator/ProcessingContext.java,529,BUG,BLOCKER,"Use try-with-resources or close this ""LineNumberReader"" in a ""finally"" clause."
-org.avaje:java11-oss:querybean-generator/src/main/java/io/ebean/querybean/generator/SimpleModuleInfoWriter.java,49,BUG,BLOCKER,"Use try-with-resources or close this ""Writer"" in a ""finally"" clause."
-org.avaje:java11-oss:querybean-generator/src/main/java/io/ebean/querybean/generator/SimpleModuleInfoWriter.java,64,BUG,BLOCKER,"Use try-with-resources or close this ""Writer"" in a ""finally"" clause."
-org.avaje:java11-oss:querybean-generator/src/main/java/io/ebean/querybean/generator/SimpleModuleInfoWriter.java,96,BUG,BLOCKER,"Use try-with-resources or close this ""Writer"" in a ""finally"" clause."
-org.avaje:java11-oss:tests/test-java16/src/test/java/org/example/records/CourseRecordEntityTest.java,25,BUG,MAJOR,Replace this assertion to not have the same actual and expected expression.
+org.avaje:java11-oss:ebean-api/src/main/java/io/ebean/bean/package.html,1,BUG,MEDIUM,Insert a <!DOCTYPE> declaration to before this <HTML> tag.
+org.avaje:java11-oss:ebean-api/src/main/java/io/ebean/bean/package.html,1,BUG,MEDIUM,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.avaje:java11-oss:ebean-api/src/main/java/io/ebean/cache/package.html,1,BUG,MEDIUM,Insert a <!DOCTYPE> declaration to before this <HTML> tag.
+org.avaje:java11-oss:ebean-api/src/main/java/io/ebean/cache/package.html,1,BUG,MEDIUM,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.avaje:java11-oss:ebean-api/src/main/java/io/ebean/common/package.html,1,BUG,MEDIUM,Insert a <!DOCTYPE> declaration to before this <HTML> tag.
+org.avaje:java11-oss:ebean-api/src/main/java/io/ebean/common/package.html,1,BUG,MEDIUM,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.avaje:java11-oss:ebean-api/src/main/java/io/ebean/config/DatabaseConfig.java,523,BUG,LOW,"Cast one of the operands of this multiplication operation to a ""long""."
+org.avaje:java11-oss:ebean-api/src/main/java/io/ebean/config/dbplatform/DbDefaultValue.java,121,BUG,MEDIUM,"The return value of ""valueOf"" must be used."
+org.avaje:java11-oss:ebean-api/src/main/java/io/ebean/config/dbplatform/package.html,1,BUG,MEDIUM,Insert a <!DOCTYPE> declaration to before this <HTML> tag.
+org.avaje:java11-oss:ebean-api/src/main/java/io/ebean/config/dbplatform/package.html,1,BUG,MEDIUM,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.avaje:java11-oss:ebean-api/src/main/java/io/ebean/config/package.html,1,BUG,MEDIUM,Insert a <!DOCTYPE> declaration to before this <HTML> tag.
+org.avaje:java11-oss:ebean-api/src/main/java/io/ebean/config/package.html,1,BUG,MEDIUM,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.avaje:java11-oss:ebean-api/src/main/java/io/ebean/event/package.html,1,BUG,MEDIUM,Insert a <!DOCTYPE> declaration to before this <HTML> tag.
+org.avaje:java11-oss:ebean-api/src/main/java/io/ebean/event/package.html,1,BUG,MEDIUM,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.avaje:java11-oss:ebean-api/src/main/java/io/ebean/overview.html,1,BUG,MEDIUM,Insert a <!DOCTYPE> declaration to before this <html> tag.
+org.avaje:java11-oss:ebean-api/src/main/java/io/ebean/overview.html,1,BUG,MEDIUM,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.avaje:java11-oss:ebean-api/src/main/java/io/ebean/package.html,1,BUG,MEDIUM,Insert a <!DOCTYPE> declaration to before this <HTML> tag.
+org.avaje:java11-oss:ebean-api/src/main/java/io/ebean/package.html,1,BUG,MEDIUM,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/cache/DefaultServerCache.java,259,BUG,LOW,"Cast one of the operands of this subtraction operation to a ""long""."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/cluster/package.html,1,BUG,MEDIUM,Insert a <!DOCTYPE> declaration to before this <HTML> tag.
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/cluster/package.html,1,BUG,MEDIUM,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultBeanLoader.java,225,BUG,MEDIUM,"Change this condition so that it does not always evaluate to ""false"""
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,223,BUG,LOW,"This method's return value is marked ""@Nonnull via meta-annotation"" but null is returned."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,505,BUG,MEDIUM,"Change this condition so that it does not always evaluate to ""false"""
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,636,BUG,MEDIUM,"Change this condition so that it does not always evaluate to ""false"""
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,673,BUG,LOW,"Parameter 1 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,692,BUG,LOW,"Parameter 1 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,804,BUG,LOW,"Parameter 3 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,809,BUG,LOW,"Parameter 3 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,920,BUG,LOW,"Parameter 3 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,993,BUG,LOW,"This method's return value is marked ""@Nonnull via meta-annotation"" but null is returned."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1000,BUG,LOW,"This method's return value is marked ""@Nonnull via meta-annotation"" but null is returned."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1067,BUG,LOW,"This method's return value is marked ""@Nonnull via meta-annotation"" but null is returned."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1271,BUG,MEDIUM,"Change this condition so that it does not always evaluate to ""false"""
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1290,BUG,MEDIUM,"Change this condition so that it does not always evaluate to ""false"""
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1316,BUG,MEDIUM,"Change this condition so that it does not always evaluate to ""false"""
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1596,BUG,LOW,"Parameter 2 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1618,BUG,LOW,"Parameter 2 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1628,BUG,LOW,"Parameter 2 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1649,BUG,LOW,"Parameter 2 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1654,BUG,LOW,"Parameter 3 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1659,BUG,LOW,"Parameter 2 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1669,BUG,LOW,"Parameter 3 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1674,BUG,LOW,"Parameter 3 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1704,BUG,LOW,"Parameter 3 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1709,BUG,LOW,"Parameter 2 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1717,BUG,LOW,"This method's return value is marked ""@Nonnull via meta-annotation"" but null is returned."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1730,BUG,LOW,"This method's return value is marked ""@Nonnull via meta-annotation"" but null is returned."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1736,BUG,LOW,"Parameter 3 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1741,BUG,LOW,"Parameter 2 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1755,BUG,LOW,"Parameter 2 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1760,BUG,LOW,"Parameter 2 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1784,BUG,LOW,"Parameter 3 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1794,BUG,LOW,"Parameter 3 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1808,BUG,LOW,"Parameter 3 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1818,BUG,LOW,"Parameter 3 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1835,BUG,LOW,"Parameter 2 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1849,BUG,LOW,"Parameter 2 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1860,BUG,LOW,"Parameter 2 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1873,BUG,LOW,"Parameter 2 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1916,BUG,LOW,"Parameter 2 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1947,BUG,LOW,"Parameter 2 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,1963,BUG,LOW,"Parameter 2 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,2193,BUG,LOW,"Parameter 2 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,2240,BUG,LOW,"This method's return value is marked ""@Nonnull via meta-annotation"" but null is returned."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/DefaultServer.java,2249,BUG,LOW,"This method's return value is marked ""@Nonnull via meta-annotation"" but null is returned."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/MultiTenantDbCatalogSupplier.java,99,BUG,HIGH,"Use try-with-resources or close this ""Connection"" in a ""finally"" clause."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/MultiTenantDbCatalogSupplier.java,109,BUG,HIGH,"Use try-with-resources or close this ""Connection"" in a ""finally"" clause."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/MultiTenantDbSchemaSupplier.java,96,BUG,HIGH,"Use try-with-resources or close this ""Connection"" in a ""finally"" clause."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/MultiTenantDbSchemaSupplier.java,113,BUG,HIGH,"Use try-with-resources or close this ""Connection"" in a ""finally"" clause."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/package.html,1,BUG,MEDIUM,Insert a <!DOCTYPE> declaration to before this <HTML> tag.
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/core/package.html,1,BUG,MEDIUM,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/deploy/BeanDescriptor.java,152,BUG,LOW,"Use a thread-safe type; adding ""volatile"" is not enough to make this field thread-safe."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/deploy/BeanDescriptor.java,153,BUG,LOW,"Use a thread-safe type; adding ""volatile"" is not enough to make this field thread-safe."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/deploy/BeanListHelp.java,100,BUG,MEDIUM,"The return value of ""size"" must be used."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/deploy/BeanMapHelp.java,147,BUG,MEDIUM,"The return value of ""size"" must be used."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/deploy/BeanSetHelp.java,105,BUG,MEDIUM,"The return value of ""size"" must be used."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/deploy/generatedproperty/package.html,1,BUG,MEDIUM,Insert a <!DOCTYPE> declaration to before this <HTML> tag.
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/deploy/generatedproperty/package.html,1,BUG,MEDIUM,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/deploy/id/ImportedIdSimple.java,79,BUG,LOW,"This class overrides ""equals()"" and should therefore also override ""hashCode()""."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/deploy/id/package.html,1,BUG,MEDIUM,Insert a <!DOCTYPE> declaration to before this <HTML> tag.
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/deploy/id/package.html,1,BUG,MEDIUM,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/deploy/meta/DeployBeanProperty.java,1143,BUG,LOW,"This method's return value is marked ""@Nonnull via meta-annotation"" but null is returned."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/deploy/meta/DeployBeanProperty.java,1151,BUG,LOW,"This method's return value is marked ""@Nonnull via meta-annotation"" but null is returned."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/deploy/meta/package.html,1,BUG,MEDIUM,Insert a <!DOCTYPE> declaration to before this <html> tag.
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/deploy/meta/package.html,1,BUG,MEDIUM,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/deploy/package.html,1,BUG,MEDIUM,Insert a <!DOCTYPE> declaration to before this <html> tag.
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/deploy/package.html,1,BUG,MEDIUM,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/deploy/parse/package.html,1,BUG,MEDIUM,Insert a <!DOCTYPE> declaration to before this <HTML> tag.
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/deploy/parse/package.html,1,BUG,MEDIUM,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/executor/DaemonExecutorService.java,58,BUG,MEDIUM,"Either re-interrupt this method or rethrow the ""InterruptedException"" that can be caught here."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/executor/DaemonScheduleThreadPool.java,53,BUG,MEDIUM,"Either re-interrupt this method or rethrow the ""InterruptedException"" that can be caught here."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/expression/DefaultExpressionList.java,759,BUG,MEDIUM,"Change this condition so that it does not always evaluate to ""false"""
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/expression/DefaultExpressionList.java,864,BUG,MEDIUM,"Change this condition so that it does not always evaluate to ""false"""
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/expression/DefaultExpressionList.java,869,BUG,MEDIUM,"Change this condition so that it does not always evaluate to ""false"""
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/expression/DefaultExpressionList.java,1087,BUG,MEDIUM,"Change this condition so that it does not always evaluate to ""false"""
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/expression/DefaultExpressionList.java,1092,BUG,MEDIUM,"Change this condition so that it does not always evaluate to ""false"""
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/expression/JunctionExpression.java,292,BUG,MEDIUM,"Change this condition so that it does not always evaluate to ""false"""
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/expression/JunctionExpression.java,655,BUG,MEDIUM,"Change this condition so that it does not always evaluate to ""false"""
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/expression/JunctionExpression.java,660,BUG,MEDIUM,"Change this condition so that it does not always evaluate to ""false"""
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/expression/JunctionExpression.java,880,BUG,MEDIUM,"Change this condition so that it does not always evaluate to ""false"""
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/expression/JunctionExpression.java,885,BUG,MEDIUM,"Change this condition so that it does not always evaluate to ""false"""
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/expression/package.html,1,BUG,MEDIUM,Insert a <!DOCTYPE> declaration to before this <HTML> tag.
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/expression/package.html,1,BUG,MEDIUM,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/idgen/package.html,1,BUG,MEDIUM,Insert a <!DOCTYPE> declaration to before this <HTML> tag.
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/idgen/package.html,1,BUG,MEDIUM,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/persist/BatchedSqlException.java,20,BUG,MEDIUM,"Make this method ""synchronized"" to match the parent class implementation."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/persist/DefaultPersister.java,778,BUG,MEDIUM,"Change this condition so that it does not always evaluate to ""false"""
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/persist/MergeHandler.java,61,BUG,MEDIUM,"Change this condition so that it does not always evaluate to ""false"""
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/persist/dml/InsertMetaOptionsPostgres.java,58,BUG,MEDIUM,"Change this condition so that it does not always evaluate to ""true"""
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/persist/dml/InsertMetaOptionsPostgres.java,76,BUG,MEDIUM,"Change this condition so that it does not always evaluate to ""true"""
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/persist/dml/package.html,1,BUG,MEDIUM,Insert a <!DOCTYPE> declaration to before this <HTML> tag.
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/persist/dml/package.html,1,BUG,MEDIUM,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/persist/dmlbind/package.html,1,BUG,MEDIUM,Insert a <!DOCTYPE> declaration to before this <HTML> tag.
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/persist/dmlbind/package.html,1,BUG,MEDIUM,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/persist/package.html,1,BUG,MEDIUM,Insert a <!DOCTYPE> declaration to before this <HTML> tag.
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/persist/package.html,1,BUG,MEDIUM,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/profile/DTimeMetricStats.java,24,BUG,LOW,"Cast one of the operands of this division operation to a ""float""."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/profile/DTimeMetricStats.java,96,BUG,LOW,"Cast one of the operands of this integer division to a ""double""."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/properties/package.html,1,BUG,MEDIUM,Insert a <!DOCTYPE> declaration to before this <HTML> tag.
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/properties/package.html,1,BUG,MEDIUM,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/query/CQueryIteratorSimple.java,39,BUG,LOW,"Add a ""NoSuchElementException"" for iteration beyond the end of the collection."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/query/DefaultFetchGroupQuery.java,77,BUG,LOW,"Parameter 2 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/query/DefaultFetchGroupQuery.java,82,BUG,LOW,"Parameter 2 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/query/DefaultFetchGroupQuery.java,87,BUG,LOW,"Parameter 2 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/query/DefaultFetchGroupQuery.java,92,BUG,LOW,"Parameter 2 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/query/DefaultFetchGroupQuery.java,97,BUG,LOW,"Parameter 2 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/query/DefaultFetchGroupQuery.java,102,BUG,LOW,"Parameter 3 to this call is marked ""@Nonnull via meta-annotation"" but null could be passed."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/query/DefaultOrmQueryEngine.java,141,BUG,MEDIUM,"A ""NullPointerException"" could be thrown; ""result"" is nullable here."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/query/DtoQueryIterator.java,34,BUG,LOW,"Add a ""NoSuchElementException"" for iteration beyond the end of the collection."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/query/LimitOffsetPagedList.java,94,BUG,MEDIUM,"Either re-interrupt this method or rethrow the ""InterruptedException"" that can be caught here."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/query/SqlTreeBuilder.java,687,BUG,MEDIUM,"A ""NullPointerException"" could be thrown; ""parentJoin"" is nullable here."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/querydefn/DefaultOrmQuery.java,258,BUG,MEDIUM,"Change this condition so that it does not always evaluate to ""false"""
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/querydefn/DefaultOrmQuery.java,1559,BUG,LOW,"This method's return value is marked ""@Nonnull via meta-annotation"" but null is returned."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/querydefn/OrmQueryDetail.java,120,BUG,LOW,"This class overrides ""hashCode()"" and should therefore also override ""equals()""."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/transaction/JtaTransaction.java,38,BUG,MEDIUM,"Change this condition so that it does not always evaluate to ""false"""
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/transaction/package.html,1,BUG,MEDIUM,Insert a <!DOCTYPE> declaration to before this <HTML> tag.
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/transaction/package.html,1,BUG,MEDIUM,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/type/DefaultTypeManager.java,210,BUG,MEDIUM,"Use an ""instanceof"" comparison instead."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/type/ScalarTypeWrapper.java,154,BUG,HIGH,"Refactor this getter so that it actually refers to the field ""scalarType""."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/type/SimpleAesEncryptor.java,35,VULNERABILITY,HIGH,"Use a dynamically-generated, random IV."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/type/SimpleAesEncryptor.java,48,VULNERABILITY,HIGH,Use another cipher mode or disable padding.
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/type/SimpleAesEncryptor.java,67,VULNERABILITY,HIGH,Use another cipher mode or disable padding.
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/type/UtilDateParser.java,9,BUG,MEDIUM,"Make ""dateTimeProto"" an instance variable."
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/type/package.html,1,BUG,MEDIUM,Insert a <!DOCTYPE> declaration to before this <HTML> tag.
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/type/package.html,1,BUG,MEDIUM,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/util/package.html,1,BUG,MEDIUM,Insert a <!DOCTYPE> declaration to before this <HTML> tag.
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/server/util/package.html,1,BUG,MEDIUM,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/util/package.html,1,BUG,MEDIUM,Insert a <!DOCTYPE> declaration to before this <HTML> tag.
+org.avaje:java11-oss:ebean-core/src/main/java/io/ebeaninternal/util/package.html,1,BUG,MEDIUM,"Add ""lang"" and/or ""xml:lang"" attributes to this ""<html>"" element"
+org.avaje:java11-oss:ebean-core/src/test/java/io/ebeaninternal/server/deploy/TableJoinTest.java,57,BUG,MEDIUM,Replace this assertion to not have the same actual and expected expression.
+org.avaje:java11-oss:ebean-core/src/test/java/io/ebeaninternal/server/type/DefaultTypeManagerTest.java,51,BUG,MEDIUM,Add an assertion predicate after calling this method.
+org.avaje:java11-oss:ebean-core/src/test/java/io/ebeaninternal/server/type/DefaultTypeManagerTest.java,55,BUG,MEDIUM,Add an assertion predicate after calling this method.
+org.avaje:java11-oss:ebean-core/src/test/java/io/ebeaninternal/server/type/DefaultTypeManagerTest.java,58,BUG,MEDIUM,Add an assertion predicate after calling this method.
+org.avaje:java11-oss:ebean-core/src/test/java/io/ebeaninternal/server/type/DefaultTypeManagerTest.java,71,BUG,MEDIUM,Add an assertion predicate after calling this method.
+org.avaje:java11-oss:ebean-core/src/test/java/io/ebeaninternal/server/type/DefaultTypeManagerTest.java,74,BUG,MEDIUM,Add an assertion predicate after calling this method.
+org.avaje:java11-oss:ebean-core/src/test/java/io/ebeaninternal/server/type/DefaultTypeManagerTest.java,85,BUG,MEDIUM,Add an assertion predicate after calling this method.
+org.avaje:java11-oss:ebean-core/src/test/java/io/ebeaninternal/server/type/DefaultTypeManagerTest.java,89,BUG,MEDIUM,Add an assertion predicate after calling this method.
+org.avaje:java11-oss:ebean-core/src/test/java/io/ebeaninternal/server/type/DefaultTypeManagerTest.java,92,BUG,MEDIUM,Add an assertion predicate after calling this method.
+org.avaje:java11-oss:ebean-core/src/test/java/io/ebeaninternal/server/type/DefaultTypeManagerTest.java,104,BUG,MEDIUM,Add an assertion predicate after calling this method.
+org.avaje:java11-oss:ebean-core/src/test/java/io/ebeaninternal/server/type/DefaultTypeManagerTest.java,107,BUG,MEDIUM,Add an assertion predicate after calling this method.
+org.avaje:java11-oss:ebean-core/src/test/java/io/ebeaninternal/server/type/ModifyAwareListTest.java,289,BUG,HIGH,Change the assertion arguments to not compare dissimilar types.
+org.avaje:java11-oss:ebean-core/src/test/java/io/ebeaninternal/server/type/ModifyAwareListTest.java,297,BUG,HIGH,Change the assertion arguments to not compare dissimilar types.
+org.avaje:java11-oss:ebean-core/src/test/java/io/ebeaninternal/server/type/ModifyAwareMapTest.java,72,BUG,HIGH,Change the assertion arguments to not compare dissimilar types.
+org.avaje:java11-oss:ebean-core/src/test/java/io/ebeaninternal/server/type/ModifyAwareMapTest.java,80,BUG,HIGH,Change the assertion arguments to not compare dissimilar types.
+org.avaje:java11-oss:ebean-core/src/test/java/io/ebeaninternal/server/type/ModifyAwareSetTest.java,69,BUG,HIGH,Change the assertion arguments to not compare dissimilar types.
+org.avaje:java11-oss:ebean-core/src/test/java/io/ebeaninternal/server/type/ModifyAwareSetTest.java,77,BUG,HIGH,Change the assertion arguments to not compare dissimilar types.
+org.avaje:java11-oss:ebean-ddl-generator/src/main/java/io/ebeaninternal/dbmigration/model/build/ModelBuildPropertyVisitor.java,209,BUG,MEDIUM,"A ""NullPointerException"" could be thrown; ""compoundKey"" is nullable here."
+org.avaje:java11-oss:ebean-ddl-generator/src/test/java/io/ebeaninternal/dbmigration/model/ModelContainerTest.java,106,BUG,LOW,Test the emptiness of the list before calling this assertion predicate.
+org.avaje:java11-oss:ebean-redis/src/main/java/io/ebean/redis/topic/DaemonTopicRunner.java,42,BUG,HIGH,Add an end condition to this loop.
+org.avaje:java11-oss:ebean-test/src/main/java/io/ebean/test/config/AutoConfigureForTesting.java,47,BUG,MEDIUM,"""NullPointerException"" will be thrown when invoking method ""isExtraServer()""."
+org.avaje:java11-oss:ebean-test/src/test/java/org/tests/generated/TestGeneratedProperties.java,32,BUG,HIGH,Change the assertion arguments to not compare a primitive value with null.
+org.avaje:java11-oss:ebean-test/src/test/java/org/tests/generated/TestGeneratedProperties.java,33,BUG,HIGH,Change the assertion arguments to not compare a primitive value with null.
+org.avaje:java11-oss:ebean-test/src/test/java/org/tests/model/aggregation/TestAggregationTopLevel.java,240,BUG,HIGH,Change the assertion arguments to not compare a primitive value with null.
+org.avaje:java11-oss:ebean-test/src/test/java/org/tests/model/aggregation/TestAggregationTopLevel.java,264,BUG,HIGH,Change the assertion arguments to not compare a primitive value with null.
+org.avaje:java11-oss:ebean-test/src/test/java/org/tests/model/onetoone/TestOneToOnePrimaryKeyJoin.java,29,BUG,MEDIUM,Add an assertion predicate after calling this method.
+org.avaje:java11-oss:ebean-test/src/test/java/org/tests/model/onetoone/TestOneToOnePrimaryKeyJoin.java,38,BUG,MEDIUM,Add an assertion predicate after calling this method.
+org.avaje:java11-oss:ebean-test/src/test/java/org/tests/model/onetoone/TestOneToOnePrimaryKeyJoin.java,50,BUG,MEDIUM,Add an assertion predicate after calling this method.
+org.avaje:java11-oss:ebean-test/src/test/java/org/tests/model/onetoone/TestOneToOnePrimaryKeyJoinBidi.java,29,BUG,MEDIUM,Add an assertion predicate after calling this method.
+org.avaje:java11-oss:ebean-test/src/test/java/org/tests/model/onetoone/TestOneToOnePrimaryKeyJoinBidi.java,37,BUG,MEDIUM,Add an assertion predicate after calling this method.
+org.avaje:java11-oss:ebean-test/src/test/java/org/tests/model/onetoone/TestOneToOnePrimaryKeyJoinBidi.java,49,BUG,MEDIUM,Add an assertion predicate after calling this method.
+org.avaje:java11-oss:ebean-test/src/test/java/org/tests/model/onetoone/TestOneToOnePrimaryKeyJoinOptional.java,49,BUG,MEDIUM,Add an assertion predicate after calling this method.
+org.avaje:java11-oss:ebean-test/src/test/java/org/tests/model/onetoone/TestOneToOnePrimaryKeyJoinOptional.java,58,BUG,MEDIUM,Add an assertion predicate after calling this method.
+org.avaje:java11-oss:ebean-test/src/test/java/org/tests/model/onetoone/TestOneToOnePrimaryKeyJoinOptional.java,70,BUG,MEDIUM,Add an assertion predicate after calling this method.
+org.avaje:java11-oss:ebean-test/src/test/java/org/tests/unitinternal/TestEqualsOnEnhanced.java,20,BUG,HIGH,Change the assertion arguments to not compare dissimilar types.
+org.avaje:java11-oss:ebean-test/src/test/java/org/tests/unitinternal/TestEqualsOnEnhanced.java,22,BUG,MEDIUM,Replace this assertion to not have the same actual and expected expression.
+org.avaje:java11-oss:kotlin-querybean-generator/src/main/java/io/ebean/querybean/generator/ProcessingContext.java,295,BUG,MEDIUM,"""NullPointerException"" will be thrown when invoking method ""typeDef()""."
+org.avaje:java11-oss:kotlin-querybean-generator/src/main/java/io/ebean/querybean/generator/ProcessingContext.java,309,BUG,MEDIUM,"""NullPointerException"" will be thrown when invoking method ""typeDef()""."
+org.avaje:java11-oss:kotlin-querybean-generator/src/main/java/io/ebean/querybean/generator/ProcessingContext.java,312,BUG,MEDIUM,"A ""NullPointerException"" could be thrown; ""typeMirror"" is nullable here."
+org.avaje:java11-oss:kotlin-querybean-generator/src/main/java/io/ebean/querybean/generator/ProcessingContext.java,549,BUG,HIGH,"Use try-with-resources or close this ""Reader"" in a ""finally"" clause."
+org.avaje:java11-oss:kotlin-querybean-generator/src/main/java/io/ebean/querybean/generator/ProcessingContext.java,550,BUG,HIGH,"Use try-with-resources or close this ""LineNumberReader"" in a ""finally"" clause."
+org.avaje:java11-oss:kotlin-querybean-generator/src/main/java/io/ebean/querybean/generator/SimpleModuleInfoWriter.java,47,BUG,HIGH,"Use try-with-resources or close this ""Writer"" in a ""finally"" clause."
+org.avaje:java11-oss:kotlin-querybean-generator/src/main/java/io/ebean/querybean/generator/SimpleModuleInfoWriter.java,64,BUG,HIGH,"Use try-with-resources or close this ""Writer"" in a ""finally"" clause."
+org.avaje:java11-oss:querybean-generator/src/main/java/io/ebean/querybean/generator/ProcessingContext.java,272,BUG,MEDIUM,"""NullPointerException"" will be thrown when invoking method ""typeDef()""."
+org.avaje:java11-oss:querybean-generator/src/main/java/io/ebean/querybean/generator/ProcessingContext.java,287,BUG,MEDIUM,"""NullPointerException"" will be thrown when invoking method ""typeDef()""."
+org.avaje:java11-oss:querybean-generator/src/main/java/io/ebean/querybean/generator/ProcessingContext.java,291,BUG,MEDIUM,"A ""NullPointerException"" could be thrown; ""typeMirror"" is nullable here."
+org.avaje:java11-oss:querybean-generator/src/main/java/io/ebean/querybean/generator/ProcessingContext.java,528,BUG,HIGH,"Use try-with-resources or close this ""Reader"" in a ""finally"" clause."
+org.avaje:java11-oss:querybean-generator/src/main/java/io/ebean/querybean/generator/ProcessingContext.java,529,BUG,HIGH,"Use try-with-resources or close this ""LineNumberReader"" in a ""finally"" clause."
+org.avaje:java11-oss:querybean-generator/src/main/java/io/ebean/querybean/generator/SimpleModuleInfoWriter.java,49,BUG,HIGH,"Use try-with-resources or close this ""Writer"" in a ""finally"" clause."
+org.avaje:java11-oss:querybean-generator/src/main/java/io/ebean/querybean/generator/SimpleModuleInfoWriter.java,64,BUG,HIGH,"Use try-with-resources or close this ""Writer"" in a ""finally"" clause."
+org.avaje:java11-oss:querybean-generator/src/main/java/io/ebean/querybean/generator/SimpleModuleInfoWriter.java,96,BUG,HIGH,"Use try-with-resources or close this ""Writer"" in a ""finally"" clause."
+org.avaje:java11-oss:tests/test-java16/src/test/java/org/example/records/CourseRecordEntityTest.java,25,BUG,MEDIUM,Replace this assertion to not have the same actual and expected expression.
