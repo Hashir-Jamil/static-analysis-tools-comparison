@@ -1,4 +1,4 @@
-file_path,line_number,type,severity,description
+﻿file_path,line_number,type,severity,description
 sqlalchemy/doc/build/requirements.txt,5,HTTP Request Smuggling,Medium,Affected versions of this package are vulnerable to HTTP Request Smuggling via the parse and validate strings capabilities in the int constructor.
 sqlalchemy/doc/build/requirements.txt,5,HTTP Request Smuggling,Medium,Affected versions of this package are vulnerable to HTTP Request Smuggling via the parse and validate strings capabilities in the int constructor.
 sqlalchemy/doc/build/requirements.txt,5,MPL-2.0 License ,Medium,No remediation path available
