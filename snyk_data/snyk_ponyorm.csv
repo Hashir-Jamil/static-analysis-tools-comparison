@@ -1,0 +1,15 @@
+file_path,line_number,type,severity,description
+pony/pony/flask/example/config.py,3,Hardcoded Secret,High,Avoid hardcoding values that are meant to be secret. Found a hardcoded string used in here.
+pony/pony/orm/examples/bottle_example.py,91,Debug Mode Enabled,Medium,Running the application in debug mode (debug flag is set to True in bottle.run) is a security risk if the application is accessible by untrusted parties
+pony/pony/orm/tests/test_entity_init.py,20,Use of Password Hash With Insufficient Computational Effort,Low,hashlib.md5 is insecure. Consider changing it to a secure hashing algorithm.
+pony/pony/orm/tests/test_entity_init.py,41,Use of Password Hash With Insufficient Computational Effort,Low,hashlib.md5 is insecure. Consider changing it to a secure hashing algorithm.
+pony/pony/orm/tests/test_entity_init.py,44,Use of Password Hash With Insufficient Computational Effort,Low,hashlib.md5 is insecure. Consider changing it to a secure hashing algorithm.
+pony/pony/orm/tests/test_entity_init.py,52,Use of Password Hash With Insufficient Computational Effort,Low,hashlib.md5 is insecure. Consider changing it to a secure hashing algorithm.
+pony/pony/orm/tests/test_entity_init.py,55,Use of Password Hash With Insufficient Computational Effort,Low,hashlib.md5 is insecure. Consider changing it to a secure hashing algorithm.
+pony/pony/orm/tests/fixtures.py,123,Use of Hardcoded Credentials,Low,Do not hardcode passwords in code. Found hardcoded password used in a dictionary key.
+pony/pony/orm/tests/fixtures.py,225,Use of Hardcoded Credentials,Low,Do not hardcode passwords in code. Found hardcoded password used in a dictionary key.
+pony/pony/orm/tests/fixtures.py,308,Use of Hardcoded Credentials,Low,Do not hardcode passwords in code. Found hardcoded password used in a dictionary key.
+pony/pony/orm/tests/__init__.py,19,Code Injection,Low,"Unsanitized input from an environment variable flows into exec, where it is executed as Python code. This may result in a Code Injection vulnerability."
+pony/pony/orm/tests/fixtures.py,225,Use of Hardcoded Credentials,Low,Do not hardcode credentials in code. Found hardcoded credential used in user.
+pony/pony/orm/tests/__init__.py,15,Path Traversal,Low,"Unsanitized input from an environment variable flows into open, where it is used as a path. This may result in a Path Traversal vulnerability and allow an attacker to read arbitrary files."
+pony/pony/orm/core.py,1257,Use of Password Hash With Insufficient Computational Effort,Low,hashlib.md5 is insecure. Consider changing it to a secure hashing algorithm.
