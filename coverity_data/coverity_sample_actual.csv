@@ -11,3 +11,15 @@ Erika Grandy,ebean,/ebean-ddl-generator/src/main/java/io/ebeaninternal/dbmigrati
 Erika Grandy,ebean,/ebean-core/src/main/java/io/ebeaninternal/server/query/SqlTreeNodeBean.java,347,Quality,Low,Type: UrF: Unread field | Category: SpotBugs: Performance,no
 Erika Grandy,ebean,/ebean-core-type/src/main/java/io/ebean/core/type/BasicTypeConverter.java,140,Quality,Low,Type: NP: Null pointer dereference | Category: SpotBugs: Bad practice,no
 Erika Grandy,ebean,/ebean-core/src/main/java/io/ebeaninternal/server/util/Md5.java,13,Security,Low,Type: Weak hash algorithm | Category: Sigma,no
+Natalie Dean,ponyorm,/pony/utils/utils.py,98,Quality,Medium,Type: Identical code for different branches | Category: Incorrect expression,no
+Natalie Dean,ponyorm,/pony/orm/sqltranslation.py,2290,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences,no
+Natalie Dean,ponyorm,/pony/orm/sqltranslation.py,2546,Quality,Medium,Type: Logically dead code | Category: Control flow issues,no
+Natalie Dean,ponyorm,/pony/orm/sqltranslation.py,2186,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences,no
+Natalie Dean,ponyorm,/pony/orm/sqlbuilding.py,554,Quality,Medium,Type: Logically dead code | Category: Control flow issues,no
+Natalie Dean,ponyorm,/pony/orm/dbproviders/oracle.py,469,Quality,Medium,Type: Logically dead code | Category: Control flow issues,yes
+Natalie Dean,sqlalchemy,/lib/sqlalchemy/sql/traversals.py,816,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences,no
+Natalie Dean,sqlalchemy,/lib/sqlalchemy/sql/compiler.py,3943,Quality,Medium,Type: Copy-paste error | Category: Incorrect expression,no
+Natalie Dean,sqlalchemy,/lib/sqlalchemy/pool/base.py,1364,Quality,Medium,Type: Attribute/item access or function call before check for None or undefined | Category: Null pointer dereferences,no
+Natalie Dean,sqlalchemy,/lib/sqlalchemy/ext/mypy/names.py,41,Quality,Medium,Type: Typo in identifier | Category: Incorrect expression,yes
+Natalie Dean,sqlalchemy,/lib/sqlalchemy/dialects/postgresql/ranges.py,651,Quality,Medium,Type: Logically dead code | Category: Control flow issues,no
+Natalie Dean,sqlalchemy,/lib/sqlalchemy/orm/context.py,1786,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences,no
