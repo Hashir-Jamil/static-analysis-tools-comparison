@@ -1,0 +1,66 @@
+These are the steps required to reproduce running the analysis using Snyk
+-------------------------------------------------------------------------------
+
+1.
+Go onto the Snyk website (https://snyk.io/)
+
+2. 
+Sign into the website using GitHub
+
+3. 
+Click on the "Add Projects" button on the Snyk Dashboard 
+After click on the "GitHub" option
+This then will allow the user to access projects on linked to their account
+
+4.
+Choose the repositories from the list of repositories linked to your GitHub account
+It is required to have the exact repository linked to your account
+This means the repositories chosen must be created by the GitHub account or forked onto the GitHub account
+After the respective repositories are selected, click on the "Add Selected Repositories" button
+
+5. 
+You will be redirected to the "Projects" page with a list of all imported project listed
+Wait approximately 5 minutes for each repository to be imported and tested with Snyk
+Check to see if each repository is listed on the "Targets" list
+
+6.
+After each repository is successfully imported and tested
+Each detected issue is displayed based on severity listed below:
+
+- C = Critical Issue
+- H = High Issue
+- M = Medium Issue
+- L = Low Issue
+
+Selecting the "..." on the right of any repository will allow you to view the repositories individual report (refer to step 9)
+
+7. Click on any single repository which you choose to view the report of
+The dropdown menu shows you everyfile an error is found
+Each project has a file called "Code Analysis" which contains any issue found in the main language's code (.java or .py for this project)
+
+8. Click on a specific file and view the issue list
+By scrolling down, you can view each issue individually
+Each issue has the following features that make up the issue
+
+- Severity of Issue (Denoted by a letter mentioned in Step 6)
+- Name of Issue
+- Priority/Severity Score
+- Snyk Code (In reference to the Snyk Documentation)
+- Snippet of the code where the issue occurs (including the highlighted issue in the exact line)
+- Description of Issue
+- Link to issue in code on GitHub repository
+- Link to learn about the exact issue and how it can be fixed
+
+9. Go back to the "Projects" page and click  the "..." on the right of any repository will allow you to view the repositories individual report 
+You will be presented with a breakdown of the issues and each issue's details
+Click on "Download CSV" to have access to the .csv file to then retrieve the raw data from Snyk
+This raw data can be extracted to complete the report and refine the data collection for the project
+
+
+
+
+
+
+
+
+

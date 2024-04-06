@@ -1,0 +1,77 @@
+These are the steps required to reproduce running the analysis using SonarCloud
+-------------------------------------------------------------------------------
+
+1.
+Create a SonarCloud account at https://www.sonarsource.com/products/sonarcloud/signup/
+
+2.
+Select "Create new organization" in the top right +.
+Select "create one manually".
+Choose a "Name".
+Choose "Free plan".
+Select "Create Organization".
+You can then invite other users to your organization.
+
+3.
+Select "Analyze new project" in the top right +.
+Select "create a project manually".
+Choose a "Display Name".
+Leave the rest as default.
+Select "Next".
+Select "Create Project".
+
+4.
+Select "Manually".
+Java:
+    Choose "Maven" or "Gradle" depending on the projects build tool
+Python:
+    Choose "Other"
+
+5.
+Download and unzip the SonarScanner for Linux.
+Add the bin directory to the PATH environment variable.
+Command: export PATH=<Path to bin dir>:$PATH
+
+6.
+Set the SONAR_TOKEN environment variable
+Command: export SONAR_TOKEN=<token value>
+
+7.
+Java Maven:
+    Update the projects pom.xml to include the following (This should be given in the dashboard).
+    <properties>
+        <sonar.organization>[organization]</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+    </properties>
+Java Gradle:
+    Update the projects build.gradle to include the following (This should be given in the dashboard).
+    plugins {
+        id "org.sonarqube" version "4.4.1.3373"
+    }
+
+    sonar {
+        properties {
+            property "sonar.projectKey", [project key]
+            property "sonar.organization", [organization]
+            property "sonar.host.url", "https://sonarcloud.io"
+        }
+    }
+Python:
+    No changes needed.
+
+8.
+Run the SonarScanner in the projects root folder using the following command with the project parameters replaced.
+Java Maven Command:
+    mvn verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=<project key> -DskipTests -Dsonar.scm.disabled=true
+Java Gradle Command:
+    ./gradlew sonar
+Python Command:
+    sonar-scanner -Dsonar.organization=<orginization> -Dsonar.projectKey=<project key> -Dsonar.sources=. -Dsonar.host.url=https://sonarcloud.io
+
+9.
+If errors occur troubleshooting may be required.
+Issues such as Java JDK versions or Java project plugins needing to be updated.
+
+10.
+Wait for the analysis to complete.
+The results will appear in the SonarCloud dashboard for the given project.

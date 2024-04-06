@@ -1,0 +1,50 @@
+These are the steps required to reproduce running the analysis using Coverity
+-------------------------------------------------------------------------------
+
+1.
+Sign in through GitHub at https://scan.coverity.com/
+
+2.
+From the Top Menu, Select "My Dashboard" to open the My Projects page.
+Click the orange button "+ Add Project"
+This page displays all registered projects. Click "Register my GitHub project".
+Click "Reload repository list from GitHub" to refresh the list.
+Click on the desired GitHub repoository you'd like to have analyzed.
+
+3. (Fill out Required Project Information)
+Select your role for the project. Coverity requires you to be an Owner or Contributor.
+Select the primary programming langauge of the project, to analyze this language.
+Select the Project License. Coverity requires the project to be Open-source.
+Leave the rest as default.
+Click "Submit". Coverity will review if the project meets the Open-Source Requirements.
+
+4. (Download Coverity Self-Build Tool)
+From the Project Page, click "Submit Build".
+Enter the Project Version
+Click the Red Button "Download Coverity Scan Self-Build", for build instructions.
+On the Right Hand Side, click your OS to download the Coverity Build Tool.
+Download and extract the downloaded Zip file.
+Add the bin directory to PATH.
+
+5. (Submit a Build for Analysis)
+Within command line, change to your project's local Build directory.
+(Optional) Run any clean-up steps.
+Run the coverity Build Tool to build project, which will create a cov-int directory.
+    Java Gradle:
+        cov-build --dir cov-int gradlew build -x test
+    Java Maven:
+        cov-build --dir cov-int mvn -DskipTests=true compile
+
+Zip the cov-int folder, using Windows or the following command: 
+    zip -r myproject.zip cov-int
+
+Submit this zip file to be analyzed, in the "Upload Tar File" field.
+
+6. (Analysis)
+The project will enter a queue to be analyzed.
+The spot in queue will be visible.
+An email will be sent once the Project Analysis is complete.
+
+7. 
+The results will include the number of code lines analyzed, the number of defects found, defect density.
+Bugs can be viewed from the Projects Page on Coverity, by clicking "View Defects".
