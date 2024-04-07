@@ -75,3 +75,13 @@ Issues such as Java JDK versions or Java project plugins needing to be updated.
 10.
 Wait for the analysis to complete.
 The results will appear in the SonarCloud dashboard for the given project.
+
+11.
+To export issue results use the SonarCloud Web API: https://sonarcloud.io/web_api/api/issues/search?deprecated=false&section=params and select the params of interest.
+For this project the API was used with the following params pattern:
+https://sonarcloud.io/api/issues/search?componentKeys=<PROJECT_KEY>&ps=<TOTAL_ISSUE>&access_token=<PERSONAL_TOKEN>
+Where PROJECT_KEY is the name assigned to the project scanned. This can be found in the information tab of the project dashboard view.
+TOTAL_ISSUES is the sum of security and reliability issues in the project's issues section on the dashboard.
+PERSONAL_TOKEN is an account specific token unique to each account.
+You must do 5 separate get requests for each project scanned. This will return a JSON file that has a list of all issues.
+
