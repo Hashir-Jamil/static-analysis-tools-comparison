@@ -184,28 +184,351 @@ ebean,ebean-core/src/main/java/io/ebeaninternal/server/query/SqlTreeNodeBean.jav
 ebean,ebean-core/src/main/java/io/ebeaninternal/server/readaudit/DefaultReadAuditLogger.java,Various,Quality,Low,Type: SS: Unread field should be static | Category: SpotBugs: Performance
 ebean,ebean-core/src/main/java/io/ebeaninternal/server/idgen/UuidV1RndIdGenerator.java,40,Quality,Low,Type: Dm: Dubious method used | Category: SpotBugs: Performance
 ebean,kotlin-querybean-generator/src/main/java/io/ebean/querybean/generator/SimpleQueryBeanWriter.java,279,Quality,Low,Type: UPM: Private method is never called | Category: SpotBugs: Performance
-hibernate,local-build-plugins/src/main/java/org/hibernate/orm/jakarta/JakartaPlugin.java,121,Quality,Low,Type: DLS: Dead local store | Category: SpotBugs: Dodgy code
-hibernate,local-build-plugins/src/main/java/org/hibernate/orm/docs/DocumentationPublishingPlugin.java,Various,Quality,Low,Type: DLS: Dead local store | Category: SpotBugs: Dodgy code
-hibernate,local-build-plugins/src/main/java/org/hibernate/orm/docs/GenerateDescriptorTask.java,84,Quality,Low,Type: DMI: Dubious method invocation | Category: SpotBugs: Dodgy code
-hibernate,local-build-plugins/src/main/java/org/hibernate/orm/post/Helper.java,36,Quality,Low,Type: DP: Use doPrivileged | Category: SpotBugs: Malicious code vulnerability
-hibernate,local-build-plugins/src/main/java/org/hibernate/orm/docs/DescriptorAccess.java,55,Quality,Low,Type: Dm: Dubious method used | Category: SpotBugs: Internationalization
-hibernate,local-build-plugins/src/main/java/org/hibernate/orm/antlr/AntlrHelper.java,Various,Quality,Low,Type: Dm: Dubious method used | Category: SpotBugs: Internationalization
-hibernate,local-build-plugins/src/main/java/org/hibernate/orm/post/AbstractJandexAwareTask.java,118,Quality,Low,Type: Dm: Dubious method used | Category: SpotBugs: Internationalization
-hibernate,local-build-plugins/src/main/java/org/hibernate/orm/properties/AsciiDocWriter.java,40,Quality,Low,Type: Dm: Dubious method used | Category: SpotBugs: Internationalization
-hibernate,local-build-plugins/src/main/java/org/hibernate/orm/post/DialectReportTask.java,107,Quality,Low,Type: Dm: Dubious method used | Category: SpotBugs: Internationalization
-hibernate,local-build-plugins/src/main/java/org/hibernate/orm/post/IndexManager.java,221,Quality,Low,Type: Dm: Dubious method used | Category: SpotBugs: Internationalization
-hibernate,local-build-plugins/src/main/java/org/hibernate/orm/post/LoggingReportTask.java,154,Quality,Low,Type: Dm: Dubious method used | Category: SpotBugs: Internationalization
-hibernate,local-build-plugins/src/main/java/org/hibernate/orm/ReleaseFamilyIdentifier.java,81,Quality,Low,Type: Eq: Problems with implementation of equals() | Category: SpotBugs: Bad practice
-hibernate,local-build-plugins/src/main/java/org/hibernate/orm/docs/GenerateDescriptorTask.java,75,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
-hibernate,local-build-plugins/src/main/java/org/hibernate/orm/post/LoggingReportTask.java,179,Quality,Low,Type: FS: Format string problem | Category: SpotBugs: Bad practice
-hibernate,local-build-plugins/src/main/java/org/hibernate/orm/post/LoggingReportTask.java,Various,Quality,Low,Type: FS: Format string problem | Category: SpotBugs: Bad practice
-hibernate,local-build-plugins/src/main/java/org/hibernate/orm/properties/AsciiDocWriter.java,95,Quality,Low,Type: FS: Format string problem | Category: SpotBugs: Bad practice
-hibernate,local-build-plugins/src/main/java/org/hibernate/orm/antlr/AntlrHelper.java,Various,Quality,Low,Type: RV: Bad use of return value | Category: SpotBugs: Bad practice
-hibernate,local-build-plugins/src/main/java/org/hibernate/orm/jakarta/JakartaDirectoryTransformation.java,67,Quality,Low,Type: RV: Bad use of return value | Category: SpotBugs: Bad practice
-hibernate,local-build-plugins/src/main/java/org/hibernate/orm/post/IndexManager.java,Various,Quality,Low,Type: RV: Bad use of return value | Category: SpotBugs: Bad practice
-hibernate,local-build-plugins/src/main/java/org/hibernate/orm/antlr/SplitGrammarGenerationTask.java,79,Quality,Low,Type: RV: Bad use of return value | Category: SpotBugs: Bad practice
-hibernate,local-build-plugins/src/main/java/org/hibernate/orm/antlr/AntlrHelper.java,60,Various,Low,Type: Resource leak on an exceptional path | Category: Exceptional resource leaks
-hibernate,local-build-plugins/src/main/java/org/hibernate/orm/antlr/AntlrHelper.java,55,Various,Low,Type: Resource leak on an exceptional path | Category: Exceptional resource leaks
+hibernate,hibernate-core/target/generated/sources/antlr/main/org/hibernate/grammars/hql/HqlParser.java,Various,Quality,Medium,Type: Bad bit shift operation | Category: Integer handling issues
+hibernate,hibernate-core/src/main/java/org/hibernate/internal/util/MathHelper.java,24,Quality,Medium,Type: Bad bit shift operation | Category: Integer handling issues
+hibernate,hibernate-core/src/main/java/org/hibernate/internal/SessionFactoryImpl.java,954,Quality,High,Type: Check of thread-shared field evades lock acquisition | Category: Data race undermines locking
+hibernate,hibernate-core/src/main/java/org/hibernate/internal/util/collections/ConcurrentReferenceHashMap.java,889,Quality,High,Type: Check of thread-shared field evades lock acquisition | Category: Data race undermines locking
+hibernate,hibernate-core/src/main/java/org/hibernate/internal/util/collections/BoundedConcurrentHashMap.java,1412,Quality,High,Type: Check of thread-shared field evades lock acquisition | Category: Data race undermines locking
+hibernate,hibernate-core/src/main/java/org/hibernate/persister/entity/AbstractPropertyMapping.java,200,Quality,Medium,Type: Copy-paste error | Category: Incorrect expression
+hibernate,hibernate-core/src/main/java/org/hibernate/boot/model/internal/JPAXMLOverriddenAnnotationReader.java,2742,Quality,Medium,Type: Copy-paste error | Category: Incorrect expression
+hibernate,hibernate-core/src/main/java/org/hibernate/sql/exec/internal/JdbcSelectExecutorStandardImpl.java,407,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/internal/util/StringHelper.java,437,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/sql/exec/spi/JdbcOperationQuerySelect.java,181,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/type/AbstractStandardBasicType.java,320,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/query/internal/QueryParameterBindingImpl.java,324,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/collection/spi/PersistentSet.java,371,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/sql/exec/internal/JdbcSelectExecutorStandardImpl.java,379,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/type/internal/ConvertedBasicTypeImpl.java,327,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/boot/model/process/spi/MetadataBuildingProcess.java,506,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/mapping/Property.java,415,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/dialect/AbstractPostgreSQLStructJdbcType.java,196,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/sql/exec/internal/JdbcSelectExecutorStandardImpl.java,278,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/sql/results/internal/RowTransformerTupleTransformerAdapter.java,30,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+hibernate,hibernate-testing/src/main/java/org/hibernate/testing/jdbc/JdbcSpies.java,169,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/type/SerializableToBlobType.java,322,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/internal/util/collections/BoundedConcurrentHashMap.java,828,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/boot/model/internal/InheritanceState.java,291,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/boot/jaxb/hbm/transform/UnsupportedFeatureHandling.java,62,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/engine/internal/Collections.java,256,Quality,Medium,Type: Dereference before null check | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/engine/internal/StatefulPersistenceContext.java,1765,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/sql/results/graph/entity/internal/BatchEntityInsideEmbeddableSelectFetchInitializer.java,130,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-envers/src/main/java/org/hibernate/envers/internal/entities/mapper/relation/ToOneIdMapper.java,209,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/engine/jdbc/mutation/internal/MutationExecutorStandard.java,187,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/metamodel/mapping/ordering/ast/DomainPath.java,26,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/sql/ast/spi/AbstractSqlAstTranslator.java,2499,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/boot/model/naming/ImplicitNamingStrategyLegacyJpaImpl.java,Various,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/boot/jaxb/internal/MappingBinder.java,131,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/event/internal/DefaultLoadEventListener.java,377,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-envers/src/main/java/org/hibernate/envers/function/OrderByFragmentFunction.java,209,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/boot/model/internal/PropertyBinder.java,1230,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/query/sqm/mutation/internal/temptable/SoftDeleteExecutionDelegate.java,285,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-testing/src/main/java/org/hibernate/testing/util/TestPathHelper.java,31,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,tooling/metamodel-generator/src/main/java/org/hibernate/processor/validation/ProcessorSessionFactory.java,747,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/engine/spi/ActionQueue.java,Various,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/type/spi/TypeConfiguration.java,367,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/engine/internal/StatefulPersistenceContext.java,1585,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/boot/jaxb/hbm/transform/HbmXmlTransformer.java,1255,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/jpa/boot/internal/EntityManagerFactoryBuilderImpl.java,1580,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/sql/ast/spi/AbstractSqlAstTranslator.java,7613,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-envers/src/main/java/org/hibernate/envers/event/spi/BaseEnversCollectionEventListener.java,219,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/event/internal/DefaultEvictEventListener.java,67,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/persister/entity/AbstractEntityPersister.java,5380,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,tooling/hibernate-gradle-plugin/src/main/java/org/hibernate/orm/tooling/gradle/enhance/EnhancementHelper.java,60,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/boot/model/internal/CollectionBinder.java,2036,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/query/sqm/sql/BaseSqmToSqlAstConverter.java,6646,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/cache/spi/entry/StructuredCacheEntry.java,72,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/mapping/BasicValue.java,846,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/boot/model/convert/internal/AutoApplicableConverterDescriptorStandardImpl.java,93,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/type/descriptor/java/JdbcDateJavaType.java,235,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/tuple/entity/CompositeGeneratorBuilder.java,166,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/boot/archive/scan/spi/AbstractScannerImpl.java,63,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/boot/internal/MetadataBuilderImpl.java,496,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,tooling/metamodel-generator/src/test/java/org/hibernate/processor/test/util/TestUtil.java,210,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-spatial/src/main/java/org/hibernate/spatial/dialect/postgis/AbstractPostGISJdbcType.java,134,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/sql/results/graph/instantiation/internal/DynamicInstantiationAssemblerInjectionImpl.java,63,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-envers/src/main/java/org/hibernate/envers/internal/entities/mapper/relation/AbstractCollectionMapper.java,189,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/persister/collection/AbstractCollectionPersister.java,675,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/tool/schema/extract/internal/AbstractInformationExtractorImpl.java,1312,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/type/AnyType.java,Various,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/tool/schema/internal/exec/AbstractScriptSourceInput.java,34,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/query/internal/QueryParameterBindingsImpl.java,205,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/query/sql/internal/SQLQueryParser.java,Various,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/boot/model/internal/PropertyBinder.java,1191,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/boot/archive/scan/spi/ClassFileArchiveEntryHandler.java,67,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/persister/collection/AbstractCollectionPersister.java,689,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/query/criteria/JpaSelection.java,23,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/engine/internal/StatefulPersistenceContext.java,1746,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/metamodel/mapping/internal/SimpleNaturalIdMapping.java,179,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/persister/collection/AbstractCollectionPersister.java,682,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/query/sqm/sql/BaseSqmToSqlAstConverter.java,3780,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-envers/src/main/java/org/hibernate/envers/strategy/internal/ValidityAuditStrategy.java,518,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/query/spi/AbstractSelectionQuery.java,263,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/boot/model/internal/CollectionBinder.java,1033,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/sql/exec/internal/JdbcSelectExecutorStandardImpl.java,278,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/query/sql/internal/ResultSetMappingProcessor.java,369,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/metamodel/mapping/internal/CompoundNaturalIdMapping.java,209,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/internal/util/collections/BoundedConcurrentHashMap.java,571,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/tool/schema/extract/internal/AbstractInformationExtractorImpl.java,71,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/metamodel/mapping/internal/ToOneAttributeMapping.java,Various,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/engine/jdbc/mutation/internal/MutationExecutorStandard.java,229,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/query/sqm/tree/select/SqmSelectStatement.java,489,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/boot/model/source/internal/hbm/ModelBinder.java,221,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/query/internal/ResultMementoBasicStandard.java,96,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/boot/jaxb/hbm/transform/HbmXmlTransformer.java,1263,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/engine/spi/ActionQueue.java,1056,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/dialect/function/array/ArrayArgumentValidator.java,81,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-envers/src/main/java/org/hibernate/envers/configuration/internal/metadata/AuditMetadataGenerator.java,315,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/sql/results/graph/instantiation/internal/DynamicInstantiationResultImpl.java,208,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/boot/jaxb/hbm/transform/HbmXmlTransformer.java,1269,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-spatial/src/main/java/org/hibernate/spatial/dialect/postgis/AbstractPostGISJdbcType.java,139,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/sql/ast/spi/AbstractSqlAstTranslator.java,712,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/query/sqm/internal/TypecheckUtil.java,331,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/tuple/entity/EntityMetamodel.java,412,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/engine/spi/ActionQueue.java,691,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/boot/model/convert/internal/AutoApplicableConverterDescriptorStandardImpl.java,Various,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/boot/model/internal/EmbeddableBinder.java,101,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/query/sqm/internal/SqmTreePrinter.java,609,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/engine/spi/ActionQueue.java,Various,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-testing/src/main/java/org/hibernate/testing/bytecode/enhancement/BytecodeEnhancerRunner.java,240,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/boot/model/internal/FilterDefBinder.java,173,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/persister/entity/mutation/DeleteCoordinatorStandard.java,154,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/dialect/function/FormatFunction.java,248,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-spatial/src/main/java/org/hibernate/spatial/dialect/postgis/AbstractPostGISJdbcType.java,145,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/query/sql/internal/ResultSetMappingProcessor.java,334,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/engine/jdbc/mutation/internal/MutationExecutorStandard.java,233,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/boot/model/convert/internal/AutoApplicableConverterDescriptorStandardImpl.java,78,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/boot/jaxb/internal/MappingBinder.java,140,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/engine/jdbc/connections/internal/ConnectionProviderInitiator.java,230,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/type/spi/TypeConfiguration.java,866,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/engine/internal/StatefulPersistenceContext.java,Various,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/boot/model/internal/AnnotatedJoinColumn.java,404,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/type/descriptor/java/JdbcTimeJavaType.java,243,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/boot/jaxb/hbm/transform/HbmXmlTransformer.java,1272,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/event/internal/DirtyCollectionSearchVisitor.java,76,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/action/internal/AbstractEntityInsertAction.java,183,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/id/insert/InsertGeneratedIdentifierDelegate.java,103,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/jpa/internal/MutableJpaComplianceImpl.java,62,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/dialect/function/SumReturnTypeResolver.java,82,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/query/sqm/mutation/internal/temptable/SoftDeleteExecutionDelegate.java,325,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/event/internal/EvictVisitor.java,75,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/persister/entity/JoinedSubclassEntityPersister.java,1204,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/sql/results/graph/entity/AbstractEntityInitializer.java,748,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,tooling/metamodel-generator/src/main/java/org/hibernate/processor/validation/ProcessorSessionFactory.java,624,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,tooling/hibernate-enhance-maven-plugin/src/main/java/org/hibernate/orm/tooling/maven/MavenEnhancePlugin.java,325,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/stat/internal/StatisticsImpl.java,1027,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/resource/transaction/backend/jta/internal/DdlTransactionIsolatorJtaImpl.java,105,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/metamodel/mapping/EntityMappingType.java,182,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/sql/ast/spi/AbstractSqlAstTranslator.java,8244,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/persister/entity/AbstractEntityPersister.java,5176,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/boot/model/internal/PropertyBinder.java,1142,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/boot/model/naming/ObjectNameNormalizer.java,104,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/boot/model/internal/MapBinder.java,240,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/metamodel/RuntimeMetamodels.java,52,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/boot/internal/InFlightMetadataCollectorImpl.java,1399,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/stat/internal/StatisticsImpl.java,1013,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/cache/spi/TimestampsCache.java,71,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/engine/internal/StatefulPersistenceContext.java,233,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/query/results/dynamic/DynamicResultBuilderEntityStandard.java,242,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/boot/model/naming/ImplicitNamingStrategyJpaCompliantImpl.java,143,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/query/sql/internal/SQLQueryParser.java,Various,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/metamodel/mapping/internal/ToOneAttributeMapping.java,Various,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,tooling/hibernate-gradle-plugin/src/main/java/org/hibernate/orm/tooling/gradle/enhance/EnhancementHelper.java,80,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/sql/results/graph/embeddable/internal/AbstractNonAggregatedIdentifierMappingInitializer.java,186,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/query/sql/internal/ResultSetMappingProcessor.java,245,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/boot/model/internal/AnnotatedColumn.java,389,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/type/EntityType.java,Various,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/boot/jaxb/hbm/transform/HbmXmlTransformer.java,1251,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-envers/src/main/java/org/hibernate/envers/configuration/internal/metadata/CollectionMappedByResolver.java,45,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,tooling/metamodel-generator/src/main/java/org/hibernate/processor/validation/ProcessorSessionFactory.java,747,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/event/internal/DefaultLoadEventListener.java,316,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/boot/model/internal/MapBinder.java,188,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/boot/model/source/internal/hbm/ModelBinder.java,3171,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/sql/ast/spi/AbstractSqlAstTranslator.java,Various,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/internal/AbstractSharedSessionContract.java,210,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,tooling/metamodel-generator/src/main/java/org/hibernate/processor/validation/ProcessorSessionFactory.java,Various,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/boot/jaxb/hbm/transform/HbmXmlTransformer.java,1584,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/mapping/BasicValue.java,889,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/engine/jdbc/internal/JdbcCoordinatorImpl.java,178,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/cache/spi/support/AbstractReadWriteAccess.java,116,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-envers/src/main/java/org/hibernate/envers/query/criteria/internal/CriteriaTools.java,156,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/boot/jaxb/hbm/transform/HbmXmlTransformer.java,1266,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-spatial/src/main/java/org/hibernate/spatial/dialect/hana/HANASpatialUtils.java,61,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/engine/internal/StatefulPersistenceContext.java,1454,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-testing/src/main/java/org/hibernate/testing/util/TestPathHelper.java,82,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/query/sqm/sql/BaseSqmToSqlAstConverter.java,3889,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/boot/model/internal/FilterDefBinder.java,Various,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/type/descriptor/java/JdbcDateJavaType.java,218,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/internal/util/collections/BoundedConcurrentHashMap.java,642,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/tool/schema/extract/internal/InformationExtractorJdbcDatabaseMetaDataImpl.java,140,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/loader/ast/internal/CacheEntityLoaderHelper.java,468,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/query/sqm/mutation/internal/cte/CteSoftDeleteHandler.java,69,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/metamodel/mapping/internal/ToOneAttributeMapping.java,666,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/boot/jaxb/hbm/transform/HbmXmlTransformer.java,1439,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/persister/entity/AbstractEntityPersister.java,1711,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/loader/ast/internal/MultiNaturalIdLoaderInPredicate.java,53,Quality,Medium,Type: Division or modulo by zero | Category: Integer handling issues
+hibernate,hibernate-core/src/main/java/org/hibernate/loader/ast/internal/SingleIdLoadPlan.java,127,Quality,Medium,Type: Division or modulo by zero | Category: Integer handling issues
+hibernate,hibernate-core/src/main/java/org/hibernate/metamodel/mapping/internal/IdClassEmbeddable.java,159,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/type/Type.java,396,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/boot/beanvalidation/TypeSafeActivator.java,417,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/persister/collection/AbstractCollectionPersister.java,595,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/event/internal/DefaultReplicateEventListener.java,99,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/dialect/PostgreSQLInetJdbcType.java,63,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/dialect/function/array/PostgreSQLArrayConcatElementFunction.java,55,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/loader/ast/internal/AbstractNaturalIdLoader.java,252,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/query/sqm/sql/BaseSqmToSqlAstConverter.java,1580,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/type/descriptor/jdbc/TimestampUtcAsJdbcTimestampJdbcType.java,116,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/metamodel/mapping/internal/InverseNonAggregatedIdentifierMapping.java,200,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/type/descriptor/jdbc/TimeUtcAsJdbcTimeJdbcType.java,111,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+hibernate,hibernate-testing/src/main/java/org/hibernate/testing/bytecode/enhancement/EnhancerTestUtils.java,89,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/query/results/Builders.java,100,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/type/descriptor/jdbc/TimestampUtcAsJdbcTimestampJdbcType.java,110,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/boot/model/internal/BinderHelper.java,600,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/internal/SessionImpl.java,625,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/metamodel/mapping/internal/CaseStatementDiscriminatorMappingImpl.java,67,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/type/descriptor/jdbc/TimeUtcAsJdbcTimeJdbcType.java,117,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/type/descriptor/jdbc/TimeUtcAsJdbcTimeJdbcType.java,105,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/bytecode/enhance/internal/bytebuddy/InlineDirtyCheckingHandler.java,222,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+hibernate,hibernate-envers/src/main/java/org/hibernate/envers/internal/entities/mapper/MultiPropertyMapper.java,136,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+hibernate,hibernate-envers/src/main/java/org/hibernate/envers/internal/entities/mapper/MultiDynamicComponentMapper.java,109,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/boot/internal/InFlightMetadataCollectorImpl.java,965,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+hibernate,hibernate-envers/src/main/java/org/hibernate/envers/internal/synchronization/work/FakeBidirectionalRelationWorkUnit.java,Various,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/boot/model/internal/BinderHelper.java,808,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/query/results/Builders.java,117,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/type/descriptor/jdbc/TimestampUtcAsJdbcTimestampJdbcType.java,104,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+hibernate,hibernate-envers/src/main/java/org/hibernate/envers/configuration/internal/metadata/JoinColumnCollectionMetadataGenerator.java,98,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/query/spi/AbstractCommonQueryContract.java,1345,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/boot/model/internal/CollectionBinder.java,2232,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+hibernate,hibernate-envers/src/main/java/org/hibernate/envers/internal/entities/mapper/MultiPropertyMapper.java,181,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/boot/internal/InFlightMetadataCollectorImpl.java,2114,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/sql/SimpleSelect.java,174,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+hibernate,hibernate-envers/src/main/java/org/hibernate/envers/internal/entities/mapper/MultiDynamicComponentMapper.java,62,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+hibernate,hibernate-core/src/main/java/org/hibernate/mapping/Column.java,786,Quality,Medium,Type: Failure to call super.clone() | Category: Class hierarchy inconsistencies
+hibernate,tooling/metamodel-generator/src/main/java/org/hibernate/processor/ImportContextImpl.java,225,Quality,Medium,Type: Identical code for different branches | Category: Incorrect expression
+hibernate,hibernate-testing/src/main/java/org/hibernate/testing/bytecode/enhancement/BytecodeEnhancerRunner.java,218,Quality,Medium,Type: Ignoring number of bytes read | Category: Error handling issues
+hibernate,hibernate-envers/src/main/java/org/hibernate/envers/configuration/internal/metadata/reader/AuditedPropertiesReader.java,720,Quality,Medium,Type: Logically dead code | Category: Control flow issues
+hibernate,hibernate-core/src/main/java/org/hibernate/metamodel/internal/EntityRepresentationStrategyPojoStandard.java,128,Quality,Medium,Type: Logically dead code | Category: Control flow issues
+hibernate,hibernate-testing/src/main/java/org/hibernate/testing/junit4/CustomRunner.java,461,Quality,Medium,Type: Logically dead code | Category: Control flow issues
+hibernate,hibernate-core/src/main/java/org/hibernate/dialect/SybaseASESqlAstTranslator.java,381,Quality,Medium,Type: Missing break in switch | Category: Control flow issues
+hibernate,hibernate-core/src/main/java/org/hibernate/dialect/HSQLDialect.java,326,Quality,Medium,Type: Missing break in switch | Category: Control flow issues
+hibernate,hibernate-core/src/main/java/org/hibernate/query/sqm/TemporalUnit.java,246,Quality,Medium,Type: Missing break in switch | Category: Control flow issues
+hibernate,hibernate-core/src/main/java/org/hibernate/query/sqm/TemporalUnit.java,244,Quality,Medium,Type: Missing break in switch | Category: Control flow issues
+hibernate,hibernate-core/src/main/java/org/hibernate/type/descriptor/java/spi/BasicCollectionJavaType.java,185,Quality,Medium,Type: Missing break in switch | Category: Control flow issues
+hibernate,hibernate-core/src/main/java/org/hibernate/query/sqm/TemporalUnit.java,235,Quality,Medium,Type: Missing break in switch | Category: Control flow issues
+hibernate,hibernate-core/src/main/java/org/hibernate/type/descriptor/java/spi/BasicCollectionJavaType.java,449,Quality,Medium,Type: Missing break in switch | Category: Control flow issues
+hibernate,hibernate-core/src/main/java/org/hibernate/dialect/MySQLServerConfiguration.java,58,Quality,Medium,Type: Missing break in switch | Category: Control flow issues
+hibernate,hibernate-core/src/main/java/org/hibernate/CacheMode.java,165,Quality,Medium,Type: Missing break in switch | Category: Control flow issues
+hibernate,hibernate-core/src/main/java/org/hibernate/query/sqm/TemporalUnit.java,248,Quality,Medium,Type: Missing break in switch | Category: Control flow issues
+hibernate,hibernate-core/src/main/java/org/hibernate/dialect/MySQLDialect.java,136,Quality,Medium,Type: Missing break in switch | Category: Control flow issues
+hibernate,hibernate-core/src/main/java/org/hibernate/sql/results/graph/embeddable/AbstractEmbeddableInitializer.java,188,Quality,Medium,Type: Missing break in switch | Category: Control flow issues
+hibernate,hibernate-core/src/main/java/org/hibernate/sql/ast/spi/AbstractSqlAstTranslator.java,4352,Quality,Medium,Type: Missing break in switch | Category: Control flow issues
+hibernate,hibernate-community-dialects/src/main/java/org/hibernate/community/dialect/HSQLLegacyDialect.java,386,Quality,Medium,Type: Missing break in switch | Category: Control flow issues
+hibernate,hibernate-core/src/main/java/org/hibernate/sql/results/graph/embeddable/internal/AbstractNonAggregatedIdentifierMappingInitializer.java,159,Quality,Medium,Type: Missing break in switch | Category: Control flow issues
+hibernate,hibernate-core/src/main/java/org/hibernate/dialect/JsonHelper.java,851,Quality,Medium,Type: Missing break in switch | Category: Control flow issues
+hibernate,hibernate-core/src/main/java/org/hibernate/sql/ast/spi/AbstractSqlAstTranslator.java,5453,Quality,Medium,Type: Missing break in switch | Category: Control flow issues
+hibernate,hibernate-core/src/main/java/org/hibernate/dialect/JsonHelper.java,839,Quality,Medium,Type: Missing break in switch | Category: Control flow issues
+hibernate,tooling/metamodel-generator/src/main/java/org/hibernate/processor/annotation/AnnotationMetaEntity.java,2113,Quality,Medium,Type: Missing break in switch | Category: Control flow issues
+hibernate,hibernate-community-dialects/src/main/java/org/hibernate/community/dialect/SybaseASELegacySqlAstTranslator.java,398,Quality,Medium,Type: Missing break in switch | Category: Control flow issues
+hibernate,hibernate-core/src/main/java/org/hibernate/sql/ast/spi/AbstractSqlAstTranslator.java,5447,Quality,Medium,Type: Missing break in switch | Category: Control flow issues
+hibernate,hibernate-core/src/main/java/org/hibernate/id/enhanced/SequenceStyleGenerator.java,278,Quality,Medium,Type: Missing break in switch | Category: Control flow issues
+hibernate,hibernate-core/src/main/java/org/hibernate/sql/ast/spi/AbstractSqlAstTranslator.java,4042,Quality,Medium,Type: Missing break in switch | Category: Control flow issues
+hibernate,hibernate-core/src/main/java/org/hibernate/dialect/DialectDelegateWrapper.java,1579,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+hibernate,hibernate-core/src/main/java/org/hibernate/mapping/Any.java,170,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+hibernate,hibernate-core/src/main/java/org/hibernate/dialect/HSQLDialect.java,694,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+hibernate,hibernate-core/src/main/java/org/hibernate/boot/jaxb/internal/stax/FilteringXMLEventReader.java,56,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+hibernate,hibernate-community-dialects/src/main/java/org/hibernate/community/dialect/HSQLLegacyDialect.java,877,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+hibernate,hibernate-core/src/main/java/org/hibernate/query/sqm/tree/expression/SqmLiteralEntityType.java,62,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+hibernate,hibernate-core/src/main/java/org/hibernate/dialect/DialectDelegateWrapper.java,1564,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+hibernate,hibernate-core/src/main/java/org/hibernate/boot/jaxb/internal/stax/BaseXMLEventReader.java,48,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+hibernate,hibernate-community-dialects/src/main/java/org/hibernate/community/dialect/PostgreSQLLegacyDialect.java,288,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+hibernate,hibernate-core/src/main/java/org/hibernate/dialect/DialectDelegateWrapper.java,209,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+hibernate,hibernate-core/src/main/java/org/hibernate/dialect/DialectDelegateWrapper.java,189,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+hibernate,hibernate-core/src/main/java/org/hibernate/query/sqm/tree/domain/SqmSetJoin.java,79,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+hibernate,hibernate-community-dialects/src/main/java/org/hibernate/community/dialect/SQLServerLegacySqlAstTranslator.java,98,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+hibernate,hibernate-core/src/main/java/org/hibernate/query/sqm/tree/expression/SqmParameterizedEntityType.java,50,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+hibernate,hibernate-core/src/main/java/org/hibernate/dialect/DialectDelegateWrapper.java,159,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+hibernate,hibernate-core/src/main/java/org/hibernate/dialect/DialectDelegateWrapper.java,349,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+hibernate,hibernate-core/src/main/java/org/hibernate/dialect/DialectDelegateWrapper.java,199,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+hibernate,hibernate-core/src/main/java/org/hibernate/dialect/DialectDelegateWrapper.java,284,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+hibernate,hibernate-core/src/main/java/org/hibernate/dialect/DialectDelegateWrapper.java,184,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+hibernate,hibernate-community-dialects/src/main/java/org/hibernate/community/dialect/H2LegacyDialect.java,917,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+hibernate,hibernate-core/src/main/java/org/hibernate/dialect/SQLServerSqlAstTranslator.java,96,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+hibernate,hibernate-core/src/main/java/org/hibernate/dialect/DialectDelegateWrapper.java,1574,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+hibernate,hibernate-core/src/main/java/org/hibernate/dialect/DialectDelegateWrapper.java,143,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+hibernate,hibernate-core/src/main/java/org/hibernate/dialect/PostgreSQLDialect.java,308,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+hibernate,hibernate-core/src/main/java/org/hibernate/dialect/DialectDelegateWrapper.java,811,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+hibernate,hibernate-core/src/main/java/org/hibernate/dialect/DialectDelegateWrapper.java,154,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+hibernate,hibernate-core/src/main/java/org/hibernate/dialect/DialectDelegateWrapper.java,990,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+hibernate,hibernate-community-dialects/src/main/java/org/hibernate/community/dialect/AltibaseSqlAstTranslator.java,141,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+hibernate,hibernate-core/src/main/java/org/hibernate/dialect/CockroachDialect.java,281,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+hibernate,tooling/metamodel-generator/src/main/java/org/hibernate/processor/validation/MockSessionFactory.java,1071,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+hibernate,hibernate-community-dialects/src/main/java/org/hibernate/community/dialect/OracleLegacySqlAstTranslator.java,85,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+hibernate,hibernate-core/src/main/java/org/hibernate/dialect/DialectDelegateWrapper.java,244,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+hibernate,hibernate-community-dialects/src/main/java/org/hibernate/community/dialect/RDMSOS2200SqlAstTranslator.java,93,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+hibernate,hibernate-community-dialects/src/main/java/org/hibernate/community/dialect/CockroachLegacyDialect.java,264,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+hibernate,hibernate-core/src/main/java/org/hibernate/dialect/DialectDelegateWrapper.java,149,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+hibernate,hibernate-core/src/main/java/org/hibernate/mapping/Any.java,165,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+hibernate,hibernate-community-dialects/src/main/java/org/hibernate/community/dialect/SybaseASELegacySqlAstTranslator.java,100,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+hibernate,hibernate-core/src/main/java/org/hibernate/dialect/OracleSqlAstTranslator.java,84,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+hibernate,hibernate-core/src/main/java/org/hibernate/dialect/H2Dialect.java,881,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+hibernate,hibernate-core/src/main/java/org/hibernate/query/spi/AbstractQuery.java,338,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+hibernate,hibernate-core/src/main/java/org/hibernate/dialect/DialectDelegateWrapper.java,827,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+hibernate,hibernate-core/src/main/java/org/hibernate/query/sqm/tree/domain/SqmTreatedSimplePath.java,113,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+hibernate,hibernate-core/src/main/java/org/hibernate/dialect/DialectDelegateWrapper.java,164,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+hibernate,hibernate-core/src/main/java/org/hibernate/dialect/MySQLServerConfiguration.java,47,Various,High,Type: Resource leak | Category: Resource leaks
+hibernate,hibernate-core/src/main/java/org/hibernate/dialect/OracleDialect.java,206,Various,High,Type: Resource leak | Category: Resource leaks
+hibernate,hibernate-core/src/main/java/org/hibernate/tool/schema/extract/internal/AbstractInformationExtractorImpl.java,479,Various,High,Type: Resource leak | Category: Resource leaks
+hibernate,hibernate-community-dialects/src/main/java/org/hibernate/community/dialect/SybaseASELegacyDialect.java,165,Various,High,Type: Resource leak | Category: Resource leaks
+hibernate,hibernate-core/src/main/java/org/hibernate/dialect/CockroachDialect.java,164,Various,High,Type: Resource leak | Category: Resource leaks
+hibernate,hibernate-core/src/main/java/org/hibernate/boot/archive/internal/ExplodedArchiveDescriptor.java,160,Various,High,Type: Resource leak | Category: Resource leaks
+hibernate,hibernate-core/src/main/java/org/hibernate/tool/schema/internal/exec/GenerationTargetToDatabase.java,112,Various,High,Type: Resource leak | Category: Resource leaks
+hibernate,hibernate-core/src/main/java/org/hibernate/tool/schema/extract/internal/AbstractInformationExtractorImpl.java,458,Various,High,Type: Resource leak | Category: Resource leaks
+hibernate,hibernate-community-dialects/src/main/java/org/hibernate/community/dialect/CockroachLegacyDialect.java,152,Various,High,Type: Resource leak | Category: Resource leaks
+hibernate,hibernate-proxool/src/main/java/org/hibernate/proxool/internal/ProxoolConnectionProvider.java,204,Various,High,Type: Resource leak | Category: Resource leaks
+hibernate,hibernate-core/src/main/java/org/hibernate/engine/jdbc/env/internal/JdbcEnvironmentImpl.java,335,Various,High,Type: Resource leak | Category: Resource leaks
+hibernate,hibernate-core/src/main/java/org/hibernate/dialect/MySQLDialect.java,427,Various,High,Type: Resource leak | Category: Resource leaks
+hibernate,hibernate-core/src/main/java/org/hibernate/dialect/Database.java,230,Various,High,Type: Resource leak | Category: Resource leaks
+hibernate,hibernate-core/src/main/java/org/hibernate/tool/schema/extract/spi/ExtractionContext.java,43,Various,High,Type: Resource leak | Category: Resource leaks
+hibernate,hibernate-core/src/main/java/org/hibernate/dialect/SybaseASEDialect.java,169,Various,High,Type: Resource leak | Category: Resource leaks
+hibernate,hibernate-core/src/main/java/org/hibernate/dialect/OracleDialect.java,224,Various,High,Type: Resource leak | Category: Resource leaks
+hibernate,hibernate-core/src/main/java/org/hibernate/tool/schema/internal/exec/ImprovedExtractionContextImpl.java,70,Various,High,Type: Resource leak | Category: Resource leaks
+hibernate,hibernate-core/src/main/java/org/hibernate/dialect/MySQLServerConfiguration.java,109,Various,High,Type: Resource leak | Category: Resource leaks
+hibernate,hibernate-core/src/main/java/org/hibernate/dialect/OracleServerConfiguration.java,48,Various,High,Type: Resource leak | Category: Resource leaks
+hibernate,hibernate-core/src/main/java/org/hibernate/engine/jdbc/env/internal/ExtractedDatabaseMetaDataImpl.java,190,Various,High,Type: Resource leak | Category: Resource leaks
+hibernate,hibernate-testing/src/main/java/org/hibernate/testing/orm/junit/AbstractEntityManagerFactoryScope.java,96,Various,High,Type: Resource leak | Category: Resource leaks
+hibernate,hibernate-core/src/main/java/org/hibernate/tool/schema/extract/internal/AbstractInformationExtractorImpl.java,499,Various,High,Type: Resource leak | Category: Resource leaks
+hibernate,hibernate-testing/src/main/java/org/hibernate/testing/orm/junit/AbstractEntityManagerFactoryScope.java,110,Various,High,Type: Resource leak | Category: Resource leaks
+hibernate,hibernate-core/src/main/java/org/hibernate/dialect/HANAServerConfiguration.java,53,Various,High,Type: Resource leak | Category: Resource leaks
+hibernate,hibernate-core/src/main/java/org/hibernate/tool/schema/extract/internal/AbstractInformationExtractorImpl.java,431,Various,High,Type: Resource leak | Category: Resource leaks
+hibernate,hibernate-testing/src/main/java/org/hibernate/testing/orm/junit/AbstractEntityManagerFactoryScope.java,124,Various,High,Type: Resource leak | Category: Resource leaks
+hibernate,hibernate-core/src/main/java/org/hibernate/dialect/OracleServerConfiguration.java,88,Various,High,Type: Resource leak | Category: Resource leaks
+hibernate,hibernate-testing/src/main/java/org/hibernate/testing/orm/junit/AbstractEntityManagerFactoryScope.java,138,Various,High,Type: Resource leak | Category: Resource leaks
+hibernate,hibernate-community-dialects/src/main/java/org/hibernate/community/dialect/MySQLLegacyDialect.java,385,Various,High,Type: Resource leak | Category: Resource leaks
+hibernate,hibernate-testing/src/main/java/org/hibernate/testing/common/connections/BaseTransactionIsolationConfigTest.java,122,Various,Low,Type: Resource leak on an exceptional path | Category: Exceptional resource leaks
+hibernate,hibernate-ucp/src/main/java/org/hibernate/ucp/internal/UCPConnectionProvider.java,170,Various,Low,Type: Resource leak on an exceptional path | Category: Exceptional resource leaks
+hibernate,hibernate-testing/src/main/java/org/hibernate/testing/common/connections/BaseTransactionIsolationConfigTest.java,98,Various,Low,Type: Resource leak on an exceptional path | Category: Exceptional resource leaks
+hibernate,hibernate-core/src/main/java/org/hibernate/tool/schema/internal/DdlTransactionIsolatorProvidedConnectionImpl.java,50,Various,Low,Type: Resource leak on an exceptional path | Category: Exceptional resource leaks
+hibernate,hibernate-core/src/main/java/org/hibernate/engine/jdbc/connections/internal/BasicConnectionCreator.java,73,Various,Low,Type: Resource leak on an exceptional path | Category: Exceptional resource leaks
+hibernate,hibernate-testing/src/main/java/org/hibernate/testing/common/connections/BaseTransactionIsolationConfigTest.java,74,Various,Low,Type: Resource leak on an exceptional path | Category: Exceptional resource leaks
+hibernate,tooling/metamodel-generator/src/main/java/org/hibernate/processor/xml/JpaDescriptorParser.java,203,Various,Low,Type: Resource leak on an exceptional path | Category: Exceptional resource leaks
+hibernate,hibernate-c3p0/src/main/java/org/hibernate/c3p0/internal/C3P0ConnectionProvider.java,76,Various,Low,Type: Resource leak on an exceptional path | Category: Exceptional resource leaks
+hibernate,hibernate-proxool/src/main/java/org/hibernate/proxool/internal/ProxoolConnectionProvider.java,71,Various,Low,Type: Resource leak on an exceptional path | Category: Exceptional resource leaks
+hibernate,hibernate-testing/src/main/java/org/hibernate/testing/common/connections/BaseTransactionIsolationConfigTest.java,50,Various,Low,Type: Resource leak on an exceptional path | Category: Exceptional resource leaks
+hibernate,hibernate-core/src/main/java/org/hibernate/engine/jdbc/internal/MutationStatementPreparerImpl.java,112,Various,Low,Type: Resource leak on an exceptional path | Category: Exceptional resource leaks
+hibernate,hibernate-core/src/main/java/org/hibernate/engine/jdbc/internal/StatementPreparerImpl.java,189,Various,Low,Type: Resource leak on an exceptional path | Category: Exceptional resource leaks
+hibernate,hibernate-core/src/main/java/org/hibernate/mapping/Constraint.java,104,Security,Medium,Type: Risky cryptographic hashing function | Category: Medium impact security
+hibernate,hibernate-core/src/main/java/org/hibernate/boot/model/naming/NamingHelper.java,150,Security,Medium,Type: Risky cryptographic hashing function | Category: Medium impact security
+hibernate,hibernate-core/src/main/java/org/hibernate/boot/registry/internal/BootstrapServiceRegistryImpl.java,315,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+hibernate,hibernate-core/src/main/java/org/hibernate/id/enhanced/PooledOptimizer.java,163,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+hibernate,hibernate-core/src/main/java/org/hibernate/boot/registry/internal/BootstrapServiceRegistryImpl.java,236,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+hibernate,hibernate-core/src/main/java/org/hibernate/cache/spi/AbstractRegionFactory.java,63,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+hibernate,hibernate-core/src/main/java/org/hibernate/engine/jdbc/connections/internal/DriverManagerConnectionProviderImpl.java,615,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+hibernate,hibernate-core/src/main/java/org/hibernate/id/enhanced/PooledOptimizer.java,147,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+hibernate,hibernate-core/src/main/java/org/hibernate/service/internal/AbstractServiceRegistryImpl.java,451,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+hibernate,hibernate-core/src/main/java/org/hibernate/cache/spi/AbstractRegionFactory.java,57,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+hibernate,hibernate-core/src/main/java/org/hibernate/id/enhanced/PooledLoOptimizer.java,121,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
+hibernate,hibernate-core/src/main/java/org/hibernate/dialect/MySQLServerConfiguration.java,59,Quality,Low,Type: Unused value | Category: Code maintainability issues
+hibernate,hibernate-core/src/main/java/org/hibernate/mapping/Constraint.java,104,Security,Low,Type: Weak hash algorithm | Category: Sigma
+hibernate,hibernate-core/src/main/java/org/hibernate/boot/model/naming/NamingHelper.java,150,Security,Low,Type: Weak hash algorithm | Category: Sigma
 openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/Column.java,894,Quality,Medium,Type: Using invalid iterator | Category: API usage errors
 openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/query/BinaryExpressionPredicate.java,71,Quality,Medium,Type: Arguments in wrong order | Category: API usage errors
 openjpa,openjpa-examples/openbooks/src/main/java/openbook/domain/Book.java,138,Quality,Medium,Type: Unsafe dependence on database key | Category: API usage errors

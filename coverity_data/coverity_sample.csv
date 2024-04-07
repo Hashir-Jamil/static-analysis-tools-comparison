@@ -1,25 +1,25 @@
 reviewer,package,file_path,line_number,type,severity,description
-Erika Grandy,openjpa,openjpa-jest/src/main/java/org/apache/openjpa/persistence/jest/QueryCommand.java,90,Quality,High,Type: Unlocked write | Category: Concurrent data access violations
-Erika Grandy,openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/util/CacheMap.java,368,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
-Erika Grandy,openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/datacache/ClearableScheduler.java,187,Quality,Medium,Type: Division or modulo by zero | Category: Integer handling issues
-Erika Grandy,openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,Various,Quality,Medium,Type: Thread deadlock | Category: Program hangs
-Erika Grandy,openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,Various,Quality,Medium,Type: Thread deadlock | Category: Program hangs
-Erika Grandy,openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/Services.java,107,Security,Medium,Type: Unlogged security exception | Category: Medium impact security
-Erika Grandy,openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/util/ImplHelper.java,162,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
-Erika Grandy,openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,Various,Quality,Medium,Type: Thread deadlock | Category: Program hangs
-Erika Grandy,openjpa,openjpa-examples/openbooks/src/main/java/jpa/tools/swing/ErrorDialog.java,Various,Security,High,Type: Display of sensitive data in the user interface | Category: High impact security
-Erika Grandy,ebean,ebean-core/src/main/java/io/ebeaninternal/server/deploy/AssocOneHelpRefInherit.java,Various,Security,Medium,Type: Cleartext sensitive data in a database | Category: Medium impact security
-Erika Grandy,openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/enhance/PCRegistry.java,237,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
-Erika Grandy,openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/meta/ClassMetaData.java,1023,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
-Natalie Dean,openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/VerticalClassStrategy.java,121,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
-Natalie Dean,openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/enhance/PCRegistry.java,251,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
-Natalie Dean,openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/ConstraintUpdateManager.java,425,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
-Natalie Dean,sqlalchemy,lib/sqlalchemy/orm/mapper.py,3652,Quality,Medium,Type: Copy-paste error | Category: Incorrect expression
+Erika Grandy,openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/collections/LinkedMap.java,253,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+Erika Grandy,openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/enhance/PCClassFileTransformer.java,112,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+Erika Grandy,ponyorm,pony/orm/dbproviders/oracle.py,469,Quality,Medium,Type: Logically dead code | Category: Control flow issues
+Erika Grandy,hibernate,hibernate-core/src/main/java/org/hibernate/boot/jaxb/internal/MappingBinder.java,140,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+Erika Grandy,hibernate,hibernate-core/src/main/java/org/hibernate/cache/spi/entry/StructuredCacheEntry.java,72,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+Erika Grandy,hibernate,hibernate-core/src/main/java/org/hibernate/tool/schema/internal/exec/GenerationTargetToDatabase.java,112,Various,High,Type: Resource leak | Category: Resource leaks
+Erika Grandy,hibernate,hibernate-core/src/main/java/org/hibernate/type/descriptor/java/JdbcDateJavaType.java,235,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+Erika Grandy,hibernate,hibernate-core/src/main/java/org/hibernate/dialect/function/array/ArrayArgumentValidator.java,81,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+Erika Grandy,hibernate,hibernate-core/src/main/java/org/hibernate/type/descriptor/java/spi/BasicCollectionJavaType.java,449,Quality,Medium,Type: Missing break in switch | Category: Control flow issues
+Erika Grandy,openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/Services.java,144,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+Erika Grandy,hibernate,hibernate-core/src/main/java/org/hibernate/boot/beanvalidation/TypeSafeActivator.java,417,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
+Erika Grandy,hibernate,hibernate-core/src/main/java/org/hibernate/query/sql/internal/SQLQueryParser.java,Various,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+Natalie Dean,ponyorm,pony/orm/sqltranslation.py,822,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
+Natalie Dean,openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/collections/UnmodifiableEntrySet.java,164,Quality,Medium,Type: Missing call to superclass | Category: Class hierarchy inconsistencies
+Natalie Dean,openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/meta/JarFileURLMetaDataIterator.java,184,Various,Low,Type: Resource leak on an exceptional path | Category: Exceptional resource leaks
+Natalie Dean,hibernate,hibernate-testing/src/main/java/org/hibernate/testing/orm/junit/AbstractEntityManagerFactoryScope.java,110,Various,High,Type: Resource leak | Category: Resource leaks
+Natalie Dean,hibernate,hibernate-core/src/main/java/org/hibernate/engine/internal/Collections.java,256,Quality,Medium,Type: Dereference before null check | Category: Null pointer dereferences
+Natalie Dean,ebean,ebean-core/src/main/java/io/ebeaninternal/server/query/DefaultRelationalQueryEngine.java,Various,Security,Low,Type: Cleartext sensitive data in a file | Category: Low impact security
+Natalie Dean,sqlalchemy,test/dialect/postgresql/test_types.py,4177,Quality,Medium,Type: Attribute/item access or function call before check for None or undefined | Category: Null pointer dereferences
+Natalie Dean,ebean,ebean-core/src/main/java/io/ebeaninternal/server/deploy/BeanDescriptorDraftHelp.java,50,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
 Natalie Dean,openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/event/LifecycleEventManager.java,75,Quality,Medium,Type: Unguarded read | Category: Concurrent data access violations
-Natalie Dean,openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/GetObjectId.java,66,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
-Natalie Dean,openjpa,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/MetaDataPlusMappingFactory.java,50,Quality,Medium,Type: Explicit null dereferenced | Category: Null pointer dereferences
-Natalie Dean,ebean,ebean-core/src/main/java/io/ebeaninternal/server/query/CQueryPredicates.java,185,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
-Natalie Dean,ponyorm,pony/orm/decompiling.py,276,Quality,Medium,Type: Bad use of null-like value | Category: Null pointer dereferences
-Natalie Dean,openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/meta/XMLMetaDataSerializer.java,256,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
-Natalie Dean,openjpa,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/query/UnaryExpressionPredicate.java,64,Quality,Medium,Type: Arguments in wrong order | Category: API usage errors
-Natalie Dean,openjpa,openjpa-lib/src/main/java/org/apache/openjpa/lib/conf/ConfigurationImpl.java,840,Quality,Medium,Type: Dereference after null check | Category: Null pointer dereferences
+Natalie Dean,openjpa,openjpa-slice/src/main/java/org/apache/openjpa/slice/jdbc/DistributedJDBCStoreManager.java,367,Quality,Medium,Type: Dereference null return value | Category: Null pointer dereferences
+Natalie Dean,openjpa,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/BrokerImpl.java,5371,Quality,Medium,Type: Property getter or setter mixup | Category: Incorrect expression
+Natalie Dean,hibernate,hibernate-core/src/main/java/org/hibernate/engine/jdbc/internal/MutationStatementPreparerImpl.java,112,Various,Low,Type: Resource leak on an exceptional path | Category: Exceptional resource leaks
