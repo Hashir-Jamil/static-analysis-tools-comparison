@@ -1,4 +1,4 @@
-# EECS 4313Z W24 Final Project Data Submission for Team4.
+# EECS 4313Z W24 Final Project Data Submission for Group 4.
 
 ## Repo contains one jupyter notebook of tables and plots.
 
