@@ -1,3 +1,81 @@
+# Summary: Using Static Analysis Tools for Bug Detection in Object Relational Mappers
+
+## Research Overview
+This study evaluated three cross-platform static code analyzers (SonarCloud, Coverity, and Snyk) by examining their performance on five open-source Object Relational Mapping (ORM) frameworks in Java and Python. The research team investigated each tool's effectiveness, usability, and idiosyncrasies to provide insights on their practical application for bug detection in ORM frameworks.
+
+## Background
+
+### Static Analysis
+- Performs code analysis without execution to detect potential bugs
+- Uses abstract syntax trees, control flow graphs, and call graphs
+- Can be integrated into CI/CD pipelines pre-build or post-build
+- Aims to find issues like unused variables, unreachable code, memory leaks, and security vulnerabilities
+
+### Object Relational Mappers (ORMs)
+- Bridge between object-oriented programming and relational databases
+- Resolve the "impedance mismatch" between these two models
+- Provide automatic conversion of data between models
+- Feature complex architectures with session, transaction, and connection management
+
+## Methodology
+
+### Selected ORM Projects
+| Project | Source Lines | Language |
+|---------|-------------|----------|
+| Hibernate | 1,356,004 | Java |
+| OpenJPA | 643,700 | Java |
+| EbeanORM | 674,438 | Java |
+| PonyORM | 28,294 | Python |
+| SQLAlchemy | 400,463 | Python |
+
+### Selected Analysis Tools
+
+1. **Snyk**
+   - Browser-based developer security platform
+   - Focuses primarily on security vulnerabilities and license issues
+   - Integrates with CI/CD pipelines
+
+2. **SonarCloud**
+   - Cloud-based static analysis tool by SonarSource SA
+   - Analyzes code after build phase
+   - Focuses on clean code analysis
+
+3. **Coverity Scan**
+   - Created by Synopsys for open-source projects
+   - Follows all possible execution paths for complete coverage
+   - Free for open-source projects
+
+## Results
+
+### Bug Detection Performance
+
+| Tool | Hibernate | OpenJPA | EbeanORM | PonyORM | SQLAlchemy | Total |
+|------|-----------|---------|----------|---------|------------|-------|
+| Snyk | 77 | 61 | 37 | 14 | 61 | 250 |
+| SonarCloud | 457 | 487 | 202 | 54 | 333 | 1533 |
+| Coverity | 345 | 353 | 185 | 38 | 60 | 981 |
+
+### Bug Density (bugs per 1000 LOC)
+
+| Tool | Hibernate | OpenJPA | EbeanORM | PonyORM | SQLAlchemy |
+|------|-----------|---------|----------|---------|------------|
+| Snyk | 0.134 | 0.223 | 0.198 | 0.483 | 0.150 |
+| SonarCloud | 0.78 | 2.13 | 1.64 | 1.86 | 0.64 |
+| Coverity | 0.59 | 1.35 | 1.56 | 1.23 | 0.11 |
+
+### False Positive Rates
+- Snyk: 59.09%
+- SonarCloud: 20.83%
+- Coverity: 12.5%
+
+### Issue Types
+- **Snyk**: Primarily identified security issues with "Use of Hardcoded Credentials" (32%) and "SQL Injection" (24.4%) being most common
+- **SonarCloud**: Found mostly bugs (94.5%) with fewer vulnerabilities (5.5%)
+- **Coverity**: Detected mainly quality issues (85.3%), with some security issues (6.3%)
+
+## Conclusion
+SonarCloud emerged as the recommended tool due to its comprehensive analysis, reasonable false positive rate, and detailed bug explanations. While it presented challenges with Java projects, its user-friendly interface and ability to identify various issue types make it the most accessible tool for improving code quality, especially when integrated with CI/CD pipelines.
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Steps to Reproduce Running the Analysis Using Coverity
